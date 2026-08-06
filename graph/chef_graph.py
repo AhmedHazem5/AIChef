@@ -2,8 +2,15 @@ from langgraph.graph import StateGraph, START, END
 
 from graph.state import ChefState
 
-from llm.local_llm import ask_chef
+from llm.local_llm import (
+    ask_chef,
+    answer_with_context,
+)
 
+from rag.query_engine import (
+    retrieve_recipe_context,
+    recipe_database_is_empty,
+)
 from memory.memory_extractor import extract_memory
 from memory.memory_manager import (
     merge_memory_updates,
@@ -89,13 +96,14 @@ def memory_update_node(state: ChefState):
 
 def generate_answer(state: ChefState):
     """
-    Normal Qwen response.
+    Generate a response.
 
-    The user's saved long-term memory is included in the prompt
-    so Qwen can already consider likes, dislikes, allergies, etc.
+    GENERAL_QUESTION:
+        -> Normal Qwen conversation
 
-    Later:
-    RECIPE_SEARCH will have its own RAG node instead.
+    RECIPE_SEARCH:
+        -> Retrieve recipe from ChromaDB
+        -> Ask Qwen using retrieved context
     """
 
     memory = load_memory()
@@ -118,23 +126,70 @@ Dietary preferences:
 Goals:
 {memory.get("goals", [])}
 
-Important:
-Use this information when it is relevant.
-Do not invent additional preferences or allergies.
+Use this information only when relevant.
+Never invent preferences or allergies.
 """
+
+    # --------------------------------------------------
+    # Recipe search (RAG)
+    # --------------------------------------------------
+
+    if state["intent"] == "RECIPE_SEARCH":
+
+        recipe_context = retrieve_recipe_context(
+            state["user_message"]
+        )
+
+        if not recipe_context:
+
+            if recipe_database_is_empty():
+
+                return {
+                    "answer": (
+                        "My recipe database is currently empty. "
+                        "No recipe PDFs have been added yet."
+                    ),
+                    "memory": memory,
+                }
+
+            return {
+                "answer": (
+                    "I couldn't find a recipe matching your request "
+                    "in my recipe database."
+                ),
+                "memory": memory,
+            }
+
+        answer = answer_with_context(
+            question=(
+                memory_context
+                + "\n\nUser Question:\n"
+                + state["user_message"]
+            ),
+            retrieved_context=recipe_context,
+            conversation_history=state["conversation_history"],
+        )
+
+        return {
+            "answer": answer,
+            "memory": memory,
+        }
+
+    # --------------------------------------------------
+    # Normal conversation
+    # --------------------------------------------------
 
     enhanced_message = f"""
 {memory_context}
 
 User message:
+
 {state["user_message"]}
 """
 
     answer = ask_chef(
         user_message=enhanced_message,
-        conversation_history=state[
-            "conversation_history"
-        ],
+        conversation_history=state["conversation_history"],
     )
 
     return {
