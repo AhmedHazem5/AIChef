@@ -43,7 +43,11 @@ def build_messages(
         }
     ]
 
-    messages.extend(conversation_history)
+    MAX_HISTORY = 12
+
+    messages.extend(
+        conversation_history[-MAX_HISTORY:]
+    )
 
     messages.append(
         {
@@ -60,7 +64,7 @@ def ask_chef(
     conversation_history: list[dict[str, str]],
 ) -> str:
     """
-    General conversation.
+     General conversation.
     Used for greetings, cooking questions,
     follow-up conversation, etc.
     """
@@ -89,21 +93,32 @@ def answer_with_context(
 
     The model must rely primarily on the supplied context.
     """
-
     prompt = f"""
-Use the retrieved recipe information below to answer the user's question.
+You are ChefAI.
 
-If the answer is contained in the context,
-use it.
+The retrieved context comes from a recipe database.
 
-If the context does not contain enough information,
-say that the recipe database does not contain the requested information.
+Never copy the recipe verbatim.
 
-Retrieved Context:
+Instead:
+
+- Summarize naturally.
+- Keep ingredient names accurate.
+- Present steps in a clean numbered order.
+- Mention cooking tips if available.
+- Respect the user's saved preferences.
+- If information is missing, say so.
+- Do not invent ingredients or cooking times.
+
+==============================
+Retrieved Recipe Context
+==============================
 
 {retrieved_context}
 
-User Question:
+==============================
+User Question
+==============================
 
 {question}
 """
@@ -115,8 +130,62 @@ User Question:
             conversation_history,
         ),
         options={
-            "temperature": 0.2,
+            "temperature": 0,
         },
+    )
+
+    return response["message"]["content"].strip()
+
+
+def generate_recipe_plan(
+    user_message: str,
+    retrieved_context: str,
+    conversation_history: list[dict[str, str]],
+) -> str:
+    prompt = f"""
+You are ChefAI.
+
+Create a structured recipe plan from the retrieved recipe context.
+
+Return JSON only with exactly these keys:
+
+{{
+    "title": "...",
+    "ingredients": ["..."],
+    "steps": ["..."]
+}}
+
+Rules:
+- Use the retrieved context as the source of truth.
+- Keep steps short and practical.
+- Put only the cooking instructions in steps.
+- Do not wrap the JSON in markdown.
+- Do not add extra keys.
+- If the title is unclear, use the recipe name from the context.
+
+==============================
+Retrieved Recipe Context
+==============================
+
+{retrieved_context}
+
+==============================
+User Request
+==============================
+
+{user_message}
+"""
+
+    response = ollama.chat(
+        model=MODEL_NAME,
+        messages=build_messages(
+            prompt,
+            conversation_history,
+        ),
+        options={
+            "temperature": 0,
+        },
+        format="json",
     )
 
     return response["message"]["content"].strip()

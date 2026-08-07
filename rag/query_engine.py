@@ -12,6 +12,46 @@ from rag.settings import (
 
 from rag.cuisine_detector import detect_cuisine
 
+import ollama
+
+
+MODEL_NAME = "qwen3:4b-instruct"
+
+
+def rewrite_query(user_query: str) -> str:
+    """
+    Rewrite the user's recipe request into a concise search query.
+    """
+
+    prompt = f"""
+Rewrite the user's request into a concise recipe search query.
+
+Rules:
+- Keep it under 12 words.
+- Preserve cuisine if mentioned.
+- Preserve ingredients if mentioned.
+- Preserve dish names if mentioned.
+- Do not answer the question.
+- Return ONLY the rewritten search query.
+
+User request:
+{user_query}
+"""
+
+    response = ollama.chat(
+        model=MODEL_NAME,
+        messages=[
+            {
+                "role": "user",
+                "content": prompt,
+            }
+        ],
+        options={
+            "temperature": 0,
+        },
+    )
+
+    return response["message"]["content"].strip()
 
 # --------------------------------------------------
 # LlamaIndex configuration
@@ -52,6 +92,7 @@ def retrieve_recipe_context(query: str) -> str:
     """
 
     cuisine = detect_cuisine(query)
+    search_query = rewrite_query(query)
 
     filters = None
 
@@ -71,7 +112,7 @@ def retrieve_recipe_context(query: str) -> str:
         filters=filters,
     )
 
-    nodes = retriever.retrieve(query)
+    nodes = retriever.retrieve(search_query)
 
     if not nodes:
         return ""

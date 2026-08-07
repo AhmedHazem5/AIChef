@@ -2,43 +2,206 @@ from langgraph.graph import StateGraph, START, END
 
 from graph.state import ChefState
 
-from llm.local_llm import (
-    ask_chef,
-    answer_with_context,
-)
+from graph.cooking_node import cooking_node
+from graph.memory_node import memory_node
+from graph.recipe_node import recipe_node
+from graph.chat_node import chat_node
 
-from rag.query_engine import (
-    retrieve_recipe_context,
-    recipe_database_is_empty,
-)
-from memory.memory_extractor import extract_memory
-from memory.memory_manager import (
-    merge_memory_updates,
-    load_memory,
-)
-
+from memory.memory_manager import load_memory
+from memory.cooking_session import has_active_recipe
 
 from routing.intent_classifier import classify_with_qwen
 
+import re
 
-def classify_request(state: ChefState):
-    text = state["user_message"].lower().strip()
 
-    obvious_cooking_commands = {
-        "next",
-        "next step",
-        "repeat",
-        "repeat that",
-        "go back",
-        "previous step",
-        "pause",
-        "continue",
+# ============================================================
+# Cooking commands
+# ============================================================
+
+COOKING_COMMANDS = {
+    "next",
+    "next step",
+    "continue",
+    "continue recipe",
+    "go on",
+    "go to next step",
+
+    "repeat",
+    "repeat that",
+    "repeat step",
+    "repeat current step",
+    "say that again",
+
+    "previous",
+    "previous step",
+    "go back",
+    "back",
+    "go to previous step",
+
+    "pause",
+    "pause recipe",
+
+    "finish",
+    "finish recipe",
+    "stop recipe",
+    "end recipe",
+
+    "start over",
+    "restart",
+    "restart recipe",
+    "start recipe over",
+    "start from beginning",
+    "start from step one",
+    "start the recipe from step one",
+
+    "make it again",
+    "cook it again",
+}
+
+
+# ============================================================
+# Questions about the active recipe
+# ============================================================
+
+RECIPE_QUESTION_PHRASES = {
+    "can i",
+    "can we",
+    "could i",
+    "could we",
+    "should i",
+    "should we",
+    "do i need",
+    "does it need",
+    "is it okay",
+    "is it ok",
+    "what if",
+    "why do i",
+    "why should i",
+    "why does",
+    "how long",
+    "how much",
+    "what temperature",
+    "what heat",
+    "what can i use instead",
+    "what can i replace",
+    "what should i use instead",
+    "can i replace",
+    "can i substitute",
+    "replace",
+    "substitute",
+    "instead",
+    "don't have",
+    "do not have",
+    "skip",
+    "omit",
+}
+
+
+# ============================================================
+# Normalize speech-recognized text
+# ============================================================
+
+def normalize_text(text: str) -> str:
+    """
+    Normalize text coming from speech recognition.
+
+    Examples:
+
+        "Next."       -> "next"
+        "NEXT!"       -> "next"
+        "Repeat?"     -> "repeat"
+        "Go back."    -> "go back"
+        "Next, please" -> "next please"
+    """
+
+    if not text:
+        return ""
+
+    text = text.lower().strip()
+
+    # Remove quotation marks
+    text = text.replace('"', "")
+    text = text.replace("'", "")
+
+    # Replace punctuation with spaces
+    text = re.sub(r"[.!?,;:]+", " ", text)
+
+    # Remove extra spaces
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
+
+
+# ============================================================
+# Determine whether the user is asking about the active recipe
+# ============================================================
+
+def looks_like_recipe_question(text: str) -> bool:
+
+    # Explicit request for a NEW recipe should always win.
+    new_recipe_phrases = {
+        "give me a recipe",
+        "give me another recipe",
+        "find me a recipe",
+        "recommend a recipe",
+        "suggest a recipe",
+        "give me a meal",
+        "recommend a meal",
+        "suggest a meal",
+        "what should i eat",
     }
 
-    if text in obvious_cooking_commands:
+    if any(
+        phrase in text
+        for phrase in new_recipe_phrases
+    ):
+        return False
+
+    return any(
+        phrase in text
+        for phrase in RECIPE_QUESTION_PHRASES
+    )
+
+
+# ============================================================
+# Intent Classification
+# ============================================================
+
+def classify_request(state: ChefState):
+
+    # Normalize speech-recognized input
+    text = normalize_text(
+        state["user_message"]
+    )
+
+    # --------------------------------------------------------
+    # 1. Cooking commands
+    # --------------------------------------------------------
+
+    if (
+        has_active_recipe()
+        and text in COOKING_COMMANDS
+    ):
         return {
             "intent": "COOKING_COMMAND"
         }
+
+    # --------------------------------------------------------
+    # 2. Questions about active recipe
+    # --------------------------------------------------------
+
+    if (
+        has_active_recipe()
+        and looks_like_recipe_question(text)
+    ):
+        return {
+            "intent": "RECIPE_QUESTION"
+        }
+
+    # --------------------------------------------------------
+    # 3. Everything else goes to Qwen
+    # --------------------------------------------------------
 
     intent = classify_with_qwen(
         state["user_message"]
@@ -48,187 +211,43 @@ def classify_request(state: ChefState):
         "intent": intent
     }
 
-def memory_update_node(state: ChefState):
-    """
-    Use Qwen to extract long-term memory from natural language,
-    then safely merge that information into user_memory.json.
-    """
 
-    updates = extract_memory(
-        state["user_message"]
-    )
-
-    updated_memory = merge_memory_updates(
-        updates
-    )
-
-    saved_items = []
-
-    for category, values in updates.items():
-        if not isinstance(values, list):
-            continue
-
-        for value in values:
-            if isinstance(value, str) and value.strip():
-                saved_items.append(
-                    f"{category}: {value}"
-                )
-
-    if not saved_items:
-        return {
-            "answer": (
-                "I understood that this may contain a preference, "
-                "but I couldn't find anything useful to save."
-            ),
-            "memory": load_memory(),
-        }
-
-    print("\nMemory saved:")
-
-    for item in saved_items:
-        print(f"- {item}")
-
-    return {
-        "answer": "Got it. I'll remember that.",
-        "memory": updated_memory,
-    }
-
-
-def generate_answer(state: ChefState):
-    """
-    Generate a response.
-
-    GENERAL_QUESTION:
-        -> Normal Qwen conversation
-
-    RECIPE_SEARCH:
-        -> Retrieve recipe from ChromaDB
-        -> Ask Qwen using retrieved context
-    """
-
-    memory = load_memory()
-
-    memory_context = f"""
-The following is verified long-term information about the user.
-
-Likes:
-{memory.get("likes", [])}
-
-Dislikes:
-{memory.get("dislikes", [])}
-
-Allergies:
-{memory.get("allergies", [])}
-
-Dietary preferences:
-{memory.get("dietary_preferences", [])}
-
-Goals:
-{memory.get("goals", [])}
-
-Use this information only when relevant.
-Never invent preferences or allergies.
-"""
-
-    # --------------------------------------------------
-    # Recipe search (RAG)
-    # --------------------------------------------------
-
-    if state["intent"] == "RECIPE_SEARCH":
-
-        recipe_context = retrieve_recipe_context(
-            state["user_message"]
-        )
-
-        if not recipe_context:
-
-            if recipe_database_is_empty():
-
-                return {
-                    "answer": (
-                        "My recipe database is currently empty. "
-                        "No recipe PDFs have been added yet."
-                    ),
-                    "memory": memory,
-                }
-
-            return {
-                "answer": (
-                    "I couldn't find a recipe matching your request "
-                    "in my recipe database."
-                ),
-                "memory": memory,
-            }
-
-        answer = answer_with_context(
-            question=(
-                memory_context
-                + "\n\nUser Question:\n"
-                + state["user_message"]
-            ),
-            retrieved_context=recipe_context,
-            conversation_history=state["conversation_history"],
-        )
-
-        return {
-            "answer": answer,
-            "memory": memory,
-        }
-
-    # --------------------------------------------------
-    # Normal conversation
-    # --------------------------------------------------
-
-    enhanced_message = f"""
-{memory_context}
-
-User message:
-
-{state["user_message"]}
-"""
-
-    answer = ask_chef(
-        user_message=enhanced_message,
-        conversation_history=state["conversation_history"],
-    )
-
-    return {
-        "answer": answer,
-        "memory": memory,
-    }
-
+# ============================================================
+# Routing
+# ============================================================
 
 def route_by_intent(state: ChefState):
-    """
-    Decide which LangGraph node should run after classification.
-    """
 
     intent = state["intent"]
 
     if intent == "MEMORY_UPDATE":
-        return "memory_update"
+        return "memory_node"
 
-    # For now:
-    # RECIPE_SEARCH
-    # COOKING_COMMAND
-    # GENERAL_QUESTION
-    #
-    # all still use Qwen normally.
-    #
-    # Later they will get their own nodes.
-    return "generate_answer"
+    if intent == "MEMORY_QUERY":
+        return "chat_node"
+
+    if intent == "RECIPE_SEARCH":
+        return "recipe_node"
+
+    if intent == "COOKING_COMMAND":
+        return "cooking_node"
+
+    if intent == "RECIPE_QUESTION":
+        return "chat_node"
+
+    return "chat_node"
 
 
 # ============================================================
-# BUILD LANGGRAPH
+# Build LangGraph
 # ============================================================
 
 builder = StateGraph(ChefState)
 
 
-# -----------------------------
+# ============================================================
 # Nodes
-# -----------------------------
+# ============================================================
 
 builder.add_node(
     "classify_request",
@@ -236,19 +255,29 @@ builder.add_node(
 )
 
 builder.add_node(
-    "memory_update",
-    memory_update_node,
+    "memory_node",
+    memory_node,
 )
 
 builder.add_node(
-    "generate_answer",
-    generate_answer,
+    "recipe_node",
+    recipe_node,
+)
+
+builder.add_node(
+    "chat_node",
+    chat_node,
+)
+
+builder.add_node(
+    "cooking_node",
+    cooking_node,
 )
 
 
-# -----------------------------
+# ============================================================
 # Start
-# -----------------------------
+# ============================================================
 
 builder.add_edge(
     START,
@@ -256,46 +285,62 @@ builder.add_edge(
 )
 
 
-# -----------------------------
+# ============================================================
 # Conditional routing
-# -----------------------------
+# ============================================================
 
 builder.add_conditional_edges(
     "classify_request",
     route_by_intent,
     {
-        "memory_update": "memory_update",
-        "generate_answer": "generate_answer",
+        "memory_node": "memory_node",
+        "recipe_node": "recipe_node",
+        "cooking_node": "cooking_node",
+        "chat_node": "chat_node",
     },
 )
 
 
-# -----------------------------
+# ============================================================
 # End
-# -----------------------------
+# ============================================================
 
 builder.add_edge(
-    "memory_update",
+    "memory_node",
     END,
 )
 
 builder.add_edge(
-    "generate_answer",
+    "recipe_node",
+    END,
+)
+
+builder.add_edge(
+    "chat_node",
+    END,
+)
+
+builder.add_edge(
+    "cooking_node",
     END,
 )
 
 
-# Compile graph once
+# ============================================================
+# Compile
+# ============================================================
+
 chef_graph = builder.compile()
 
+
+# ============================================================
+# Public entry point
+# ============================================================
 
 def run_chef_graph(
     user_message: str,
     conversation_history: list[dict[str, str]],
 ):
-    """
-    Entry point used by main.py.
-    """
 
     result = chef_graph.invoke(
         {

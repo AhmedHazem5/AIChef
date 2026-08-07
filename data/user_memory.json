@@ -3,10 +3,13 @@
         "spicy food"
     ],
     "dislikes": [
-        "mushrooms"
+        "mushrooms",
+        "hazelnuts",
+        "olives"
     ],
     "allergies": [
-        "peanuts"
+        "peanuts",
+        "milk"
     ],
     "dietary_preferences": [],
     "goals": [],
