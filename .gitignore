@@ -1,9 +1,55 @@
-.venv/
-.venv-1/
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary/audio output
 temp/
 *.wav
-.env
-voices/*.onnx
+*.mp3
+
+# Chroma databases - generated locally
+rag/chroma_db/
+rag/structured_chroma_db/
+**/chroma_db/
+**/structured_chroma_db/
+
+# Ollama / model caches if any are stored inside project
+*.onnx
+*.onnx.json
+*.bin
+*.gguf
+
+# Whisper/model caches
+models/
+.cache/
+
+# Large original cookbook PDFs
+data/recipes/**/*.pdf
+
+# Logs
+*.log
+logs/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+data/user_memory.json

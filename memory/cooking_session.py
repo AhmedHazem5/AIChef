@@ -19,8 +19,7 @@ def start_recipe(title: str, ingredients: list[str], steps: list[str]):
     current_recipe = recipe
     last_recipe = recipe.copy()
 
-    print("\nRecipe session created:")
-    print(current_recipe)
+
 
 def restart_last_recipe():
 

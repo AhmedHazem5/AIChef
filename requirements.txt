@@ -2,3 +2,12 @@ faster-whisper
 sounddevice
 soundfile
 numpy
+
+ollama
+piper-tts
+langgraph
+
+llama-index
+llama-index-embeddings-ollama
+llama-index-vector-stores-chroma
+chromadb

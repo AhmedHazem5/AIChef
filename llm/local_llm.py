@@ -142,26 +142,65 @@ def generate_recipe_plan(
     retrieved_context: str,
     conversation_history: list[dict[str, str]],
 ) -> str:
+
     prompt = f"""
 You are ChefAI.
 
-Create a structured recipe plan from the retrieved recipe context.
+Your task is to create ONE usable recipe from the retrieved recipe context.
 
-Return JSON only with exactly these keys:
+Return ONLY valid JSON.
+
+The JSON must have exactly this structure:
 
 {{
-    "title": "...",
-    "ingredients": ["..."],
-    "steps": ["..."]
+    "title": "Recipe name",
+    "ingredients": [
+        "ingredient 1",
+        "ingredient 2"
+    ],
+    "steps": [
+        "step 1",
+        "step 2"
+    ]
 }}
 
-Rules:
-- Use the retrieved context as the source of truth.
-- Keep steps short and practical.
-- Put only the cooking instructions in steps.
-- Do not wrap the JSON in markdown.
-- Do not add extra keys.
-- If the title is unclear, use the recipe name from the context.
+STRICT RULES:
+
+- The retrieved context is the ONLY source of recipe information.
+- Use ONLY ingredients explicitly present in the retrieved context.
+- NEVER add ingredients based on your own cooking knowledge.
+- NEVER invent substitutions.
+- NEVER add optional ingredients.
+- NEVER invent garnishes.
+- NEVER add sauces, seasonings, oils, toppings, or side ingredients unless they explicitly appear in the retrieved context.
+
+- Respect ALL allergies and dietary restrictions given in the user context.
+- NEVER include an ingredient that conflicts with a saved allergy.
+- If the retrieved context contains both safe and unsafe ingredients, use only the safe recipe information if that still forms a valid recipe.
+- If removing an unsafe ingredient would fundamentally change the recipe, do not invent a replacement.
+
+- The ingredients field MUST be a JSON list of strings.
+- The steps field MUST be a JSON list of strings.
+- The title MUST be a JSON string.
+- Ingredients must not be empty if a usable safe recipe exists.
+- Steps must not be empty if a usable safe recipe exists.
+- Keep cooking steps short and clear.
+- Put only actual cooking instructions inside the steps list.
+
+- Do not output markdown.
+- Do not use ```json.
+- Do not output explanations before or after the JSON.
+- Do not output comments.
+- Do not add any keys besides title, ingredients, and steps.
+- Do not calculate or estimate calories or macros.
+
+If the retrieved context does NOT contain enough information to create a complete safe recipe, return exactly:
+
+{{
+    "title": "",
+    "ingredients": [],
+    "steps": []
+}}
 
 ==============================
 Retrieved Recipe Context
@@ -170,7 +209,7 @@ Retrieved Recipe Context
 {retrieved_context}
 
 ==============================
-User Request
+User Request and Memory
 ==============================
 
 {user_message}
@@ -180,12 +219,22 @@ User Request
         model=MODEL_NAME,
         messages=build_messages(
             prompt,
-            conversation_history,
+            conversation_history[-4:],
         ),
         options={
             "temperature": 0,
+            "num_ctx": 8192,
         },
         format="json",
     )
 
-    return response["message"]["content"].strip()
+    raw_response = (
+        response["message"]["content"]
+        .strip()
+    )
+
+    print("\nRAW RECIPE RESPONSE:")
+    print(raw_response)
+    print()
+
+    return raw_response
