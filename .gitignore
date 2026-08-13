@@ -53,3 +53,5 @@ logs/
 .ruff_cache/
 
 data/user_memory.json
+
+data/nutrition/raw/

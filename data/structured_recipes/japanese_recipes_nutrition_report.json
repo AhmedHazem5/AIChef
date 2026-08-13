@@ -1,0 +1,632 @@
+[
+  {
+    "status": "skipped_existing",
+    "title": "4-Ingredient Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Nori Noodles Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Sesame Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Hot Shiso Guacamole",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Lasagna",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Dashi Omelet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Lemongrass Ramen With Duck And Ginger",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Mirin Chicken Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Fermented Sichuan Noodles",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Teriyaki Zoodles Stir Fry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Lunch Box Noodles",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Vanilla Crusted Shrimp",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "enriched",
+    "title": "Hawaiian Ramen Skillet",
+    "cuisine": "Japanese",
+    "coverage": 0.889,
+    "resolved": 8,
+    "total": 9,
+    "nutrition": {
+      "calories": 1088.6,
+      "protein_g": 32.6,
+      "carbohydrates_g": 67.9,
+      "fat_g": 76.2
+    }
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Chicken Snow Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Sweet Ramen With Tofu",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "enriched",
+    "title": "Japanese Hot Devil's Eggs",
+    "cuisine": "Japanese",
+    "coverage": 0.375,
+    "resolved": 3,
+    "total": 8,
+    "nutrition": {
+      "calories": 835.4,
+      "protein_g": 55.5,
+      "carbohydrates_g": 6.6,
+      "fat_g": 63.5
+    }
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ginger Beef Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Miso Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Roulade",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Potato With Homemade Curry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Louisiana X Japan Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Glazed Japanese Chicken Wings",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Sunflower Ramen With Vinaigrette",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Wasabi Japanese Tortillas",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Cream Of Ramen And Mushroom Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Jasmine Nori Bites",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Saucy Serrano Ramen Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Sesame Wings",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "American Ground Beef Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Savory And Sweet Omelet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Kimchee Noodles",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Tipsy Japanese Crumbled Beef",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Faux Pepperoni Ramen Pizza",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Ricy Ketchup Omelet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Roasted Miso Noodles",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Tofu And Beef Burgers",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Mock Ramen Pot Pie",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Grilled Portobello Caps",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Salad From Vietnam",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Sweet And Chili Cucumber Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Creamy Nuts And Noodles Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Crusted Japanese Chicken Breasts",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Tropical Curry Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Sesame Fried Chicken Bites",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Fried Ramen Rings",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Condensed Beef Steak Stir Fry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Thai Ramen Beef Satay",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Barbecue Bacon Pancakes",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Golden Cheddar Ramen Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Sweet Chicken Stir Fry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Alternative Egg Drop Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Sesame Egg Sushi",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Hot Shot Of Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Jalapenos Frittata",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Minty Noodles Cookies",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Tuna Pyramids Bites",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Sesame And Chicken Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Grilled Tuna Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "$3 Dollar Dinner",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Noodles Curry Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Sweet And Spicy Ramen Stir Fry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Bonito Tofu Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Parmesan Tuna Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Beef Roast Barbecue",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Steak Skillet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Octopus Bites",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Teriyaki Ramen Bowls",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Spring Stir Fry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Chili Coconut Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Steakhouse Dressing",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Mandarin Ramen Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Fruity Chicken Curry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Green Bean Stir Fry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Crock Stew",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Shoyu Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Juicy Burgers",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Baby Ramen Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "enriched",
+    "title": "Japanese Crusted Potato Bites",
+    "cuisine": "Japanese",
+    "coverage": 0.833,
+    "resolved": 5,
+    "total": 6,
+    "nutrition": {
+      "calories": 2508.9,
+      "protein_g": 43.7,
+      "carbohydrates_g": 485.7,
+      "fat_g": 51.6
+    }
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Broccoli And Oyster Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Crunchy Japanese Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Sambal Ramen Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Crusted Pork Chops",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Toscano",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Russet Curry",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Seoul",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Bell Rice Omelet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Ramen Omelet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Baked Sweet Potato",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Marinated Eggs For Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Chicken Thighs Skillet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Chili Ramen Casserole",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Warm Japanese Mirin Eggplants Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Apple Ramen Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Green Beans Salad",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Sweet Ramen Skillet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Shrimp Stew",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "How To Make Miso Ramen",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "French Ramen Pan",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Japanese Chicken Soup",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Mung Bang Noodles Skillet",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  },
+  {
+    "status": "skipped_existing",
+    "title": "Cucumber Salad In Japan",
+    "cuisine": "Japanese",
+    "coverage": 1.0
+  }
+]

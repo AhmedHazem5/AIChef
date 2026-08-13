@@ -1,0 +1,2270 @@
+[
+  {
+    "status": "enriched",
+    "title": "Chinese Barbecued Chicken Wings",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 1860.6,
+      "protein_g": 160.6,
+      "carbohydrates_g": 19.1,
+      "fat_g": 121.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Chicken Salad",
+    "cuisine": "Chinese",
+    "coverage": 0.867,
+    "resolved": 13,
+    "total": 15,
+    "nutrition": {
+      "calories": 665.8,
+      "protein_g": 83.7,
+      "carbohydrates_g": 22.3,
+      "fat_g": 26.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Crispy Phoenix-tailed Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.889,
+    "resolved": 8,
+    "total": 9,
+    "nutrition": {
+      "calories": 1686.1,
+      "protein_g": 116.4,
+      "carbohydrates_g": 116.2,
+      "fat_g": 83.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Fried Wantons",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 8,
+    "total": 10,
+    "nutrition": {
+      "calories": 1286.1,
+      "protein_g": 53.8,
+      "carbohydrates_g": 141.6,
+      "fat_g": 35.6
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Grilled Shrimp with Cilantro and Ginger Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.857,
+    "resolved": 6,
+    "total": 7,
+    "nutrition": {
+      "calories": 431.7,
+      "protein_g": 91.7,
+      "carbohydrates_g": 0.6,
+      "fat_g": 6.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Minced Shrimp with Lettuce Leaves",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 12,
+    "total": 12,
+    "nutrition": {
+      "calories": 582.5,
+      "protein_g": 54.2,
+      "carbohydrates_g": 51.4,
+      "fat_g": 20.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sesame Chicken Fingers",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 2541.2,
+      "protein_g": 200.0,
+      "carbohydrates_g": 125.3,
+      "fat_g": 142.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sesame Noodle Salad",
+    "cuisine": "Chinese",
+    "coverage": 0.846,
+    "resolved": 11,
+    "total": 13,
+    "nutrition": {
+      "calories": 1433.2,
+      "protein_g": 9.1,
+      "carbohydrates_g": 287.4,
+      "fat_g": 28.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shredded Barbecued Pork and Leek Salad",
+    "cuisine": "Chinese",
+    "coverage": 0.867,
+    "resolved": 13,
+    "total": 15,
+    "nutrition": {
+      "calories": 1623.4,
+      "protein_g": 170.2,
+      "carbohydrates_g": 104.4,
+      "fat_g": 82.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp and Vegetable Salad",
+    "cuisine": "Chinese",
+    "coverage": 0.929,
+    "resolved": 13,
+    "total": 14,
+    "nutrition": {
+      "calories": 1049.3,
+      "protein_g": 67.3,
+      "carbohydrates_g": 59.3,
+      "fat_g": 65.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp Toast",
+    "cuisine": "Chinese",
+    "coverage": 0.636,
+    "resolved": 7,
+    "total": 11,
+    "nutrition": {
+      "calories": 1214.2,
+      "protein_g": 79.1,
+      "carbohydrates_g": 206.3,
+      "fat_g": 6.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Fried Cashew Nuts",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 6,
+    "total": 6,
+    "nutrition": {
+      "calories": 1632.8,
+      "protein_g": 39.7,
+      "carbohydrates_g": 83.9,
+      "fat_g": 130.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spring Rolls",
+    "cuisine": "Chinese",
+    "coverage": 0.933,
+    "resolved": 14,
+    "total": 15,
+    "nutrition": {
+      "calories": 1088.3,
+      "protein_g": 45.4,
+      "carbohydrates_g": 167.0,
+      "fat_g": 29.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Beef and Fried Potato",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 11,
+    "total": 11,
+    "nutrition": {
+      "calories": 949.9,
+      "protein_g": 94.0,
+      "carbohydrates_g": 109.7,
+      "fat_g": 17.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Beef and Vegetable Saute",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1173.7,
+      "protein_g": 103.6,
+      "carbohydrates_g": 119.1,
+      "fat_g": 30.6
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Beef with Ginger and Pineapple",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 1095.3,
+      "protein_g": 99.6,
+      "carbohydrates_g": 50.0,
+      "fat_g": 57.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Beef with Napa Cabbage",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 729.1,
+      "protein_g": 79.0,
+      "carbohydrates_g": 33.2,
+      "fat_g": 31.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Beef with Oyster Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.867,
+    "resolved": 13,
+    "total": 15,
+    "nutrition": {
+      "calories": 977.2,
+      "protein_g": 102.7,
+      "carbohydrates_g": 33.6,
+      "fat_g": 47.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Beef Stew",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 1840.2,
+      "protein_g": 158.7,
+      "carbohydrates_g": 199.8,
+      "fat_g": 133.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Curried Beef with Tomatoes",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 12,
+    "total": 12,
+    "nutrition": {
+      "calories": 575.3,
+      "protein_g": 52.9,
+      "carbohydrates_g": 35.5,
+      "fat_g": 25.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Mandarin Beef",
+    "cuisine": "Chinese",
+    "coverage": 0.933,
+    "resolved": 14,
+    "total": 15,
+    "nutrition": {
+      "calories": 898.6,
+      "protein_g": 99.2,
+      "carbohydrates_g": 25.2,
+      "fat_g": 42.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Orange-flavored Beef",
+    "cuisine": "Chinese",
+    "coverage": 0.789,
+    "resolved": 15,
+    "total": 19,
+    "nutrition": {
+      "calories": 1014.4,
+      "protein_g": 99.2,
+      "carbohydrates_g": 31.0,
+      "fat_g": 52.6
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sesame Beef Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 0.867,
+    "resolved": 13,
+    "total": 15,
+    "nutrition": {
+      "calories": 631.5,
+      "protein_g": 53.5,
+      "carbohydrates_g": 41.1,
+      "fat_g": 29.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Stir-fried Hunan Beef",
+    "cuisine": "Chinese",
+    "coverage": 0.824,
+    "resolved": 14,
+    "total": 17,
+    "nutrition": {
+      "calories": 1027.1,
+      "protein_g": 100.7,
+      "carbohydrates_g": 33.5,
+      "fat_g": 52.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Szechwan-style Beef",
+    "cuisine": "Chinese",
+    "coverage": 0.667,
+    "resolved": 8,
+    "total": 12,
+    "nutrition": {
+      "calories": 860.6,
+      "protein_g": 100.3,
+      "carbohydrates_g": 28.9,
+      "fat_g": 36.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Tomato Beef",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 14,
+    "total": 18,
+    "nutrition": {
+      "calories": 892.8,
+      "protein_g": 100.0,
+      "carbohydrates_g": 33.3,
+      "fat_g": 38.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Vegetable-Beef Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 15,
+    "total": 15,
+    "nutrition": {
+      "calories": 1144.4,
+      "protein_g": 91.5,
+      "carbohydrates_g": 116.3,
+      "fat_g": 37.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Baked Curried Chicken Thighs",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 8,
+    "total": 8,
+    "nutrition": {
+      "calories": 1195.8,
+      "protein_g": 179.9,
+      "carbohydrates_g": 13.0,
+      "fat_g": 42.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Braised Chicken and Mushroom",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 7,
+    "total": 8,
+    "nutrition": {
+      "calories": 1030.4,
+      "protein_g": 137.0,
+      "carbohydrates_g": 28.1,
+      "fat_g": 37.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Cantonese Lemon Chicken",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 11,
+    "total": 11,
+    "nutrition": {
+      "calories": 1004.0,
+      "protein_g": 107.9,
+      "carbohydrates_g": 86.1,
+      "fat_g": 18.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Cashew Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.923,
+    "resolved": 12,
+    "total": 13,
+    "nutrition": {
+      "calories": 1164.4,
+      "protein_g": 137.6,
+      "carbohydrates_g": 47.4,
+      "fat_g": 48.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chicken with Creamy Curry Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 18,
+    "total": 20,
+    "nutrition": {
+      "calories": 1341.0,
+      "protein_g": 101.5,
+      "carbohydrates_g": 101.3,
+      "fat_g": 141.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chicken with Eggplant",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 11,
+    "total": 11,
+    "nutrition": {
+      "calories": 1147.3,
+      "protein_g": 105.4,
+      "carbohydrates_g": 84.0,
+      "fat_g": 42.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Chicken and Zucchini",
+    "cuisine": "Chinese",
+    "coverage": 0.889,
+    "resolved": 16,
+    "total": 18,
+    "nutrition": {
+      "calories": 1199.6,
+      "protein_g": 159.4,
+      "carbohydrates_g": 35.5,
+      "fat_g": 44.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Crispy Chicken in Garlic-Ginger Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 1577.0,
+      "protein_g": 135.8,
+      "carbohydrates_g": 7.9,
+      "fat_g": 109.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Five-spice Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 904.9,
+      "protein_g": 110.5,
+      "carbohydrates_g": 68.7,
+      "fat_g": 16.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "General Tang's Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 16,
+    "total": 20,
+    "nutrition": {
+      "calories": 490.7,
+      "protein_g": 92.3,
+      "carbohydrates_g": 77.1,
+      "fat_g": 52.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Ginger Plum Sauce Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 1191.0,
+      "protein_g": 186.0,
+      "carbohydrates_g": 19.7,
+      "fat_g": 35.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Kung Pao Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.944,
+    "resolved": 17,
+    "total": 18,
+    "nutrition": {
+      "calories": 1547.0,
+      "protein_g": 176.8,
+      "carbohydrates_g": 40.9,
+      "fat_g": 75.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Moo Goo Gai Pan (Chicken with Mushrooms)",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 855.7,
+      "protein_g": 112.6,
+      "carbohydrates_g": 60.0,
+      "fat_g": 17.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Orange-flavored Chicken Thighs",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 8,
+    "total": 10,
+    "nutrition": {
+      "calories": 1271.0,
+      "protein_g": 182.2,
+      "carbohydrates_g": 24.9,
+      "fat_g": 45.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Oven Roasted Spiced Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 7,
+    "total": 8,
+    "nutrition": {
+      "calories": 3483.5,
+      "protein_g": 260.7,
+      "carbohydrates_g": 8.1,
+      "fat_g": 262.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Peking Chicken Wings",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 11,
+    "total": 11,
+    "nutrition": {
+      "calories": 3177.6,
+      "protein_g": 229.6,
+      "carbohydrates_g": 14.3,
+      "fat_g": 237.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Phoenix and Dragon",
+    "cuisine": "Chinese",
+    "coverage": 0.867,
+    "resolved": 13,
+    "total": 15,
+    "nutrition": {
+      "calories": 628.8,
+      "protein_g": 101.6,
+      "carbohydrates_g": 23.6,
+      "fat_g": 13.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Plum Delicious Chicken Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 687.8,
+      "protein_g": 107.7,
+      "carbohydrates_g": 19.3,
+      "fat_g": 17.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Red Bell Pepper Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.923,
+    "resolved": 12,
+    "total": 13,
+    "nutrition": {
+      "calories": 1222.6,
+      "protein_g": 160.8,
+      "carbohydrates_g": 49.4,
+      "fat_g": 40.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Hot Chicken with Basil",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 1284.4,
+      "protein_g": 180.9,
+      "carbohydrates_g": 18.1,
+      "fat_g": 49.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Steamed Chicken with Mushrooms",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 9,
+    "total": 9,
+    "nutrition": {
+      "calories": 725.8,
+      "protein_g": 119.6,
+      "carbohydrates_g": 30.0,
+      "fat_g": 14.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sterling's Stir-fried Chicken with Kiwi",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 662.2,
+      "protein_g": 102.4,
+      "carbohydrates_g": 8.9,
+      "fat_g": 21.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sweet and Sour Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.929,
+    "resolved": 13,
+    "total": 14,
+    "nutrition": {
+      "calories": 1478.7,
+      "protein_g": 87.2,
+      "carbohydrates_g": 202.5,
+      "fat_g": 33.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Crab Curry",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 10,
+    "total": 10,
+    "nutrition": {
+      "calories": 1291.9,
+      "protein_g": 192.7,
+      "carbohydrates_g": 28.4,
+      "fat_g": 42.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Crab in Tomato-Garlic Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.857,
+    "resolved": 6,
+    "total": 7,
+    "nutrition": {
+      "calories": 946.1,
+      "protein_g": 167.8,
+      "carbohydrates_g": 24.4,
+      "fat_g": 17.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Fried Crab in Black Bean Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 547.6,
+      "protein_g": 40.7,
+      "carbohydrates_g": 40.5,
+      "fat_g": 25.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Almond Jelly with Melon",
+    "cuisine": "Chinese",
+    "coverage": 0.5,
+    "resolved": 3,
+    "total": 6,
+    "nutrition": {
+      "calories": 527.8,
+      "protein_g": 12.1,
+      "carbohydrates_g": 92.4,
+      "fat_g": 13.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Apple-Blueberry Delight",
+    "cuisine": "Chinese",
+    "coverage": 0.375,
+    "resolved": 3,
+    "total": 8,
+    "nutrition": {
+      "calories": 46.0,
+      "protein_g": 0.1,
+      "carbohydrates_g": 11.5,
+      "fat_g": 0.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Bananas Managua",
+    "cuisine": "Chinese",
+    "coverage": 0.714,
+    "resolved": 5,
+    "total": 7,
+    "nutrition": {
+      "calories": 341.3,
+      "protein_g": 3.5,
+      "carbohydrates_g": 34.1,
+      "fat_g": 22.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Orange-Almonds Crisps",
+    "cuisine": "Chinese",
+    "coverage": 0.571,
+    "resolved": 4,
+    "total": 7,
+    "nutrition": {
+      "calories": 1321.1,
+      "protein_g": 28.6,
+      "carbohydrates_g": 217.3,
+      "fat_g": 39.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Papaya and Grapefruit Delight",
+    "cuisine": "Chinese",
+    "coverage": 0.75,
+    "resolved": 3,
+    "total": 4,
+    "nutrition": {
+      "calories": 426.8,
+      "protein_g": 1.2,
+      "carbohydrates_g": 108.5,
+      "fat_g": 1.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Peking Apple",
+    "cuisine": "Chinese",
+    "coverage": 0.7,
+    "resolved": 7,
+    "total": 10,
+    "nutrition": {
+      "calories": 1415.2,
+      "protein_g": 19.2,
+      "carbohydrates_g": 122.8,
+      "fat_g": 94.6
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Whole Apple with Honey and Cinnamon",
+    "cuisine": "Chinese",
+    "coverage": 0.75,
+    "resolved": 3,
+    "total": 4,
+    "nutrition": {
+      "calories": 663.0,
+      "protein_g": 3.0,
+      "carbohydrates_g": 160.4,
+      "fat_g": 2.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese-style Omelette",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 7,
+    "total": 7,
+    "nutrition": {
+      "calories": 573.2,
+      "protein_g": 45.3,
+      "carbohydrates_g": 18.8,
+      "fat_g": 36.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Fujian Mushroom Egg",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 7,
+    "total": 8,
+    "nutrition": {
+      "calories": 907.7,
+      "protein_g": 65.0,
+      "carbohydrates_g": 59.4,
+      "fat_g": 45.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Steamed Custard Egg",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 7,
+    "total": 7,
+    "nutrition": {
+      "calories": 1225.5,
+      "protein_g": 79.5,
+      "carbohydrates_g": 4.5,
+      "fat_g": 73.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Eggs and Corn",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 5,
+    "total": 6,
+    "nutrition": {
+      "calories": 332.4,
+      "protein_g": 25.4,
+      "carbohydrates_g": 2.6,
+      "fat_g": 23.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Baked Fish Packages",
+    "cuisine": "Chinese",
+    "coverage": 0.692,
+    "resolved": 9,
+    "total": 13,
+    "nutrition": {
+      "calories": 1198.7,
+      "protein_g": 153.6,
+      "carbohydrates_g": 19.2,
+      "fat_g": 52.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Baked Red Snapper",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1088.5,
+      "protein_g": 188.8,
+      "carbohydrates_g": 22.5,
+      "fat_g": 22.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Curried Fish",
+    "cuisine": "Chinese",
+    "coverage": 0.889,
+    "resolved": 8,
+    "total": 9,
+    "nutrition": {
+      "calories": 648.0,
+      "protein_g": 101.0,
+      "carbohydrates_g": 32.3,
+      "fat_g": 12.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Hunan Fish Steaks",
+    "cuisine": "Chinese",
+    "coverage": 0.733,
+    "resolved": 11,
+    "total": 15,
+    "nutrition": {
+      "calories": 922.2,
+      "protein_g": 133.1,
+      "carbohydrates_g": 58.1,
+      "fat_g": 16.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Lemony Fish with Asparagus",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 8,
+    "total": 8,
+    "nutrition": {
+      "calories": 959.0,
+      "protein_g": 59.2,
+      "carbohydrates_g": 24.9,
+      "fat_g": 70.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Pan-fried Spicy Fish",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 8,
+    "total": 8,
+    "nutrition": {
+      "calories": 627.3,
+      "protein_g": 94.7,
+      "carbohydrates_g": 6.3,
+      "fat_g": 22.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Red Cooked Fish",
+    "cuisine": "Chinese",
+    "coverage": 0.733,
+    "resolved": 11,
+    "total": 15,
+    "nutrition": {
+      "calories": 689.2,
+      "protein_g": 82.2,
+      "carbohydrates_g": 10.3,
+      "fat_g": 33.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Steamed Salmon with Black Bean Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 774.0,
+      "protein_g": 104.2,
+      "carbohydrates_g": 3.0,
+      "fat_g": 39.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Steamed Fish with Mushroom Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.727,
+    "resolved": 8,
+    "total": 11,
+    "nutrition": {
+      "calories": 1013.3,
+      "protein_g": 147.2,
+      "carbohydrates_g": 60.1,
+      "fat_g": 19.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Fish in Tomato Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.938,
+    "resolved": 15,
+    "total": 16,
+    "nutrition": {
+      "calories": 1047.0,
+      "protein_g": 91.9,
+      "carbohydrates_g": 44.4,
+      "fat_g": 55.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sweet and Sour Fish",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 13,
+    "total": 13,
+    "nutrition": {
+      "calories": 2052.4,
+      "protein_g": 104.4,
+      "carbohydrates_g": 125.9,
+      "fat_g": 123.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Yellow River Carp",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 1242.9,
+      "protein_g": 162.5,
+      "carbohydrates_g": 20.6,
+      "fat_g": 50.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Lamb Curry",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 11,
+    "total": 11,
+    "nutrition": {
+      "calories": 1937.2,
+      "protein_g": 181.7,
+      "carbohydrates_g": 125.2,
+      "fat_g": 82.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Lamb Stew",
+    "cuisine": "Chinese",
+    "coverage": 0.846,
+    "resolved": 11,
+    "total": 13,
+    "nutrition": {
+      "calories": 2277.2,
+      "protein_g": 277.1,
+      "carbohydrates_g": 50.0,
+      "fat_g": 113.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Hunan Lamb Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 8,
+    "total": 10,
+    "nutrition": {
+      "calories": 971.3,
+      "protein_g": 109.2,
+      "carbohydrates_g": 20.2,
+      "fat_g": 52.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Lamb with Spring Onions",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 853.1,
+      "protein_g": 112.0,
+      "carbohydrates_g": 29.9,
+      "fat_g": 33.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Mongolian Lamb",
+    "cuisine": "Chinese",
+    "coverage": 0.923,
+    "resolved": 12,
+    "total": 13,
+    "nutrition": {
+      "calories": 1197.3,
+      "protein_g": 155.4,
+      "carbohydrates_g": 24.3,
+      "fat_g": 54.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Lamb with Leeks",
+    "cuisine": "Chinese",
+    "coverage": 0.846,
+    "resolved": 11,
+    "total": 13,
+    "nutrition": {
+      "calories": 731.7,
+      "protein_g": 102.5,
+      "carbohydrates_g": 11.2,
+      "fat_g": 30.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Orange-Ginger Lamb",
+    "cuisine": "Chinese",
+    "coverage": 0.789,
+    "resolved": 15,
+    "total": 19,
+    "nutrition": {
+      "calories": 1422.5,
+      "protein_g": 159.6,
+      "carbohydrates_g": 36.9,
+      "fat_g": 73.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Crisp-fried Vegetarian Noodles",
+    "cuisine": "Chinese",
+    "coverage": 0.867,
+    "resolved": 13,
+    "total": 15,
+    "nutrition": {
+      "calories": 978.2,
+      "protein_g": 29.2,
+      "carbohydrates_g": 182.1,
+      "fat_g": 22.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp Chow Mein",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 13,
+    "total": 13,
+    "nutrition": {
+      "calories": 1808.5,
+      "protein_g": 160.9,
+      "carbohydrates_g": 226.8,
+      "fat_g": 31.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Spicy Meaty Rice Noodles",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 2544.4,
+      "protein_g": 110.7,
+      "carbohydrates_g": 163.8,
+      "fat_g": 156.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Egg Noodles",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 11,
+    "total": 11,
+    "nutrition": {
+      "calories": 1713.7,
+      "protein_g": 80.2,
+      "carbohydrates_g": 151.8,
+      "fat_g": 89.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Szechwan Chicken-Pasta Salad",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 1479.6,
+      "protein_g": 142.6,
+      "carbohydrates_g": 126.3,
+      "fat_g": 41.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Barbecued Pork",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 7,
+    "total": 8,
+    "nutrition": {
+      "calories": 2391.2,
+      "protein_g": 43.5,
+      "carbohydrates_g": 9.9,
+      "fat_g": 240.6
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Braised Pork Balls and Mushroom",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1184.9,
+      "protein_g": 55.3,
+      "carbohydrates_g": 96.2,
+      "fat_g": 45.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Deep-fried Pork Cutlets",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 10,
+    "total": 10,
+    "nutrition": {
+      "calories": 1135.6,
+      "protein_g": 128.2,
+      "carbohydrates_g": 100.7,
+      "fat_g": 19.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Five-spice Pork and Potatoes",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 10,
+    "total": 10,
+    "nutrition": {
+      "calories": 1338.2,
+      "protein_g": 111.3,
+      "carbohydrates_g": 142.3,
+      "fat_g": 35.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Mu Shu Pork",
+    "cuisine": "Chinese",
+    "coverage": 0.789,
+    "resolved": 15,
+    "total": 19,
+    "nutrition": {
+      "calories": 1660.1,
+      "protein_g": 92.5,
+      "carbohydrates_g": 213.2,
+      "fat_g": 49.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Pork with Baby Corn",
+    "cuisine": "Chinese",
+    "coverage": 0.929,
+    "resolved": 13,
+    "total": 14,
+    "nutrition": {
+      "calories": 1024.9,
+      "protein_g": 103.7,
+      "carbohydrates_g": 41.2,
+      "fat_g": 49.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Red Cooked Pork",
+    "cuisine": "Chinese",
+    "coverage": 0.556,
+    "resolved": 5,
+    "total": 9,
+    "nutrition": {
+      "calories": 134.6,
+      "protein_g": 10.8,
+      "carbohydrates_g": 12.9,
+      "fat_g": 5.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sirloin Tips and Vegetables",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1168.4,
+      "protein_g": 109.9,
+      "carbohydrates_g": 21.6,
+      "fat_g": 36.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stewed Pork Spareribs",
+    "cuisine": "Chinese",
+    "coverage": 0.727,
+    "resolved": 8,
+    "total": 11,
+    "nutrition": {
+      "calories": 1485.9,
+      "protein_g": 75.4,
+      "carbohydrates_g": 32.8,
+      "fat_g": 116.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Pork with Pineapple",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1151.1,
+      "protein_g": 85.2,
+      "carbohydrates_g": 23.2,
+      "fat_g": 79.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sweet and Sour Pork",
+    "cuisine": "Chinese",
+    "coverage": 0.842,
+    "resolved": 16,
+    "total": 19,
+    "nutrition": {
+      "calories": 1926.7,
+      "protein_g": 141.9,
+      "carbohydrates_g": 226.9,
+      "fat_g": 46.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Twice-cooked Pork",
+    "cuisine": "Chinese",
+    "coverage": 0.75,
+    "resolved": 9,
+    "total": 12,
+    "nutrition": {
+      "calories": 895.4,
+      "protein_g": 99.0,
+      "carbohydrates_g": 31.2,
+      "fat_g": 40.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Yu-shiang Pork",
+    "cuisine": "Chinese",
+    "coverage": 0.917,
+    "resolved": 11,
+    "total": 12,
+    "nutrition": {
+      "calories": 770.6,
+      "protein_g": 78.9,
+      "carbohydrates_g": 34.5,
+      "fat_g": 36.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Aromatic Chicken Fried Rice",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 12,
+    "total": 15,
+    "nutrition": {
+      "calories": 1519.1,
+      "protein_g": 107.0,
+      "carbohydrates_g": 159.6,
+      "fat_g": 49.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Combination Rice Casserole",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 9,
+    "total": 9,
+    "nutrition": {
+      "calories": 2292.2,
+      "protein_g": 77.0,
+      "carbohydrates_g": 309.0,
+      "fat_g": 59.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Curry Rice with Meat",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 1229.6,
+      "protein_g": 108.2,
+      "carbohydrates_g": 126.7,
+      "fat_g": 33.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Egg Fried Rice",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 9,
+    "total": 9,
+    "nutrition": {
+      "calories": 1198.3,
+      "protein_g": 58.4,
+      "carbohydrates_g": 157.5,
+      "fat_g": 40.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Fried Rice with Ham and Peanuts",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 1226.6,
+      "protein_g": 59.2,
+      "carbohydrates_g": 135.6,
+      "fat_g": 56.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Green Rice",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 7,
+    "total": 7,
+    "nutrition": {
+      "calories": 895.7,
+      "protein_g": 43.7,
+      "carbohydrates_g": 168.3,
+      "fat_g": 8.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Vegetable Fried Rice",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 10,
+    "total": 10,
+    "nutrition": {
+      "calories": 824.7,
+      "protein_g": 31.3,
+      "carbohydrates_g": 159.2,
+      "fat_g": 12.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Yang Chow Fried Rice",
+    "cuisine": "Chinese",
+    "coverage": 0.923,
+    "resolved": 12,
+    "total": 13,
+    "nutrition": {
+      "calories": 1332.8,
+      "protein_g": 60.3,
+      "carbohydrates_g": 150.4,
+      "fat_g": 45.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Black Pepper Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 7,
+    "total": 7,
+    "nutrition": {
+      "calories": 516.4,
+      "protein_g": 92.2,
+      "carbohydrates_g": 11.2,
+      "fat_g": 12.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Emerald-sauced Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.667,
+    "resolved": 8,
+    "total": 12,
+    "nutrition": {
+      "calories": 797.0,
+      "protein_g": 127.2,
+      "carbohydrates_g": 19.7,
+      "fat_g": 22.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Hot and Spicy Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 564.4,
+      "protein_g": 94.8,
+      "carbohydrates_g": 11.6,
+      "fat_g": 16.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Kung Pao Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.938,
+    "resolved": 15,
+    "total": 16,
+    "nutrition": {
+      "calories": 1085.7,
+      "protein_g": 115.4,
+      "carbohydrates_g": 45.0,
+      "fat_g": 54.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Lemon Garlic Butter Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 9,
+    "total": 10,
+    "nutrition": {
+      "calories": 630.0,
+      "protein_g": 92.2,
+      "carbohydrates_g": 16.7,
+      "fat_g": 22.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Pineapple Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 9,
+    "total": 10,
+    "nutrition": {
+      "calories": 511.7,
+      "protein_g": 70.5,
+      "carbohydrates_g": 35.2,
+      "fat_g": 11.6
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp Balls with Bamboo Shoots",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 572.4,
+      "protein_g": 103.7,
+      "carbohydrates_g": 22.3,
+      "fat_g": 9.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp with Honey-Glazed Walnuts",
+    "cuisine": "Chinese",
+    "coverage": 0.857,
+    "resolved": 12,
+    "total": 14,
+    "nutrition": {
+      "calories": 1399.2,
+      "protein_g": 95.3,
+      "carbohydrates_g": 33.3,
+      "fat_g": 99.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp with Peking Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.786,
+    "resolved": 11,
+    "total": 14,
+    "nutrition": {
+      "calories": 730.8,
+      "protein_g": 98.5,
+      "carbohydrates_g": 55.0,
+      "fat_g": 14.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Steamed Garlic Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.7,
+    "resolved": 7,
+    "total": 10,
+    "nutrition": {
+      "calories": 955.3,
+      "protein_g": 189.0,
+      "carbohydrates_g": 17.8,
+      "fat_g": 15.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Szechwan Shrimp",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 483.9,
+      "protein_g": 91.6,
+      "carbohydrates_g": 3.7,
+      "fat_g": 11.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Basic Chinese Chicken Stock",
+    "cuisine": "Chinese",
+    "coverage": 0.6,
+    "resolved": 3,
+    "total": 5,
+    "nutrition": {
+      "calories": 238.2,
+      "protein_g": 20.4,
+      "carbohydrates_g": 7.6,
+      "fat_g": 13.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chicken and Asparagus Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.667,
+    "resolved": 4,
+    "total": 6,
+    "nutrition": {
+      "calories": 1191.1,
+      "protein_g": 122.2,
+      "carbohydrates_g": 75.8,
+      "fat_g": 39.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Wanton Soup",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 15,
+    "total": 15,
+    "nutrition": {
+      "calories": 1785.7,
+      "protein_g": 116.8,
+      "carbohydrates_g": 169.8,
+      "fat_g": 69.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Egg Flower Soup",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 5,
+    "total": 5,
+    "nutrition": {
+      "calories": 579.7,
+      "protein_g": 44.1,
+      "carbohydrates_g": 39.5,
+      "fat_g": 25.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Hot and Sour Soup",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 17,
+    "total": 17,
+    "nutrition": {
+      "calories": 959.7,
+      "protein_g": 85.4,
+      "carbohydrates_g": 65.9,
+      "fat_g": 44.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Napa Cabbage Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.75,
+    "resolved": 6,
+    "total": 8,
+    "nutrition": {
+      "calories": 1541.2,
+      "protein_g": 80.7,
+      "carbohydrates_g": 69.9,
+      "fat_g": 107.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Pork Balls Mushroom Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1726.7,
+      "protein_g": 89.9,
+      "carbohydrates_g": 39.6,
+      "fat_g": 87.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp Dumpling Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 9,
+    "total": 10,
+    "nutrition": {
+      "calories": 439.8,
+      "protein_g": 54.7,
+      "carbohydrates_g": 4.2,
+      "fat_g": 23.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stuffed Cucumber Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 14,
+    "total": 16,
+    "nutrition": {
+      "calories": 1395.2,
+      "protein_g": 73.6,
+      "carbohydrates_g": 70.4,
+      "fat_g": 66.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sweet Corn Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.667,
+    "resolved": 6,
+    "total": 9,
+    "nutrition": {
+      "calories": 635.9,
+      "protein_g": 63.5,
+      "carbohydrates_g": 34.3,
+      "fat_g": 23.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Tomatoes Egg Drop Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 7,
+    "total": 8,
+    "nutrition": {
+      "calories": 632.8,
+      "protein_g": 40.7,
+      "carbohydrates_g": 59.5,
+      "fat_g": 26.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Tri-color Soup",
+    "cuisine": "Chinese",
+    "coverage": 0.875,
+    "resolved": 7,
+    "total": 8,
+    "nutrition": {
+      "calories": 1069.4,
+      "protein_g": 81.5,
+      "carbohydrates_g": 108.7,
+      "fat_g": 36.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Braised Tofu with Mushrooms",
+    "cuisine": "Chinese",
+    "coverage": 0.769,
+    "resolved": 10,
+    "total": 13,
+    "nutrition": {
+      "calories": 1467.1,
+      "protein_g": 160.5,
+      "carbohydrates_g": 54.5,
+      "fat_g": 74.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Crisp Tofu",
+    "cuisine": "Chinese",
+    "coverage": 0.882,
+    "resolved": 15,
+    "total": 17,
+    "nutrition": {
+      "calories": 2358.5,
+      "protein_g": 92.6,
+      "carbohydrates_g": 228.9,
+      "fat_g": 128.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shrimp Tofu Cake",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 1107.7,
+      "protein_g": 139.9,
+      "carbohydrates_g": 21.8,
+      "fat_g": 58.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sweet and Sour Tofu",
+    "cuisine": "Chinese",
+    "coverage": 0.933,
+    "resolved": 14,
+    "total": 15,
+    "nutrition": {
+      "calories": 1084.1,
+      "protein_g": 81.6,
+      "carbohydrates_g": 57.4,
+      "fat_g": 68.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Bean Sprouts with Shredded Beef and Walnuts",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 13,
+    "total": 13,
+    "nutrition": {
+      "calories": 1296.2,
+      "protein_g": 76.4,
+      "carbohydrates_g": 69.0,
+      "fat_g": 61.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Broccoli and Beef Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 8,
+    "total": 10,
+    "nutrition": {
+      "calories": 447.9,
+      "protein_g": 49.3,
+      "carbohydrates_g": 7.8,
+      "fat_g": 23.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Broccoli with Mushrooms",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 292.2,
+      "protein_g": 4.9,
+      "carbohydrates_g": 42.5,
+      "fat_g": 14.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Cantonese Vegetable Medley",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 216.6,
+      "protein_g": 3.5,
+      "carbohydrates_g": 30.2,
+      "fat_g": 10.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chinese Mixed Vegetables",
+    "cuisine": "Chinese",
+    "coverage": 0.6,
+    "resolved": 6,
+    "total": 10,
+    "nutrition": {
+      "calories": 222.1,
+      "protein_g": 9.7,
+      "carbohydrates_g": 29.8,
+      "fat_g": 8.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Chop Suey",
+    "cuisine": "Chinese",
+    "coverage": 0.846,
+    "resolved": 11,
+    "total": 13,
+    "nutrition": {
+      "calories": 901.7,
+      "protein_g": 106.3,
+      "carbohydrates_g": 49.0,
+      "fat_g": 31.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Mixed Vegetable with Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.929,
+    "resolved": 13,
+    "total": 14,
+    "nutrition": {
+      "calories": 542.6,
+      "protein_g": 55.2,
+      "carbohydrates_g": 24.6,
+      "fat_g": 23.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Cucumber and Shrimp Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 0.909,
+    "resolved": 10,
+    "total": 11,
+    "nutrition": {
+      "calories": 359.0,
+      "protein_g": 47.2,
+      "carbohydrates_g": 8.8,
+      "fat_g": 15.3
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Five-Treasure Stir-fried Vegetable with Meat",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 542.6,
+      "protein_g": 54.5,
+      "carbohydrates_g": 40.6,
+      "fat_g": 18.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Heavenly Braised Vegetables",
+    "cuisine": "Chinese",
+    "coverage": 0.7,
+    "resolved": 7,
+    "total": 10,
+    "nutrition": {
+      "calories": 324.0,
+      "protein_g": 10.8,
+      "carbohydrates_g": 47.0,
+      "fat_g": 15.0
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Monk's Vegetables",
+    "cuisine": "Chinese",
+    "coverage": 0.944,
+    "resolved": 17,
+    "total": 18,
+    "nutrition": {
+      "calories": 1002.4,
+      "protein_g": 50.2,
+      "carbohydrates_g": 70.6,
+      "fat_g": 68.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Oriental-style Mixed Vegetable",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 517.6,
+      "protein_g": 8.0,
+      "carbohydrates_g": 95.0,
+      "fat_g": 15.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Oyster Sauce Asparagus",
+    "cuisine": "Chinese",
+    "coverage": 0.75,
+    "resolved": 6,
+    "total": 8,
+    "nutrition": {
+      "calories": 77.6,
+      "protein_g": 0.6,
+      "carbohydrates_g": 3.5,
+      "fat_g": 7.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Red and Green Stir-fry",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 7,
+    "total": 7,
+    "nutrition": {
+      "calories": 206.7,
+      "protein_g": 8.1,
+      "carbohydrates_g": 32.8,
+      "fat_g": 8.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Shanghai Casserole",
+    "cuisine": "Chinese",
+    "coverage": 0.818,
+    "resolved": 9,
+    "total": 11,
+    "nutrition": {
+      "calories": 485.7,
+      "protein_g": 30.4,
+      "carbohydrates_g": 60.6,
+      "fat_g": 19.7
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Small Pok Choy in Oyster Sauce",
+    "cuisine": "Chinese",
+    "coverage": 0.8,
+    "resolved": 4,
+    "total": 5,
+    "nutrition": {
+      "calories": 136.3,
+      "protein_g": 0.4,
+      "carbohydrates_g": 3.1,
+      "fat_g": 13.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Snow Peas with Chicken",
+    "cuisine": "Chinese",
+    "coverage": 0.833,
+    "resolved": 10,
+    "total": 12,
+    "nutrition": {
+      "calories": 683.5,
+      "protein_g": 55.3,
+      "carbohydrates_g": 60.0,
+      "fat_g": 24.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Baby Corn and Pepper",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 9,
+    "total": 10,
+    "nutrition": {
+      "calories": 132.8,
+      "protein_g": 3.9,
+      "carbohydrates_g": 19.9,
+      "fat_g": 5.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Celery",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 131.6,
+      "protein_g": 0.9,
+      "carbohydrates_g": 11.6,
+      "fat_g": 9.4
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Eggplant and Peppers",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 9,
+    "total": 10,
+    "nutrition": {
+      "calories": 345.5,
+      "protein_g": 7.6,
+      "carbohydrates_g": 39.0,
+      "fat_g": 19.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Kale with Beef",
+    "cuisine": "Chinese",
+    "coverage": 0.778,
+    "resolved": 7,
+    "total": 9,
+    "nutrition": {
+      "calories": 866.6,
+      "protein_g": 42.3,
+      "carbohydrates_g": 6.6,
+      "fat_g": 38.5
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stir-fried Spinach",
+    "cuisine": "Chinese",
+    "coverage": 1.0,
+    "resolved": 5,
+    "total": 5,
+    "nutrition": {
+      "calories": 634.4,
+      "protein_g": 23.1,
+      "carbohydrates_g": 114.3,
+      "fat_g": 8.9
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Stuffed Chinese Mushrooms",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 18,
+    "total": 20,
+    "nutrition": {
+      "calories": 1306.4,
+      "protein_g": 89.1,
+      "carbohydrates_g": 90.0,
+      "fat_g": 51.2
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Sweet and Sour Carrots",
+    "cuisine": "Chinese",
+    "coverage": 0.9,
+    "resolved": 9,
+    "total": 10,
+    "nutrition": {
+      "calories": 303.0,
+      "protein_g": 5.1,
+      "carbohydrates_g": 61.6,
+      "fat_g": 5.8
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Two Mushrooms with Sesame Seeds",
+    "cuisine": "Chinese",
+    "coverage": 0.857,
+    "resolved": 6,
+    "total": 7,
+    "nutrition": {
+      "calories": 178.2,
+      "protein_g": 8.0,
+      "carbohydrates_g": 9.4,
+      "fat_g": 14.1
+    }
+  },
+  {
+    "status": "enriched",
+    "title": "Vegetarian Delight",
+    "cuisine": "Chinese",
+    "coverage": 0.857,
+    "resolved": 12,
+    "total": 14,
+    "nutrition": {
+      "calories": 451.1,
+      "protein_g": 4.6,
+      "carbohydrates_g": 58.7,
+      "fat_g": 23.9
+    }
+  }
+]

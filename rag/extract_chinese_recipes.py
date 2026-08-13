@@ -278,6 +278,165 @@ def normalize_title(
     return title
 
 
+
+# ============================================================
+# Instruction-fragment detection
+#
+# The Chinese PDF frequently extracts wrapped direction text
+# into the same visual stream as ingredients. These helpers
+# reject those fragments BEFORE the generic numeric ingredient
+# rules get a chance to accept them.
+# ============================================================
+
+TIME_LEADING_RE = re.compile(
+    r"^\s*\d+(?:\.\d+)?\s+"
+    r"(?:seconds?|minutes?|hours?|mins?|hrs?)\b",
+    flags=re.IGNORECASE,
+)
+
+
+def looks_like_timed_instruction_fragment(
+    line: str,
+) -> bool:
+
+    line = line.strip()
+
+    if not line:
+        return False
+
+    if TIME_LEADING_RE.match(
+        line
+    ):
+        return True
+
+    return False
+
+
+def looks_like_instruction_fragment(
+    line: str,
+) -> bool:
+
+    line = line.strip()
+
+    if not line:
+        return False
+
+    lowered = line.lower()
+
+    if looks_like_timed_instruction_fragment(
+        line
+    ):
+        return True
+
+    continuation_starts = (
+        "and ",
+        "then ",
+        "until ",
+        "till ",
+        "follow with ",
+        "followed by ",
+        "continue ",
+        "remove ",
+        "return ",
+        "keep ",
+        "serve ",
+        "transfer ",
+        "arrange ",
+    )
+
+    if any(
+        lowered.startswith(prefix)
+        for prefix in continuation_starts
+    ):
+        return True
+
+    if (
+        " until " in lowered
+        and line.endswith(".")
+    ):
+        return True
+
+    if re.search(
+        r"\b(?:melts?|thickens?|boils?|browns?|"
+        r"golden|tender-crisp|heated through|"
+        r"keep warm)\b",
+        lowered,
+    ) and line.endswith("."):
+        return True
+
+    if re.match(
+        r"^(?:vegetables?|mixture|sauce)\s+"
+        r"(?:is|are|becomes?|become)\b",
+        lowered,
+    ):
+        return True
+
+    return False
+
+
+# ============================================================
+# Ingredient continuation detection
+# ============================================================
+
+def looks_like_ingredient_continuation(
+    line: str,
+    previous_ingredient: str,
+) -> bool:
+
+    line = line.strip()
+    previous = previous_ingredient.strip()
+
+    if (
+        not line
+        or not previous
+    ):
+        return False
+
+    if looks_like_instruction_fragment(
+        line
+    ):
+        return False
+
+    if looks_like_instruction_line(
+        line
+    ):
+        return False
+
+    if re.match(
+        r"^(?:"
+        r"\d+\s+\d+/\d+|"
+        r"\d+/\d+|"
+        r"\d+(?:\.\d+)?"
+        r")\b",
+        line,
+    ):
+        return False
+
+    previous_lower = previous.lower()
+
+    continuation_endings = (
+        ",",
+        " cut into",
+        " such as",
+        " or",
+        " and",
+        " with",
+        " into",
+        " plus",
+    )
+
+    if any(
+        previous_lower.endswith(ending)
+        for ending in continuation_endings
+    ):
+        return True
+
+    if previous.count("(") > previous.count(")"):
+        return True
+
+    return False
+
+
 # ============================================================
 # Ingredient detection
 # ============================================================
@@ -293,55 +452,16 @@ def looks_like_ingredient_line(
 
     lowered = line.lower()
 
-    # ========================================================
-    # Reject obvious cooking-time / instruction fragments
-    # BEFORE checking numeric ingredient patterns.
-    #
-    # Examples:
-    #
-    # 10 minutes.
-    # 2 minutes.
-    # 30 seconds.
-    # 1 hour.
-    # 2 hours.
-    # ========================================================
-
-    time_only_patterns = (
-        r"^\d+(?:\.\d+)?\s+seconds?\.?$",
-        r"^\d+(?:\.\d+)?\s+minutes?\.?$",
-        r"^\d+(?:\.\d+)?\s+hours?\.?$",
-        r"^\d+(?:\.\d+)?\s+mins?\.?$",
-        r"^\d+(?:\.\d+)?\s+hrs?\.?$",
-    )
-
-    for pattern in time_only_patterns:
-
-        if re.fullmatch(
-            pattern,
-            lowered,
-        ):
-            return False
-
-    # ========================================================
-    # Reject temperature-only fragments
-    # ========================================================
+    if looks_like_instruction_fragment(
+        line
+    ):
+        return False
 
     if re.fullmatch(
         r"\d+\s*°?\s*[fc]\.?",
         lowered,
     ):
         return False
-
-    # ========================================================
-    # Numeric ingredient formats
-    #
-    # Examples:
-    #
-    # 2 lbs chicken
-    # 1/2 cup sugar
-    # 1 1/2 tsps oil
-    # 3 eggs
-    # ========================================================
 
     numeric_patterns = (
         r"^\d+\s+\d+/\d+\s+",
@@ -357,10 +477,6 @@ def looks_like_ingredient_line(
             line,
         ):
             return True
-
-    # ========================================================
-    # Non-numeric ingredients
-    # ========================================================
 
     ingredient_terms = (
         "cooking oil",
@@ -464,6 +580,7 @@ INSTRUCTION_STARTS = (
     "dip ",
     "discard ",
     "drain ",
+    "dust ",
     "dry ",
     "fill ",
     "finely ",
@@ -472,12 +589,14 @@ INSTRUCTION_STARTS = (
     "garnish ",
     "halve ",
     "heat ",
+    "if ",
     "increase ",
     "lay ",
     "let ",
     "lower ",
     "marinate ",
     "marinade ",
+    "mince ",
     "mash ",
     "mix ",
     "pat ",
@@ -504,6 +623,7 @@ INSTRUCTION_STARTS = (
     "skim ",
     "slice ",
     "soak ",
+    "soaked ",
     "spoon ",
     "sprinkle ",
     "squeeze ",
@@ -522,6 +642,7 @@ INSTRUCTION_STARTS = (
 )
 
 
+
 def looks_like_instruction_line(
     line: str,
 ) -> bool:
@@ -533,6 +654,11 @@ def looks_like_instruction_line(
 
     lowered = line.lower()
 
+    if looks_like_instruction_fragment(
+        line
+    ):
+        return True
+
     if any(
         lowered.startswith(
             start
@@ -541,7 +667,6 @@ def looks_like_instruction_line(
     ):
         return True
 
-    # Common cookbook instruction phrases.
     instruction_phrases = (
         "to make ",
         "for batter",
@@ -551,6 +676,11 @@ def looks_like_instruction_line(
         "each guest ",
         "over high heat",
         "over medium heat",
+        "in a food processor",
+        "in a food processer",
+        "in a blender",
+        "in a food processor or blender",
+        "in a food processer or blender",
     )
 
     if any(
@@ -562,7 +692,6 @@ def looks_like_instruction_line(
         return True
 
     return False
-
 
 # ============================================================
 # Serving statements
@@ -1090,13 +1219,20 @@ def split_instruction_text(
 # Parse recipe body
 # ============================================================
 
+
+
 def parse_recipe_body(
     body_lines: list[str],
 ):
 
     ingredients = []
     instruction_blocks = []
+    deferred_instruction_fragments = []
 
+    # Recipes begin with ingredients. Once directions begin,
+    # numeric-looking wrapped direction lines MUST remain
+    # directions. We only return to ingredient mode when a
+    # genuine ingredient subsection heading is detected.
     phase = "ingredients"
 
     index = 0
@@ -1115,14 +1251,7 @@ def parse_recipe_body(
             continue
 
         # ----------------------------------------------------
-        # Skip serving/yield statements.
-        #
-        # Examples:
-        #
-        # Makes 4 servings.
-        # Serves 6.
-        #
-        # Servings are stored separately.
+        # Serving / note lines
         # ----------------------------------------------------
 
         if is_serving_only_line(
@@ -1132,15 +1261,6 @@ def parse_recipe_body(
             index += 1
             continue
 
-        # ----------------------------------------------------
-        # Ignore cookbook notes as recipe steps.
-        #
-        # Examples:
-        #
-        # note: ...
-        # notes: ...
-        # ----------------------------------------------------
-
         if is_note_line(
             line
         ):
@@ -1149,17 +1269,12 @@ def parse_recipe_body(
             continue
 
         # ----------------------------------------------------
-        # Ingredient subsection heading.
+        # Ingredient subsection headings.
         #
-        # Examples:
-        #
-        # Marinade:
-        # Sauce:
-        # Cooking sauce:
-        # Filling:
-        #
-        # Some recipes such as Spring Rolls switch between
-        # ingredients and instructions multiple times.
+        # This is the ONLY normal way to switch back from
+        # directions to ingredients. That matters for recipes
+        # such as Spring Rolls that contain separate batter /
+        # filling ingredient groups.
         # ----------------------------------------------------
 
         if is_ingredient_section_heading(
@@ -1171,7 +1286,7 @@ def parse_recipe_body(
             for lookahead in range(
                 index + 1,
                 min(
-                    index + 5,
+                    index + 6,
                     len(body_lines),
                 ),
             ):
@@ -1200,27 +1315,100 @@ def parse_recipe_body(
             index += 1
             continue
 
+        # ====================================================
+        # DIRECTIONS PHASE
+        #
+        # Once cooking directions have started, do NOT let a
+        # wrapped line such as:
+        #
+        #   2 tsps salt and the pepper, stir-fry...
+        #
+        # become an ingredient merely because it begins with a
+        # number. It stays direction text until a real
+        # ingredient subsection heading explicitly resets the
+        # phase.
+        # ====================================================
+
+        if phase == "steps":
+
+            if instruction_blocks:
+
+                # If the line itself starts a clear new
+                # instruction, preserve it as a new block.
+                if looks_like_instruction_line(
+                    line
+                ):
+
+                    instruction_blocks.append(
+                        line
+                    )
+
+                # Time-leading fragments often continue the
+                # preceding sentence:
+                #
+                # "... stir-fry for"
+                # "2 minutes. Remove..."
+                #
+                # Keep them adjacent; sentence splitting later
+                # will separate them correctly.
+                elif looks_like_timed_instruction_fragment(
+                    line
+                ):
+
+                    instruction_blocks[-1] = (
+                        instruction_blocks[-1]
+                        + " "
+                        + line
+                    )
+
+                else:
+
+                    instruction_blocks[-1] = (
+                        instruction_blocks[-1]
+                        + " "
+                        + line
+                    )
+
+            else:
+
+                instruction_blocks.append(
+                    line
+                )
+
+            index += 1
+            continue
+
+        # ====================================================
+        # INGREDIENT PHASE
+        # ====================================================
+
         # ----------------------------------------------------
-        # Strong ingredient evidence.
+        # Time-leading text cannot be an ingredient.
         # ----------------------------------------------------
 
-        if looks_like_ingredient_line(
+        if looks_like_timed_instruction_fragment(
             line
         ):
 
-            ingredients.append(
-                clean_ingredient(
-                    line
-                )
+            deferred_instruction_fragments.append(
+                line
             )
 
-            phase = "ingredients"
+            phase = "steps"
 
             index += 1
             continue
 
         # ----------------------------------------------------
         # Strong cooking instruction evidence.
+        #
+        # This includes source forms such as:
+        # Remove...
+        # Mince...
+        # If you are using...
+        # Soaked rice noodles...
+        # Dust...
+        # In a food processer...
         # ----------------------------------------------------
 
         if looks_like_instruction_line(
@@ -1237,60 +1425,100 @@ def parse_recipe_body(
             continue
 
         # ----------------------------------------------------
-        # TIME-ONLY CONTINUATION
+        # Wrapped ingredient continuation MUST be checked
+        # before generic numeric ingredient detection.
         #
-        # PDF line wrapping sometimes creates:
+        # The PDF contains wrapped dimensions such as:
         #
-        # "cover and marinade for"
-        # "30 minutes."
+        #   1 lb chicken ..., cut into
+        #   3/4-by-3-inch strips
         #
-        # or:
+        # and:
         #
-        # "marinade for 30 minutes to"
-        # "6 hours."
+        #   3/4 lb halibut ..., cut into
+        #   1-by-3-inch strips
         #
-        # The second line must continue the previous
-        # instruction. It must NEVER become an ingredient.
+        # The continuation starts with a number, so the normal
+        # ingredient detector would otherwise mistake it for a
+        # brand-new ingredient.
         # ----------------------------------------------------
 
-        time_fragment = re.fullmatch(
-            r"\d+(?:\.\d+)?\s+"
-            r"(?:seconds?|minutes?|hours?|mins?|hrs?)\.?",
-            line,
-            flags=re.IGNORECASE,
-        )
+        if (
+            ingredients
+            and ingredients[-1]
+            .strip()
+            .lower()
+            .endswith(
+                (
+                    "cut into",
+                    "slice into",
+                    "sliced into",
+                    "cut in",
+                )
+            )
+        ):
 
-        if time_fragment:
-
-            if instruction_blocks:
-
-                instruction_blocks[-1] = (
-                    instruction_blocks[-1]
+            ingredients[-1] = (
+                clean_ingredient(
+                    ingredients[-1]
                     + " "
                     + line
                 )
-
-            else:
-
-                # This should be extremely rare.
-                # Still safer to classify a duration as
-                # instruction text than as an ingredient.
-                instruction_blocks.append(
-                    line
-                )
-
-            phase = "steps"
+            )
 
             index += 1
             continue
 
         # ----------------------------------------------------
-        # Temperature-only continuation.
+        # Ingredient line.
+        # ----------------------------------------------------
+
+        if looks_like_ingredient_line(
+            line
+        ):
+
+            ingredients.append(
+                clean_ingredient(
+                    line
+                )
+            )
+
+            index += 1
+            continue
+
+        # ----------------------------------------------------
+        # Wrapped ingredient continuation.
         #
-        # Similar protection for fragments such as:
+        # Examples:
         #
-        # 350F.
-        # 375 F.
+        # 1 lb beef steak such as top round,
+        # flank, sirloin or New York steak
+        #
+        # 1/2 lb chicken breast halves, cut into
+        # bite-size strips
+        # ----------------------------------------------------
+
+        if (
+            ingredients
+            and looks_like_ingredient_continuation(
+                line,
+                ingredients[-1],
+            )
+        ):
+
+            ingredients[-1] = (
+                clean_ingredient(
+                    ingredients[-1]
+                    + " "
+                    + line
+                )
+            )
+
+            index += 1
+            continue
+
+        # ----------------------------------------------------
+        # Temperature fragment: direction text.
         # ----------------------------------------------------
 
         temperature_fragment = re.fullmatch(
@@ -1300,19 +1528,9 @@ def parse_recipe_body(
 
         if temperature_fragment:
 
-            if instruction_blocks:
-
-                instruction_blocks[-1] = (
-                    instruction_blocks[-1]
-                    + " "
-                    + line
-                )
-
-            else:
-
-                instruction_blocks.append(
-                    line
-                )
+            deferred_instruction_fragments.append(
+                line
+            )
 
             phase = "steps"
 
@@ -1320,52 +1538,85 @@ def parse_recipe_body(
             continue
 
         # ----------------------------------------------------
-        # Other ambiguous lines
+        # Ambiguous text while still in ingredient mode.
         #
-        # If we're still in the ingredient section, preserve
-        # the line as an ingredient. This catches ingredients
-        # without measurements such as:
-        #
-        # Whipped cream
-        # Salad greens
-        #
-        # Once directions have begun, ambiguous lines are
-        # treated as continuations of the previous instruction.
+        # The cookbook contains a small number of unmeasured
+        # ingredient lines, so preserve these here. Once
+        # directions begin, this branch is never reached.
         # ----------------------------------------------------
 
-        if phase == "ingredients":
-
-            ingredients.append(
-                clean_ingredient(
-                    line
-                )
+        ingredients.append(
+            clean_ingredient(
+                line
             )
-
-        else:
-
-            if instruction_blocks:
-
-                instruction_blocks[-1] = (
-                    instruction_blocks[-1]
-                    + " "
-                    + line
-                )
-
-            else:
-
-                instruction_blocks.append(
-                    line
-                )
+        )
 
         index += 1
 
     # ========================================================
-    # Remove exact duplicate ingredients while preserving
-    # their original order.
+    # Attach any unusual direction fragment that appeared
+    # before the first recognized instruction.
+    # ========================================================
+
+    for fragment in deferred_instruction_fragments:
+
+        attached = False
+
+        for block_index in range(
+            len(instruction_blocks) - 1,
+            -1,
+            -1,
+        ):
+
+            candidate = (
+                instruction_blocks[
+                    block_index
+                ].strip()
+            )
+
+            candidate_lower = (
+                candidate.lower()
+            )
+
+            unfinished_endings = (
+                " for",
+                " until",
+                " about",
+                " the",
+                " to",
+                " and",
+                " with",
+            )
+
+            if any(
+                candidate_lower.endswith(
+                    ending
+                )
+                for ending in unfinished_endings
+            ):
+
+                instruction_blocks[
+                    block_index
+                ] = (
+                    candidate
+                    + " "
+                    + fragment
+                )
+
+                attached = True
+                break
+
+        if not attached:
+
+            instruction_blocks.append(
+                fragment
+            )
+
+    # ========================================================
+    # Final ingredient cleanup.
     # ========================================================
 
     cleaned_ingredients = []
-
     seen = set()
 
     for ingredient in ingredients:
@@ -1385,6 +1636,23 @@ def parse_recipe_body(
         if not normalized:
             continue
 
+        # Last-resort protection against obvious direction
+        # leakage.
+        if (
+            looks_like_instruction_line(
+                ingredient
+            )
+            or looks_like_timed_instruction_fragment(
+                ingredient
+            )
+        ):
+
+            instruction_blocks.append(
+                ingredient
+            )
+
+            continue
+
         if normalized in seen:
             continue
 
@@ -1395,11 +1663,6 @@ def parse_recipe_body(
         cleaned_ingredients.append(
             ingredient
         )
-
-    # ========================================================
-    # Convert accumulated instruction text into individual
-    # cooking steps.
-    # ========================================================
 
     steps = split_instruction_text(
         instruction_blocks
@@ -1607,6 +1870,7 @@ def validate_recipes(
 # Suspicious extraction report
 # ============================================================
 
+
 def print_suspicious_recipes(
     recipes: list[dict],
 ):
@@ -1630,61 +1894,79 @@ def print_suspicious_recipes(
         start=1,
     ):
 
-        suspicious = False
-
         reasons = []
 
-        if len(
-            recipe[
-                "ingredients"
-            ]
-        ) < 3:
+        ingredients = recipe[
+            "ingredients"
+        ]
 
-            suspicious = True
+        steps = recipe[
+            "steps"
+        ]
+
+        if len(ingredients) < 3:
 
             reasons.append(
                 "few ingredients"
             )
 
-        if len(
-            recipe[
-                "steps"
-            ]
-        ) < 2:
-
-            suspicious = True
+        if len(steps) < 2:
 
             reasons.append(
                 "few steps"
             )
 
-        for ingredient in recipe[
-            "ingredients"
-        ]:
+        for ingredient in ingredients:
 
-            if len(ingredient) > 180:
+            stripped = ingredient.strip()
 
-                suspicious = True
+            if len(stripped) > 180:
 
                 reasons.append(
                     "very long ingredient"
                 )
 
-            if re.fullmatch(
-                r"\d+(?:\.\d+)?\s+"
-                r"(?:seconds?|minutes?|hours?|mins?|hrs?)\.?",
-                ingredient.strip(),
-                flags=re.IGNORECASE,
+            if (
+                looks_like_instruction_line(
+                    stripped
+                )
+                or looks_like_timed_instruction_fragment(
+                    stripped
+                )
             ):
 
-                suspicious = True
-
                 reasons.append(
-                    f"time stored as ingredient: "
-                    f"{ingredient}"
+                    "instruction text stored as ingredient: "
+                    + stripped
                 )
 
-        if suspicious:
+            if stripped.lower().endswith(
+                (
+                    " cut into",
+                    " such as",
+                    " or",
+                    " and",
+                    " with",
+                    " into",
+                    " plus",
+                )
+            ):
+
+                reasons.append(
+                    "possibly incomplete wrapped ingredient: "
+                    + stripped
+                )
+
+        unique_reasons = []
+
+        for reason in reasons:
+
+            if reason not in unique_reasons:
+                unique_reasons.append(
+                    reason
+                )
+
+        if unique_reasons:
 
             found += 1
 
@@ -1692,7 +1974,7 @@ def print_suspicious_recipes(
                 f"{index:03d}. "
                 f"{recipe['title']} "
                 f"-> "
-                f"{', '.join(reasons)}"
+                f"{'; '.join(unique_reasons)}"
             )
 
     print(
@@ -1700,6 +1982,7 @@ def print_suspicious_recipes(
         f"{found}"
     )
 
+    return found
 
 # ============================================================
 # Preview
@@ -1918,7 +2201,7 @@ def main():
             "No basic validation problems found."
         )
 
-    print_suspicious_recipes(
+    suspicious_count = print_suspicious_recipes(
         recipes
     )
 
@@ -1988,6 +2271,23 @@ def main():
         print(
             "Fix them before saving "
             "chinese_recipes.json."
+        )
+
+        return
+
+    if suspicious_count:
+
+        print(
+            "\nBUILD STOPPED."
+        )
+
+        print(
+            f"{suspicious_count} suspicious "
+            "recipe extraction(s) remain."
+        )
+
+        print(
+            "chinese_recipes.json was NOT written."
         )
 
         return

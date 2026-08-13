@@ -569,6 +569,13 @@ def retrieve_structured_recipe(
         )
     )
 
+    required_ingredients = (
+        constraints.get(
+            "required_ingredients",
+            []
+        )
+    )
+
     print(
         f"\nStructured RAG search query: "
         f"{search_query}"
@@ -678,6 +685,56 @@ def retrieve_structured_recipe(
             "category",
             "",
         )
+        # ====================================================
+        # Explicit required ingredient constraints
+        #
+        # Example:
+        #
+        # "I want something with garlic and chicken"
+        #
+        # Every candidate must contain BOTH garlic and chicken.
+        # ====================================================
+
+        if required_ingredients:
+
+            recipe_ingredients = (
+                recipe.get(
+                    "ingredients",
+                    []
+                )
+            )
+
+            ingredient_text = " ".join(
+                str(item).lower()
+                for item in recipe_ingredients
+            )
+
+            missing_required = []
+
+            for required_ingredient in (
+                required_ingredients
+            ):
+
+                if (
+                    required_ingredient.lower()
+                    not in ingredient_text
+                ):
+
+                    missing_required.append(
+                        required_ingredient
+                    )
+
+            if missing_required:
+
+                print(
+                    f"SKIPPED REQUIRED INGREDIENT "
+                    f"MISMATCH: "
+                    f"{title} "
+                    f"missing "
+                    f"{missing_required}"
+                )
+
+                continue
 
         # ====================================================
         # Explicit cuisine constraint

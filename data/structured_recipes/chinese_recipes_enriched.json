@@ -27,11 +27,17 @@
       "Serve hot or allow to cool and serve at room temperature."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1860.6,
+      "protein_g": 160.6,
+      "carbohydrates_g": 19.1,
+      "fat_g": 121.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine (optional)",
+      "2 tsps chili bean paste"
+    ]
   },
   {
     "id": "chinese_0002",
@@ -69,11 +75,17 @@
       "Place the chicken and sauce on top of the lettuce and serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 665.8,
+      "protein_g": 83.7,
+      "carbohydrates_g": 22.3,
+      "fat_g": 26.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.867,
+    "nutrition_unresolved_minor": [
+      "1 slice fresh peeled ginger",
+      "2 tsps chili bean paste"
+    ]
   },
   {
     "id": "chinese_0003",
@@ -104,11 +116,16 @@
       "Drain them well on paper towels and serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1686.1,
+      "protein_g": 116.4,
+      "carbohydrates_g": 116.2,
+      "fat_g": 83.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.889,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0004",
@@ -142,11 +159,17 @@
       "Drain on paper towels and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1286.1,
+      "protein_g": 53.8,
+      "carbohydrates_g": 141.6,
+      "fat_g": 35.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "cooking oil for frying",
+      "4 oz or 1/2 can water chestnuts, finely chopped"
+    ]
   },
   {
     "id": "chinese_0005",
@@ -176,11 +199,16 @@
       "Place on a serving platter and serve with sauce."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 431.7,
+      "protein_g": 91.7,
+      "carbohydrates_g": 0.6,
+      "fat_g": 6.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.857,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0006",
@@ -217,11 +245,14 @@
       "Each guest puts a heap of each ingredient on a lettuce leaf, wrap it up and eats it with fingers."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 582.5,
+      "protein_g": 54.2,
+      "carbohydrates_g": 51.4,
+      "fat_g": 20.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0007",
@@ -259,11 +290,17 @@
       "Serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2541.2,
+      "protein_g": 200.0,
+      "carbohydrates_g": 125.3,
+      "fat_g": 142.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "1 1/2 tsps rice wine",
+      "Cooking oil or shortening"
+    ]
   },
   {
     "id": "chinese_0008",
@@ -307,11 +344,17 @@
       "To serve, garnish salad with mushroom caps."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1433.2,
+      "protein_g": 9.1,
+      "carbohydrates_g": 287.4,
+      "fat_g": 28.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.846,
+    "nutrition_unresolved_minor": [
+      "2 medium cucumber, cut into julienne strips",
+      "2 tsps dry sherry"
+    ]
   },
   {
     "id": "chinese_0009",
@@ -354,11 +397,17 @@
       "Serve warm, or cold."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1623.4,
+      "protein_g": 170.2,
+      "carbohydrates_g": 104.4,
+      "fat_g": 82.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.867,
+    "nutrition_unresolved_minor": [
+      "2 tsps rice wine",
+      "1 1/2 tsps rice wine"
+    ]
   },
   {
     "id": "chinese_0010",
@@ -397,11 +446,16 @@
       "Place the salad green on the serving platter, spoon the vegetable mixture on top, sprinkle with cashews and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1049.3,
+      "protein_g": 67.3,
+      "carbohydrates_g": 59.3,
+      "fat_g": 65.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.929,
+    "nutrition_unresolved_minor": [
+      "Salad greens"
+    ]
   },
   {
     "id": "chinese_0011",
@@ -431,11 +485,19 @@
       "Drain on paper towels and serve hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1214.2,
+      "protein_g": 79.1,
+      "carbohydrates_g": 206.3,
+      "fat_g": 6.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.636,
+    "nutrition_unresolved_minor": [
+      "2 tsps dry sherry",
+      "sesame seeds (optional)",
+      "chinese parsley, a few sprigs",
+      "cooking oil for deep frying"
+    ]
   },
   {
     "id": "chinese_0012",
@@ -462,11 +524,14 @@
       "Allow to cool before serving."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1632.8,
+      "protein_g": 39.7,
+      "carbohydrates_g": 83.9,
+      "fat_g": 130.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0013",
@@ -510,11 +575,16 @@
       "Drain on paper towels, arrange on a platter and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1088.3,
+      "protein_g": 45.4,
+      "carbohydrates_g": 167.0,
+      "fat_g": 29.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.933,
+    "nutrition_unresolved_minor": [
+      "cooking oil for deep-frying"
+    ]
   },
   {
     "id": "chinese_0014",
@@ -548,11 +618,14 @@
       "Heat through and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 949.9,
+      "protein_g": 94.0,
+      "carbohydrates_g": 109.7,
+      "fat_g": 17.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0015",
@@ -588,11 +661,16 @@
       "Add the meat and stir in cornstarch mixture, ssstir until sauce boil and thicken."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1173.7,
+      "protein_g": 103.6,
+      "carbohydrates_g": 119.1,
+      "fat_g": 30.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "2 tsps butter or magarine"
+    ]
   },
   {
     "id": "chinese_0016",
@@ -627,11 +705,16 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1095.3,
+      "protein_g": 99.6,
+      "carbohydrates_g": 50.0,
+      "fat_g": 57.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "4 tsps rice wine or dry sherry"
+    ]
   },
   {
     "id": "chinese_0017",
@@ -668,11 +751,16 @@
       "Mix in green onions, stir once and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 729.1,
+      "protein_g": 79.0,
+      "carbohydrates_g": 33.2,
+      "fat_g": 31.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry"
+    ]
   },
   {
     "id": "chinese_0018",
@@ -714,11 +802,17 @@
       "Season to taste with salt and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 977.2,
+      "protein_g": 102.7,
+      "carbohydrates_g": 33.6,
+      "fat_g": 47.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.867,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry or cooking wine",
+      "salt to taste"
+    ]
   },
   {
     "id": "chinese_0019",
@@ -755,11 +849,17 @@
       "Skim any fat off the surface, and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1840.2,
+      "protein_g": 158.7,
+      "carbohydrates_g": 199.8,
+      "fat_g": 133.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "4 slices fresh ginger",
+      "2 star anise,"
+    ]
   },
   {
     "id": "chinese_0020",
@@ -794,11 +894,14 @@
       "Bring to a boil and slightly thicken."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 575.3,
+      "protein_g": 52.9,
+      "carbohydrates_g": 35.5,
+      "fat_g": 25.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0021",
@@ -833,11 +936,16 @@
       "Stir in green onions and dark soy sauce, stir-fry for 30 seconds and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 898.6,
+      "protein_g": 99.2,
+      "carbohydrates_g": 25.2,
+      "fat_g": 42.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.933,
+    "nutrition_unresolved_minor": [
+      "1 tsp chili paste"
+    ]
   },
   {
     "id": "chinese_0022",
@@ -881,11 +989,19 @@
       "Turn onto serving platter and garnish with spring onions."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1014.4,
+      "protein_g": 99.2,
+      "carbohydrates_g": 31.0,
+      "fat_g": 52.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.789,
+    "nutrition_unresolved_minor": [
+      "2 large fresh red chilies, seeded and finely shredded",
+      "2 tsps chopped fresh orange zest",
+      "1 1/2 tsps cooking wine or dry sherry",
+      "1 tsp chile bean paste"
+    ]
   },
   {
     "id": "chinese_0023",
@@ -925,11 +1041,17 @@
       "Bring to a boil and thicken."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 631.5,
+      "protein_g": 53.5,
+      "carbohydrates_g": 41.1,
+      "fat_g": 29.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.867,
+    "nutrition_unresolved_minor": [
+      "3 tsps lightly toasted sesame seeds",
+      "1 tsp dry sherry"
+    ]
   },
   {
     "id": "chinese_0024",
@@ -972,11 +1094,18 @@
       "Turn onto serving platter and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1027.1,
+      "protein_g": 100.7,
+      "carbohydrates_g": 33.5,
+      "fat_g": 52.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.824,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine",
+      "4 oz fresh red chilies, seeded and finely shreded",
+      "1 1/2 tsps rice wine or dry sherry"
+    ]
   },
   {
     "id": "chinese_0025",
@@ -1008,11 +1137,19 @@
       "Give the mixture a few stirs and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 860.6,
+      "protein_g": 100.3,
+      "carbohydrates_g": 28.9,
+      "fat_g": 36.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.667,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine or dry sherry",
+      "2 fresh hot chilies, seeded and minced",
+      "2 tsps chili bean paste",
+      "1 can sliced bamboo shoots, thinly sliced"
+    ]
   },
   {
     "id": "chinese_0026",
@@ -1056,11 +1193,19 @@
       "Season with salt to taste and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 892.8,
+      "protein_g": 100.0,
+      "carbohydrates_g": 33.3,
+      "fat_g": 38.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry",
+      "2 stalks of celery,cut into 1/4-inch slanting slides",
+      "3 tomatoes, each cut into 6 wedges",
+      "salt to taste"
+    ]
   },
   {
     "id": "chinese_0027",
@@ -1100,11 +1245,14 @@
       "Cook and sstir until heated through and juice are absorbed."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1144.4,
+      "protein_g": 91.5,
+      "carbohydrates_g": 116.3,
+      "fat_g": 37.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0028",
@@ -1133,11 +1281,14 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1195.8,
+      "protein_g": 179.9,
+      "carbohydrates_g": 13.0,
+      "fat_g": 42.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0029",
@@ -1172,11 +1323,16 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1030.4,
+      "protein_g": 137.0,
+      "carbohydrates_g": 28.1,
+      "fat_g": 37.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "1 oz Chinese mushrooms"
+    ]
   },
   {
     "id": "chinese_0030",
@@ -1214,11 +1370,14 @@
       "Garnish with lemon slices."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1004.0,
+      "protein_g": 107.9,
+      "carbohydrates_g": 86.1,
+      "fat_g": 18.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0031",
@@ -1255,11 +1414,16 @@
       "Stir in cashews."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1164.4,
+      "protein_g": 137.6,
+      "carbohydrates_g": 47.4,
+      "fat_g": 48.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.923,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry or cooking wine"
+    ]
   },
   {
     "id": "chinese_0032",
@@ -1301,11 +1465,17 @@
       "Simmer for 20 minutes."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1341.0,
+      "protein_g": 101.5,
+      "carbohydrates_g": 101.3,
+      "fat_g": 141.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "1 /2 tsp rice wine (optional)",
+      "1 tsp rice wine (optional)"
+    ]
   },
   {
     "id": "chinese_0033",
@@ -1341,11 +1511,14 @@
       "Transfer to serving platter, garnish with chopped green onion or parsley."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1147.3,
+      "protein_g": 105.4,
+      "carbohydrates_g": 84.0,
+      "fat_g": 42.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0034",
@@ -1388,11 +1561,17 @@
       "Stir-in cooking sauce, bring to a boil and thickened."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1199.6,
+      "protein_g": 159.4,
+      "carbohydrates_g": 35.5,
+      "fat_g": 44.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.889,
+    "nutrition_unresolved_minor": [
+      "dash of white pepper",
+      "1/2 lb zucchini, roll-cut into 1/2-inch pieces"
+    ]
   },
   {
     "id": "chinese_0035",
@@ -1429,11 +1608,16 @@
       "Serve the chicken, with the sauce on the side."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1577.0,
+      "protein_g": 135.8,
+      "carbohydrates_g": 7.9,
+      "fat_g": 109.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "Cornstarch for dusting"
+    ]
   },
   {
     "id": "chinese_0036",
@@ -1467,11 +1651,16 @@
       "Transfer and drain on paper towels."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 904.9,
+      "protein_g": 110.5,
+      "carbohydrates_g": 68.7,
+      "fat_g": 16.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "Cooking oil for deep-frying"
+    ]
   },
   {
     "id": "chinese_0037",
@@ -1514,11 +1703,19 @@
       "Drain well on paper towels and set on a warm platter, pour the sauce over chicken and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 490.7,
+      "protein_g": 92.3,
+      "carbohydrates_g": 77.1,
+      "fat_g": 52.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "2 tsps rice wine",
+      "5 fl oz water",
+      "5 dried red chilies, seeded, halved",
+      "Cooking oil for deep-frying"
+    ]
   },
   {
     "id": "chinese_0038",
@@ -1551,11 +1748,16 @@
       "Stir in plum sauce mixture, cook until lightly glazed."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1191.0,
+      "protein_g": 186.0,
+      "carbohydrates_g": 19.7,
+      "fat_g": 35.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "1/2 cup toasted pecan halves"
+    ]
   },
   {
     "id": "chinese_0039",
@@ -1596,11 +1798,16 @@
       "Add peanuts, chilies, bell pepper, and onions, stir-in cooking sauce and bring to a boil and thicken."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1547.0,
+      "protein_g": 176.8,
+      "carbohydrates_g": 40.9,
+      "fat_g": 75.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.944,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry or cooking wine"
+    ]
   },
   {
     "id": "chinese_0040",
@@ -1636,11 +1843,17 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 855.7,
+      "protein_g": 112.6,
+      "carbohydrates_g": 60.0,
+      "fat_g": 17.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "2 cups fresh snow peas",
+      "2 tsps rice wine (optional)"
+    ]
   },
   {
     "id": "chinese_0041",
@@ -1671,11 +1884,17 @@
       "Garnish with green onions and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1271.0,
+      "protein_g": 182.2,
+      "carbohydrates_g": 24.9,
+      "fat_g": 45.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "2 tsps orange zest strips",
+      "2 tsps chili bean paste"
+    ]
   },
   {
     "id": "chinese_0042",
@@ -1711,11 +1930,16 @@
       "Carve the whole chicken before serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 3483.5,
+      "protein_g": 260.7,
+      "carbohydrates_g": 8.1,
+      "fat_g": 262.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0043",
@@ -1751,11 +1975,14 @@
       "Stir in cornstarch mixture, bring to a boil and simmer until thickened."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 3177.6,
+      "protein_g": 229.6,
+      "carbohydrates_g": 14.3,
+      "fat_g": 237.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0044",
@@ -1800,11 +2027,17 @@
       "Sprinkle with sesame seeds and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 628.8,
+      "protein_g": 101.6,
+      "carbohydrates_g": 23.6,
+      "fat_g": 13.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.867,
+    "nutrition_unresolved_minor": [
+      "1 cup broccoli flowerets",
+      "2 tsps dry sherry"
+    ]
   },
   {
     "id": "chinese_0045",
@@ -1838,11 +2071,17 @@
       "Stir all ingredients to coat with sauce, cook until heated through."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 687.8,
+      "protein_g": 107.7,
+      "carbohydrates_g": 19.3,
+      "fat_g": 17.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "4 plums or apricots, pitted and cut into wedges or 2 cups of pears",
+      "1/4 cup plum jam or currant jelly"
+    ]
   },
   {
     "id": "chinese_0046",
@@ -1882,11 +2121,16 @@
       "Name it with the vegetable used."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1222.6,
+      "protein_g": 160.8,
+      "carbohydrates_g": 49.4,
+      "fat_g": 40.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.923,
+    "nutrition_unresolved_minor": [
+      "2 tsps dry sherry"
+    ]
   },
   {
     "id": "chinese_0047",
@@ -1921,11 +2165,17 @@
       "Transfer to serving platter and serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1284.4,
+      "protein_g": 180.9,
+      "carbohydrates_g": 18.1,
+      "fat_g": 49.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "2 tsps chili bean paste",
+      "large handful fresh basil leaves"
+    ]
   },
   {
     "id": "chinese_0048",
@@ -1953,11 +2203,14 @@
       "Pour off the liquid to wok and cook for 2-3 minutes, pour over chicken and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 725.8,
+      "protein_g": 119.6,
+      "carbohydrates_g": 30.0,
+      "fat_g": 14.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0049",
@@ -1988,11 +2241,17 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 662.2,
+      "protein_g": 102.4,
+      "carbohydrates_g": 8.9,
+      "fat_g": 21.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 tsp chili bean paste",
+      "2 kiwi, peeled and quartered"
+    ]
   },
   {
     "id": "chinese_0050",
@@ -2030,11 +2289,16 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1478.7,
+      "protein_g": 87.2,
+      "carbohydrates_g": 202.5,
+      "fat_g": 33.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.929,
+    "nutrition_unresolved_minor": [
+      "1 can (8oz) pineapple chunk"
+    ]
   },
   {
     "id": "chinese_0051",
@@ -2069,11 +2333,14 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1291.9,
+      "protein_g": 192.7,
+      "carbohydrates_g": 28.4,
+      "fat_g": 42.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0052",
@@ -2099,11 +2366,16 @@
       "Add crab, onions and rice wine, ssstir until crab is heated through (about 3 minutes)."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 946.1,
+      "protein_g": 167.8,
+      "carbohydrates_g": 24.4,
+      "fat_g": 17.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.857,
+    "nutrition_unresolved_minor": [
+      "1/2 cup rice wine"
+    ]
   },
   {
     "id": "chinese_0053",
@@ -2140,11 +2412,16 @@
       "to make Lobster Cantonese, use 11/2 lbs lobster tails."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 547.6,
+      "protein_g": 40.7,
+      "carbohydrates_g": 40.5,
+      "fat_g": 25.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "2 slices fresh ginger"
+    ]
   },
   {
     "id": "chinese_0054",
@@ -2173,11 +2450,18 @@
       "Place the almond jelly and melon in serving bowls and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 527.8,
+      "protein_g": 12.1,
+      "carbohydrates_g": 92.4,
+      "fat_g": 13.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.5,
+    "nutrition_unresolved_minor": [
+      "2 1/2 tsps unflovored gelatin",
+      "1 1/2 tsps almond extract",
+      "2 cups ripe melon or cantaloupe, cut into balls or 1-inch diamonds"
+    ]
   },
   {
     "id": "chinese_0055",
@@ -2206,11 +2490,20 @@
       "Transfer to dessert plates, serve with whipped cream on top."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 483,
+      "protein_g": 2.4,
+      "carbohydrates_g": 101.5,
+      "fat_g": 4.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.375,
+    "nutrition_unresolved_minor": [
+      "2 large orange, juice and grated peel",
+      "4 tart green apples",
+      "2 tsps butter or margarine",
+      "1 pint blueberries",
+      "Whipped cream"
+    ]
   },
   {
     "id": "chinese_0056",
@@ -2243,11 +2536,17 @@
       "Top each serving with sour cream and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 341.3,
+      "protein_g": 3.5,
+      "carbohydrates_g": 34.1,
+      "fat_g": 22.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.714,
+    "nutrition_unresolved_minor": [
+      "2 large firm-ripe bananas",
+      "2 tsps butter or margarine"
+    ]
   },
   {
     "id": "chinese_0057",
@@ -2279,11 +2578,18 @@
       "Transfer to wire racks to cool."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1321.1,
+      "protein_g": 28.6,
+      "carbohydrates_g": 217.3,
+      "fat_g": 39.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.571,
+    "nutrition_unresolved_minor": [
+      "2 tsps unsalted butter, softened to room temperature",
+      "2 tsps finely grated orange zest",
+      "1 tsp almond extract"
+    ]
   },
   {
     "id": "chinese_0058",
@@ -2306,11 +2612,16 @@
       "Wrap the platter with plastic wrap and chill until ready to serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 426.8,
+      "protein_g": 1.2,
+      "carbohydrates_g": 108.5,
+      "fat_g": 1.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.75,
+    "nutrition_unresolved_minor": [
+      "2 grapefruits"
+    ]
   },
   {
     "id": "chinese_0059",
@@ -2347,11 +2658,18 @@
       "Serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1415.2,
+      "protein_g": 19.2,
+      "carbohydrates_g": 122.8,
+      "fat_g": 94.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.7,
+    "nutrition_unresolved_minor": [
+      "4 firm crispy apples",
+      "2 tsps corn syrup",
+      "Iced water to set"
+    ]
   },
   {
     "id": "chinese_0060",
@@ -2382,11 +2700,16 @@
       "If desired, fill each apple with a scoop of vanilla or ginger ice-cream."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 663.0,
+      "protein_g": 3.0,
+      "carbohydrates_g": 160.4,
+      "fat_g": 2.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.75,
+    "nutrition_unresolved_minor": [
+      "2 lemons"
+    ]
   },
   {
     "id": "chinese_0061",
@@ -2414,11 +2737,14 @@
       "Drizzle the omelette with the oyster sauce and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 573.2,
+      "protein_g": 45.3,
+      "carbohydrates_g": 18.8,
+      "fat_g": 36.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0062",
@@ -2449,11 +2775,16 @@
       "Turn into serving boil and garnish with green onions."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 907.7,
+      "protein_g": 65.0,
+      "carbohydrates_g": 59.4,
+      "fat_g": 45.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "salt and pepper to taste"
+    ]
   },
   {
     "id": "chinese_0063",
@@ -2480,11 +2811,14 @@
       "Serve while hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1225.5,
+      "protein_g": 79.5,
+      "carbohydrates_g": 4.5,
+      "fat_g": 73.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0064",
@@ -2509,11 +2843,16 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 332.4,
+      "protein_g": 25.4,
+      "carbohydrates_g": 2.6,
+      "fat_g": 23.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "1 cup frozen corn, thawed"
+    ]
   },
   {
     "id": "chinese_0065",
@@ -2555,11 +2894,19 @@
       "Let everyone open the packages themselves."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1198.7,
+      "protein_g": 153.6,
+      "carbohydrates_g": 19.2,
+      "fat_g": 52.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.692,
+    "nutrition_unresolved_minor": [
+      "12 twelve-inch squares aluminum foil",
+      "2 tsps rice wine",
+      "3 slices fresh ginger, smashed",
+      "2 tsps rice wine or sake"
+    ]
   },
   {
     "id": "chinese_0066",
@@ -2595,11 +2942,16 @@
       "Serve topped with the cooking juice."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1088.5,
+      "protein_g": 188.8,
+      "carbohydrates_g": 22.5,
+      "fat_g": 22.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0067",
@@ -2636,11 +2988,16 @@
       "Serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 648.0,
+      "protein_g": 101.0,
+      "carbohydrates_g": 32.3,
+      "fat_g": 12.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.889,
+    "nutrition_unresolved_minor": [
+      "1 tsp curry powder or paste"
+    ]
   },
   {
     "id": "chinese_0068",
@@ -2677,11 +3034,19 @@
       "Transfer fish onto a serving platter, pour over sauce, sprinkle with green onions and sesame oil."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 922.2,
+      "protein_g": 133.1,
+      "carbohydrates_g": 58.1,
+      "fat_g": 16.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.733,
+    "nutrition_unresolved_minor": [
+      "cooking oil for frying",
+      "2 tsps Chinese radish pickle, chopped (optional)",
+      "3 dried red chilies",
+      "4 tsps rice wine or dry sherry"
+    ]
   },
   {
     "id": "chinese_0069",
@@ -2715,11 +3080,14 @@
       "Return fish to wok and stir just until heated through."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 959.0,
+      "protein_g": 59.2,
+      "carbohydrates_g": 24.9,
+      "fat_g": 70.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0070",
@@ -2747,11 +3115,14 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 627.3,
+      "protein_g": 94.7,
+      "carbohydrates_g": 6.3,
+      "fat_g": 22.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0071",
@@ -2794,11 +3165,19 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 689.2,
+      "protein_g": 82.2,
+      "carbohydrates_g": 10.3,
+      "fat_g": 33.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.733,
+    "nutrition_unresolved_minor": [
+      "cornstarch for dusting",
+      "2 tsps rice wine",
+      "2 tsps bean sauce",
+      "2 tsps cornstarch blended in 1 tsp water"
+    ]
   },
   {
     "id": "chinese_0072",
@@ -2832,11 +3211,17 @@
       "When the salmon is cooked, pour the hot sauce over the salmon and serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 774.0,
+      "protein_g": 104.2,
+      "carbohydrates_g": 3.0,
+      "fat_g": 39.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "2 tsps coarsely chopped salted black beans",
+      "1 tsp cornstarch mixed with 1 tsp water"
+    ]
   },
   {
     "id": "chinese_0073",
@@ -2872,11 +3257,18 @@
       "When the fish is ready, pour sauce over fish and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1013.3,
+      "protein_g": 147.2,
+      "carbohydrates_g": 60.1,
+      "fat_g": 19.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.727,
+    "nutrition_unresolved_minor": [
+      "Salt and pepper to taste",
+      "Sesame oil",
+      "3/4 cup mushroom soaking liquid"
+    ]
   },
   {
     "id": "chinese_0074",
@@ -2915,11 +3307,16 @@
       "Turn onto a serving platter and serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1047.0,
+      "protein_g": 91.9,
+      "carbohydrates_g": 44.4,
+      "fat_g": 55.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.938,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0075",
@@ -2959,11 +3356,14 @@
       "fish and put on a serving platter, cook the sweet and sour sauce with other ingredients and pour over the fish in the platter."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2052.4,
+      "protein_g": 104.4,
+      "carbohydrates_g": 125.9,
+      "fat_g": 123.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0076",
@@ -2999,11 +3399,17 @@
       "Pour over the fish and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1242.9,
+      "protein_g": 162.5,
+      "carbohydrates_g": 20.6,
+      "fat_g": 50.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "5-6 tsps cold water",
+      "2 tsps rice wine"
+    ]
   },
   {
     "id": "chinese_0077",
@@ -3036,11 +3442,14 @@
       "Cook for another 10 minutes, until vegetables are tender."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1937.2,
+      "protein_g": 181.7,
+      "carbohydrates_g": 125.2,
+      "fat_g": 82.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0078",
@@ -3075,11 +3484,17 @@
       "Simmer for 11/2 hour, until lamb is tender."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2277.2,
+      "protein_g": 277.1,
+      "carbohydrates_g": 50.0,
+      "fat_g": 113.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.846,
+    "nutrition_unresolved_minor": [
+      "6 slices fresh ginger",
+      "1 tsp chili bean paste"
+    ]
   },
   {
     "id": "chinese_0079",
@@ -3110,11 +3525,17 @@
       "Stir in rice wine, give a few stirs and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 971.3,
+      "protein_g": 109.2,
+      "carbohydrates_g": 20.2,
+      "fat_g": 52.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "1/4 cucumber, cut into strips",
+      "2 tsps dry sherry or cooking wine"
+    ]
   },
   {
     "id": "chinese_0080",
@@ -3149,11 +3570,17 @@
       "Add meat and onion tops and cook until just heated through, about 1-2 minutes."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 853.1,
+      "protein_g": 112.0,
+      "carbohydrates_g": 29.9,
+      "fat_g": 33.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "4 slices fresh ginger",
+      "6 tsps dry sherry"
+    ]
   },
   {
     "id": "chinese_0081",
@@ -3183,14 +3610,18 @@
       "When oil is hot, stir-fry garlic, ginger, red pepper flakes, and bean sauce for 10 seconds.",
       "Add lamb, stir-fry until brown (about 2 minutes), add soy sauce and green onions, stir-fry 30 seconds.",
       "Serve at once."
-      
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1197.3,
+      "protein_g": 155.4,
+      "carbohydrates_g": 24.3,
+      "fat_g": 54.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.923,
+    "nutrition_unresolved_minor": [
+      "1 tsp dried red pepper flakes"
+    ]
   },
   {
     "id": "chinese_0082",
@@ -3228,11 +3659,17 @@
       "Add meat and leeks and cook until just heated through, about 1-2 minutes."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 731.7,
+      "protein_g": 102.5,
+      "carbohydrates_g": 11.2,
+      "fat_g": 30.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.846,
+    "nutrition_unresolved_minor": [
+      "1 tsp hot bean sauce",
+      "2 medium leeks, cut into 2-inch long slivers"
+    ]
   },
   {
     "id": "chinese_0083",
@@ -3276,11 +3713,19 @@
       "Add the cooked lamb and toss lightly to coat."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1422.5,
+      "protein_g": 159.6,
+      "carbohydrates_g": 36.9,
+      "fat_g": 73.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.789,
+    "nutrition_unresolved_minor": [
+      "2 tsps cooking wine or sake",
+      "2 tsps black vinegar or worcestershice sauce",
+      "1 tsp minced orange zest",
+      "2 cups finely sliced water chestnuts, blanched"
+    ]
   },
   {
     "id": "chinese_0084",
@@ -3321,11 +3766,17 @@
       "Spoon over the fried noodles and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 978.2,
+      "protein_g": 29.2,
+      "carbohydrates_g": 182.1,
+      "fat_g": 22.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.867,
+    "nutrition_unresolved_minor": [
+      "2 tsps rice wine",
+      "1 1/2 tsps rice wine"
+    ]
   },
   {
     "id": "chinese_0085",
@@ -3364,11 +3815,14 @@
       "Serve warm."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1808.5,
+      "protein_g": 160.9,
+      "carbohydrates_g": 226.8,
+      "fat_g": 31.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0086",
@@ -3404,11 +3858,16 @@
       "Garnish with green onion brush and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2544.4,
+      "protein_g": 110.7,
+      "carbohydrates_g": 163.8,
+      "fat_g": 156.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "1 tsp chili bean paste"
+    ]
   },
   {
     "id": "chinese_0087",
@@ -3442,11 +3901,14 @@
       "Serve hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1713.7,
+      "protein_g": 80.2,
+      "carbohydrates_g": 151.8,
+      "fat_g": 89.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0088",
@@ -3481,11 +3943,17 @@
       "Sprinkle with peanuts and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1479.6,
+      "protein_g": 142.6,
+      "carbohydrates_g": 126.3,
+      "fat_g": 41.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "1 large red or green bell pepper, cut into thin strips",
+      "1 tsp chili bean paste"
+    ]
   },
   {
     "id": "chinese_0089",
@@ -3517,11 +3985,16 @@
       "Use hoisin sauce or plum sauce for dipping."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2391.2,
+      "protein_g": 43.5,
+      "carbohydrates_g": 9.9,
+      "fat_g": 240.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0090",
@@ -3559,11 +4032,16 @@
       "Heat through and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1184.9,
+      "protein_g": 55.3,
+      "carbohydrates_g": 96.2,
+      "fat_g": 45.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0091",
@@ -3606,11 +4084,14 @@
       "Spoon the vinegar sauce over top and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1135.6,
+      "protein_g": 128.2,
+      "carbohydrates_g": 100.7,
+      "fat_g": 19.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0092",
@@ -3641,11 +4122,14 @@
       "Garnish with green onions and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1338.2,
+      "protein_g": 111.3,
+      "carbohydrates_g": 142.3,
+      "fat_g": 35.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0093",
@@ -3689,11 +4173,19 @@
       "To eat, spread a little of the hoisin sauce over tortilla, place some pork mixture on top, fold it over and eat as sandwich-style."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1660.1,
+      "protein_g": 92.5,
+      "carbohydrates_g": 213.2,
+      "fat_g": 49.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.789,
+    "nutrition_unresolved_minor": [
+      "1/2 tsp dry sherry",
+      "2 tsps dry sherry",
+      "1 large tree ears, soaked and thinly sliced",
+      "hoisin sauce for serving"
+    ]
   },
   {
     "id": "chinese_0094",
@@ -3728,11 +4220,16 @@
       "Stir in cooking sauce and ssstir until sauce boils and thickens."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1024.9,
+      "protein_g": 103.7,
+      "carbohydrates_g": 41.2,
+      "fat_g": 49.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.929,
+    "nutrition_unresolved_minor": [
+      "1 can or 1 lb whole baby sweet corn"
+    ]
   },
   {
     "id": "chinese_0095",
@@ -3765,11 +4262,19 @@
       "Serve the sauce in a small bowl as the dipping sauce or pour some over the meat before serving."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1407,
+      "protein_g": 83,
+      "carbohydrates_g": 35.3,
+      "fat_g": 105.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.556,
+    "nutrition_unresolved_minor": [
+      "1 lb boneless tenderloin, in a pieces",
+      "2 tsps rice wine (optional)",
+      "1 2-inch slice ginger",
+      "2 whole star anise"
+    ]
   },
   {
     "id": "chinese_0096",
@@ -3800,11 +4305,16 @@
       "Return meat to wok, add hoisin sauce and water, ssstir until heated through."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1168.4,
+      "protein_g": 109.9,
+      "carbohydrates_g": 21.6,
+      "fat_g": 36.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "1 8oz canned water chestnuts, sliced"
+    ]
   },
   {
     "id": "chinese_0097",
@@ -3836,11 +4346,18 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1485.9,
+      "protein_g": 75.4,
+      "carbohydrates_g": 32.8,
+      "fat_g": 116.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.727,
+    "nutrition_unresolved_minor": [
+      "8 slices fresh ginger",
+      "5/8 cup chinese black vinegar or worcestershice sauce",
+      "5/8 cup rice wine"
+    ]
   },
   {
     "id": "chinese_0098",
@@ -3872,11 +4389,16 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1151.1,
+      "protein_g": 85.2,
+      "carbohydrates_g": 23.2,
+      "fat_g": 79.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "1 small fresh pineapple"
+    ]
   },
   {
     "id": "chinese_0099",
@@ -3925,11 +4447,18 @@
       "Arrange the pork on a platter, spoon the sauce and vegetable mixture over pork and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1926.7,
+      "protein_g": 141.9,
+      "carbohydrates_g": 226.9,
+      "fat_g": 46.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.842,
+    "nutrition_unresolved_minor": [
+      "2 tsps dry sherry or cooking wine",
+      "1 8-oz can pineapple chunks",
+      "cooking oil or shortening"
+    ]
   },
   {
     "id": "chinese_0100",
@@ -3968,11 +4497,18 @@
       "Stir-fry for 30 seconds and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 895.4,
+      "protein_g": 99.0,
+      "carbohydrates_g": 31.2,
+      "fat_g": 40.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.75,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry",
+      "1 slice ginger, cruched",
+      "2 dried hot chilies, crumbled"
+    ]
   },
   {
     "id": "chinese_0101",
@@ -4006,11 +4542,16 @@
       "Stir in cooking sauce and ssstir until sauce boils and thickens."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 770.6,
+      "protein_g": 78.9,
+      "carbohydrates_g": 34.5,
+      "fat_g": 36.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.917,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry"
+    ]
   },
   {
     "id": "chinese_0102",
@@ -4049,11 +4590,18 @@
       "Continue to stir-fry for 3 minutes, add green part of green onions, stir-fry for 2 more minutes and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1519.1,
+      "protein_g": 107.0,
+      "carbohydrates_g": 159.6,
+      "fat_g": 49.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "3 tsps chopped green onion, white part only",
+      "1 tsp chili bean paste",
+      "3 tsps chopped green onion, green part only"
+    ]
   },
   {
     "id": "chinese_0103",
@@ -4083,11 +4631,14 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2292.2,
+      "protein_g": 77.0,
+      "carbohydrates_g": 309.0,
+      "fat_g": 59.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0104",
@@ -4118,11 +4669,17 @@
       "To serve, sprinkle with peanuts and garnish with tomatoes wedges."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1229.6,
+      "protein_g": 108.2,
+      "carbohydrates_g": 126.7,
+      "fat_g": 33.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "Tomato wedges and cucumber slices",
+      "2 tsps curry paste"
+    ]
   },
   {
     "id": "chinese_0105",
@@ -4151,11 +4708,14 @@
       "Continue to stir-fry for 2 minutes, add bean sprouts and green onions, stir-fry for 2 more minutes and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1198.3,
+      "protein_g": 58.4,
+      "carbohydrates_g": 157.5,
+      "fat_g": 40.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0106",
@@ -4192,11 +4752,17 @@
       "Garnish with tomatoes wedges and cucumber slices."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1226.6,
+      "protein_g": 59.2,
+      "carbohydrates_g": 135.6,
+      "fat_g": 56.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "1 1/2 cups cooked ham, diced",
+      "Tomato wedges and cucumber slices"
+    ]
   },
   {
     "id": "chinese_0107",
@@ -4224,11 +4790,14 @@
       "Serve hot or at room temperature."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 895.7,
+      "protein_g": 43.7,
+      "carbohydrates_g": 168.3,
+      "fat_g": 8.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0108",
@@ -4257,11 +4826,14 @@
       "Stir-fry for 2-3 minutes, until well mixed and heated through."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 824.7,
+      "protein_g": 31.3,
+      "carbohydrates_g": 159.2,
+      "fat_g": 12.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0109",
@@ -4295,11 +4867,16 @@
       "Stir in rice mixture and mix well."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1332.8,
+      "protein_g": 60.3,
+      "carbohydrates_g": 150.4,
+      "fat_g": 45.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.923,
+    "nutrition_unresolved_minor": [
+      "dash of black pepper"
+    ]
   },
   {
     "id": "chinese_0110",
@@ -4325,11 +4902,14 @@
       "Serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 516.4,
+      "protein_g": 92.2,
+      "carbohydrates_g": 11.2,
+      "fat_g": 12.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0111",
@@ -4370,11 +4950,19 @@
       "Turn onto platter and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 797.0,
+      "protein_g": 127.2,
+      "carbohydrates_g": 19.7,
+      "fat_g": 22.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.667,
+    "nutrition_unresolved_minor": [
+      "2 cups fresh or frozen snow peas",
+      "2 tsp dry sherry (optional)",
+      "4 green onions, bias sliced into 1-inch pieces",
+      "6 cups torn spinach"
+    ]
   },
   {
     "id": "chinese_0112",
@@ -4407,11 +4995,17 @@
       "Stir in shrimp and onions, Ssstir until sauce boils and thickens."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 564.4,
+      "protein_g": 94.8,
+      "carbohydrates_g": 11.6,
+      "fat_g": 16.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 tsp dry sherry",
+      "2 large stalks celery, cut into 1/2-inch slice"
+    ]
   },
   {
     "id": "chinese_0113",
@@ -4449,11 +5043,16 @@
       "Sprinkle with peanuts and green onions."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1085.7,
+      "protein_g": 115.4,
+      "carbohydrates_g": 45.0,
+      "fat_g": 54.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.938,
+    "nutrition_unresolved_minor": [
+      "2 tsps chili paste"
+    ]
   },
   {
     "id": "chinese_0114",
@@ -4485,11 +5084,16 @@
       "Stir in lemon juice mixture and toss for 1 minute to glaze and allow shrimp to absorb flavors."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 630.0,
+      "protein_g": 92.2,
+      "carbohydrates_g": 16.7,
+      "fat_g": 22.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "Grated lemon zest"
+    ]
   },
   {
     "id": "chinese_0115",
@@ -4518,11 +5122,16 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 511.7,
+      "protein_g": 70.5,
+      "carbohydrates_g": 35.2,
+      "fat_g": 11.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "1/2 tsp hot red pepper flakes"
+    ]
   },
   {
     "id": "chinese_0116",
@@ -4555,11 +5164,16 @@
       "Combine with the shrimp balls and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 572.4,
+      "protein_g": 103.7,
+      "carbohydrates_g": 22.3,
+      "fat_g": 9.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "1 slice white bread, crumbed"
+    ]
   },
   {
     "id": "chinese_0117",
@@ -4607,11 +5221,17 @@
       "Turn onto platter and garnish with spring onions."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1399.2,
+      "protein_g": 95.3,
+      "carbohydrates_g": 33.3,
+      "fat_g": 99.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.857,
+    "nutrition_unresolved_minor": [
+      "1/4 cup shelled walnut halves",
+      "1 tsp rice wine or dry sherry"
+    ]
   },
   {
     "id": "chinese_0118",
@@ -4649,11 +5269,18 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 730.8,
+      "protein_g": 98.5,
+      "carbohydrates_g": 55.0,
+      "fat_g": 14.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.786,
+    "nutrition_unresolved_minor": [
+      "1 large onion, slivered",
+      "1 each of green & red bell pepper, seeded, cut into long strips",
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0119",
@@ -4689,11 +5316,18 @@
       "Remove the shrimp from steamer, carefully pour the hot oil on top, sprinkle with cilantro and serve right from the steamer trays."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 955.3,
+      "protein_g": 189.0,
+      "carbohydrates_g": 17.8,
+      "fat_g": 15.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.7,
+    "nutrition_unresolved_minor": [
+      "6 large cabbage or lettuce leaves",
+      "2 tsps rice wine",
+      "3 slices fresh ginger, smashed"
+    ]
   },
   {
     "id": "chinese_0120",
@@ -4721,11 +5355,17 @@
       "Add the shrimp and toss until heated through."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 483.9,
+      "protein_g": 91.6,
+      "carbohydrates_g": 3.7,
+      "fat_g": 11.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 small fresh chili, seeded and finely chopped",
+      "1 1/2 tsps chili paste"
+    ]
   },
   {
     "id": "chinese_0121",
@@ -4751,11 +5391,17 @@
       "Use the stock for cooking or store covered in refrigerator, or freeze in convenient quantities, store up to 2 months."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 238.2,
+      "protein_g": 20.4,
+      "carbohydrates_g": 7.6,
+      "fat_g": 13.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.6,
+    "nutrition_unresolved_minor": [
+      "4 slices ginger root",
+      "2 quarts water"
+    ]
   },
   {
     "id": "chinese_0122",
@@ -4780,11 +5426,17 @@
       "Add asparagus, heat through and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1191.1,
+      "protein_g": 122.2,
+      "carbohydrates_g": 75.8,
+      "fat_g": 39.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.667,
+    "nutrition_unresolved_minor": [
+      "1 small can asparagus pieces",
+      "1 tsp sherry or rice wine"
+    ]
   },
   {
     "id": "chinese_0123",
@@ -4820,11 +5472,14 @@
       "Tranfer to serving bowls, garnish with green onions and serve hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1785.7,
+      "protein_g": 116.8,
+      "carbohydrates_g": 169.8,
+      "fat_g": 69.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0124",
@@ -4846,11 +5501,14 @@
       "Pour slowly into broth, stir constantly until egg forms threads."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 579.7,
+      "protein_g": 44.1,
+      "carbohydrates_g": 39.5,
+      "fat_g": 25.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0125",
@@ -4886,11 +5544,14 @@
       "Beat egg and pour slowly into broth, stir constantly until egg forms threads."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 959.7,
+      "protein_g": 85.4,
+      "carbohydrates_g": 65.9,
+      "fat_g": 44.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0126",
@@ -4917,11 +5578,17 @@
       "Add salt and pepper, stir well and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1541.2,
+      "protein_g": 80.7,
+      "carbohydrates_g": 69.9,
+      "fat_g": 107.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.75,
+    "nutrition_unresolved_minor": [
+      "4 garlic cloves, whole",
+      "3 tsps rice wine"
+    ]
   },
   {
     "id": "chinese_0127",
@@ -4954,11 +5621,16 @@
       "Pour into a serving bowl, garnish with green onions and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1726.7,
+      "protein_g": 89.9,
+      "carbohydrates_g": 39.6,
+      "fat_g": 87.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "1 tsp sherry or rice wine"
+    ]
   },
   {
     "id": "chinese_0128",
@@ -4990,11 +5662,16 @@
       "Add the spinach leaves, continue to simmer for 2 minutes, stir in sesame oil and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 439.8,
+      "protein_g": 54.7,
+      "carbohydrates_g": 4.2,
+      "fat_g": 23.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "1/2 lb spinach leaves, stems removed"
+    ]
   },
   {
     "id": "chinese_0129",
@@ -5037,11 +5714,17 @@
       "Garnish with green onions and sesame oil, serve while hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1395.2,
+      "protein_g": 73.6,
+      "carbohydrates_g": 70.4,
+      "fat_g": 66.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "2 tsps rice wine",
+      "Salt and pepper to taste"
+    ]
   },
   {
     "id": "chinese_0130",
@@ -5072,11 +5755,18 @@
       "Ladle the soup into a serving bowl, sprinkle with green onions, drizzle 1 tsp sesame oil over the soup and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 635.9,
+      "protein_g": 63.5,
+      "carbohydrates_g": 34.3,
+      "fat_g": 23.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.667,
+    "nutrition_unresolved_minor": [
+      "2 tsp rice wine (optional)",
+      "1 1/2 cups thawed frozen corn",
+      "1 1/2 tsp rice wine (optional)"
+    ]
   },
   {
     "id": "chinese_0131",
@@ -5107,11 +5797,16 @@
       "Pour slowly into broth, stir constantly until egg forms threads."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 632.8,
+      "protein_g": 40.7,
+      "carbohydrates_g": 59.5,
+      "fat_g": 26.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "1 shallot, sliced"
+    ]
   },
   {
     "id": "chinese_0132",
@@ -5142,11 +5837,16 @@
       "Give the soup several gentle stirs and serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1069.4,
+      "protein_g": 81.5,
+      "carbohydrates_g": 108.7,
+      "fat_g": 36.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.875,
+    "nutrition_unresolved_minor": [
+      "1/2 lb fresh or canned tomatoes"
+    ]
   },
   {
     "id": "chinese_0133",
@@ -5185,11 +5885,18 @@
       "Transfer to serving platter."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1467.1,
+      "protein_g": 160.5,
+      "carbohydrates_g": 54.5,
+      "fat_g": 74.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.769,
+    "nutrition_unresolved_minor": [
+      "1 cup reserved mushroom soaking liquid",
+      "1 tsp rice wine",
+      "1/4 lb fresh mushrooms, stemmed and halved"
+    ]
   },
   {
     "id": "chinese_0134",
@@ -5231,11 +5938,17 @@
       "Mix all ingredients well, until all sugar disolved."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 2358.5,
+      "protein_g": 92.6,
+      "carbohydrates_g": 228.9,
+      "fat_g": 128.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.882,
+    "nutrition_unresolved_minor": [
+      "Salt and pepper",
+      "2 tsps cornstarch for dusting"
+    ]
   },
   {
     "id": "chinese_0135",
@@ -5269,11 +5982,16 @@
       "Top with oyster sauce and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1107.7,
+      "protein_g": 139.9,
+      "carbohydrates_g": 21.8,
+      "fat_g": 58.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "Lettuce leaves"
+    ]
   },
   {
     "id": "chinese_0136",
@@ -5312,11 +6030,16 @@
       "Add tofu slices, toss to coat and serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1084.1,
+      "protein_g": 81.6,
+      "carbohydrates_g": 57.4,
+      "fat_g": 68.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.933,
+    "nutrition_unresolved_minor": [
+      "3/4 tsp cruched dried red chilies"
+    ]
   },
   {
     "id": "chinese_0137",
@@ -5350,11 +6073,14 @@
       "Return onions and capsicum into wok, add walnuts, toss all ingredients well together and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1296.2,
+      "protein_g": 76.4,
+      "carbohydrates_g": 69.0,
+      "fat_g": 61.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0138",
@@ -5389,11 +6115,17 @@
       "Return beef to wok and stir in sauce mixture, ssstir until sauce boils and slightly thickens."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 447.9,
+      "protein_g": 49.3,
+      "carbohydrates_g": 7.8,
+      "fat_g": 23.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "1 lb fresh broccoli",
+      "pinch of paprika powder"
+    ]
   },
   {
     "id": "chinese_0139",
@@ -5431,11 +6163,16 @@
       "Pour over the vegetables and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 292.2,
+      "protein_g": 4.9,
+      "carbohydrates_g": 42.5,
+      "fat_g": 14.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "2 heads broccoli, broken into flowerets"
+    ]
   },
   {
     "id": "chinese_0140",
@@ -5466,11 +6203,17 @@
       "Serve hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 216.6,
+      "protein_g": 3.5,
+      "carbohydrates_g": 30.2,
+      "fat_g": 10.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "1/2 cup tree ears, soaked and cut into bite-size pieces",
+      "1 1/2 cups broccoli flowerets"
+    ]
   },
   {
     "id": "chinese_0141",
@@ -5504,11 +6247,19 @@
       "Ssstir until thickens, pour over vegetables and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 222.1,
+      "protein_g": 9.7,
+      "carbohydrates_g": 29.8,
+      "fat_g": 8.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.6,
+    "nutrition_unresolved_minor": [
+      "1/2 lb fresh green vegetables, such as spinach, choi sum or small",
+      "pok choy , cut into 1-inch lengths",
+      "3 oz can straw mushrooms, drained",
+      "3 oz can baby corn"
+    ]
   },
   {
     "id": "chinese_0142",
@@ -5546,11 +6297,17 @@
       "Serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 901.7,
+      "protein_g": 106.3,
+      "carbohydrates_g": 49.0,
+      "fat_g": 31.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.846,
+    "nutrition_unresolved_minor": [
+      "1 8oz can bomboo shoots, drained",
+      "1/2 cup green onions, bias sliced into 1-inch lengths"
+    ]
   },
   {
     "id": "chinese_0143",
@@ -5584,11 +6341,16 @@
       "Stir in the sauce mixture, toss until slightly thickened."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 542.6,
+      "protein_g": 55.2,
+      "carbohydrates_g": 24.6,
+      "fat_g": 23.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.929,
+    "nutrition_unresolved_minor": [
+      "1 cup green cabbage, cut into 1-inch wide strips"
+    ]
   },
   {
     "id": "chinese_0144",
@@ -5622,11 +6384,16 @@
       "Add cooking sauce and ssstir until boil and thicken, season to taste with salt, then pour over cucumbers and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 359.0,
+      "protein_g": 47.2,
+      "carbohydrates_g": 8.8,
+      "fat_g": 15.3
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.909,
+    "nutrition_unresolved_minor": [
+      "2 large cucumbers, peeled"
+    ]
   },
   {
     "id": "chinese_0145",
@@ -5663,11 +6430,17 @@
       "Serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 542.6,
+      "protein_g": 54.5,
+      "carbohydrates_g": 40.6,
+      "fat_g": 18.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "1 can baby sweet corn, drained",
+      "2 cups fresh or frozen sweet peas"
+    ]
   },
   {
     "id": "chinese_0146",
@@ -5696,11 +6469,18 @@
       "Add the sesame oil, toss well and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 324.0,
+      "protein_g": 10.8,
+      "carbohydrates_g": 47.0,
+      "fat_g": 15.0
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.7,
+    "nutrition_unresolved_minor": [
+      "3 tsps dried tree ears, halved",
+      "1 can (15oz) baby sweet corns",
+      "2 cups mushroom soaking liquid"
+    ]
   },
   {
     "id": "chinese_0147",
@@ -5739,11 +6519,16 @@
       "Add sesame oil and give a good stir, serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1002.4,
+      "protein_g": 50.2,
+      "carbohydrates_g": 70.6,
+      "fat_g": 68.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.944,
+    "nutrition_unresolved_minor": [
+      "1 1/2 cups broccoli flowerets"
+    ]
   },
   {
     "id": "chinese_0148",
@@ -5775,11 +6560,17 @@
       "Then add cooked eggs and stir-fry 1 more minute before serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 517.6,
+      "protein_g": 8.0,
+      "carbohydrates_g": 95.0,
+      "fat_g": 15.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "2 tsps bean sauce",
+      "1 tsp hoisn sauce"
+    ]
   },
   {
     "id": "chinese_0149",
@@ -5807,11 +6598,17 @@
       "Add oyster sauce, stir to mix well, and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 77.6,
+      "protein_g": 0.6,
+      "carbohydrates_g": 3.5,
+      "fat_g": 7.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.75,
+    "nutrition_unresolved_minor": [
+      "1 1/2 lbs fresh asparagus, trimmed",
+      "pinch of sugar"
+    ]
   },
   {
     "id": "chinese_0150",
@@ -5840,11 +6637,14 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 206.7,
+      "protein_g": 8.1,
+      "carbohydrates_g": 32.8,
+      "fat_g": 8.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0151",
@@ -5875,11 +6675,17 @@
       "Stir in cornstarch mixture, bring to boil and simmer until thickened."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 485.7,
+      "protein_g": 30.4,
+      "carbohydrates_g": 60.6,
+      "fat_g": 19.7
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.818,
+    "nutrition_unresolved_minor": [
+      "1 1/2 cups broccoli flowerets",
+      "2 tsps cooking wine or dry sherry"
+    ]
   },
   {
     "id": "chinese_0152",
@@ -5904,11 +6710,16 @@
       "Toss the oyster sauce and sesame oil over the pok choy and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 136.3,
+      "protein_g": 0.4,
+      "carbohydrates_g": 3.1,
+      "fat_g": 13.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.8,
+    "nutrition_unresolved_minor": [
+      "1 lb fresh small Pok Choy"
+    ]
   },
   {
     "id": "chinese_0153",
@@ -5944,11 +6755,17 @@
       "Serve hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 683.5,
+      "protein_g": 55.3,
+      "carbohydrates_g": 60.0,
+      "fat_g": 24.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "1 1/2 cups or 6oz snow peas",
+      "3 geen onions, chopped"
+    ]
   },
   {
     "id": "chinese_0154",
@@ -5979,11 +6796,16 @@
       "Stir all ingredients together to toss with the sauce, cook until heated through."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 132.8,
+      "protein_g": 3.9,
+      "carbohydrates_g": 19.9,
+      "fat_g": 5.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "8 oz frozen or canned baby sweet corn"
+    ]
   },
   {
     "id": "chinese_0155",
@@ -6013,11 +6835,17 @@
       "Serve while its hot."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 131.6,
+      "protein_g": 0.9,
+      "carbohydrates_g": 11.6,
+      "fat_g": 9.4
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 lb fresh celery",
+      "2 tsps chili bean paste"
+    ]
   },
   {
     "id": "chinese_0156",
@@ -6048,11 +6876,16 @@
       "Add the oyster sauce, sugar and sesame oil, stir and cook for 1 minute."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 345.5,
+      "protein_g": 7.6,
+      "carbohydrates_g": 39.0,
+      "fat_g": 19.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "1 red pepper, cut into 1/4-inch strips"
+    ]
   },
   {
     "id": "chinese_0157",
@@ -6084,11 +6917,17 @@
       "Serve at once."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 866.6,
+      "protein_g": 42.3,
+      "carbohydrates_g": 6.6,
+      "fat_g": 38.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.778,
+    "nutrition_unresolved_minor": [
+      "1 lb fresh Kale",
+      "6 slices fresh ginger"
+    ]
   },
   {
     "id": "chinese_0158",
@@ -6111,11 +6950,14 @@
       "Transfer to platter and serve immediately."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 634.4,
+      "protein_g": 23.1,
+      "carbohydrates_g": 114.3,
+      "fat_g": 8.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 1.0,
+    "nutrition_unresolved_minor": []
   },
   {
     "id": "chinese_0159",
@@ -6158,11 +7000,17 @@
       "Pour over the steamed mushrooms and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 1306.4,
+      "protein_g": 89.1,
+      "carbohydrates_g": 90.0,
+      "fat_g": 51.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "16 leaves fresh cilantro",
+      "1 tsp rice wine"
+    ]
   },
   {
     "id": "chinese_0160",
@@ -6193,11 +7041,16 @@
       "Turn onto a serving platter, sprinkle with parsley and serve."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 303.0,
+      "protein_g": 5.1,
+      "carbohydrates_g": 61.6,
+      "fat_g": 5.8
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.9,
+    "nutrition_unresolved_minor": [
+      "Salt to taste"
+    ]
   },
   {
     "id": "chinese_0161",
@@ -6221,11 +7074,16 @@
       "Toss 30 seconds and stir in oyster sauce until lightly glazed."
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 178.2,
+      "protein_g": 8.0,
+      "carbohydrates_g": 9.4,
+      "fat_g": 14.1
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.857,
+    "nutrition_unresolved_minor": [
+      "8 meduim Chinese dried mushrooms, soaked and thinly sliced"
+    ]
   },
   {
     "id": "chinese_0162",
@@ -6288,10 +7146,16 @@
       "Soon you will be an expert!"
     ],
     "nutrition": {
-      "calories": null,
-      "protein_g": null,
-      "carbohydrates_g": null,
-      "fat_g": null
-    }
+      "calories": 451.1,
+      "protein_g": 4.6,
+      "carbohydrates_g": 58.7,
+      "fat_g": 23.9
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.857,
+    "nutrition_unresolved_minor": [
+      "1 1/2 cups green beans, bias sliced into 1-inch pieces or frozen cut",
+      "green beans"
+    ]
   }
 ]

@@ -1,0 +1,3861 @@
+[
+  {
+    "id": "japanese_0001",
+    "title": "4-Ingredient Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 (3 oz.) packages ramen noodles, any flavor",
+      "2 C. water",
+      "2 tbsp butter",
+      "1/4 C. milk"
+    ],
+    "steps": [
+      "Place a pot over medium heat and fill most of it with water.",
+      "Cook it until it starts boiling.",
+      "Stir in it the noodles and let it cook for 4 min.",
+      "discard the water and place the noodles in an empty pot.",
+      "Stir in it the milk with butter and seasoning mix.",
+      "Cook them for 3 to 5 min over low heat until they become creamy.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 306.7,
+      "protein_g": 5.5,
+      "carbohydrates_g": 28.4,
+      "fat_g": 19.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0002",
+    "title": "Nori Noodles Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 (8 oz) package dried soba noodles",
+      "1 C. prepared dashi stock",
+      "1/4 C. soy sauce",
+      "2 tbsp mirin",
+      "1/4 tsp white sugar",
+      "2 tbsp sesame seeds",
+      "1/2 C. chopped green onions",
+      "1 sheet nori (dried seaweed), cut into thin strips (optional)"
+    ],
+    "steps": [
+      "Cook the noodles according to the directions on the package.",
+      "Drain it and cool it down with some water.",
+      "Place a small saucepan over medium heat.",
+      "Stir in it the dashi, soy sauce, mirin, and white sugar.",
+      "Cook it until it starts boiling.",
+      "Turn off the heat and allow the mix to lose heat for 27 min.",
+      "Divide the sesame seeds with noodles on serving bowls and pour the stock soup over it.",
+      "Garnish your soup bowls with the nori and green onions."
+    ],
+    "nutrition": {
+      "calories": 257.0,
+      "protein_g": 11.6,
+      "carbohydrates_g": 48.2,
+      "fat_g": 3.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0003",
+    "title": "Ramen Sesame Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 lb top round steak, julienne",
+      "1 tbsp peanut oil",
+      "1/2 tbsp sesame oil",
+      "1 inch fresh ginger, finely grated",
+      "2 cloves garlic, minced",
+      "1/4-1/2 tsp crushed red pepper flakes",
+      "3 C. beef stock",
+      "2 bunches scallions, diced",
+      "2 tbsp rice wine vinegar",
+      "2 (3 oz.) packets ramen noodles, packet removed",
+      "1/2 C. baby carrots, grated"
+    ],
+    "steps": [
+      "Place a large skillet over medium heat.",
+      "Heat in it 1/3 of each of the oils.",
+      "Sauté in it the ginger, garlic and red chilies.",
+      "Cook them for 1 min.",
+      "Stir in 1/3 of the beef slices.",
+      "Cook them for 4 min.",
+      "Place the mix aside.",
+      "Repeat the process with the remaining beef and oil until it is done.",
+      "Place a large saucepan over medium heat.",
+      "Stir in it the Stock, Vinegar,& Scallions.",
+      "Cook them until they start boiling.",
+      "Lower the heat and cook it until it starts boiling.",
+      "Stir in the ramen and cook it for 4 to 4 min or until it is done.",
+      "Spoon the noodles into serving bowl then top it with the sautéed beef.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 467.9,
+      "protein_g": 33.3,
+      "carbohydrates_g": 35.4,
+      "fat_g": 21.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0004",
+    "title": "Japanese Hot Shiso Guacamole",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "12",
+    "ingredients": [
+      "2 large avocados - halved, peeled, and pitted",
+      "1 lime, juiced",
+      "1 onion, minced",
+      "2 jalapeno peppers, or to taste, seeded and minced",
+      "10 shiso leaves, chopped",
+      "1 tbsp minced fresh ginger root",
+      "1 tsp wasabi paste",
+      "1/2 tsp ground white pepper",
+      "2 drops hot pepper sauce",
+      "1 tomato, chopped",
+      "salt and black pepper to taste"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Mix in it the avocados, lime juice, onion, jalapeno pepper, shiso leaf, ginger, wasabi paste, white pepper, and hot sauce until it becomes slightly mashed.",
+      "Stir in the tomato with a pinch of salt and pepper.",
+      "Serve your guacamole."
+    ],
+    "nutrition": {
+      "calories": 90.0,
+      "protein_g": 1.4,
+      "carbohydrates_g": 7.5,
+      "fat_g": 7.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0005",
+    "title": "Ramen Lasagna",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 (3 oz.) packages ramen noodles",
+      "1 lb ground beef",
+      "3 eggs",
+      "2 C. shredded cheese",
+      "1 tbsp minced onion",
+      "1 C. spaghetti sauce"
+    ],
+    "steps": [
+      "Before you do anything preheat the oven to 325 F.",
+      "Place a large skillet over medium heat.",
+      "Cook in it the beef with 1 seasoning packet and onion for 10 min.",
+      "Transfer the beef to a greased baking pan.",
+      "Whisk the eggs and cook them in the same pan until they are done.",
+      "Top the beef with 1/2 C.",
+      "of shredded cheese followed by the cooked eggs and another 1/2 C.",
+      "of cheese.",
+      "Cook the ramen noodles according to the instructions on the package.",
+      "Drain it and toss it with the spaghetti sauce.",
+      "Spread the mix all over the cheese layer.",
+      "Top it with the remaining cheese.",
+      "Cook it in the oven for 12 min.",
+      "serve your lasagna warm."
+    ],
+    "nutrition": {
+      "calories": 698.6,
+      "protein_g": 41.9,
+      "carbohydrates_g": 36.5,
+      "fat_g": 41.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0006",
+    "title": "Japanese Dashi Omelet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "4 eggs",
+      "1/4 C. prepared dashi stock",
+      "1 tbsp white sugar",
+      "1 tsp mirin",
+      "1/2 tsp soy sauce",
+      "1/2 tsp vegetable oil, or more as needed"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Beat the eggs in it well.",
+      "Add the dashi stock, sugar, mirin, and soy sauce.",
+      "Mix them well.",
+      "Place a large skillet over medium heat.",
+      "Heat the oil in it.",
+      "Pour enough of the eggs mix to make a thin layer to cover the bottom of the pan.",
+      "Cook it until it becomes firm from the bottom.",
+      "Roll the omelet and until you reach the side of the skillet and leave it there.",
+      "Grease the skillet again with oil and pour in it another thin layer of the eggs mix.",
+      "Cook it until it becomes firm and roll it to the side on the first egg roll.",
+      "Repeat the process with the remaining egg mix until it is all used.",
+      "Serve your omelet warm."
+    ],
+    "nutrition": {
+      "calories": 63.0,
+      "protein_g": 4.4,
+      "carbohydrates_g": 2.6,
+      "fat_g": 3.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0007",
+    "title": "Lemongrass Ramen With Duck And Ginger",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "5 C. water",
+      "4 C. chicken stock",
+      "2 red chilies, seeded and halved",
+      "8 slices ginger",
+      "3 tbsp lemon juice",
+      "3 stalks lemongrass",
+      "2 sprigs coriander",
+      "1 Chinese barbecued duck, deboned and chopped",
+      "4 shallots, chopped",
+      "150 g dried ramen noodles",
+      "bean sprouts, to garnish",
+      "red chile, to garnish",
+      "coriander, to garnish",
+      "3 bunches bok choy",
+      "salt",
+      "white pepper"
+    ],
+    "steps": [
+      "Place a large saucepan over medium heat.",
+      "Stir in it the water with stock and bring them to a simmer.",
+      "Crush the lemongrass with coriander and add them to the pot with the galangal, chilis and lime juice.",
+      "Let them cook for 22 min.",
+      "Once the time is up, pour the mix in a colander and drain it.",
+      "Stir the drained mix aside.",
+      "Add the drain liquid to the saucepan.",
+      "Stir in the shallot with the duck and cook for 5 min.",
+      "Prepare the noodles according to the directions on the package without the seasoning packet.",
+      "Stir the bok choy into the soup and let it cook for an extra 6 min.",
+      "Serve your soup hot with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 282.7,
+      "protein_g": 10.5,
+      "carbohydrates_g": 39.4,
+      "fat_g": 9.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0008",
+    "title": "Japanese Mirin Chicken Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "6 C. prepared dashi stock",
+      "1/4 lb chicken, cut into chunks",
+      "2 carrots, diced",
+      "1/3 C. soy sauce",
+      "3 tbsp mirin",
+      "1/2 tsp white sugar",
+      "1/3 tsp salt",
+      "2 (12 oz) packages firm tofu, cubed",
+      "1/3 lb shiitake mushrooms, sliced",
+      "5 ribs and leaves of bok choy, chopped",
+      "1 (9 oz) package fresh udon noodles",
+      "4 eggs",
+      "2 leeks, diced"
+    ],
+    "steps": [
+      "Place a medium pot over medium heat.",
+      "Stir in it the dashi stock, chicken, carrots, soy sauce, mirin, sugar, and salt.",
+      "Simmer them for 8 min.",
+      "Stir in the tofu, mushrooms, and bok choy.",
+      "Cook them for 6 min.",
+      "Add the noodles and cook the soup for 5 min.",
+      "Stir in the leek with eggs.",
+      "Simmer the soup for 6 min.",
+      "Serve it hot."
+    ],
+    "nutrition": {
+      "calories": 548.0,
+      "protein_g": 42.2,
+      "carbohydrates_g": 53.4,
+      "fat_g": 17.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0009",
+    "title": "Fermented Sichuan Noodles",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "Sauce",
+      "1/2 tbsp fermented black beans",
+      "2 tbsp chili bean paste",
+      "1/2 tbsp Shaoxing wine or 1/2 tbsp dry sherry",
+      "1 tsp soy sauce",
+      "1 tsp sesame oil",
+      "1 tsp sugar",
+      "1/2 tsp ground Sichuan pepper",
+      "Noodles",
+      "1 tbsp peanut oil or 1 tbsp vegetable oil",
+      "4 oz. ground pork or 4 oz. ground beef",
+      "2 scallions, white green parts separated chopped",
+      "1 garlic clove, minced",
+      "1 tsp fresh ginger, minced",
+      "3 C. chicken stock",
+      "1 lb tofu, cubes",
+      "2 (4 oz.) packages ramen noodles, packet removed"
+    ],
+    "steps": [
+      "Get a small mixing bowl: Crush in it the black beans with chili bean paste, rice wine, soy sauce, sesame oil, sugar, and Sichuan pepper until they become smooth.",
+      "Place a large pan over medium heat.",
+      "Heat the oil in it.",
+      "Brown in it the pork for 3 min.",
+      "Stir in the scallion whites, garlic, and ginger and cook them for 1 min over low heat.",
+      "Stir in the black bean mix with the broth into the pan.",
+      "Cook them until they start boiling.",
+      "Lower the heat and stir in the tofu.",
+      "Let them cook for 6 min.",
+      "Prepare the noodles according to the directions on the package.",
+      "Spoon it into serving bowls and top it with tofu mix.",
+      "Serve your noodles bowels hot."
+    ],
+    "nutrition": {
+      "calories": 1012.6,
+      "protein_g": 46.4,
+      "carbohydrates_g": 92.8,
+      "fat_g": 51.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0010",
+    "title": "Japanese Teriyaki Zoodles Stir Fry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 tbsp vegetable oil",
+      "1 medium onion, thinly sliced",
+      "2 medium zucchinis, cut into thin strips",
+      "2 tbsp teriyaki sauce",
+      "1 tbsp soy sauce",
+      "1 tbsp toasted sesame seeds",
+      "ground black pepper"
+    ],
+    "steps": [
+      "Place a large pan over medium heat.",
+      "Heat the oil in it.",
+      "Add the onion and cook it for 6 min.",
+      "Stir in the zucchini and cook them for 2 min.",
+      "Add the remaining ingredients and cook them for 6 min.",
+      "Serve your stir fry right away."
+    ],
+    "nutrition": {
+      "calories": 110.0,
+      "protein_g": 2.7,
+      "carbohydrates_g": 8.1,
+      "fat_g": 8.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0011",
+    "title": "Lunch Box Noodles",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 (3 oz.) packages ramen noodles",
+      "1/2 C. frozen peas",
+      "1 tbsp butter",
+      "1 tbsp parmesan cheese"
+    ],
+    "steps": [
+      "Bring a large saucepan of water to a boil.",
+      "Crush the noodles and stir it into the hot water with the peas.",
+      "Cook them until they start boiling.",
+      "Pour the mix in a colander and discard the water.",
+      "Get a mixing bowl: Toss in it the hot noodles mix with the butter, parmesan, and 1/3 of the ramen's seasoning packet.",
+      "Serve your noodles bowls warm."
+    ],
+    "nutrition": {
+      "calories": 564.1,
+      "protein_g": 13.7,
+      "carbohydrates_g": 65.7,
+      "fat_g": 27.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0012",
+    "title": "Vanilla Crusted Shrimp",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "32 vanilla wafers, crushed",
+      "1 egg, beaten",
+      "3/4 C. water",
+      "1/3 C. apricot nectar",
+      "2 tsp cornstarch",
+      "1/4 C. packed brown sugar",
+      "3 tbsp red wine vinegar",
+      "1 tbsp ketchup",
+      "2 C. vegetable oil",
+      "3/4 lb medium shrimp - peeled and deveined"
+    ],
+    "steps": [
+      "Get a small bowl: Mix in it the vanilla wafers, egg, and water.",
+      "Place the mix in the fridge for 1 h 30 min.",
+      "Get a small saucepan: Mix in it the nectar with cornstarch.",
+      "Add the brown sugar, vinegar and ketchup.",
+      "Place the mix over medium heat and cook them while stirring all the time until it becomes thick to make the sauce.",
+      "Place it aside.",
+      "Heat the oil in a large pot or deep fryer until it reaches 375 F.",
+      "Coat the shrimp with the egg mix then cook it in the hot oil until it becomes golden brown.",
+      "Drain the shrimp and serve it with the ketchup sauce."
+    ],
+    "nutrition": {
+      "calories": 920.0,
+      "protein_g": 14.1,
+      "carbohydrates_g": 35.8,
+      "fat_g": 81.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0013",
+    "title": "Hawaiian Ramen Skillet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "",
+    "ingredients": [
+      "6 oz. Spam",
+      "1 green bell pepper, stir fried, chopped",
+      "1/2 C. onion, diced",
+      "1 (3 oz.) packages ramen noodles",
+      "1 clove garlic, peeled and diced",
+      "1/4 tsp salt",
+      "1/4 tsp ground black pepper",
+      "1 tbsp olive oil",
+      "1/2 tsp butter"
+    ],
+    "steps": [
+      "Place a large saucepan over medium heat.",
+      "Cook in it 2 C.",
+      "of water until they start boiling.",
+      "Place in it the noodles without the seasoning packet according to the directions on the package.",
+      "Drain it and place it aside.",
+      "Place a large skillet over medium heat.",
+      "Heat in it the butter until it melts with olive oil.",
+      "Cook in them the onion for 3 min.",
+      "Stir in the Spam, bell pepper, and the garlic.",
+      "Cook them for 4 min.",
+      "Stir in 1/2 C.",
+      "of the noodles cooking liquid with the drained noodles.",
+      "Let it sit for 1 min then serve it warm.",
+      "Servings per Recipe: 2 Timing Information: Preparation 25 m Total Time 35 m Nutritional Information: Calories 552.7 Fat 38.0g Cholesterol 61.3mg Sodium 1944.2mg Carbohydrates 37.8g Protein 16.0g * Percent Daily Values are based on a 2,000 calorie diet.",
+      "J APANESE C HICKEN S NOW S OUP"
+    ],
+    "nutrition": {
+      "calories": 1088.6,
+      "protein_g": 32.6,
+      "carbohydrates_g": 67.9,
+      "fat_g": 76.2
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.889,
+    "nutrition_unresolved_minor": [
+      "1 green bell pepper, stir fried, chopped"
+    ]
+  },
+  {
+    "id": "japanese_0014",
+    "title": "Japanese Chicken Snow Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "3 C. chicken stock",
+      "1 C. water",
+      "1 tbsp minced fresh ginger root",
+      "1 clove garlic, minced",
+      "2 tbsp soy sauce",
+      "2 skinless, boneless chicken breast halves - cubed",
+      "1/4 lb fresh snow peas, trimmed and halved",
+      "1 carrot, chopped",
+      "3 fresh mushrooms, sliced",
+      "2 green onions, chopped"
+    ],
+    "steps": [
+      "Place a medium soup pot over medium heat.",
+      "Add the chicken stock, water, ginger, garlic, and soy sauce.",
+      "Cook them until they start simmering.",
+      "Add the chicken and cook the soup again until it starts simmering.",
+      "Lower the heat and simmer the soup for 17 min.",
+      "Add the carrot with snow peas.",
+      "Cook the soup for 7 min.",
+      "Stir in the mushroom and cook the soup for 5 min.",
+      "Add the green onions.",
+      "Serve your soup warm."
+    ],
+    "nutrition": {
+      "calories": 95.0,
+      "protein_g": 13.5,
+      "carbohydrates_g": 6.5,
+      "fat_g": 1.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0015",
+    "title": "Sweet Ramen With Tofu",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 package chicken-flavored ramen noodles",
+      "2 C. water",
+      "2 tbsp vegetable oil",
+      "3 slices tofu, 1/4 inch thick",
+      "2 C. soy bean sprouts or 2 C. mung bean sprouts",
+      "1/2 small zucchini, thinly sliced",
+      "2 green onions, sliced",
+      "1/2 C. sweet green pea pods",
+      "flour",
+      "seasoning salt",
+      "sesame oil"
+    ],
+    "steps": [
+      "Slice each tofu piece into 3 chunks.",
+      "Dust them with some flour.",
+      "Place a large skillet over medium heat.",
+      "Heat 1 tbsp of oil in it.",
+      "Cook in it the tofu for 1 to 2 min on each side.",
+      "Drain it and place it aside.",
+      "Heat a splash of oil in the same pan.",
+      "Sauté in it the veggies for 6 min.",
+      "Place them aside.",
+      "Cook the noodles by following the directions on the package.",
+      "Stir in it the seasoning packet.",
+      "Place a large skillet over medium heat.",
+      "Heat a splash of oil in it.",
+      "Cook in it the bean sprouts for 1 min.",
+      "Lay the fried bean sprouts in the bottom of serving bowl.",
+      "Top it with the ramen, cooked veggies and tofu.",
+      "Serve them hot."
+    ],
+    "nutrition": {
+      "calories": 335.1,
+      "protein_g": 8.4,
+      "carbohydrates_g": 18.9,
+      "fat_g": 27.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0016",
+    "title": "Japanese Hot Devil's Eggs",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "16",
+    "ingredients": [
+      "8 eggs",
+      "1/3 C. mayonnaise",
+      "3 tbsp minced green onions",
+      "2 tsp rice wine vinegar",
+      "1 1/2 tsp wasabi paste",
+      "coarse salt",
+      "1/2 C. fresh pea shoots, or as needed",
+      "16 pickled ginger slices"
+    ],
+    "steps": [
+      "Place a large saucepan over medium heat.",
+      "Place in it the eggs and cover them water.",
+      "Cook them until they start boiling.",
+      "Turn off the heat and put on the lid.",
+      "Allow the eggs to sit for 17 min.",
+      "Drain the eggs and wash them with some cold water until they cool down.",
+      "Remove the shells of the eggs and slice each one in half.",
+      "Transfer the egg yolk into a large mixing bowl.",
+      "Mash them well with a fork or potato masher.",
+      "Add the mayonnaise, green onions, rice wine vinegar, and wasabi paste, a pinch of salt and pepper.",
+      "Mix them well until they become creamy.",
+      "Place the egg white halves on a serving plate.",
+      "Pour the egg yolk mix into a piping bag and fill the egg whites with it.",
+      "Serve your deviled eggs with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 835.4,
+      "protein_g": 55.5,
+      "carbohydrates_g": 6.6,
+      "fat_g": 63.5
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.375,
+    "nutrition_unresolved_minor": [
+      "2 tsp rice wine vinegar",
+      "1 1/2 tsp wasabi paste",
+      "coarse salt",
+      "1/2 C. fresh pea shoots, or as needed",
+      "16 pickled ginger slices"
+    ]
+  },
+  {
+    "id": "japanese_0017",
+    "title": "Ginger Beef Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "14 oz. dried ramen noodles",
+      "12 oz. beef sirloin, half frozen to make slicing easier",
+      "1 1/2 quarts chicken stock",
+      "1 inch piece gingerroot, roughly sliced",
+      "2 garlic cloves, halved",
+      "2 tbsp sake",
+      "3 tbsp shoyu, plus",
+      "1 tbsp shoyu, for stir-frying",
+      "1 bok choy, trimmed and thinly shredded",
+      "2 tbsp peanut oil",
+      "8 dried shiitake mushrooms, soaked in warm water for 30 minutes,",
+      "drained and thinly sliced",
+      "sea salt, to taste",
+      "fresh ground black pepper, to taste"
+    ],
+    "steps": [
+      "Prepare the noodles according to the instructions on the package.",
+      "Discard the water and place the noodles aside.",
+      "Slice the beef into thin slices.",
+      "Place a large saucepan over medium heat.",
+      "Heat the stock in it.",
+      "Stir in it the ginger with garlic and cook them for 12 min over low heat.",
+      "Once the time is up, drain the ginger with garlic and discard them.",
+      "Add the sake, shoyu and salt and pepper to the broth.",
+      "Place a large pan over medium heat.",
+      "Heat 1 tbsp of oil in it.",
+      "Sauté in it the baby bok choy for 3 min.",
+      "Drain it and place it aside.",
+      "Heat the remaining oil in the same skillet.",
+      "Sauté in it the beef with mushroom for 4 min.",
+      "Stir into them the shoyu with a pinch of salt and pepper.",
+      "Stir the noodles in some hot water to heat it then drain it.",
+      "Place it in serving bowls then top it with the beef, shiitake, and bok choy.",
+      "Pour the chicken broth all over them.",
+      "Serve it right away."
+    ],
+    "nutrition": {
+      "calories": 902.3,
+      "protein_g": 39.5,
+      "carbohydrates_g": 89.7,
+      "fat_g": 42.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0018",
+    "title": "Japanese Miso Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "3 C. prepared dashi stock",
+      "1/4 C. sliced shiitake mushrooms",
+      "1 tbsp miso paste",
+      "1 tbsp soy sauce",
+      "1/8 C. cubed soft tofu",
+      "1 green onion, chopped"
+    ],
+    "steps": [
+      "Place a small saucepan over medium heat.",
+      "Pour the stock into it and cook it until it starts boiling.",
+      "Lower the heat.",
+      "Stir in the mushroom and simmer the soup for 4 min.",
+      "Get a small bowl: Add the miso paste and soy sauce.",
+      "Mix them well.",
+      "Pour the mix into the soup with tofu and stir them.",
+      "Cook the soup for 6 min.",
+      "Serve your soup hot with some green onions."
+    ],
+    "nutrition": {
+      "calories": 100.0,
+      "protein_g": 11.0,
+      "carbohydrates_g": 4.8,
+      "fat_g": 3.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0019",
+    "title": "Ramen Roulade",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 1/2 lbs flank steaks",
+      "3 tbsp seasoning salt",
+      "pepper",
+      "1 egg, beaten",
+      "1 tbsp water",
+      "1 tbsp flour",
+      "1 (3 oz.) packages Top Ramen noodles, packet discarded",
+      "toothpick",
+      "2 tbsp steak sauce"
+    ],
+    "steps": [
+      "Before you do anything, preheat the oven to 350 F.",
+      "Place 2 flank steaks on a broad.",
+      "Flatten them with a kitchen hammer.",
+      "Season the steak pieces with the McCormick All Seasoning, a pinch of salt and pepper on both sides.",
+      "Get a small mixing bowl: MIX in it the eggs with water.",
+      "Add the flour and mix them well.",
+      "Lather the mix all over 1 side of the steak pieces.",
+      "Break the ramen into pieces and lay it all over the steak pieces.",
+      "Roll the steaks over the filling and seal them with toothpicks.",
+      "Place the steaks roulades on a greased baking sheet.",
+      "Cook them in the oven for 42 to 46 min.",
+      "Drizzle the steak sauce over the roulades and cook them for an extra 12 min.",
+      "allow them to rest for 12 min then serve them with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 268.8,
+      "protein_g": 26.5,
+      "carbohydrates_g": 10.4,
+      "fat_g": 12.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0020",
+    "title": "Japanese Potato With Homemade Curry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "2 C. cubed Japanese turnips",
+      "1 potato, peeled and cubed",
+      "1 tomato, diced",
+      "1 C. water",
+      "1/4 tsp ground turmeric",
+      "Spice Paste:",
+      "1 tsp canola oil",
+      "2 dried red chiles",
+      "2 small Thai green chiles",
+      "1 (1/2 inch) piece cinnamon stick",
+      "4 pearl onions",
+      "2 tbsp unsweetened dried coconut",
+      "1 tbsp coriander seeds",
+      "5 cashews",
+      "2 green cardamom pods",
+      "2 whole cloves",
+      "1/2 tsp fennel seeds",
+      "1/4 tsp cumin seeds",
+      "2 tbsp chopped cilantro",
+      "2 tbsp chopped fresh mint",
+      "1 tsp water, or as needed",
+      "1 tsp canola oil",
+      "1/2 tsp fennel seeds",
+      "1 (1 inch) piece cinnamon stick",
+      "2 cloves garlic, minced",
+      "1 (1 inch) piece fresh ginger root, minced",
+      "4 fresh curry leaves",
+      "1/4 C. peas",
+      "1 pinch salt, or to taste"
+    ],
+    "steps": [
+      "Place a small saucepan over medium heat.",
+      "Stir in it the turnips, potato, and diced tomato, 1 C.",
+      "water and turmeric.",
+      "Cook them until they start boiling.",
+      "Lower the heat and cook the soup for 17 min.",
+      "Place a large pan over medium heat.",
+      "Heat 1 tsp of oil in it.",
+      "Add the red chiles and green chiles, 1/2-inch cinnamon stick, pearl onions, coconut, coriander, cashews, cardamom pods, cloves, 1/2 tsp fennel seeds, and cumin seeds.",
+      "Cook them for 4 min while stirring all the time.",
+      "Turn off the heat and transfer the mix to a spice grinder.",
+      "Stir in the cilantro, mint, and 1 tsp water.",
+      "Grind them while adding more water if needed until the mix becomes smooth and like a paste.",
+      "Place a clean pan over medium heat.",
+      "Heat in it 1 tsp of canola oil.",
+      "Cook in it 1/2 tsp fennel seeds and 1-inch cinnamon stick for 40 sec.",
+      "Stir in the minced garlic, ginger, and curry leaves.",
+      "Cook them for 3 min.",
+      "Stir in the cooked veggies with the spices paste then cook them until they start boiling.",
+      "Stir in more water if the stew is too thick to your liking.",
+      "Add the green peas with a pinch of salt and pepper.",
+      "Lower the heat and cook the stew for 12 min.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 297.0,
+      "protein_g": 8.0,
+      "carbohydrates_g": 45.1,
+      "fat_g": 11.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0021",
+    "title": "Louisiana X Japan Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 (3 oz.) packages shrimp flavor ramen noodle soup",
+      "6 large shrimp, skin and veins removed",
+      "1 tbsp butter",
+      "1/4 tsp garlic powder",
+      "1 tsp creole seasoning",
+      "1/4 tsp black pepper",
+      "1/2 tsp hot sauce"
+    ],
+    "steps": [
+      "Cut the noodles in half and prepare it according to the directions on the package without the seasoning packet.",
+      "Place a large skillet over medium heat.",
+      "Melt the butter in it.",
+      "Sauté in it the shrimp with garlic powder, creole seasoning, and black pepper for 6 min.",
+      "Pour the noodles with 1/4 C.",
+      "of the cooking liquid in a serving bowl.",
+      "Top it with the shrimp and hot sauce then serve it warm."
+    ],
+    "nutrition": {
+      "calories": 150.2,
+      "protein_g": 8.8,
+      "carbohydrates_g": 1.2,
+      "fat_g": 12.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0022",
+    "title": "Glazed Japanese Chicken Wings",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "3 lb chicken wings",
+      "1 egg, lightly beaten",
+      "1 C. all-purpose flour for coating",
+      "1 C. butter",
+      "Glaze",
+      "3 tbsp soy sauce",
+      "3 tbsp water",
+      "1 C. white sugar",
+      "1/2 C. white vinegar",
+      "1/2 tsp garlic powder, or to taste",
+      "1 tsp salt"
+    ],
+    "steps": [
+      "Before you do anything preheat the oven to 350 F.",
+      "Slice the wings into half and coat them with the beaten egg.",
+      "Dust the wings in the flour.",
+      "Place a large frying pan over medium heat.",
+      "Heat the oil in it.",
+      "Add the chicken wings and cook them until they become deep golden brown.",
+      "Drain the chicken wings and place them in a roasting dish.",
+      "Get a mixing bowl: Mix in it the remaining ingredients.",
+      "Pour the mix all over the wings and toss them to coat.",
+      "Cook the chicken wings in the oven for 38 min.",
+      "Serve them warm."
+    ],
+    "nutrition": {
+      "calories": 675.0,
+      "protein_g": 18.9,
+      "carbohydrates_g": 51.4,
+      "fat_g": 44.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0023",
+    "title": "Sunflower Ramen With Vinaigrette",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "8",
+    "ingredients": [
+      "Ramen",
+      "16 oz. shredded cabbage, or coleslaw mix",
+      "2/3 C. sunflower seeds",
+      "1/2 C. slivered almonds",
+      "3 bags oriental-flavor instant ramen noodles, crunched, uncooked,",
+      "packet saved",
+      "1 bunch green onion, chopped",
+      "Vinaigrette",
+      "1/2 C. oil",
+      "3 tbsp red wine vinegar",
+      "3 tbsp sugar",
+      "2 tsp pepper",
+      "3 packages seasoning from oriental-flavor instant ramen noodles"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Toss in it the salad ingredients.",
+      "Get a small mixing bowl: Whisk in it the dressing ingredients.",
+      "Drizzle the dressing over the salad and toss them to coat.",
+      "Serve it right away."
+    ],
+    "nutrition": {
+      "calories": 430.6,
+      "protein_g": 8.8,
+      "carbohydrates_g": 37.0,
+      "fat_g": 28.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0024",
+    "title": "Wasabi Japanese Tortillas",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1/4 C. soy sauce",
+      "2 tbsp white sugar",
+      "1 tsp grated fresh ginger",
+      "1 clove garlic, minced",
+      "1 lb skinless, boneless chicken breast, cut into strips",
+      "6 (10 inch) flour tortillas",
+      "1/4 C. extra-virgin olive oil, divided",
+      "6 oz shredded pepperjack cheese, divided",
+      "6 oz grated Parmesan cheese, divided",
+      "1 habanero pepper, seeded and finely chopped (optional)",
+      "1 tbsp wasabi paste, divided (optional)"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Mix in it the soy sauce, sugar, ginger, and garlic.",
+      "Add the chicken strips and stir them.",
+      "Place a piece of plastic wrap on the bowl.",
+      "Place it in the fridge for 1 h 20 min.",
+      "Before you do anything preheat the oven to 425 F.",
+      "Drain the chicken strips from the marinade.",
+      "Lay them in a glass oven dish.",
+      "Cook them in the oven for 22 min.",
+      "Spread the olive oil on both sides of a tortilla.",
+      "Place it on a lined up baking sheet and spread 1/3 of the pepperjack cheese on it followed by 1/3 of chicken strips.",
+      "Place 1/3 of the parmesan cheese followed by 1/3 of the habanero and 1 tsp wasabi paste.",
+      "Cover another tortilla with some olive oil on both sides and place it on top to make a quesadilla.",
+      "Repeat the process to make another 2 quesadillas.",
+      "Place a griddle over medium heat and grease it with some oil.",
+      "Place in it a quesadilla and cook it for 4 min on each side.",
+      "Repeat the process with the remaining 2 quesadillas then serve them warm."
+    ],
+    "nutrition": {
+      "calories": 643.0,
+      "protein_g": 38.2,
+      "carbohydrates_g": 44.9,
+      "fat_g": 33.5
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0025",
+    "title": "Cream Of Ramen And Mushroom Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 (3 oz.) packages chicken-flavored ramen noodles",
+      "1 (10 3/4 oz.) cans cream of mushroom soup",
+      "1 (3 oz.) cans chicken"
+    ],
+    "steps": [
+      "Prepare the ramen according to the directions on the package.",
+      "Place a large saucepan over medium heat.",
+      "Stir in it the soup, chicken and seasoning.",
+      "Cook them for 6 min.",
+      "Drain the noodles and divide it between serving bowls.",
+      "Spoon the soup mix over it then serve it warm."
+    ],
+    "nutrition": {
+      "calories": 203.3,
+      "protein_g": 7.4,
+      "carbohydrates_g": 18.6,
+      "fat_g": 11.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0026",
+    "title": "Japanese Jasmine Nori Bites",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "2 C. water",
+      "1 C. jasmine rice",
+      "salt",
+      "1 sheet nori (dry seaweed), cut into 1-inch strips, or as desired",
+      "(optional)"
+    ],
+    "steps": [
+      "Prepare the rice according to the directions on the package.",
+      "Drain it, fluff it and place it aside to lose heat for 12 min.",
+      "Get a small bowl: fill it with water and place it aside.",
+      "Fill another small bowl with 2 tbsp of salt.",
+      "Wet your hands with the water and rub some salt all over it.",
+      "Take some rice into your hands and shape them into a triangle.",
+      "Wrap a strip of nori around the triangle.",
+      "Serve them with your favorite dip."
+    ],
+    "nutrition": {
+      "calories": 114.0,
+      "protein_g": 2.2,
+      "carbohydrates_g": 25.6,
+      "fat_g": 0.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0027",
+    "title": "Saucy Serrano Ramen Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 yellow onion, chopped",
+      "2 roma tomatoes, chopped",
+      "1 serrano chili, chopped",
+      "1 red pepper, roasted and peeled, medium chopped",
+      "1 C. mixed vegetables diced",
+      "2 (3 oz.) packets oriental-flavor instant ramen noodles",
+      "1 vegetable bouillon cube",
+      "1 tsp cumin powder",
+      "1 tsp red chili powder",
+      "4 tbsp spaghetti sauce",
+      "2 tsp canola oil or 2 tsp any other vegetable oil"
+    ],
+    "steps": [
+      "Place a large pan over medium heat.",
+      "Heat the oil in it.",
+      "Sauté in it the onion with tomato and serrano chili for 3 min.",
+      "Stir in a seasoning packet and the Maggi bouillon cube.",
+      "Stir in the veggies, the cumin and 1/2 a C.",
+      "of water.",
+      "Cook them for 6 min.",
+      "Stir in the spaghetti sauce and cook them for an extra 6 min.",
+      "Prepare the noodles according to the directions on the package.",
+      "Toss the noodles with the veggies mix.",
+      "Serve it hot."
+    ],
+    "nutrition": {
+      "calories": 533.3,
+      "protein_g": 13.6,
+      "carbohydrates_g": 77.4,
+      "fat_g": 19.5
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0028",
+    "title": "Japanese Sesame Wings",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "14 oz chicken wings",
+      "1 tbsp sake",
+      "1 tbsp chopped garlic",
+      "1 1/2 tsp sesame oil",
+      "1 tsp chopped fresh ginger root",
+      "1/2 tsp salt",
+      "1/2 tsp dashi (Japanese seasoning)",
+      "2 C. vegetable oil for frying",
+      "3 tbsp cornstarch",
+      "salt and ground black pepper to taste"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Toss in it the chicken wings, sake, garlic, sesame oil, ginger, dashi, and 1/2 tsp salt.",
+      "Cover the bowl and place it in the fridge for 1 h 30 min.",
+      "Place a saucepan over medium heat.",
+      "Heat the oil in it until it reaches 350 F.",
+      "Drain the chicken wings from the marinade and dust them with the cornstarch.",
+      "Deep fry the chicken wings until they become golden brown for 17 min.",
+      "Drain them then season them with some salt and pepper.",
+      "Serve your chicken wings with your favorite dip."
+    ],
+    "nutrition": {
+      "calories": 224.0,
+      "protein_g": 6.6,
+      "carbohydrates_g": 7.0,
+      "fat_g": 18.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0029",
+    "title": "American Ground Beef Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 lb ground beef, drained",
+      "3 (3 oz.) packets beef-flavor ramen noodles",
+      "5 C. boiling water",
+      "1/4-1/2 C. water",
+      "1 (16 oz.) cans corn",
+      "1 (16 oz.) cans peas",
+      "1/4 C. soy sauce",
+      "1/2 tsp ground red pepper",
+      "1 dash cinnamon",
+      "2 tsp sugar"
+    ],
+    "steps": [
+      "Place a large pan over medium heat.",
+      "Heat a splash of oil in it.",
+      "Add the beef and cook it for 8 min.",
+      "Place it aside.",
+      "Place a large saucepan over medium heat.",
+      "Heat 5 C.",
+      "of water in it until it starts boiling.",
+      "Cook in it the noodles for 3 to 4 min.",
+      "Remove the noodles from the water and stir it into the skillet with the beef.",
+      "Add the water, corn, peas, soy sauce, red pepper, cinnamon, sugar and 1 and a half of the seasoning packets.",
+      "Toss them to coat.",
+      "Let them cook for 6 min while stirring often.",
+      "Serve your ramen Skillet Hot."
+    ],
+    "nutrition": {
+      "calories": 770.2,
+      "protein_g": 38.7,
+      "carbohydrates_g": 91.2,
+      "fat_g": 29.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0030",
+    "title": "Savory And Sweet Omelet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 tbsp water",
+      "1 tsp soy sauce, or to taste",
+      "1/2 tsp white sugar",
+      "1 egg"
+    ],
+    "steps": [
+      "Get a mixing bowl: Whisk in it the water, soy sauce, and sugar well.",
+      "Stir in the egg and mix them again.",
+      "Place a large skillet over medium heat.",
+      "Grease it with a cooking spray.",
+      "Pour into it the egg mix and spread it in the pan.",
+      "Cook it for 4 min until it becomes golden brown from the sides.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 82.0,
+      "protein_g": 6.6,
+      "carbohydrates_g": 2.9,
+      "fat_g": 5.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0031",
+    "title": "Kimchee Noodles",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 1/2 C. kimchee",
+      "1 (3 oz.) packages oriental-flavor instant ramen noodles",
+      "1 (12 oz.) packages Spam, cubed",
+      "2 tbsp vegetable oil"
+    ],
+    "steps": [
+      "Cook the noodles according to the instructions on the package.",
+      "Place the pan over medium heat.",
+      "Heat the oil in it.",
+      "Sauté in it the spam pieces for 3 min.",
+      "Stir in the noodles after draining it and cook them for an extra 3 min.",
+      "Stir in the kimchee and cook them for 2 min.",
+      "serve your noodles warm."
+    ],
+    "nutrition": {
+      "calories": 830.8,
+      "protein_g": 26.8,
+      "carbohydrates_g": 32.7,
+      "fat_g": 66.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0032",
+    "title": "Tipsy Japanese Crumbled Beef",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "3/4 lb ground beef",
+      "2 tbsp freshly grated ginger",
+      "3 tbsp soy sauce",
+      "3 tbsp sake",
+      "2 tbsp mirin",
+      "1 tbsp white sugar, or more to taste"
+    ],
+    "steps": [
+      "Place a large skillet over medium heat and heat it.",
+      "Add the beef and cook it for 8 min.",
+      "Stir in the remaining ingredients.",
+      "Cook them until they start boiling.",
+      "Keep boiling them for 2 min.",
+      "Serve your crumbled beef warm with some rice."
+    ],
+    "nutrition": {
+      "calories": 232.0,
+      "protein_g": 14.9,
+      "carbohydrates_g": 7.4,
+      "fat_g": 13.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0033",
+    "title": "Faux Pepperoni Ramen Pizza",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 (3 oz.) packages ramen noodles, any flavor",
+      "1 tbsp olive oil",
+      "1 (14 oz.) jars spaghetti sauce",
+      "1 C. low-fat mozzarella cheese, shredded",
+      "3 oz. turkey pepperoni",
+      "1/2 tsp dried oregano"
+    ],
+    "steps": [
+      "Before you do anything, preheat the oven broiler.",
+      "Prepare the noodles according to the instructions on the package without the seasoning packet.",
+      "Drain it.",
+      "Place a large oven proof pan over medium heat.",
+      "Heat the oil in it.",
+      "Sauté in it the noodles and press it to the bottom of it for 2 min to make the crust.",
+      "Pour the sauce all over the noodles and top it with 2 oz.",
+      "pepperoni slices.",
+      "Sprinkle the cheese on top followed by the remaining pepperoni and oregano.",
+      "Transfer the pan to the oven and cook them for 2 to 3 min or until the cheese melts.",
+      "Allow your pizza to lose the heat for 6 min.",
+      "serve it."
+    ],
+    "nutrition": {
+      "calories": 170.6,
+      "protein_g": 7.0,
+      "carbohydrates_g": 17.7,
+      "fat_g": 7.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0034",
+    "title": "Japanese Ricy Ketchup Omelet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 C. cooked white or brown rice",
+      "2 thin slices cooked ham, cubed",
+      "2 tbsp ketchup",
+      "1 slice processed cheese food (such as Velveeta (R)) (optional)",
+      "2 eggs",
+      "salt and pepper to taste",
+      "1 tbsp ketchup",
+      "1/4 tsp chopped fresh parsley"
+    ],
+    "steps": [
+      "Place a large skillet over medium heat and heat it.",
+      "Grease it with a cooking spray.",
+      "Add the rice, 2 tbsp ketchup, ham, and cheese.",
+      "Cook them for 9 min.",
+      "Transfer the mix to a serving dish and place it aside.",
+      "Get a mixing bowl: Mix in it the eggs and salt and pepper.",
+      "Place a small skillet over medium heat and heat it.",
+      "Grease it with a cooking spray.",
+      "Pour in it the beaten egg and cook the omelet until it becomes golden brown from the bottom.",
+      "Serve your omelet over the rice warm."
+    ],
+    "nutrition": {
+      "calories": 521.0,
+      "protein_g": 26.7,
+      "carbohydrates_g": 59.3,
+      "fat_g": 20.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0035",
+    "title": "Roasted Miso Noodles",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "4 large eggs, hard boiled",
+      "1 tbsp unsalted butter",
+      "1 C. sweet corn",
+      "1 tbsp olive oil",
+      "8 oz. fresh spinach",
+      "1 quart chicken stock",
+      "1 tsp red miso",
+      "6 oz. ramen noodles",
+      "6 oz. cooked chicken",
+      "4 green onions, thinly sliced",
+      "1 tsp toasted sesame oil, for drizzling"
+    ],
+    "steps": [
+      "Place a small saucepan over medium heat.",
+      "Melt in it the butter.",
+      "Add the corn with a pinch of salt and pepper then heat them though.",
+      "Place it aside.",
+      "Place a large pan over medium heat.",
+      "Heat the oil in it.",
+      "Add to it the spinach and cook them for 2 min.",
+      "Place it aside.",
+      "Place a large saucepan over medium heat.",
+      "Heat in it the chicken stock until it starts boiling.",
+      "Add to it the miso paste and mix them well.",
+      "Stir in the noodles and cook it for 3 min.",
+      "Spoon the noodles into serving bowls.",
+      "Top it with the corn, spinach and chicken.",
+      "Garnish it with the green onions, sesame oil and eggs.",
+      "Serve them hot."
+    ],
+    "nutrition": {
+      "calories": 1069.2,
+      "protein_g": 61.8,
+      "carbohydrates_g": 93.7,
+      "fat_g": 50.5
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0036",
+    "title": "Japanese Tofu And Beef Burgers",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 (14 oz) package firm tofu",
+      "1 lb ground beef",
+      "1/2 C. sliced shiitake mushrooms",
+      "2 tbsp miso paste",
+      "1 egg, lightly beaten",
+      "1 tsp salt",
+      "1 tsp ground black pepper",
+      "1/4 tsp ground nutmeg",
+      "1/4 C. mirin (Japanese sweet wine)",
+      "2 tbsp soy sauce",
+      "1 tsp garlic paste",
+      "1/4 tsp minced fresh ginger root",
+      "1 tbsp vegetable oil"
+    ],
+    "steps": [
+      "Press the tofu and drain it.",
+      "Cut it into 1/2 inch dices.",
+      "Get a large mixing bowl: Mix in it the tofu, ground beef, shiitake mushrooms, miso paste, egg, salt, pepper, and nutmeg.",
+      "Shape the mix into 6 patties.",
+      "Get a small bowl: Mix in it the mirin, soy sauce, garlic paste, and ginger.",
+      "Place a large pan over medium heat.",
+      "Heat the oil in it.",
+      "Cook in it the patties for 3 min on each side.",
+      "Lower the heat and put on the lid.",
+      "Cook the patties for 5 min.",
+      "Drain them and place them aside.",
+      "Discard the grease from the pan.",
+      "Add the mirin mix with the burger patties.",
+      "Cook them on both sides until they become coated with the sauce.",
+      "Serve your burgers with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 307.0,
+      "protein_g": 25.5,
+      "carbohydrates_g": 8.9,
+      "fat_g": 18.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0037",
+    "title": "Mock Ramen Pot Pie",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 (3 oz.) packages ramen noodles",
+      "1 lb ground beef",
+      "1 (15 oz.) cans sweet corn",
+      "1/2 C. onion, chopped",
+      "vegetable oil"
+    ],
+    "steps": [
+      "Before you do anything preheat the oven to 350 F.",
+      "Prepare the noodles according to the directions on the package.",
+      "Place a large pan over medium heat.",
+      "Heat a splash of oil in it.",
+      "Cook in it the beef with onion for 12 min.",
+      "Spread the mix in the bottom of a greased baking pan.",
+      "Top it with the sweet corn and the ramen noodles after draining it.",
+      "Place the casserole in the oven and cook it for 14 to 16 min.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 528.6,
+      "protein_g": 29.1,
+      "carbohydrates_g": 49.0,
+      "fat_g": 24.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0038",
+    "title": "Japanese Grilled Portobello Caps",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "4 Portobello mushroom caps",
+      "3 tbsp soy sauce",
+      "2 tbsp sesame oil",
+      "1 tbsp minced fresh ginger root",
+      "1 small clove garlic, minced"
+    ],
+    "steps": [
+      "Before you do anything preheat the oven broiler.",
+      "Place the rack 6 inches away from the heat.",
+      "Clean the mushroom caps and place them on a baking pan with their top down.",
+      "Get a small bowl: Mix in it the soy sauce, sesame oil, ginger, and garlic.",
+      "Spread the mix over the mushroom caps.",
+      "Place it in the oven and cook it for 12 min.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 196.0,
+      "protein_g": 7.3,
+      "carbohydrates_g": 14.2,
+      "fat_g": 14.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0039",
+    "title": "Salad From Vietnam",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "8",
+    "ingredients": [
+      "1/2 head green cabbage, finely chopped",
+      "4 green onions, finely chopped",
+      "1/2 bunch fresh curly-leaf parsley",
+      "2 tbsp sugar",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1/2 C. olive oil",
+      "3 tbsp white balsamic vinegar",
+      "1 (3 oz.) packages chicken-flavored ramen noodles, uncooked",
+      "2 oz. slivered almonds"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Toss in it the cabbage, green onions, parsley and coarsely crumbled uncooked ramen noodles.",
+      "Get a small mixing bowl: Mix in it the sugar, salt, black pepper, olive oil, vinegar, seasoning packet, a pinch of salt and pepper to make the vinaigrette.",
+      "Add it to the salad and toss them to coat.",
+      "Place the salad in the fridge for 3 h to an overnight.",
+      "Sprinkle the almonds on top then serve it."
+    ],
+    "nutrition": {
+      "calories": 238.2,
+      "protein_g": 3.7,
+      "carbohydrates_g": 15.8,
+      "fat_g": 18.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0040",
+    "title": "Japanese Sweet And Chili Cucumber Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 tbsp white sugar",
+      "2 tbsp rice vinegar",
+      "1 tsp Asian (toasted) sesame oil",
+      "1 tsp chili paste",
+      "salt to taste",
+      "2 large cucumbers - peeled, seeded, and cut into 1/4-inch slices"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Whisk in it the sugar, rice vinegar, sesame oil, chile paste, and salt.",
+      "Add the cucumber and toss them to coat.",
+      "Place the salad aside to sit for 35 min.",
+      "Serve it."
+    ],
+    "nutrition": {
+      "calories": 55.0,
+      "protein_g": 0.8,
+      "carbohydrates_g": 10.5,
+      "fat_g": 1.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0041",
+    "title": "Creamy Nuts And Noodles Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 packages chicken-flavored ramen noodles",
+      "1 C. diced celery",
+      "1 (8 oz.) cans sliced water chestnuts, drained",
+      "1 C. chopped red onion",
+      "1 C. diced green pepper",
+      "1 C. peas",
+      "1 C. mayonnaise"
+    ],
+    "steps": [
+      "Crush the noodles into 4 pieces.",
+      "Prepare them according to the instructions on the package.",
+      "Get a large mixing bowl: Drain the noodles and toss it with the celery, water chestnuts, onion, pepper and peas in it.",
+      "Get a small mixing bowl: Whisk in it the mayo with 3 seasoning packets.",
+      "Add them to the salad and toss them to coat.",
+      "Place the salad in the fridge for 1 to 2 h then serve it."
+    ],
+    "nutrition": {
+      "calories": 318.5,
+      "protein_g": 4.1,
+      "carbohydrates_g": 33.4,
+      "fat_g": 19.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0042",
+    "title": "Crusted Japanese Chicken Breasts",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "4 skinless, boneless chicken breast halves – pound it to 1/2 inch",
+      "thickness",
+      "salt and pepper to taste",
+      "2 tbsp all-purpose flour",
+      "1 egg, beaten",
+      "1 C. panko bread crumbs",
+      "1 C. oil for frying, or as needed"
+    ],
+    "steps": [
+      "Sprinkle some salt and pepper over the chicken breasts.",
+      "Place the egg, flour and breadcrumbs in separate shallow bowls.",
+      "Dip the chicken breasts in the egg, dust them with flour and coat them with the breadcrumbs.",
+      "Place a large frying pan over medium heat.",
+      "Heat the oil in it until it starts shimmering.",
+      "Deep dry in it the chicken for 5 min on each side.",
+      "Serve them warm."
+    ],
+    "nutrition": {
+      "calories": 297.0,
+      "protein_g": 31.2,
+      "carbohydrates_g": 22.2,
+      "fat_g": 11.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0043",
+    "title": "Tropical Curry Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 (3 oz.) packages ramen noodles",
+      "1 tbsp vegetable oil",
+      "1 tsp crushed red pepper flakes",
+      "2 garlic cloves, minced",
+      "1 C. shredded cabbage",
+      "1 C. thinly sliced mixed mushrooms",
+      "1 C. chopped broccoli",
+      "1 tbsp peanut butter",
+      "1 tbsp soy sauce",
+      "1 tbsp brown sugar",
+      "1 C. coconut milk",
+      "1 tsp curry powder",
+      "1 tsp sambal oelek",
+      "1 lime, juice of",
+      "1/2 tsp salt",
+      "1 tbsp crushed peanuts",
+      "1/4 C. chopped cilantro",
+      "lime wedge"
+    ],
+    "steps": [
+      "Prepare the noodles according to the directions on the package without the seasoning packets.",
+      "Drain the noodles and reserve the cooking liquid.",
+      "Place a large pan over medium heat.",
+      "Heat the oil in it.",
+      "Sauté in it the garlic with red pepper for 40 sec.",
+      "Stir in the cabbage, mushrooms and broccoli.",
+      "Add the veggies and cook them for 6 min.",
+      "Stir the noodles into the pan and place them aside.",
+      "Place another pan over medium heat.",
+      "Stir in it the peanut butter, soy sauce, brown sugar, coconut milk, curry powder, sambal oelek and salt.",
+      "Cook them until they start boiling.",
+      "Add the cooked noodles and veggies and stir them to coat.",
+      "Stir in 1/4 C.",
+      "of the cooking liquid.",
+      "Cook them until they mix becomes thick.",
+      "Let the ramen skillet rest for 6 min.",
+      "Top the ramen skillet with the cilantro and peanuts then serve them hot."
+    ],
+    "nutrition": {
+      "calories": 553.2,
+      "protein_g": 8.5,
+      "carbohydrates_g": 76.3,
+      "fat_g": 25.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0044",
+    "title": "Japanese Sesame Fried Chicken Bites",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "8",
+    "ingredients": [
+      "2 eggs, lightly beaten",
+      "1/2 tsp salt",
+      "1/2 tsp black pepper",
+      "1/2 tsp white sugar",
+      "1 tbsp minced garlic",
+      "1 tbsp grated fresh ginger root",
+      "1 tbsp sesame oil",
+      "1 tbsp soy sauce",
+      "1/8 tsp chicken bouillon granules",
+      "1 1/2 lb skinless, boneless chicken breast halves - cut into 1 inch",
+      "cubes",
+      "3 tbsp potato starch",
+      "1 tbsp rice flour",
+      "oil for frying"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Beat in it the eggs, salt, pepper, sugar, garlic, ginger, sesame oil, soy sauce, and bouillon.",
+      "Dip in it the chicken dices.",
+      "Cover bowl with a plastic wrap and place it in the fridge for 35 min.",
+      "Get a large shallow bowl: Mix in it the potato starch and rice flour.",
+      "Toss in it the chicken cubes.",
+      "Place a large frying pan over medium heat.",
+      "Heat the oil in it until it reaches 365 F.",
+      "Cook in it the chicken cubes until they become golden brown.",
+      "Drain your chicken cubes then serve them warm with your favorite dip."
+    ],
+    "nutrition": {
+      "calories": 256.0,
+      "protein_g": 20.9,
+      "carbohydrates_g": 4.8,
+      "fat_g": 16.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0045",
+    "title": "Fried Ramen Rings",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "Batter for Frying, reserve 2 C.",
+      "1 C. self-rising flour",
+      "1 tsp salt",
+      "1/4 tsp pepper",
+      "2 eggs, beaten",
+      "1 C. beer, or milk",
+      "Onions",
+      "2 (3 oz.) packages ramen noodles, packet reserved",
+      "oil, for frying",
+      "1 large Vidalia onion, ringed"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Whisk in it the flour, eggs, beer, a pinch of salt and pepper.",
+      "Get a food processor: Cut the one ramen in half and process it in it until it becomes ground.",
+      "Add it to the flour batter and mix them well.",
+      "Finely crush the other ramen and place it in a shallow dish.",
+      "Add to it the seasoning packet and mix them well.",
+      "Place a large pan over medium heat.",
+      "Fill 3/4 inch of it with oil and heat it.",
+      "Coat the onion rings with the flour batter and dip them in the crushed noodles mix.",
+      "Place them in the hot oil and cook them until they become golden brown.",
+      "Serve your onion rings with your favorite dip."
+    ],
+    "nutrition": {
+      "calories": 1490.7,
+      "protein_g": 45.5,
+      "carbohydrates_g": 224.1,
+      "fat_g": 37.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0046",
+    "title": "Japanese Condensed Beef Steak Stir Fry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "8",
+    "ingredients": [
+      "2 lb boneless beef sirloin or beef top round steaks (3/4\" thick)",
+      "3 tbsp cornstarch",
+      "1 (10.5 oz) can Condensed Beef Broth",
+      "1/2 C. soy sauce",
+      "2 tbsp sugar",
+      "2 tbsp vegetable oil",
+      "4 C. sliced shiitake mushrooms",
+      "1 head Chinese cabbage (bok choy), thinly sliced",
+      "2 medium red peppers, cut into 2\"-long strips",
+      "3 stalks celery, sliced",
+      "2 medium green onions, cut into 2\" pieces",
+      "Hot cooked regular long-grain white rice"
+    ],
+    "steps": [
+      "Cut the beef steak into thin strips.",
+      "Get a mixing bowl: Whisk in it the cornstarch, broth, soy and sugar.",
+      "Place a wok or pan over medium heat.",
+      "Heat in it 1 tbsp of oil.",
+      "Add half of the beef and cook it for 6 min.",
+      "Drain it and place it aside.",
+      "Repeat the process with the rest of the beef.",
+      "Heat the remaining oil in the same pan.",
+      "Cook in it the mushrooms, cabbage, peppers, celery and green onions for 6 to 8 min.",
+      "Drain the veggies and place them aside.",
+      "Add the broth mix to the same pan and cook them until they start boiling while stirring all the time.",
+      "Keep boiling it until the mix becomes thick to make the sauce.",
+      "Toss in back the cooked veggies and beef.",
+      "Serve your stir fry warm with some white rice."
+    ],
+    "nutrition": {
+      "calories": 290.0,
+      "protein_g": 26.4,
+      "carbohydrates_g": 26.4,
+      "fat_g": 7.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0047",
+    "title": "Thai Ramen Beef Satay",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "Marinade",
+      "2 tbsp soy sauce",
+      "2 tbsp lime juice",
+      "1 1/2 tsp sugar",
+      "1 1/2 tsp fresh ginger, grated, peeled",
+      "1 garlic clove, grated (optional)",
+      "1/4 tsp red pepper flakes (optional)",
+      "2 lbs flank steaks, thinly sliced against the grain",
+      "Peanut Ramen Glaze",
+      "1 tbsp lime juice",
+      "1 tsp sugar",
+      "1 tsp fresh ginger, grated and peeled",
+      "1/3 C. creamy peanut butter",
+      "1/3 C. water",
+      "1 tbsp soy sauce",
+      "1/4 tsp red pepper flakes (optional)",
+      "1/4 C. roasted peanuts, chopped",
+      "3 green onions, sliced",
+      "vegetable oil, for grill",
+      "2 (3 oz.) packages ramen noodles, cooked, packet removed"
+    ],
+    "steps": [
+      "Place 12 wooden skewers in some water and let them sit for 16 min.",
+      "Get a roasting pan: Mix in it 2 tbsp each soy sauce and lime juice and 1 1/2 tsp each sugar and ginger, garlic and/or 1/4 tsp optional red pepper flakes to make the marinade.",
+      "Add the beef slices to the marinade and toss them to coat.",
+      "Place them aside to sit for 12 min.",
+      "Get a food processor: Combine in it 1 tbsp lime juice, 1 tsp sugar, and 1 tsp ginger with peanut butter and 1/3 C.",
+      "water.",
+      "Process them until they become smooth.",
+      "Add the rest of the soy sauce and process them again.",
+      "Pour the mix in small mixing bowl.",
+      "Stir in it the chopped peanuts and green onions and optional remaining 1/4 tsp of red pepper flakes to make the sauce.",
+      "Before you do anything else preheat the grill and grease it.",
+      "Drain the beef slices and thread them into the wooden skewers.",
+      "Cook the beef slices on the grill for 4 to 5 min on each side.",
+      "Spoon the noodles into serving bowls.",
+      "Drizzle the peanut sauce over it and top it with the grilled beef.",
+      "Serve them hot."
+    ],
+    "nutrition": {
+      "calories": 794.6,
+      "protein_g": 63.0,
+      "carbohydrates_g": 39.6,
+      "fat_g": 43.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0048",
+    "title": "Japanese Barbecue Bacon Pancakes",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "12 oz sliced bacon",
+      "1 1/3 C. water",
+      "4 eggs",
+      "3 C. all-purpose flour",
+      "1 tsp salt",
+      "1 medium head cabbage, cored and sliced",
+      "2 tbsp minced pickled ginger",
+      "1/4 C. tonkatsu sauce or barbeque sauce"
+    ],
+    "steps": [
+      "Place a large pan over medium heat.",
+      "Cook in it the bacon slices until they become crisp.",
+      "Drain it and place it aside.",
+      "Get a large mixing bowl: Whisk in it the eggs with water.",
+      "Add the salt with flour.",
+      "Mix them well.",
+      "Stir in the ginger with cabbage.",
+      "Place a large skillet over medium heat then grease it with a cooking spray.",
+      "Ladle about 1/4 of the batter into the hot skillet.",
+      "Place 4 crisp bacon slices in the middle of the pancake.",
+      "Cook the pancake for 6 min.",
+      "Flip it and cook it on the other side until it is done.",
+      "Repeat the process with the rest of the batter.",
+      "Serve your pancakes with the tonkatsu sauce."
+    ],
+    "nutrition": {
+      "calories": 659.0,
+      "protein_g": 29.3,
+      "carbohydrates_g": 90.7,
+      "fat_g": 19.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0049",
+    "title": "Golden Cheddar Ramen Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "Ramen",
+      "1 (3 oz.) packages ramen noodles",
+      "2 C. water",
+      "Base",
+      "1 seasoning, packet",
+      "1-2 C. water",
+      "1 tbsp freshly shredded parmesan cheese",
+      "1/4 C. shredded aged white cheddar cheese",
+      "1/4 C. golden raisins",
+      "Tabasco sauce"
+    ],
+    "steps": [
+      "Stir 2 C.",
+      "of water and 1 ramen packet in a heatproof bowl.",
+      "Place it in the microwave for 5 to 7 min.",
+      "Once the time is up, stir the parmesan and cheddar cheese into the noodles until they melt.",
+      "Fold the raisins into it and serve it hot."
+    ],
+    "nutrition": {
+      "calories": 617.0,
+      "protein_g": 17.2,
+      "carbohydrates_g": 85.0,
+      "fat_g": 24.4
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0050",
+    "title": "Japanese Sweet Chicken Stir Fry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 (3 lb) whole chicken, cut into pieces",
+      "1 tbsp grated fresh ginger root",
+      "1 clove garlic, crushed",
+      "3 tbsp white sugar",
+      "2/3 C. soy sauce",
+      "1 tbsp sake",
+      "1/4 C. mirin",
+      "2 tbsp cooking oil"
+    ],
+    "steps": [
+      "Clean the chicken and dry it.",
+      "Get a glass oven pan: Mix in it the ginger, garlic, sugar, soy sauce, sake and mirin.",
+      "Add to it the chicken pieces and stir them to coat.",
+      "Cover the dish with a plastic wrap and place it in the fridge for 2 h to 8 h.",
+      "Place a large skillet over medium heat.",
+      "Heat the oil in it.",
+      "Drain the chicken pieces from the marinade and fry them until they become golden brown.",
+      "Drain the chicken pieces and place them aside.",
+      "Remove the grease from the pan Pour the marinade from the chicken into the skillet with the browned chicken pieces.",
+      "Lower the heat and put on the lid.",
+      "Cook the marinade for 9 min to make the sauce.",
+      "Remove the lid and keep cooking them until the chicken is done and the sauce is thick.",
+      "Serve your saucy chicken warm."
+    ],
+    "nutrition": {
+      "calories": 587.0,
+      "protein_g": 48.7,
+      "carbohydrates_g": 18.0,
+      "fat_g": 32.5
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0051",
+    "title": "Alternative Egg Drop Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "3 C. water",
+      "1 (3 oz.) packages ramen noodles",
+      "1 vegetarian bouillon cube",
+      "garlic powder",
+      "onion powder",
+      "five-spice powder",
+      "pepper",
+      "4 oz. peanuts",
+      "4 oz. frozen broccoli",
+      "4 oz. frozen cauliflower",
+      "4 oz. frozen corn",
+      "4 oz. frozen peas",
+      "2 large eggs",
+      "1 tsp toasted sesame oil",
+      "soy sauce or hoisin sauce"
+    ],
+    "steps": [
+      "Place a pot over medium heat.",
+      "Cook in 3 C.",
+      "of water until the start boiling.",
+      "Stir in the bouillon and spices; noodles, broccoli and cauliflower.",
+      "Cook them until they start boiling.",
+      "Stir in the peas with corn and peanut then cook them again until they start boiling.",
+      "Stir in the eggs into the soup and cook it until it starts boiling again.",
+      "Stir in the seasoning packet with hoisin sauce, and sesame oil.",
+      "Serve your soup hot."
+    ],
+    "nutrition": {
+      "calories": 366.9,
+      "protein_g": 16.2,
+      "carbohydrates_g": 31.3,
+      "fat_g": 21.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0052",
+    "title": "Japanese Sesame Egg Sushi",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 C. sushi rice, or Japanese short-grain white rice",
+      "3 eggs, beaten",
+      "1/4 tsp salt",
+      "1 tbsp vegetable oil",
+      "3 tbsp rice vinegar",
+      "2 tbsp white sugar",
+      "1 tsp salt",
+      "2 tbsp black sesame seeds",
+      "6 sprigs Italian parsley with long stems"
+    ],
+    "steps": [
+      "Cook the rice according to the directions on the package.",
+      "Drain and place it aside to lose heat completely.",
+      "Get a mixing bowl: Mix in it the eggs with 1/4 tsp of salt.",
+      "Place a large skillet over medium heat.",
+      "Grease it with oil and heat it.",
+      "Spread in it 1/6 of the beaten eggs then cook them for until it is done.",
+      "Flip the egg omelet and cook it for 10 sec.",
+      "Place it aside.",
+      "Repeat the process with the rest of the mix to make 6 thin omelet.",
+      "Get a small bowl: Mix in it the vinegar, sugar, and 1 tsp salt.",
+      "Place it in the microwave and heat for 10 to 15 sec.",
+      "Stir in the sesame seeds with vinegar.",
+      "Place an egg omelet on working surface and place in the center of the edge a spoonful of rice.",
+      "Roll it to make a square then use the Italian parsley to tie it.",
+      "Serve it with your favorite dip."
+    ],
+    "nutrition": {
+      "calories": 218.0,
+      "protein_g": 6.7,
+      "carbohydrates_g": 33.2,
+      "fat_g": 6.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0053",
+    "title": "Hot Shot Of Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 1/2 C. water",
+      "1 small yellow onion, finely diced",
+      "1 celery rib, finely diced",
+      "6 baby carrots, julienne",
+      "1 (3 oz.) packages ramen noodles, broken",
+      "1 (5 1/2 oz.) cans sardines in tomato sauce",
+      "2-3 dashes hot sauce"
+    ],
+    "steps": [
+      "Place a large saucepan of water over medium heat.",
+      "Stir in it the water, onion, celery, and carrots.",
+      "Cook them for 12 min.",
+      "Stir in the noodles and cook it for 3 to 4 min.",
+      "Stir the sardines with tomato, and hot sauce into the saucepan.",
+      "Serve it hot with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 365.6,
+      "protein_g": 20.8,
+      "carbohydrates_g": 35.0,
+      "fat_g": 15.5
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0054",
+    "title": "Jalapenos Frittata",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 (3 oz) packages chicken flavored ramen noodles",
+      "6 eggs",
+      "2 tsp butter",
+      "1/2 C. shredded Cheddar cheese"
+    ],
+    "steps": [
+      "Place a small saucepan over medium heat.",
+      "Fill it with water and bring it to a boil.",
+      "Cook in it the noodles until it becomes soft.",
+      "Get a mixing bowl: Mix in it the seasoning packet with eggs.",
+      "Add the noodles and toss them.",
+      "Place a large pan over medium heat.",
+      "Heat the butter in it until it melts.",
+      "Cook in it the noodles for 6 min.",
+      "Cut the noodles frittata into 4 pieces and flip them.",
+      "Sprinkle the cheese on top and cook them for 2 min.",
+      "Serve your frittata warm."
+    ],
+    "nutrition": {
+      "calories": 339.0,
+      "protein_g": 20.3,
+      "carbohydrates_g": 28.8,
+      "fat_g": 15.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0055",
+    "title": "Minty Noodles Cookies",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "24",
+    "ingredients": [
+      "4 (3 oz.) packets ramen noodles, uncooked",
+      "1 (16 oz.) bags dark chocolate chips",
+      "12-14 drops peppermint extract",
+      "1-2 drop spear mint extract",
+      "1-2 drop wintergreen extract",
+      "24 lollipop sticks",
+      "1/2 tsp butter (optional)"
+    ],
+    "steps": [
+      "Break the noodles into pieces and place it in a mixing bowl.",
+      "Place a pot over low heat.",
+      "Stir in it the chocolate chips with butter until they melt.",
+      "Stir in the mint extract.",
+      "Cook them for 1 min.",
+      "Pour the mix all over the noodles and mix them well.",
+      "Use a large tbsp to spoon the mix in the shape of cookies on a lined up baking sheet.",
+      "place the pan in the fridge for at least 1 h.",
+      "Serve your cookies with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 155.2,
+      "protein_g": 2.1,
+      "carbohydrates_g": 21.2,
+      "fat_g": 8.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0056",
+    "title": "Japanese Tuna Pyramids Bites",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "3",
+    "ingredients": [
+      "1 C. short-grain sushi rice",
+      "1 1/4 C. water",
+      "1 pinch salt (optional)",
+      "1 (5 oz) can tuna, drained",
+      "2 tbsp mayonnaise, or to taste",
+      "ground black pepper (optional)",
+      "1 sheet nori, cut into 1-inch strips, or desired width"
+    ],
+    "steps": [
+      "Clean the rice well with some water.",
+      "Place a medium saucepan over medium heat.",
+      "Pour into it 1 1/4 C.",
+      "of water.",
+      "Add the rice with a pinch of salt.",
+      "Cook it until it starts boiling.",
+      "Lower the heat and put on the lid.",
+      "Cook the rice for 22 min.",
+      "Place the rice aside with the cover on for 12 min.",
+      "Transfer the rice to a mixing bowl and place it aside to lose heat completely for 17 min.",
+      "Get a mixing bowl: Mix in it the tuna, mayonnaise, a pinch of salt and pepper.",
+      "Lay 10 inches piece of a plastic wrap on a working surface.",
+      "Place in the middle of it 1/2 of rice.",
+      "Create a small well in it and place in it 1 tsp of the tuna mix.",
+      "Cover it with another 1/2 C.",
+      "of rice.",
+      "Fold the plastic wrap over the rice mix to cover it.",
+      "Shape the mix into a small pyramid then remove the plastic wrap.",
+      "Wrap a nori strip around the rice pyramid gently.",
+      "Repeat the process with the remaining mix then serve them with your favorite dip."
+    ],
+    "nutrition": {
+      "calories": 355.0,
+      "protein_g": 15.2,
+      "carbohydrates_g": 53.3,
+      "fat_g": 8.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0057",
+    "title": "Sesame And Chicken Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "5 C. water",
+      "2 (3 oz.) packages chicken-flavored ramen noodles",
+      "6 oz. snow peas, cut up diagonally in half",
+      "2 green onions, sliced",
+      "1 large carrot, shredded",
+      "1 lb boneless skinless chicken breast, cut into 3/4 inch pieces",
+      "1 tsp sesame oil"
+    ],
+    "steps": [
+      "Place a large saucepan over medium heat.",
+      "Heat in it the water until it starts boiling.",
+      "Stir in the noodles snow peas, green onions, carrot, and chicken.",
+      "Let them cook for 4 to 6 min over high heat.",
+      "Turn off the heat and stir the sesame oil into it.",
+      "Serve it hot."
+    ],
+    "nutrition": {
+      "calories": 352.8,
+      "protein_g": 30.1,
+      "carbohydrates_g": 32.5,
+      "fat_g": 10.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0058",
+    "title": "Japanese Grilled Tuna Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "2 tbsp olive oil",
+      "1 1/2 tsp lime juice",
+      "1 1/2 tsp chopped fresh cilantro",
+      "1/2 tsp garlic, minced",
+      "1 tsp chopped fresh mint",
+      "1/2 tsp lemon juice",
+      "1/8 tsp salt",
+      "1 1/2 C. mixed baby salad greens",
+      "1/2 C. torn romaine lettuce",
+      "2 tbsp diced mango",
+      "1 1/2 tsp roasted peanuts",
+      "4 slices cucumber, quartered",
+      "2 tbsp crisp chow mein noodles",
+      "1 (3 oz) fresh ahi (yellowfin) tuna steak",
+      "1 pinch salt and ground black pepper to taste",
+      "1/4 avocado, sliced"
+    ],
+    "steps": [
+      "Get a small bowl: Mix in it the olive oil, lime juice, cilantro, garlic, mint, lemon juice, and salt to make the salad dressing.",
+      "Place it in the fridge for 1 h 30 min to 8 h.",
+      "Before you do anything preheat the grill and grease it.",
+      "Get a large serving bowl: Stir in it the salad greens, romaine lettuce, mango, peanuts, cucumber, and chow mein noodles.",
+      "Season the tuna steaks with some salt and pepper.",
+      "Cook it on the grill for 2 to 4 min on each side.",
+      "Slice the tuna and place it over the salad.",
+      "Drizzle the dressing on top then serve your salad."
+    ],
+    "nutrition": {
+      "calories": 252.0,
+      "protein_g": 12.4,
+      "carbohydrates_g": 9.3,
+      "fat_g": 19.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0059",
+    "title": "$3 Dollar Dinner",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 (6 oz.) cans tuna in vegetable oil",
+      "1 (3 oz.) packets ramen noodles, any flavor",
+      "1/2 C. frozen mixed vegetables"
+    ],
+    "steps": [
+      "Place a large skillet over medium heat.",
+      "Heat in it a splash of oil.",
+      "Cook in it the tuna for 2 to 3 min.",
+      "Prepare the ramen noodles according to the directions on the package with the veggies.",
+      "Remove the noodles and veggies from the water and transfer them to the pan.",
+      "Stir into them the seasoning packet and cook them for 2 to 3 min.",
+      "Serve your ramen tuna warm."
+    ],
+    "nutrition": {
+      "calories": 780.9,
+      "protein_g": 62.3,
+      "carbohydrates_g": 69.2,
+      "fat_g": 27.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0060",
+    "title": "Noodles Curry Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "3 carrots, cut into bite-size pieces",
+      "1 small onion, cut into bite-size pieces",
+      "3 tbsp water",
+      "1/4 C. vegetable oil",
+      "1/2 C. all-purpose flour",
+      "2 tbsp all-purpose flour",
+      "2 tbsp red curry powder",
+      "5 C. hot vegetable stock",
+      "1/4 C. soy sauce",
+      "2 tsp maple syrup",
+      "8 oz udon noodles, or more to taste"
+    ],
+    "steps": [
+      "Get a microwave proof bowl: Stir in it the water with carrot and onion.",
+      "put on the lid and cook them on high for 4 min 30 sec.",
+      "Place a soup pot over medium heat.",
+      "Heat the oil in it.",
+      "Add to it 1/2 C.",
+      "plus 2 tbsp flour and mix them to make a paste.",
+      "Add the curry with hot stock and cook them for 4 min while mixing all the time.",
+      "Add the cooked onion and carrot with soy sauce, and maple syrup.",
+      "Cook the noodles according to the directions on the package until it becomes soft.",
+      "Cook the soup until it starts boiling.",
+      "Stir in the noodles and serve your soup hot."
+    ],
+    "nutrition": {
+      "calories": 442.0,
+      "protein_g": 9.2,
+      "carbohydrates_g": 65.2,
+      "fat_g": 15.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0061",
+    "title": "Sweet And Spicy Ramen Stir Fry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 (14 oz.) packages extra firm tofu, cubed",
+      "8 tsp soy sauce",
+      "2 tbsp vegetable oil",
+      "8 oz. shiitake mushrooms, sliced thin",
+      "2 tsp Asian chili sauce",
+      "3 garlic cloves, minced",
+      "1 tbsp grated fresh ginger",
+      "3 1/2 C. low sodium chicken broth",
+      "4 (3 oz.) packages ramen noodles, packets discarded",
+      "3 tbsp cider vinegar",
+      "2 tsp sugar",
+      "1 (6 oz.) bags Baby Spinach"
+    ],
+    "steps": [
+      "Use some paper towels to pat the tofu dry.",
+      "Get a mixing bowl: Stir in it the tofu with 2 tsp of soy sauce.",
+      "Place a large pan over medium heat.",
+      "Heat 1 tbsp of oil in it.",
+      "Sauté in it the tofu for 2 to 3 min on each side then drain it and place it aside.",
+      "Heat the rest of the oil in the same skillet.",
+      "Sauté in it the mushroom for 5 min.",
+      "Add the chili sauce, garlic, and ginger.",
+      "Let them cook for 40 sec.",
+      "Crush the ramen into pieces.",
+      "Stir it into the pan with the broth and cook them for 3 min or until the ramen is done.",
+      "Add 2 tbsp soy sauce, vinegar, and sugar.",
+      "Add the spinach and cook them for 2 to 3 min or until it welts.",
+      "Fold the tofu into the noodles then serve it warm."
+    ],
+    "nutrition": {
+      "calories": 585.2,
+      "protein_g": 25.1,
+      "carbohydrates_g": 67.4,
+      "fat_g": 25.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0062",
+    "title": "Japanese Bonito Tofu Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "4 C. water",
+      "1/2 C. bonito flakes",
+      "1 (4 inch) piece dashi kombu",
+      "1/2 (12 oz) package tofu, cut into chunks",
+      "1 tsp dried wakame",
+      "3 tbsp miso paste",
+      "1/4 C. chopped green onions"
+    ],
+    "steps": [
+      "Pour the water in a large pot and bring it to a boil over low heat.",
+      "Add the kombu and bring it to a simmer.",
+      "Add the bonito.",
+      "Turn off the heat and allow the mix to sit for 6 min to make the stock.",
+      "Strain the stock and place it aside.",
+      "Pour 3 1/2 C.",
+      "of the stock in a soup pot and cook it over medium heat until it heated.",
+      "Add the tofu and wakame.",
+      "Ladles 1 C.",
+      "of the stock into a mixing bowl.",
+      "Add the miso paste and mix them well.",
+      "Pour the mix back into the pot with remaining 1/2 C.",
+      "of stock.",
+      "Serve your soup warm with green onions."
+    ],
+    "nutrition": {
+      "calories": 65.0,
+      "protein_g": 6.2,
+      "carbohydrates_g": 4.9,
+      "fat_g": 2.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0063",
+    "title": "Parmesan Tuna Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 (3 oz.) packages chicken-flavored ramen noodles",
+      "1 1/2 C. water",
+      "1 (6 oz.) canned tuna",
+      "1-3 tbsp parmesan cheese",
+      "1 tbsp butter",
+      "parsley flakes",
+      "black pepper"
+    ],
+    "steps": [
+      "Get a large serving bowl: Pour in it the water.",
+      "Crush the noodles and add it to the water with the seasoning packet.",
+      "Place it in the microwave and cook it for 5 min.",
+      "Stir in the Tuna, Parmesan, Butter, Pepper.",
+      "Serve it hot."
+    ],
+    "nutrition": {
+      "calories": 712.6,
+      "protein_g": 51.2,
+      "carbohydrates_g": 54.2,
+      "fat_g": 31.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0064",
+    "title": "Japanese Beef Roast Barbecue",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1/2 lb beef rib eye roast (about 230 grams) or 1/2 lb prime rib roast",
+      "3 tbsp soy sauce",
+      "3 tbsp sake or 3 tbsp sherry wine",
+      "1 1/2 tbsp sesame oil",
+      "1 1/2 tbsp sugar",
+      "1/2 apple, grated to release juice",
+      "2 tbsp roasted and partially ground sesame seeds",
+      "2 garlic cloves, minced",
+      "1/4 tsp dry mustard"
+    ],
+    "steps": [
+      "Cut the beef roast into 2 1/2 to 3 inches long slices.",
+      "Place a pan over medium heat.",
+      "Toast in it the sesame seeds until it starts popping.",
+      "Turn off the heat and grind it in a pestle slightly.",
+      "Transfer the ground sesame seeds with the remaining ingredients into a large mixing bowl to make the marinade.",
+      "Toss in it the beef slices.",
+      "Cover the bowl with a plastic wrap and refrigerate it for 7 h.",
+      "Before you do anything preheat the grill and grease it.",
+      "Drain the beef slices and grill them for 2 to 3 min on each side.",
+      "Serve them warm."
+    ],
+    "nutrition": {
+      "calories": 558.8,
+      "protein_g": 24.7,
+      "carbohydrates_g": 20.0,
+      "fat_g": 39.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0065",
+    "title": "Ramen Steak Skillet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 lb beef round tip steak, stripped",
+      "2 cloves garlic, minced",
+      "1 tbsp light sesame oil",
+      "1/4 tsp ground red pepper",
+      "1 (3 oz.) packages ramen noodles",
+      "1 (1 lb) package broccoli, carrots and water chestnuts",
+      "1 tsp light sesame oil",
+      "1 (4 1/2 oz.) jars mushrooms, drained",
+      "1 tbsp soy sauce"
+    ],
+    "steps": [
+      "Get a mixing bowl: Stir in it the beef strips, garlic, one tbsp sesame oil and ground red pepper.",
+      "Place a pot over medium heat.",
+      "Cook in it 2 C.",
+      "of water until it starts boiling.",
+      "Crush the noodles into 3 portions.",
+      "Stir it in the pot with the veggies and cook them until they start boiling.",
+      "Lower the heat and cook them for an extra 3 min.",
+      "Pour the mix in a colander to remove the water.",
+      "Place the noodles and veggies mix back into the pot.",
+      "Add the seasoning packet and stir them well.",
+      "Place a large pan over medium heat.",
+      "Heat 1 tsp of sesame oil in it.",
+      "Cook in it the beef slices for 4 to 5 min or until they are done.",
+      "Stir the ramen and veggies mix into the skillet with the mushrooms and soy sauce.",
+      "Cook them for an extra 3 min.",
+      "Serve your skillet warm."
+    ],
+    "nutrition": {
+      "calories": 178.8,
+      "protein_g": 6.0,
+      "carbohydrates_g": 22.1,
+      "fat_g": 8.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0066",
+    "title": "Japanese Octopus Bites",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "50",
+    "ingredients": [
+      "100 g flour",
+      "1 egg",
+      "350 ml water",
+      "100 g boiled octopus (cut into 1cm square)",
+      "50 g cabbage (chopped)",
+      "10 g green onions (scallions chopped)",
+      "20 g fish scraps",
+      "takoyaki sauce or yakisoba sauce or okonomiyaki sauce",
+      "ao nori ( seaweed)",
+      "dried bonito flakes",
+      "mayonnaise (optional)"
+    ],
+    "steps": [
+      "Get a mixing bowl: Whisk in it the water with egg and flour well until no lumps are found.",
+      "Heat and grease an iron pan with round holes.",
+      "Fill the holes with the batter and cook them until the edges harden.",
+      "Place the octopus pieces in the middles of the holes.",
+      "Sprinkle the cabbage, green onion, fish scraps, nori, bonito flakes and your favorite sauce on top.",
+      "Flip the balls and cook them on the other side until they become golden brown.",
+      "Serve your octopus bites with your favorite sauce."
+    ],
+    "nutrition": {
+      "calories": 10.6,
+      "protein_g": 0.6,
+      "carbohydrates_g": 1.6,
+      "fat_g": 0.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0067",
+    "title": "Teriyaki Ramen Bowls",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 1/2 lbs salmon fillets, skinned and boned",
+      "salt & black pepper",
+      "5 tbsp teriyaki marinade",
+      "vegetable oil, for rubbing",
+      "2 tbsp red wine vinegar",
+      "1/4 C. sweet chili sauce",
+      "6 tbsp Asian fish sauce",
+      "3 tbsp fresh ginger, grated",
+      "1 lb soba noodles",
+      "1 tbsp instant bouillon granules",
+      "1/2 C. scallion, thinly sliced",
+      "1 1/2 C. Spinach",
+      "1 tbsp sesame seeds, toasted"
+    ],
+    "steps": [
+      "Sprinkle some salt and pepper over the salmon fillets.",
+      "Get a large zip lock bag: Combine in it the salmon fillets with the teriyaki marinade.",
+      "Seal the bag and shake it to coat.",
+      "To make the chili sauce: Get a small mixing bowl: Mix in it the vinegar, chili sauce, fish sauce and ginger.",
+      "Place it aside.",
+      "Prepare the noodles according to the directions on the package without the seasoning packet.",
+      "Remove the salmon fillets from the marinade and coat them with some oil.",
+      "Place a large pan over medium heat and heat it though.",
+      "Cook in it the salmon fillet for 3 to 4 min on each side.",
+      "Add half of the salmon marinade to the pan and coat them with it.",
+      "Place them aside to sit for 6 min.",
+      "Cut the salmon into chunks then add to it the spinach with a pinch of salt and pepper.",
+      "Cook them for 2 to 3 min.",
+      "Place a large saucepan over medium heat.",
+      "Cook 6 C.",
+      "of water in it until they start boiling.",
+      "Add to it the bouillon powder and the white scallion pieces.",
+      "Reduce the heat and place the pot aside to make the broth.",
+      "Drain the noodles and place it in serving bowls.",
+      "Pour over it the hot broth then top it with the salmon fillets."
+    ],
+    "nutrition": {
+      "calories": 433.0,
+      "protein_g": 36.5,
+      "carbohydrates_g": 63.0,
+      "fat_g": 5.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0068",
+    "title": "Japanese Spring Stir Fry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "4 C. cooked rice or 1 C. uncooked rice",
+      "1 C. frozen peas, thawed",
+      "2 tbsp carrots, finely diced",
+      "2 eggs, beaten",
+      "1/2 C. onion, diced",
+      "1 1/2 tbsp butter",
+      "2 tbsp soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "steps": [
+      "Prepare the rice according to the directions on the package.",
+      "Drain the rice and place it in the fridge to lose heat.",
+      "Place a large greased skillet over medium heat.",
+      "Scramble in it the eggs while crumbling them then place them aside.",
+      "Get a large mixing bowl: Place in it the rice with scrambled eggs, peas, grated carrot, scrambled egg and diced onion.",
+      "Mix them well.",
+      "Place a large skillet over medium heat.",
+      "Heat the butter in it until it melts.",
+      "Add the rice mix with soy sauce, a pinch of salt and pepper.",
+      "Stir fry it for 9 min.",
+      "Serve your stir fried rice warm."
+    ],
+    "nutrition": {
+      "calories": 356.5,
+      "protein_g": 10.5,
+      "carbohydrates_g": 60.6,
+      "fat_g": 7.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0069",
+    "title": "Chili Coconut Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1 (3 oz.) packages ramen noodles",
+      "2 tbsp peanut butter",
+      "1 tsp low sodium soy sauce",
+      "1 1/2 tsp chili-garlic sauce",
+      "2-3 tbsp hot water",
+      "2 tbsp sweetened flaked coconut",
+      "Garnish",
+      "broccoli floret",
+      "peanuts",
+      "shredded carrot"
+    ],
+    "steps": [
+      "Prepare the noodles according to the directions on the package while discarding the seasoning packet.",
+      "Get a large mixing bowl: Beat in it the peanut butter, half of the seasoning packet, soy sauce, chili-garlic sauce, 2-3 tbsp of hot water until they become smooth.",
+      "Add the noodles to the bowl and toss them to coat.",
+      "Serve your noodles."
+    ],
+    "nutrition": {
+      "calories": 622.3,
+      "protein_g": 17.5,
+      "carbohydrates_g": 66.4,
+      "fat_g": 33.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0070",
+    "title": "Japanese Steakhouse Dressing",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "1/2 C. minced onion",
+      "1/2 C. peanut oil",
+      "1/3 C. rice vinegar",
+      "2 tbsp water",
+      "2 tbsp minced fresh ginger",
+      "2 tbsp minced celery",
+      "2 tbsp ketchup",
+      "4 tsp soy sauce",
+      "2 tsp sugar",
+      "2 tsp lemon juice",
+      "1/2 tsp minced garlic",
+      "1/2 tsp salt",
+      "1/4 tsp fresh ground black pepper"
+    ],
+    "steps": [
+      "Get a blender: Add all the ingredients to it and blend them smooth.",
+      "Pour the dressing in a container and refrigerate it until ready to use."
+    ],
+    "nutrition": {
+      "calories": 617.4,
+      "protein_g": 2.5,
+      "carbohydrates_g": 16.4,
+      "fat_g": 61.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0071",
+    "title": "Mandarin Ramen Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 (16 oz.) packages coleslaw mix",
+      "2 (3 oz.) packages ramen noodles, crumbled",
+      "1 C. sliced almonds",
+      "1 (11 oz.) cans mandarin oranges, drained",
+      "1 C. roasted sunflower seeds, shelled",
+      "1 bunch green onion, chopped",
+      "1/2 C. sugar",
+      "3/4 C. vegetable oil",
+      "1/3 C. white vinegar",
+      "2 packets packet ramen seasoning"
+    ],
+    "steps": [
+      "Get a small mixing bowl: Whisk in it the vinegar, ramen seasoning, oil and sugar to make the dressing.",
+      "Get a large mixing bowl: Toss in it the coleslaw mix with noodles, almonds, mandarin, sunflower seeds, and onion.",
+      "Drizzle the dressing over them and toss them to coat.",
+      "Place the salad in the fridge for 60 min then serve it."
+    ],
+    "nutrition": {
+      "calories": 697.2,
+      "protein_g": 12.1,
+      "carbohydrates_g": 56.0,
+      "fat_g": 50.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0072",
+    "title": "Japanese Fruity Chicken Curry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "3 C. chicken stock",
+      "1 tbsp canola oil",
+      "1 lb boneless skinless chicken, cut into chunks",
+      "salt and pepper",
+      "3 tbsp butter",
+      "1 tsp fresh ginger, finely chopped",
+      "1/2 medium onion, finely chopped",
+      "1/2 medium onion, cut into 1-inch chunks",
+      "1 garlic clove, finely chopped",
+      "3 tbsp flour",
+      "2 tbsp curry powder",
+      "2 tbsp crushed tomatoes",
+      "1 bay leaf",
+      "1 medium carrot, chopped to 1/2-inch pieces",
+      "1 medium potato, chopped in 1-inch pieces",
+      "1 small fuji apple, grated",
+      "1 tsp honey",
+      "1 tbsp soy sauce"
+    ],
+    "steps": [
+      "Place a medium saucepan over medium heat: Pour the stock in it and heat it through.",
+      "Sprinkle some salt and pepper on the chicken.",
+      "Place a large skillet over medium heat: Heat the oil in it.",
+      "Add the chicken pieces and cook them for 5 min on each side.",
+      "Drain it and place it aside.",
+      "Add the butter to the skillet and heat it until it melts.",
+      "Cook in it the ginger, garlic, and chopped onion for 4 min.",
+      "Add the flour and cook them for 2 min.",
+      "Stir in 1/2 C.",
+      "of hot stock and mix them well.",
+      "Stir in the tomato with curry.",
+      "Transfer the mix to the pot with the remaining hot stock.",
+      "Stir in the chicken, onion, potato, and carrot.",
+      "Cook the curry until it starts simmering.",
+      "Cook it for 32 min.",
+      "Stir in the apples, soy sauce, and honey.",
+      "Cook the curry for 6 min.",
+      "Serve it warm with some rice."
+    ],
+    "nutrition": {
+      "calories": 420.5,
+      "protein_g": 31.9,
+      "carbohydrates_g": 33.1,
+      "fat_g": 17.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0073",
+    "title": "Ramen Green Bean Stir Fry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 1/2 lbs fresh green beans",
+      "2 (3 oz.) packages ramen noodles",
+      "1/2 C. vegetable oil",
+      "1/3 C. toasted almond",
+      "salt, as needed",
+      "black pepper, as needed"
+    ],
+    "steps": [
+      "Trim the green beans and slice them into 3 to 4 inches pieces.",
+      "Place the green beans in a steamer and cook them until they become soft.",
+      "Get a large skillet.",
+      "Stir in it the oil with 1 seasoning packet.",
+      "Crush 1 packet of noodles and stir it into the skillet.",
+      "Add the steamed green beans and cook them for 3 to 4 min.",
+      "Adjust the seasoning of your stir fry then serve it warm."
+    ],
+    "nutrition": {
+      "calories": 370.9,
+      "protein_g": 6.4,
+      "carbohydrates_g": 28.2,
+      "fat_g": 27.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0074",
+    "title": "Japanese Crock Stew",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "2 lbs beef stew meat",
+      "1 C. water",
+      "1/2 C. Japanese sake",
+      "1/4 C. sugar",
+      "1/4 C. soy sauce",
+      "1 tsp salt",
+      "1/2 lb baby carrots",
+      "3 medium potatoes, peeled and chopped",
+      "1 white onion, diced"
+    ],
+    "steps": [
+      "Stir all the ingredients into a crockpot.",
+      "Put on the lid and cook the stew for 11 h on low or 5 h on high.",
+      "Serve your stew warm."
+    ],
+    "nutrition": {
+      "calories": 361.5,
+      "protein_g": 36.8,
+      "carbohydrates_g": 33.6,
+      "fat_g": 6.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0075",
+    "title": "Shoyu Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "2 boneless skinless chicken breasts",
+      "2 tbsp sesame oil",
+      "3 tbsp shoyu",
+      "1 tbsp rice vinegar",
+      "1 garlic clove, minced",
+      "2 tsp honey",
+      "2 (3 oz.) packages ramen noodles",
+      "1/3 C. shoyu",
+      "1/3 C. rice vinegar, unseasoned",
+      "2 tsp ground ginger",
+      "2 tbsp honey",
+      "1 piece konbu",
+      "1 C. frozen broccoli"
+    ],
+    "steps": [
+      "Slice the chicken breasts into bite size pieces.",
+      "Place a large pan over medium heat.",
+      "Heat 3 tbsp the sesame oil with 3 tbsp shoyu, 1 tbsp of the vinegar, 1 clove of garlic, and 2 tsp of honey.",
+      "Stir them until they are heated though.",
+      "Stir the chicken into the pan.",
+      "Cook it for 6 to 8 min or until it is done.",
+      "Place a large saucepan over medium heat.",
+      "Stir in it the remaining shoyu, vinegar, ginger, and honey.",
+      "Stir enough water that can cover the noodles.",
+      "Heat them though until they honey melts.",
+      "Add the veggies with konbu and bring them to a boil.",
+      "Once the time is up, discard the konbu and stir in the noodles.",
+      "Cook them for 4 min.",
+      "Spoon the ramen into serving bowls.",
+      "Top it with the sweet chicken and serve it warm."
+    ],
+    "nutrition": {
+      "calories": 787.2,
+      "protein_g": 41.9,
+      "carbohydrates_g": 89.7,
+      "fat_g": 30.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0076",
+    "title": "Japanese Juicy Burgers",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 lb ground beef",
+      "1/2 onion, chopped",
+      "1 egg",
+      "1/4 C. milk",
+      "1 C. panko breadcrumbs",
+      "pepper",
+      "vegetable oil, for frying",
+      "3 tbsp ketchup",
+      "3 tbsp Worcestershire sauce"
+    ],
+    "steps": [
+      "Place a large skillet over medium heat.",
+      "Heat the oil in it.",
+      "Cook in it the onion for 3 min.",
+      "Get a large mixing bowl: Add the milk with egg and whisk them well.",
+      "Stir in the breadcrumbs and place them aside.",
+      "Get a large mixing bowl: Combine in it the beef with onion, breadcrumbs mix, a pinch of salt and pepper.",
+      "Mix them well.",
+      "Shape the mix into 4 patties.",
+      "Place a large skillet over medium heat.",
+      "Heat some oil in it.",
+      "Cook in it the burger patties for 4 min.",
+      "Flip them.",
+      "Pour 1/4 C.",
+      "of hot water into the skillet.",
+      "Put on the lid and coo the patties for 4 min.",
+      "Remove the lid after all the water evaporates.",
+      "Place the burger patties aside.",
+      "Stir the ketchup and Worcestershire sauce into the skillet.",
+      "Mix them well and heat them to make the sauce.",
+      "Drizzle the sauce all over the burgers then serve them warm."
+    ],
+    "nutrition": {
+      "calories": 404.4,
+      "protein_g": 27.1,
+      "carbohydrates_g": 26.8,
+      "fat_g": 20.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0077",
+    "title": "Baby Ramen Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 (14 1/2 oz.) cans chicken broth",
+      "1/2 lb baby bok choy, halved lengthwise",
+      "2 green onions, cut into 2-inch lengths",
+      "fresh ginger, minced",
+      "1 garlic clove, minced",
+      "1 1/2 tsp soy sauce",
+      "1 (3 1/2 oz.) packages ramen noodles",
+      "1/4 lb sliced ham",
+      "4 hard-boiled eggs, peeled and quartered",
+      "1 tsp sesame oil"
+    ],
+    "steps": [
+      "Place a pot over medium heat.",
+      "Stir in it the broth, bok choy, green onions, ginger, garlic and soy sauce.",
+      "Simmer them for 12 min.",
+      "Add the noodles to the pot.",
+      "Let the soup cook for an extra 4 min.",
+      "Serve your soup warm with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 284.9,
+      "protein_g": 20.9,
+      "carbohydrates_g": 19.3,
+      "fat_g": 13.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0078",
+    "title": "Japanese Crusted Potato Bites",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "",
+    "ingredients": [
+      "3 -4 C. leftover mashed potatoes",
+      "1 C. corn",
+      "1/2 C. flour",
+      "1 egg, beaten",
+      "1 C. panko breadcrumbs",
+      "oil( for frying)"
+    ],
+    "steps": [
+      "Get a mixing bowl: Add the corn with potato.",
+      "Combine them well.",
+      "Shape the mix into patties.",
+      "Dust the potato patties with flour, dip them in the beaten egg and coat them with the panko crumbs.",
+      "Heat the oil in a large pan.",
+      "Cook in it the potato patties until they become golden brown.",
+      "Serve your potato bites warm.",
+      "Servings per Recipe 4 Timing Information: Preparation 30 mins Total Time 30 mins Nutritional Information: Calories 231.9 Fat 2.8g Cholesterol 33.1mg Sodium 461.1mg Carbohydrates 44.6g Protein 7.3g * Percent Daily Values are based on a 2,000 calorie diet.",
+      "B ROCCOLI AND O YSTER R AMEN"
+    ],
+    "nutrition": {
+      "calories": 2508.9,
+      "protein_g": 43.7,
+      "carbohydrates_g": 485.7,
+      "fat_g": 51.6
+    },
+    "nutrition_source": "estimated_from_ingredients",
+    "nutrition_coverage": 0.833,
+    "nutrition_unresolved_minor": [
+      "oil( for frying)"
+    ]
+  },
+  {
+    "id": "japanese_0079",
+    "title": "Broccoli And Oyster Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 lb boneless beef top sirloin steak",
+      "1 tbsp soy sauce",
+      "1 tbsp apple juice",
+      "2 tsp cornstarch",
+      "2 (3 oz.) packages beef-flavor ramen noodles",
+      "4 C. boiling water",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "3 C. frozen broccoli florets, thawed and drained",
+      "3 tbsp oyster sauce",
+      "1 tbsp cornstarch"
+    ],
+    "steps": [
+      "Place the steak in the freezer until it is partially frozen then thinly slice it.",
+      "Get a large mixing bowl: Whisk in it the soy sauce, apple juice and 2 tsp cornstarch.",
+      "Stir the beef into the mix.",
+      "Get a large mixing bowl: Crush the noodles into pieces stir it in it with the 1 seasoning packet.",
+      "Add 4 C.",
+      "of water to the bowl and stir them.",
+      "Cover the bowl and place it aside.",
+      "Place a large pan over high heat.",
+      "Heat the oil in it.",
+      "Sauté in it the beef for 3 min.",
+      "Stir in the broccoli and cook it for 4 min.",
+      "Stir the beef into the skillet and cook them for 8 to 12 min.",
+      "Get a small mixing bowl: Whisk in it 1 C.",
+      "of the ramen soaking liquid, oyster sauce, and 1 tbsp cornstarch.",
+      "Remove the noodles from the water and stir it into the skillet with oyster mix.",
+      "Cook them until the ramen skillet thickens.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 575.7,
+      "protein_g": 29.7,
+      "carbohydrates_g": 41.4,
+      "fat_g": 32.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0080",
+    "title": "Crunchy Japanese Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 package ramen noodles",
+      "2 C. thinly sliced cabbage",
+      "1 C. thinly sliced onion",
+      "2 tbsp cooking oil, divided",
+      "1 tsp ginger powder",
+      "1 tsp sesame oil",
+      "soy sauce"
+    ],
+    "steps": [
+      "Cook the ramen noodles according to the directions on the package.",
+      "Drain it Place a large pan over medium heat.",
+      "Heat 1 tbsp of oil in it.",
+      "Cook in it the onion with cabbage for 4 to 6 min.",
+      "Add the noodles with the remaining oil.",
+      "Cook them for 2 min.",
+      "Stir in the rest of the ingredients.",
+      "Cook them for 2 min.",
+      "Serve your noodles warm."
+    ],
+    "nutrition": {
+      "calories": 377.9,
+      "protein_g": 6.3,
+      "carbohydrates_g": 39.1,
+      "fat_g": 22.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0081",
+    "title": "Sambal Ramen Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 (3 oz.) packages ramen noodles",
+      "1 C. cabbage, shredded",
+      "4 scallions, cut into 1 inch pieces",
+      "2-3 carrots",
+      "snow peas, julienned",
+      "3 tbsp mayonnaise",
+      "1/2 tsp sambal oelek, or sriracha",
+      "1-2 tsp lemon juice",
+      "1/4 C. peanuts, chopped",
+      "cilantro, chopped"
+    ],
+    "steps": [
+      "Prepare the noodles according to the instructions on the package and cook it for 2 min.",
+      "Remove it from the water and place it aside to drain.",
+      "Get a small mixing bowl: Whisk in it the mayo, sambal olek, and lemon juice to make the sauce Get a large mixing bowl: Combine in it the cabbage, carrots, scallions, snow peas, cooked noodles, mayo sauce, a pinch of salt and pepper.",
+      "Mix them well.",
+      "Serve your salad and"
+    ],
+    "nutrition": {
+      "calories": 425.7,
+      "protein_g": 10.4,
+      "carbohydrates_g": 46.2,
+      "fat_g": 23.8
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0082",
+    "title": "Japanese Crusted Pork Chops",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "8",
+    "ingredients": [
+      "8 eggs, scrambled separately",
+      "1 kg pork chops",
+      "15 kumquats, squeezed juice",
+      "2 tbsp soy sauce",
+      "1 tsp pepper",
+      "1/2 C. onion, chopped",
+      "1 C. flour, as needed",
+      "3 eggs",
+      "1 C. panko breadcrumbs, as needed",
+      "1 C. cooking oil, for deep frying, as needed",
+      "2 C. dashi stock or 2 C. water",
+      "1/2 C. soy sauce",
+      "1/4 C. onion, chopped",
+      "1/4 C. leek, chopped",
+      "2 tbsp rice wine or 2 tbsp mirin",
+      "1 tbsp sugar",
+      "2 green onions, chopped",
+      "8 C. steamed rice, cooked and each C. placed on a big bowl"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Stir in it the pork chop with kumquats, soy sauce, pepper and onion.",
+      "Place it in the fridge for 35 min.",
+      "Drain the pork cutlets from the marinade.",
+      "Dust them with flour, dip them in the eggs and coat them with the panko crumbs.",
+      "Place a frying pan over medium heat.",
+      "Heat the oil in it.",
+      "Cook in it the cutlets until they become golden brown.",
+      "Drain them and place them aside.",
+      "Slice the fried cutlets into strips until you reach the skin without cutting them completely.",
+      "Combine all the stock ingredients in a wok.",
+      "Cook them until they start simmering.",
+      "Keep simmering the stock for 12 min.",
+      "Place a cutlet gently in the stock and top it with a beaten egg on it right away.",
+      "Cook them until the egg is almost set then drain them gently and place it in a serving bowl of rice.",
+      "Repeat the process with the rest of the ingredients.",
+      "Serve them warm."
+    ],
+    "nutrition": {
+      "calories": 887.3,
+      "protein_g": 44.2,
+      "carbohydrates_g": 70.4,
+      "fat_g": 46.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0083",
+    "title": "Ramen Toscano",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1/4 C. olive oil",
+      "3 (3 oz.) packages ramen noodles, packet removed",
+      "1/2 red bell pepper, sliced",
+      "1/4 red onion, sliced",
+      "1 small carrot, thinly sliced",
+      "3 C. broccoli florets",
+      "2 tsp garlic, minced",
+      "1 tsp basil",
+      "4 eggs, beaten",
+      "Spice Mix",
+      "1/2 C. parmesan cheese, grated",
+      "1/2 C. half-and-half cream",
+      "1 tbsp oregano",
+      "1/2 tsp kosher salt",
+      "3/4 tsp paprika",
+      "1/4 tsp dry mustard",
+      "3/4 tsp ground fennel",
+      "3/4 tsp granulated garlic",
+      "3/4 tsp granulated onion",
+      "1/4 tsp cayenne pepper",
+      "1 pinch sugar"
+    ],
+    "steps": [
+      "Before you do anything, preheat the oven to 400 F.",
+      "Get a large mixing bowl: Stir in it the seasoning mix with 1/4 C.",
+      "of olive oil.",
+      "Toss the red bell pepper, red onion, broccoli florets into the mix.",
+      "Stir 1 tsp of minced garlic and basil.",
+      "Before you do anything, preheat the oven to 350 F.",
+      "Pour the veggies mix into a greased baking sheet.",
+      "Cook it in the oven for 22 min.",
+      "Heat 4 quarts of water in a large pot over medium heat.",
+      "Cook in it the ramen noodles for 3 to 4 min.",
+      "Remove the noodles from the water.",
+      "Get a large mixing bowl: Combine in it the beaten egg, minced garlic, grated Parmesan cheese.",
+      "Add the noodles and toss them to coat with a pinch of salt and pepper.",
+      "Grease a casserole dish with some butter.",
+      "Pour the noodles mix in it and spread it in the pan to make the crust.",
+      "Spread the baked veggies over the ramen crust.",
+      "Get a small mixing bowl: Combine in it 3 eggs, the remaining 1/4 C.",
+      "Parmesan cheese, and 1/2 C.",
+      "of half and half cream.",
+      "Mix them well.",
+      "Drizzle the mix all over the veggies.",
+      "Cover the pie with a piece of foil.",
+      "Cook it in the oven for 22 min.",
+      "Once the time is up, discard the foil.",
+      "Sprinkle the remaining cheese on top and cook the pie for an extra 12 min.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 611.7,
+      "protein_g": 20.2,
+      "carbohydrates_g": 51.4,
+      "fat_g": 36.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0084",
+    "title": "Japanese Russet Curry",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 tbsp oil",
+      "1 1/2 C. chicken",
+      "1 onion, diced",
+      "1 large russet potato, peeled, in bite-size cubes",
+      "1 head broccoli, cut into small pieces",
+      "1 (14 1/2 oz) cans baby corn, cut in half",
+      "1 (3 1/2 oz) boxes golden curry sauce mix"
+    ],
+    "steps": [
+      "Place a soup pot over medium heat.",
+      "Heat the oil in it.",
+      "Cook it in the chicken with onion for 5 min.",
+      "Add the potato with 2 3/4 C.",
+      "of water.",
+      "Put on the lid and lower the heat.",
+      "Cook them for 12 min.",
+      "Crumble the curry sauce mix and stir it until it melts for 3 min.",
+      "Stir in the corn with broccoli.",
+      "Cook the stew for 4 min.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 292.4,
+      "protein_g": 9.9,
+      "carbohydrates_g": 50.3,
+      "fat_g": 9.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0085",
+    "title": "Ramen Seoul",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "1 medium potato",
+      "1 package ramen noodles",
+      "1 green onion, sliced (optional)",
+      "1 large egg, beaten"
+    ],
+    "steps": [
+      "Discard the potato skin and slice them into small dices.",
+      "Prepare the noodles according to the directions on the package while adding the potato to it and adding 1/4 of the water needed to the pot.",
+      "Stir the seasoning packet and cook them for potato until it becomes soft.",
+      "Combine the green onion into the pot and cook them until the ramen is done.",
+      "Add the eggs to the soup while stirring all the time until they are cooked.",
+      "Serve your soup hot."
+    ],
+    "nutrition": {
+      "calories": 303.0,
+      "protein_g": 9.7,
+      "carbohydrates_g": 45.7,
+      "fat_g": 9.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0086",
+    "title": "Japanese Bell Rice Omelet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "4 C. cooked rice",
+      "100 g carrots, chopped in very small pieces",
+      "100 g red capsicums, chopped in very small pieces",
+      "100 g onions, chopped in very small pieces",
+      "150 g bacon, chopped in small batons",
+      "50 g tomato paste",
+      "2 tsp oil",
+      "8 eggs",
+      "2 tsp sugar",
+      "2 tsp oil",
+      "salt and pepper",
+      "4 tsp oil, to cook eggs, using one tsp at a time",
+      "8 tsp tomato ketchup, garnish"
+    ],
+    "steps": [
+      "Get a large mixing bowl: Toss in it the veggies with bacon.",
+      "Place them aside.",
+      "Get a mixing bowl: Beat in it the eggs with sugar, oil, salt and pepper.",
+      "Place the mix aside.",
+      "Heat 2 tsp of oil in a deep pan and cook in it the veggies mix for 8 min.",
+      "Stir in the rice with tomato paste.",
+      "Mix them well and cook them for 3 min.",
+      "Place a large no sticking pan over medium heat.",
+      "Heat 1 tsp of oil in it Spread 1/4 f the egg mix in it to coat the pan and cook it for 3 min.",
+      "Release the egg sheet from the side of the pan with a spatula.",
+      "Place 1/4 of the rice mix on the center of 1 side of the egg sheet.",
+      "Cover the rice with the second side of the egg sheet.",
+      "Cover the pan with a serving plate and flip it.",
+      "Place it aside and repeat the process with the rest of the ingredients.",
+      "Serve your omelet with your favorite toppings."
+    ],
+    "nutrition": {
+      "calories": 692.1,
+      "protein_g": 22.8,
+      "carbohydrates_g": 67.3,
+      "fat_g": 36.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0087",
+    "title": "Ramen Omelet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "2 (3 oz.) packages ramen noodles, cooked according to directions",
+      "6 eggs",
+      "1 red bell pepper, chopped",
+      "1 large carrot, grated",
+      "1/2 C. parmesan cheese, grated"
+    ],
+    "steps": [
+      "Get a mixing bowl: Mix in it the eggs with 1 ramen seasoning packet.",
+      "Add the noodles, bell pepper and carrot.",
+      "Mix them well.",
+      "Before you do anything else, preheat the oven to 356 F.",
+      "Grease a muffin tin with some butter or a cooking spray.",
+      "Spoon the batter into the tins.",
+      "Top the muffins with the parmesan cheese.",
+      "Cook the muffins in the oven for 16 min.",
+      "Serve them warm."
+    ],
+    "nutrition": {
+      "calories": 247.9,
+      "protein_g": 12.4,
+      "carbohydrates_g": 21.6,
+      "fat_g": 12.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0088",
+    "title": "Japanese Baked Sweet Potato",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 tbsp brown sugar",
+      "3 tbsp low soy sauce",
+      "2 tbsp mirin",
+      "1 tbsp dark sesame oil",
+      "4 garlic cloves, minced",
+      "2 -3 sweet potatoes, diced",
+      "1 tbsp toasted sesame seeds",
+      "1 sheet of toasted nori"
+    ],
+    "steps": [
+      "Before you do anything preheat the oven to 400 F.",
+      "Grease a casserole dish.",
+      "Get a mixing bowl: Mix in it all the ingredients except for the potato to make the sauce.",
+      "Lay potato slices over the casserole dish and drizzle the sauce all over it.",
+      "Put on the lid then cook it in the oven for 52 min.",
+      "Drizzle the dripping and the marinade from the casserole dish all over the potato.",
+      "Remove the cover and cook it in the oven for 12 min.",
+      "Top your baked potato with sesame seeds and nori.",
+      "Serve it warm."
+    ],
+    "nutrition": {
+      "calories": 147.2,
+      "protein_g": 2.5,
+      "carbohydrates_g": 23.3,
+      "fat_g": 5.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0089",
+    "title": "Marinated Eggs For Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "6 eggs",
+      "1 tbsp rice vinegar",
+      "2 tbsp soy sauce",
+      "1 tsp sugar",
+      "1/2 tsp sesame oil"
+    ],
+    "steps": [
+      "Place a pot over medium heat.",
+      "Place in it the eggs and cover them with water.",
+      "Cook them until they start boiling.",
+      "Turn off the heat and put on the lid.",
+      "Let the eggs sit for 10 min.",
+      "Once the time is up drain the eggs and place them in a bowl.",
+      "Cover them with some cold water and let them sit for 6 min.",
+      "Peel them and place them aside.",
+      "Get a small heavy saucepan: Whisk in it the vinegar, soy sauce, sugar, and sesame oil to make the marinade.",
+      "Cook them over medium heat until they start boiling.",
+      "Turn off the heat and place the marinade aside until it becomes warm.",
+      "Place the eggs in a large mason jar and pour the marinade all over them.",
+      "Seal it and place it aside to sit for 1 day.",
+      "Once the time is up, drain the eggs and serve them with your ramen."
+    ],
+    "nutrition": {
+      "calories": 83.1,
+      "protein_g": 6.9,
+      "carbohydrates_g": 1.4,
+      "fat_g": 5.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0090",
+    "title": "Japanese Chicken Thighs Skillet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 -3 boneless chicken thighs",
+      "8 fresh shiitake mushrooms",
+      "8 shishito green peppers or 3 small bell peppers",
+      "2 -3 tbsp mirin",
+      "2 -3 tbsp soy sauce",
+      "japanese sansho pepper (optional)",
+      "shichimi togarashi pepper or red chili pepper flakes (optional)"
+    ],
+    "steps": [
+      "Discard the fat from the chicken.",
+      "Discard the mushroom tips and cut them into quarters.",
+      "Remove the bell peppers stems and cut them into bite size pieces.",
+      "Place a large skillet over medium heat.",
+      "Grease it with some oil.",
+      "Cook in it the chicken thighs with the skin facing down until it becomes crisp and golden brown.",
+      "Stir in the pepper with mushroom.",
+      "Flip the chicken thighs and cook them on the other side until they become golden brown.",
+      "Stir in the mirin with soy sauce.",
+      "Cook them until they sauce becomes thick, the chicken and veggies done.",
+      "Serve your chicken skillet warm."
+    ],
+    "nutrition": {
+      "calories": 128.4,
+      "protein_g": 9.6,
+      "carbohydrates_g": 6.1,
+      "fat_g": 7.2
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0091",
+    "title": "Chili Ramen Casserole",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "3 packages ramen noodles",
+      "2 (15 oz.) cans chili with beans",
+      "1 (15 oz.) cans diced tomatoes",
+      "4-8 oz. shredded cheese"
+    ],
+    "steps": [
+      "Pour 6 C.",
+      "of water in a 3 quarts baking pan.",
+      "Put on the lid and place it in the microwave for 3 to 4 min to heat up.",
+      "Use a rolling pan to crush the ramen slightly.",
+      "Stir the noodles into the hot water of in the casserole.",
+      "Put on the lid and let it cook in the microwave for 2 min 30 sec.",
+      "Stir the noodles and cook it for an extra 2 min 30 sec.",
+      "Discard the excess water from the casserole leaving the noodles in it.",
+      "Add the tomatoes with chili and stir them well.",
+      "Cook them in the microwave on high for an extra 5 min.",
+      "Top the ramen casserole with the shredded cheese.",
+      "Put on the lid and let it sit for several minutes until the cheese melts.",
+      "Serve your casserole warm."
+    ],
+    "nutrition": {
+      "calories": 502.3,
+      "protein_g": 21.4,
+      "carbohydrates_g": 55.0,
+      "fat_g": 24.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0092",
+    "title": "Warm Japanese Mirin Eggplants Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "8 Japanese eggplants",
+      "3 tbsp vegetable oil",
+      "1/4 tsp chili pepper flakes, to taste",
+      "1 packet dried bonito flakes",
+      "3 1/2 tbsp soy sauce",
+      "3 tbsp mirin",
+      "1 C. water"
+    ],
+    "steps": [
+      "Score the eggplants with a sharp knife lengthwise after each half inch.",
+      "Transfer the eggplant with the rest of the ingredients to a heavy saucepan.",
+      "Cook them until they start simmering.",
+      "Keep simmering the eggplant mix for 22 min while stirring it from time to time.",
+      "Serve your eggplant salad."
+    ],
+    "nutrition": {
+      "calories": 368.3,
+      "protein_g": 12.7,
+      "carbohydrates_g": 64.0,
+      "fat_g": 12.3
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0093",
+    "title": "Apple Ramen Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "10",
+    "ingredients": [
+      "12 oz. broccoli florets",
+      "1 (12 oz.) bags broccoli coleslaw mix",
+      "1/4 C. sunflower seeds",
+      "2 (3 oz.) packages ramen noodles",
+      "3 tbsp butter",
+      "2 tbsp olive oil",
+      "1/4 C. sliced almonds",
+      "3/4 C. vegetable oil",
+      "1/4 C. brown sugar",
+      "1/4 C. apple cider vinegar",
+      "1/4 C. green onion, chopped"
+    ],
+    "steps": [
+      "Place a large skillet over medium heat.",
+      "Heat the oil in it.",
+      "Press your ramen with your hands to crush it.",
+      "Stir it in the pan with the almonds.",
+      "Cook them for 6 min then place the skillet aside.",
+      "Get a large mixing bowl: Toss in it the broccoli, broccoli slaw and sunflowers.",
+      "Add the noodles mix and toss them again.",
+      "Get a small mixing bowl: Combine in it the vegetable oil, brown sugar, apple cider vinegar and the Ramen noodle seasoning packet to make the vinaigrette.",
+      "Drizzle the vinaigrette all over the salad and stir it to coat.",
+      "Serve your salad with the green onions on top."
+    ],
+    "nutrition": {
+      "calories": 343.1,
+      "protein_g": 4.0,
+      "carbohydrates_g": 19.8,
+      "fat_g": 28.5
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0094",
+    "title": "Japanese Green Beans Salad",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "500 g fresh green beans",
+      "3 tbsp sesame seeds",
+      "3 tbsp soy sauce",
+      "2 tbsp yellow sugar",
+      "1 pinch salt"
+    ],
+    "steps": [
+      "Place a pan over medium heat.",
+      "Toast the sesame seeds in it for 2 min.",
+      "Transfer it to a pestle and grind it slightly.",
+      "Get a large mixing bowl: Stir in it the sesame seeds with the soy sauce, sugar, and a pinch of salt.",
+      "Whisk them well to make the dressing.",
+      "Trim the green beans.",
+      "Bring salted saucepan of water to a boil.",
+      "Cook in it the green beans until they become light green.",
+      "Remove them from the water and rinse them with some water to lose heat.",
+      "Drain the and pat them dry.",
+      "Toss the green beans with the dressing.",
+      "Serve it."
+    ],
+    "nutrition": {
+      "calories": 109.9,
+      "protein_g": 4.9,
+      "carbohydrates_g": 17.3,
+      "fat_g": 3.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0095",
+    "title": "Sweet Ramen Skillet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 C. bell pepper, chopped",
+      "1/2 tsp ginger",
+      "4 whole green onions, thinly sliced",
+      "1 (20 oz.) cans pineapple, undrained",
+      "1 lb boneless chicken breast",
+      "oil",
+      "2 (3 oz.) packages chicken-flavored ramen noodles",
+      "1/2 C. sweet and sour sauce"
+    ],
+    "steps": [
+      "Pour the pineapple juice in a measuring C.",
+      "Stir in it enough water to make 2 C.",
+      "of liquid in total.",
+      "Slice the chicken breast into 1 inch dices.",
+      "Sprinkle over them ginger, a pinch of salt and pepper.",
+      "Place a large pan over medium heat.",
+      "Heat a splash of oil in it.",
+      "Stir in the ramen's seasoning packets and cook them for 30 sec.",
+      "Stir the pineapple liquid mix into the pan with noodles after cutting into pieces.",
+      "Cook the mix until it starts boiling.",
+      "Lower the heat and cook them for 4 min.",
+      "Once the time is up, stir sweet and sour sauce, pepper, onion, and pineapple into the pan.",
+      "Let them cook for 4 to 6 min or until the veggies are done.",
+      "Serve your sweet ramen skillet warm."
+    ],
+    "nutrition": {
+      "calories": 334.3,
+      "protein_g": 19.9,
+      "carbohydrates_g": 38.0,
+      "fat_g": 11.6
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0096",
+    "title": "Japanese Shrimp Stew",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "2",
+    "ingredients": [
+      "2 1/2 C. dashi stock",
+      "3 tbsp soy sauce",
+      "2 tbsp mirin",
+      "1/2 tsp sesame oil",
+      "1 tbsp canola oil",
+      "2 spring onions, finely sliced",
+      "2 tsp finely grated ginger",
+      "1 C. japanese short-grain rice, uncooked",
+      "1/2 red pepper",
+      "12 snow peas, halved on the diagonal",
+      "16 large shrimp, uncooked"
+    ],
+    "steps": [
+      "Get a small mixing bowl: Whisk in it the stock, soy sauce, mirin and sesame oil.",
+      "Place a saucepan over medium heat.",
+      "Heat the oil in it.",
+      "Cook in it the green onion for 2 min.",
+      "Stir in the rice with ginger.",
+      "Cook them for 2 min.",
+      "Stir in the stock and sauce mix, red pepper and snow peas.",
+      "Cook the stew until it starts boiling.",
+      "Put on the cover and lower the heat.",
+      "Cook the stew for 17 min.",
+      "Remove the lid and lay the shrimp on top.",
+      "Put the lid back on and cook the stew for 6 min.",
+      "Serve your stew warm."
+    ],
+    "nutrition": {
+      "calories": 540.0,
+      "protein_g": 22.0,
+      "carbohydrates_g": 87.8,
+      "fat_g": 9.9
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0097",
+    "title": "How To Make Miso Ramen",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "5",
+    "ingredients": [
+      "2 tsp olive oil",
+      "1 garlic clove, minced",
+      "1 tsp fresh ginger, minced",
+      "2-4 oz. ground pork",
+      "5 oz. bean sprouts, rinsed",
+      "4 oz. cabbage, chopped",
+      "2-4 oz. carrots, cut into thin strips",
+      "4 C. low sodium chicken broth",
+      "1 tsp sugar",
+      "2 tsp light soy sauce",
+      "4 tbsp miso",
+      "2 (3 oz.) packages ramen noodles",
+      "1/2 tsp sesame oil"
+    ],
+    "steps": [
+      "Place a large saucepan over medium heat.",
+      "Heat the oil in it.",
+      "sauté in it the garlic with ginger an pork for 8 min.",
+      "Stir in the carrots, bean sprouts and cabbage and cook them for 4 min.",
+      "Stir in the broth with soy sauce and sugar.",
+      "Cook them until they start boiling.",
+      "Turn the heat down and sit the miso into the soup with the sesame oil."
+    ],
+    "nutrition": {
+      "calories": 279.8,
+      "protein_g": 12.4,
+      "carbohydrates_g": 32.7,
+      "fat_g": 12.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0098",
+    "title": "French Ramen Pan",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "1",
+    "ingredients": [
+      "2 (3 oz.) packages ramen noodles, any flavor",
+      "2 tbsp sour cream",
+      "1 (10 1/2 oz.) cans cream of mushroom soup",
+      "1/2 C. water",
+      "1/2 C. milk",
+      "1/4 C. onion, chopped",
+      "1/4 C. French's French fried onions",
+      "1/2 lb ground beef"
+    ],
+    "steps": [
+      "Before you do anything, preheat the oven to 375 F.",
+      "Get a mixing bowl: Stir in it the crusted noodles, 1 packet of seasoning, sour cream, soup (undiluted) water, milk, and onion.",
+      "Place a large pan over medium heat.",
+      "Cook in it the beef for 8 min.",
+      "Drain it and add it to the noodles mix.",
+      "Stir them to coat.",
+      "Pour the mix into a greased pan.",
+      "Cook it in the oven for 22 min.",
+      "Top the noodles pan with the fried onion and cook it for an extra 12 min in the oven.",
+      "Top it with the cheese then serve it warm."
+    ],
+    "nutrition": {
+      "calories": 540.8,
+      "protein_g": 23.2,
+      "carbohydrates_g": 45.9,
+      "fat_g": 29.1
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0099",
+    "title": "Japanese Chicken Soup",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "1 lb ground chicken or 1 lb pork",
+      "1/4 C. miso",
+      "1/4 C. sake",
+      "1/4 C. fresh ginger, grated",
+      "1 egg",
+      "flour or starch, as needed",
+      "green onion, chopped"
+    ],
+    "steps": [
+      "Get a small bowl: Whisk in it the miso with sake.",
+      "Get a mixing bowl: Combine in it all the ingredients.",
+      "Mix them well.",
+      "Bring some nabe broth to a boil in a large saucepan.",
+      "Drop the chicken mix using a tbsp into the hot broth and cook them until they are no longer pink.",
+      "Serve your chicken meatballs soup warm."
+    ],
+    "nutrition": {
+      "calories": 210.7,
+      "protein_g": 28.0,
+      "carbohydrates_g": 6.3,
+      "fat_g": 5.7
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0100",
+    "title": "Mung Bang Noodles Skillet",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "6",
+    "ingredients": [
+      "1 lb lean ground beef, cooked",
+      "6 slices turkey bacon, chopped",
+      "2 (3 oz.) packages ramen noodles",
+      "3 garlic cloves, minced",
+      "1 medium red onion, diced",
+      "1 medium cabbage, chopped",
+      "3 carrots, cut into thin 1 inch strips",
+      "1 red bell pepper, cut into bite size pieces",
+      "2-4 tbsp light soy sauce",
+      "3 C. bean sprouts",
+      "light soy sauce, to taste",
+      "crushed red pepper flakes"
+    ],
+    "steps": [
+      "Place a large pan over medium heat.",
+      "Cook in it the bacon until it becomes crisp.",
+      "Drain it and place it aside.",
+      "Keep about 2 tbsp of the bacon grease in the pan.",
+      "Sauté in it the garlic with onion for 4 min.",
+      "Stir in 2 tbsp of soy sauce and the carrots.",
+      "Let them cook for 3 min.",
+      "Stir in the bell pepper with cabbage and let them cook for an extra 7 min.",
+      "Cook the noodles according to the manufacturer's directions.",
+      "Drain it and stir it with a splash of olive oil.",
+      "Stir the beef, bacon and crushed red pepper flakes into the skillet with the cooked veggies.",
+      "Let them cook for 4 min while stirring often.",
+      "Once the time is up, stir the bean sprouts and Ramen noodles into the veggies mix.",
+      "Let them cook for an extra 3 min while stirring all the time.",
+      "Serve your noodles skillet warm with some hot sauce."
+    ],
+    "nutrition": {
+      "calories": 378.5,
+      "protein_g": 23.9,
+      "carbohydrates_g": 36.5,
+      "fat_g": 16.0
+    },
+    "nutrition_source": "source_book"
+  },
+  {
+    "id": "japanese_0101",
+    "title": "Cucumber Salad In Japan",
+    "cuisine": "Japanese",
+    "source_file": "Japanese.pdf",
+    "servings": "4",
+    "ingredients": [
+      "2 tbsps white sugar",
+      "2 tbsps rice vinegar",
+      "1 tsp Asian (toasted) sesame oil",
+      "1 tsp chili paste (sambal oelek)",
+      "salt to taste",
+      "2 large cucumbers - peeled, seeded, and cut into 1/4-inch slices"
+    ],
+    "steps": [
+      "Get a bowl.",
+      "Mix the following evenly: salt, sugar, chili paste, sesame oil, and rice vinegar.",
+      "Combine with the wet mixture, your cucumbers, and set the salad to marinade for 35 mins on a countertop.",
+      "Enjoy the salad at room temp."
+    ],
+    "nutrition": {
+      "calories": 55.0,
+      "protein_g": 0.8,
+      "carbohydrates_g": 10.5,
+      "fat_g": 1.6
+    },
+    "nutrition_source": "source_book"
+  }
+]
