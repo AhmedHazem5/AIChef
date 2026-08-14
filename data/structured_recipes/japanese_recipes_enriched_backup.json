@@ -21,18 +21,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 613.4,
-      "protein_g": 11.0,
-      "carbohydrates_g": 56.8,
-      "fat_g": 38.4,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 306.7,
-        "protein_g": 5.5,
-        "carbohydrates_g": 28.4,
-        "fat_g": 19.2
-      }
+      "calories": 306.7,
+      "protein_g": 5.5,
+      "carbohydrates_g": 28.4,
+      "fat_g": 19.2
     },
     "nutrition_source": "source_book"
   },
@@ -63,18 +55,10 @@
       "Garnish your soup bowls with the nori and green onions."
     ],
     "nutrition": {
-      "calories": 1028.0,
-      "protein_g": 46.4,
-      "carbohydrates_g": 192.8,
-      "fat_g": 12.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 257.0,
-        "protein_g": 11.6,
-        "carbohydrates_g": 48.2,
-        "fat_g": 3.1
-      }
+      "calories": 257.0,
+      "protein_g": 11.6,
+      "carbohydrates_g": 48.2,
+      "fat_g": 3.1
     },
     "nutrition_source": "source_book"
   },
@@ -115,18 +99,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 1871.6,
-      "protein_g": 133.2,
-      "carbohydrates_g": 141.6,
-      "fat_g": 85.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 467.9,
-        "protein_g": 33.3,
-        "carbohydrates_g": 35.4,
-        "fat_g": 21.3
-      }
+      "calories": 467.9,
+      "protein_g": 33.3,
+      "carbohydrates_g": 35.4,
+      "fat_g": 21.3
     },
     "nutrition_source": "source_book"
   },
@@ -155,18 +131,10 @@
       "Serve your guacamole."
     ],
     "nutrition": {
-      "calories": 1080.0,
-      "protein_g": 16.8,
-      "carbohydrates_g": 90.0,
-      "fat_g": 84.0,
-      "basis": "whole_recipe",
-      "servings": 12.0,
-      "per_serving": {
-        "calories": 90.0,
-        "protein_g": 1.4,
-        "carbohydrates_g": 7.5,
-        "fat_g": 7.0
-      }
+      "calories": 90.0,
+      "protein_g": 1.4,
+      "carbohydrates_g": 7.5,
+      "fat_g": 7.0
     },
     "nutrition_source": "source_book"
   },
@@ -201,18 +169,10 @@
       "serve your lasagna warm."
     ],
     "nutrition": {
-      "calories": 2794.4,
-      "protein_g": 167.6,
-      "carbohydrates_g": 146.0,
-      "fat_g": 167.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 698.6,
-        "protein_g": 41.9,
-        "carbohydrates_g": 36.5,
-        "fat_g": 41.9
-      }
+      "calories": 698.6,
+      "protein_g": 41.9,
+      "carbohydrates_g": 36.5,
+      "fat_g": 41.9
     },
     "nutrition_source": "source_book"
   },
@@ -245,18 +205,10 @@
       "Serve your omelet warm."
     ],
     "nutrition": {
-      "calories": 378.0,
-      "protein_g": 26.4,
-      "carbohydrates_g": 15.6,
-      "fat_g": 22.8,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 63.0,
-        "protein_g": 4.4,
-        "carbohydrates_g": 2.6,
-        "fat_g": 3.8
-      }
+      "calories": 63.0,
+      "protein_g": 4.4,
+      "carbohydrates_g": 2.6,
+      "fat_g": 3.8
     },
     "nutrition_source": "source_book"
   },
@@ -298,18 +250,10 @@
       "Serve your soup hot with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 1130.8,
-      "protein_g": 42.0,
-      "carbohydrates_g": 157.6,
-      "fat_g": 37.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 282.7,
-        "protein_g": 10.5,
-        "carbohydrates_g": 39.4,
-        "fat_g": 9.4
-      }
+      "calories": 282.7,
+      "protein_g": 10.5,
+      "carbohydrates_g": 39.4,
+      "fat_g": 9.4
     },
     "nutrition_source": "source_book"
   },
@@ -346,18 +290,10 @@
       "Serve it hot."
     ],
     "nutrition": {
-      "calories": 2192.0,
-      "protein_g": 168.8,
-      "carbohydrates_g": 213.6,
-      "fat_g": 68.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 548.0,
-        "protein_g": 42.2,
-        "carbohydrates_g": 53.4,
-        "fat_g": 17.2
-      }
+      "calories": 548.0,
+      "protein_g": 42.2,
+      "carbohydrates_g": 53.4,
+      "fat_g": 17.2
     },
     "nutrition_source": "source_book"
   },
@@ -401,18 +337,10 @@
       "Serve your noodles bowels hot."
     ],
     "nutrition": {
-      "calories": 2025.2,
-      "protein_g": 92.8,
-      "carbohydrates_g": 185.6,
-      "fat_g": 103.4,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 1012.6,
-        "protein_g": 46.4,
-        "carbohydrates_g": 92.8,
-        "fat_g": 51.7
-      }
+      "calories": 1012.6,
+      "protein_g": 46.4,
+      "carbohydrates_g": 92.8,
+      "fat_g": 51.7
     },
     "nutrition_source": "source_book"
   },
@@ -440,18 +368,10 @@
       "Serve your stir fry right away."
     ],
     "nutrition": {
-      "calories": 440.0,
-      "protein_g": 10.8,
-      "carbohydrates_g": 32.4,
-      "fat_g": 32.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 110.0,
-        "protein_g": 2.7,
-        "carbohydrates_g": 8.1,
-        "fat_g": 8.2
-      }
+      "calories": 110.0,
+      "protein_g": 2.7,
+      "carbohydrates_g": 8.1,
+      "fat_g": 8.2
     },
     "nutrition_source": "source_book"
   },
@@ -479,15 +399,7 @@
       "calories": 564.1,
       "protein_g": 13.7,
       "carbohydrates_g": 65.7,
-      "fat_g": 27.7,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 564.1,
-        "protein_g": 13.7,
-        "carbohydrates_g": 65.7,
-        "fat_g": 27.7
-      }
+      "fat_g": 27.7
     },
     "nutrition_source": "source_book"
   },
@@ -521,18 +433,10 @@
       "Drain the shrimp and serve it with the ketchup sauce."
     ],
     "nutrition": {
-      "calories": 5520.0,
-      "protein_g": 84.6,
-      "carbohydrates_g": 214.8,
-      "fat_g": 488.4,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 920.0,
-        "protein_g": 14.1,
-        "carbohydrates_g": 35.8,
-        "fat_g": 81.4
-      }
+      "calories": 920.0,
+      "protein_g": 14.1,
+      "carbohydrates_g": 35.8,
+      "fat_g": 81.4
     },
     "nutrition_source": "source_book"
   },
@@ -613,18 +517,10 @@
       "Serve your soup warm."
     ],
     "nutrition": {
-      "calories": 380.0,
-      "protein_g": 54.0,
-      "carbohydrates_g": 26.0,
-      "fat_g": 7.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 95.0,
-        "protein_g": 13.5,
-        "carbohydrates_g": 6.5,
-        "fat_g": 1.8
-      }
+      "calories": 95.0,
+      "protein_g": 13.5,
+      "carbohydrates_g": 6.5,
+      "fat_g": 1.8
     },
     "nutrition_source": "source_book"
   },
@@ -670,15 +566,7 @@
       "calories": 335.1,
       "protein_g": 8.4,
       "carbohydrates_g": 18.9,
-      "fat_g": 27.8,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 335.1,
-        "protein_g": 8.4,
-        "carbohydrates_g": 18.9,
-        "fat_g": 27.8
-      }
+      "fat_g": 27.8
     },
     "nutrition_source": "source_book"
   },
@@ -774,18 +662,10 @@
       "Serve it right away."
     ],
     "nutrition": {
-      "calories": 3609.2,
-      "protein_g": 158.0,
-      "carbohydrates_g": 358.8,
-      "fat_g": 169.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 902.3,
-        "protein_g": 39.5,
-        "carbohydrates_g": 89.7,
-        "fat_g": 42.4
-      }
+      "calories": 902.3,
+      "protein_g": 39.5,
+      "carbohydrates_g": 89.7,
+      "fat_g": 42.4
     },
     "nutrition_source": "source_book"
   },
@@ -815,18 +695,10 @@
       "Serve your soup hot with some green onions."
     ],
     "nutrition": {
-      "calories": 200.0,
-      "protein_g": 22.0,
-      "carbohydrates_g": 9.6,
-      "fat_g": 7.8,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 100.0,
-        "protein_g": 11.0,
-        "carbohydrates_g": 4.8,
-        "fat_g": 3.9
-      }
+      "calories": 100.0,
+      "protein_g": 11.0,
+      "carbohydrates_g": 4.8,
+      "fat_g": 3.9
     },
     "nutrition_source": "source_book"
   },
@@ -863,18 +735,10 @@
       "allow them to rest for 12 min then serve them with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 1612.8,
-      "protein_g": 159.0,
-      "carbohydrates_g": 62.4,
-      "fat_g": 75.6,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 268.8,
-        "protein_g": 26.5,
-        "carbohydrates_g": 10.4,
-        "fat_g": 12.6
-      }
+      "calories": 268.8,
+      "protein_g": 26.5,
+      "carbohydrates_g": 10.4,
+      "fat_g": 12.6
     },
     "nutrition_source": "source_book"
   },
@@ -940,18 +804,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 594.0,
-      "protein_g": 16.0,
-      "carbohydrates_g": 90.2,
-      "fat_g": 23.2,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 297.0,
-        "protein_g": 8.0,
-        "carbohydrates_g": 45.1,
-        "fat_g": 11.6
-      }
+      "calories": 297.0,
+      "protein_g": 8.0,
+      "carbohydrates_g": 45.1,
+      "fat_g": 11.6
     },
     "nutrition_source": "source_book"
   },
@@ -983,15 +839,7 @@
       "calories": 150.2,
       "protein_g": 8.8,
       "carbohydrates_g": 1.2,
-      "fat_g": 12.2,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 150.2,
-        "protein_g": 8.8,
-        "carbohydrates_g": 1.2,
-        "fat_g": 12.2
-      }
+      "fat_g": 12.2
     },
     "nutrition_source": "source_book"
   },
@@ -1028,18 +876,10 @@
       "Serve them warm."
     ],
     "nutrition": {
-      "calories": 4050.0,
-      "protein_g": 113.4,
-      "carbohydrates_g": 308.4,
-      "fat_g": 265.8,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 675.0,
-        "protein_g": 18.9,
-        "carbohydrates_g": 51.4,
-        "fat_g": 44.3
-      }
+      "calories": 675.0,
+      "protein_g": 18.9,
+      "carbohydrates_g": 51.4,
+      "fat_g": 44.3
     },
     "nutrition_source": "source_book"
   },
@@ -1071,18 +911,10 @@
       "Serve it right away."
     ],
     "nutrition": {
-      "calories": 3444.8,
-      "protein_g": 70.4,
-      "carbohydrates_g": 296.0,
-      "fat_g": 231.2,
-      "basis": "whole_recipe",
-      "servings": 8.0,
-      "per_serving": {
-        "calories": 430.6,
-        "protein_g": 8.8,
-        "carbohydrates_g": 37.0,
-        "fat_g": 28.9
-      }
+      "calories": 430.6,
+      "protein_g": 8.8,
+      "carbohydrates_g": 37.0,
+      "fat_g": 28.9
     },
     "nutrition_source": "source_book"
   },
@@ -1124,18 +956,10 @@
       "Repeat the process with the remaining 2 quesadillas then serve them warm."
     ],
     "nutrition": {
-      "calories": 3858.0,
-      "protein_g": 229.2,
-      "carbohydrates_g": 269.4,
-      "fat_g": 201.0,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 643.0,
-        "protein_g": 38.2,
-        "carbohydrates_g": 44.9,
-        "fat_g": 33.5
-      }
+      "calories": 643.0,
+      "protein_g": 38.2,
+      "carbohydrates_g": 44.9,
+      "fat_g": 33.5
     },
     "nutrition_source": "source_book"
   },
@@ -1159,18 +983,10 @@
       "Spoon the soup mix over it then serve it warm."
     ],
     "nutrition": {
-      "calories": 813.2,
-      "protein_g": 29.6,
-      "carbohydrates_g": 74.4,
-      "fat_g": 44.0,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 203.3,
-        "protein_g": 7.4,
-        "carbohydrates_g": 18.6,
-        "fat_g": 11.0
-      }
+      "calories": 203.3,
+      "protein_g": 7.4,
+      "carbohydrates_g": 18.6,
+      "fat_g": 11.0
     },
     "nutrition_source": "source_book"
   },
@@ -1198,18 +1014,10 @@
       "Serve them with your favorite dip."
     ],
     "nutrition": {
-      "calories": 684.0,
-      "protein_g": 13.2,
-      "carbohydrates_g": 153.6,
-      "fat_g": 0.0,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 114.0,
-        "protein_g": 2.2,
-        "carbohydrates_g": 25.6,
-        "fat_g": 0.0
-      }
+      "calories": 114.0,
+      "protein_g": 2.2,
+      "carbohydrates_g": 25.6,
+      "fat_g": 0.0
     },
     "nutrition_source": "source_book"
   },
@@ -1246,18 +1054,10 @@
       "Serve it hot."
     ],
     "nutrition": {
-      "calories": 1066.6,
-      "protein_g": 27.2,
-      "carbohydrates_g": 154.8,
-      "fat_g": 39.0,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 533.3,
-        "protein_g": 13.6,
-        "carbohydrates_g": 77.4,
-        "fat_g": 19.5
-      }
+      "calories": 533.3,
+      "protein_g": 13.6,
+      "carbohydrates_g": 77.4,
+      "fat_g": 19.5
     },
     "nutrition_source": "source_book"
   },
@@ -1290,18 +1090,10 @@
       "Serve your chicken wings with your favorite dip."
     ],
     "nutrition": {
-      "calories": 896.0,
-      "protein_g": 26.4,
-      "carbohydrates_g": 28.0,
-      "fat_g": 73.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 224.0,
-        "protein_g": 6.6,
-        "carbohydrates_g": 7.0,
-        "fat_g": 18.3
-      }
+      "calories": 224.0,
+      "protein_g": 6.6,
+      "carbohydrates_g": 7.0,
+      "fat_g": 18.3
     },
     "nutrition_source": "source_book"
   },
@@ -1339,18 +1131,10 @@
       "Serve your ramen Skillet Hot."
     ],
     "nutrition": {
-      "calories": 3080.8,
-      "protein_g": 154.8,
-      "carbohydrates_g": 364.8,
-      "fat_g": 118.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 770.2,
-        "protein_g": 38.7,
-        "carbohydrates_g": 91.2,
-        "fat_g": 29.6
-      }
+      "calories": 770.2,
+      "protein_g": 38.7,
+      "carbohydrates_g": 91.2,
+      "fat_g": 29.6
     },
     "nutrition_source": "source_book"
   },
@@ -1379,15 +1163,7 @@
       "calories": 82.0,
       "protein_g": 6.6,
       "carbohydrates_g": 2.9,
-      "fat_g": 5.0,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 82.0,
-        "protein_g": 6.6,
-        "carbohydrates_g": 2.9,
-        "fat_g": 5.0
-      }
+      "fat_g": 5.0
     },
     "nutrition_source": "source_book"
   },
@@ -1413,18 +1189,10 @@
       "serve your noodles warm."
     ],
     "nutrition": {
-      "calories": 1661.6,
-      "protein_g": 53.6,
-      "carbohydrates_g": 65.4,
-      "fat_g": 132.2,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 830.8,
-        "protein_g": 26.8,
-        "carbohydrates_g": 32.7,
-        "fat_g": 66.1
-      }
+      "calories": 830.8,
+      "protein_g": 26.8,
+      "carbohydrates_g": 32.7,
+      "fat_g": 66.1
     },
     "nutrition_source": "source_book"
   },
@@ -1451,18 +1219,10 @@
       "Serve your crumbled beef warm with some rice."
     ],
     "nutrition": {
-      "calories": 928.0,
-      "protein_g": 59.6,
-      "carbohydrates_g": 29.6,
-      "fat_g": 52.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 232.0,
-        "protein_g": 14.9,
-        "carbohydrates_g": 7.4,
-        "fat_g": 13.2
-      }
+      "calories": 232.0,
+      "protein_g": 14.9,
+      "carbohydrates_g": 7.4,
+      "fat_g": 13.2
     },
     "nutrition_source": "source_book"
   },
@@ -1495,18 +1255,10 @@
       "serve it."
     ],
     "nutrition": {
-      "calories": 1023.6,
-      "protein_g": 42.0,
-      "carbohydrates_g": 106.2,
-      "fat_g": 47.4,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 170.6,
-        "protein_g": 7.0,
-        "carbohydrates_g": 17.7,
-        "fat_g": 7.9
-      }
+      "calories": 170.6,
+      "protein_g": 7.0,
+      "carbohydrates_g": 17.7,
+      "fat_g": 7.9
     },
     "nutrition_source": "source_book"
   },
@@ -1542,15 +1294,7 @@
       "calories": 521.0,
       "protein_g": 26.7,
       "carbohydrates_g": 59.3,
-      "fat_g": 20.2,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 521.0,
-        "protein_g": 26.7,
-        "carbohydrates_g": 59.3,
-        "fat_g": 20.2
-      }
+      "fat_g": 20.2
     },
     "nutrition_source": "source_book"
   },
@@ -1592,18 +1336,10 @@
       "Serve them hot."
     ],
     "nutrition": {
-      "calories": 2138.4,
-      "protein_g": 123.6,
-      "carbohydrates_g": 187.4,
-      "fat_g": 101.0,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 1069.2,
-        "protein_g": 61.8,
-        "carbohydrates_g": 93.7,
-        "fat_g": 50.5
-      }
+      "calories": 1069.2,
+      "protein_g": 61.8,
+      "carbohydrates_g": 93.7,
+      "fat_g": 50.5
     },
     "nutrition_source": "source_book"
   },
@@ -1646,18 +1382,10 @@
       "Serve your burgers with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 1842.0,
-      "protein_g": 153.0,
-      "carbohydrates_g": 53.4,
-      "fat_g": 108.6,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 307.0,
-        "protein_g": 25.5,
-        "carbohydrates_g": 8.9,
-        "fat_g": 18.1
-      }
+      "calories": 307.0,
+      "protein_g": 25.5,
+      "carbohydrates_g": 8.9,
+      "fat_g": 18.1
     },
     "nutrition_source": "source_book"
   },
@@ -1686,18 +1414,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 2114.4,
-      "protein_g": 116.4,
-      "carbohydrates_g": 196.0,
-      "fat_g": 99.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 528.6,
-        "protein_g": 29.1,
-        "carbohydrates_g": 49.0,
-        "fat_g": 24.9
-      }
+      "calories": 528.6,
+      "protein_g": 29.1,
+      "carbohydrates_g": 49.0,
+      "fat_g": 24.9
     },
     "nutrition_source": "source_book"
   },
@@ -1724,18 +1444,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 392.0,
-      "protein_g": 14.6,
-      "carbohydrates_g": 28.4,
-      "fat_g": 28.2,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 196.0,
-        "protein_g": 7.3,
-        "carbohydrates_g": 14.2,
-        "fat_g": 14.1
-      }
+      "calories": 196.0,
+      "protein_g": 7.3,
+      "carbohydrates_g": 14.2,
+      "fat_g": 14.1
     },
     "nutrition_source": "source_book"
   },
@@ -1765,18 +1477,10 @@
       "Sprinkle the almonds on top then serve it."
     ],
     "nutrition": {
-      "calories": 1905.6,
-      "protein_g": 29.6,
-      "carbohydrates_g": 126.4,
-      "fat_g": 149.6,
-      "basis": "whole_recipe",
-      "servings": 8.0,
-      "per_serving": {
-        "calories": 238.2,
-        "protein_g": 3.7,
-        "carbohydrates_g": 15.8,
-        "fat_g": 18.7
-      }
+      "calories": 238.2,
+      "protein_g": 3.7,
+      "carbohydrates_g": 15.8,
+      "fat_g": 18.7
     },
     "nutrition_source": "source_book"
   },
@@ -1801,18 +1505,10 @@
       "Serve it."
     ],
     "nutrition": {
-      "calories": 220.0,
-      "protein_g": 3.2,
-      "carbohydrates_g": 42.0,
-      "fat_g": 6.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 55.0,
-        "protein_g": 0.8,
-        "carbohydrates_g": 10.5,
-        "fat_g": 1.6
-      }
+      "calories": 55.0,
+      "protein_g": 0.8,
+      "carbohydrates_g": 10.5,
+      "fat_g": 1.6
     },
     "nutrition_source": "source_book"
   },
@@ -1840,18 +1536,10 @@
       "Place the salad in the fridge for 1 to 2 h then serve it."
     ],
     "nutrition": {
-      "calories": 1274.0,
-      "protein_g": 16.4,
-      "carbohydrates_g": 133.6,
-      "fat_g": 79.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 318.5,
-        "protein_g": 4.1,
-        "carbohydrates_g": 33.4,
-        "fat_g": 19.8
-      }
+      "calories": 318.5,
+      "protein_g": 4.1,
+      "carbohydrates_g": 33.4,
+      "fat_g": 19.8
     },
     "nutrition_source": "source_book"
   },
@@ -1880,18 +1568,10 @@
       "Serve them warm."
     ],
     "nutrition": {
-      "calories": 1188.0,
-      "protein_g": 124.8,
-      "carbohydrates_g": 88.8,
-      "fat_g": 45.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 297.0,
-        "protein_g": 31.2,
-        "carbohydrates_g": 22.2,
-        "fat_g": 11.4
-      }
+      "calories": 297.0,
+      "protein_g": 31.2,
+      "carbohydrates_g": 22.2,
+      "fat_g": 11.4
     },
     "nutrition_source": "source_book"
   },
@@ -1941,18 +1621,10 @@
       "Top the ramen skillet with the cilantro and peanuts then serve them hot."
     ],
     "nutrition": {
-      "calories": 2212.8,
-      "protein_g": 34.0,
-      "carbohydrates_g": 305.2,
-      "fat_g": 101.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 553.2,
-        "protein_g": 8.5,
-        "carbohydrates_g": 76.3,
-        "fat_g": 25.4
-      }
+      "calories": 553.2,
+      "protein_g": 8.5,
+      "carbohydrates_g": 76.3,
+      "fat_g": 25.4
     },
     "nutrition_source": "source_book"
   },
@@ -1990,18 +1662,10 @@
       "Drain your chicken cubes then serve them warm with your favorite dip."
     ],
     "nutrition": {
-      "calories": 2048.0,
-      "protein_g": 167.2,
-      "carbohydrates_g": 38.4,
-      "fat_g": 133.6,
-      "basis": "whole_recipe",
-      "servings": 8.0,
-      "per_serving": {
-        "calories": 256.0,
-        "protein_g": 20.9,
-        "carbohydrates_g": 4.8,
-        "fat_g": 16.7
-      }
+      "calories": 256.0,
+      "protein_g": 20.9,
+      "carbohydrates_g": 4.8,
+      "fat_g": 16.7
     },
     "nutrition_source": "source_book"
   },
@@ -2039,15 +1703,7 @@
       "calories": 1490.7,
       "protein_g": 45.5,
       "carbohydrates_g": 224.1,
-      "fat_g": 37.4,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 1490.7,
-        "protein_g": 45.5,
-        "carbohydrates_g": 224.1,
-        "fat_g": 37.4
-      }
+      "fat_g": 37.4
     },
     "nutrition_source": "source_book"
   },
@@ -2088,18 +1744,10 @@
       "Serve your stir fry warm with some white rice."
     ],
     "nutrition": {
-      "calories": 2320.0,
-      "protein_g": 211.2,
-      "carbohydrates_g": 211.2,
-      "fat_g": 60.8,
-      "basis": "whole_recipe",
-      "servings": 8.0,
-      "per_serving": {
-        "calories": 290.0,
-        "protein_g": 26.4,
-        "carbohydrates_g": 26.4,
-        "fat_g": 7.6
-      }
+      "calories": 290.0,
+      "protein_g": 26.4,
+      "carbohydrates_g": 26.4,
+      "fat_g": 7.6
     },
     "nutrition_source": "source_book"
   },
@@ -2150,18 +1798,10 @@
       "Serve them hot."
     ],
     "nutrition": {
-      "calories": 3178.4,
-      "protein_g": 252.0,
-      "carbohydrates_g": 158.4,
-      "fat_g": 173.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 794.6,
-        "protein_g": 63.0,
-        "carbohydrates_g": 39.6,
-        "fat_g": 43.3
-      }
+      "calories": 794.6,
+      "protein_g": 63.0,
+      "carbohydrates_g": 39.6,
+      "fat_g": 43.3
     },
     "nutrition_source": "source_book"
   },
@@ -2198,18 +1838,10 @@
       "Serve your pancakes with the tonkatsu sauce."
     ],
     "nutrition": {
-      "calories": 2636.0,
-      "protein_g": 117.2,
-      "carbohydrates_g": 362.8,
-      "fat_g": 77.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 659.0,
-        "protein_g": 29.3,
-        "carbohydrates_g": 90.7,
-        "fat_g": 19.4
-      }
+      "calories": 659.0,
+      "protein_g": 29.3,
+      "carbohydrates_g": 90.7,
+      "fat_g": 19.4
     },
     "nutrition_source": "source_book"
   },
@@ -2242,15 +1874,7 @@
       "calories": 617.0,
       "protein_g": 17.2,
       "carbohydrates_g": 85.0,
-      "fat_g": 24.4,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 617.0,
-        "protein_g": 17.2,
-        "carbohydrates_g": 85.0,
-        "fat_g": 24.4
-      }
+      "fat_g": 24.4
     },
     "nutrition_source": "source_book"
   },
@@ -2286,18 +1910,10 @@
       "Serve your saucy chicken warm."
     ],
     "nutrition": {
-      "calories": 2348.0,
-      "protein_g": 194.8,
-      "carbohydrates_g": 72.0,
-      "fat_g": 130.0,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 587.0,
-        "protein_g": 48.7,
-        "carbohydrates_g": 18.0,
-        "fat_g": 32.5
-      }
+      "calories": 587.0,
+      "protein_g": 48.7,
+      "carbohydrates_g": 18.0,
+      "fat_g": 32.5
     },
     "nutrition_source": "source_book"
   },
@@ -2336,18 +1952,10 @@
       "Serve your soup hot."
     ],
     "nutrition": {
-      "calories": 1467.6,
-      "protein_g": 64.8,
-      "carbohydrates_g": 125.2,
-      "fat_g": 86.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 366.9,
-        "protein_g": 16.2,
-        "carbohydrates_g": 31.3,
-        "fat_g": 21.7
-      }
+      "calories": 366.9,
+      "protein_g": 16.2,
+      "carbohydrates_g": 31.3,
+      "fat_g": 21.7
     },
     "nutrition_source": "source_book"
   },
@@ -2386,18 +1994,10 @@
       "Serve it with your favorite dip."
     ],
     "nutrition": {
-      "calories": 1308.0,
-      "protein_g": 40.2,
-      "carbohydrates_g": 199.2,
-      "fat_g": 40.2,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 218.0,
-        "protein_g": 6.7,
-        "carbohydrates_g": 33.2,
-        "fat_g": 6.7
-      }
+      "calories": 218.0,
+      "protein_g": 6.7,
+      "carbohydrates_g": 33.2,
+      "fat_g": 6.7
     },
     "nutrition_source": "source_book"
   },
@@ -2425,18 +2025,10 @@
       "Serve it hot with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 731.2,
-      "protein_g": 41.6,
-      "carbohydrates_g": 70.0,
-      "fat_g": 31.0,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 365.6,
-        "protein_g": 20.8,
-        "carbohydrates_g": 35.0,
-        "fat_g": 15.5
-      }
+      "calories": 365.6,
+      "protein_g": 20.8,
+      "carbohydrates_g": 35.0,
+      "fat_g": 15.5
     },
     "nutrition_source": "source_book"
   },
@@ -2466,18 +2058,10 @@
       "Serve your frittata warm."
     ],
     "nutrition": {
-      "calories": 1356.0,
-      "protein_g": 81.2,
-      "carbohydrates_g": 115.2,
-      "fat_g": 62.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 339.0,
-        "protein_g": 20.3,
-        "carbohydrates_g": 28.8,
-        "fat_g": 15.7
-      }
+      "calories": 339.0,
+      "protein_g": 20.3,
+      "carbohydrates_g": 28.8,
+      "fat_g": 15.7
     },
     "nutrition_source": "source_book"
   },
@@ -2508,18 +2092,10 @@
       "Serve your cookies with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 3724.8,
-      "protein_g": 50.4,
-      "carbohydrates_g": 508.8,
-      "fat_g": 192.0,
-      "basis": "whole_recipe",
-      "servings": 24.0,
-      "per_serving": {
-        "calories": 155.2,
-        "protein_g": 2.1,
-        "carbohydrates_g": 21.2,
-        "fat_g": 8.0
-      }
+      "calories": 155.2,
+      "protein_g": 2.1,
+      "carbohydrates_g": 21.2,
+      "fat_g": 8.0
     },
     "nutrition_source": "source_book"
   },
@@ -2561,18 +2137,10 @@
       "Repeat the process with the remaining mix then serve them with your favorite dip."
     ],
     "nutrition": {
-      "calories": 1065.0,
-      "protein_g": 45.6,
-      "carbohydrates_g": 159.9,
-      "fat_g": 24.0,
-      "basis": "whole_recipe",
-      "servings": 3.0,
-      "per_serving": {
-        "calories": 355.0,
-        "protein_g": 15.2,
-        "carbohydrates_g": 53.3,
-        "fat_g": 8.0
-      }
+      "calories": 355.0,
+      "protein_g": 15.2,
+      "carbohydrates_g": 53.3,
+      "fat_g": 8.0
     },
     "nutrition_source": "source_book"
   },
@@ -2600,18 +2168,10 @@
       "Serve it hot."
     ],
     "nutrition": {
-      "calories": 1411.2,
-      "protein_g": 120.4,
-      "carbohydrates_g": 130.0,
-      "fat_g": 43.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 352.8,
-        "protein_g": 30.1,
-        "carbohydrates_g": 32.5,
-        "fat_g": 10.8
-      }
+      "calories": 352.8,
+      "protein_g": 30.1,
+      "carbohydrates_g": 32.5,
+      "fat_g": 10.8
     },
     "nutrition_source": "source_book"
   },
@@ -2650,18 +2210,10 @@
       "Drizzle the dressing on top then serve your salad."
     ],
     "nutrition": {
-      "calories": 504.0,
-      "protein_g": 24.8,
-      "carbohydrates_g": 18.6,
-      "fat_g": 38.6,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 252.0,
-        "protein_g": 12.4,
-        "carbohydrates_g": 9.3,
-        "fat_g": 19.3
-      }
+      "calories": 252.0,
+      "protein_g": 12.4,
+      "carbohydrates_g": 9.3,
+      "fat_g": 19.3
     },
     "nutrition_source": "source_book"
   },
@@ -2689,15 +2241,7 @@
       "calories": 780.9,
       "protein_g": 62.3,
       "carbohydrates_g": 69.2,
-      "fat_g": 27.8,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 780.9,
-        "protein_g": 62.3,
-        "carbohydrates_g": 69.2,
-        "fat_g": 27.8
-      }
+      "fat_g": 27.8
     },
     "nutrition_source": "source_book"
   },
@@ -2734,18 +2278,10 @@
       "Stir in the noodles and serve your soup hot."
     ],
     "nutrition": {
-      "calories": 1768.0,
-      "protein_g": 36.8,
-      "carbohydrates_g": 260.8,
-      "fat_g": 63.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 442.0,
-        "protein_g": 9.2,
-        "carbohydrates_g": 65.2,
-        "fat_g": 15.8
-      }
+      "calories": 442.0,
+      "protein_g": 9.2,
+      "carbohydrates_g": 65.2,
+      "fat_g": 15.8
     },
     "nutrition_source": "source_book"
   },
@@ -2786,18 +2322,10 @@
       "Fold the tofu into the noodles then serve it warm."
     ],
     "nutrition": {
-      "calories": 2340.8,
-      "protein_g": 100.4,
-      "carbohydrates_g": 269.6,
-      "fat_g": 103.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 585.2,
-        "protein_g": 25.1,
-        "carbohydrates_g": 67.4,
-        "fat_g": 25.9
-      }
+      "calories": 585.2,
+      "protein_g": 25.1,
+      "carbohydrates_g": 67.4,
+      "fat_g": 25.9
     },
     "nutrition_source": "source_book"
   },
@@ -2833,18 +2361,10 @@
       "Serve your soup warm with green onions."
     ],
     "nutrition": {
-      "calories": 260.0,
-      "protein_g": 24.8,
-      "carbohydrates_g": 19.6,
-      "fat_g": 11.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 65.0,
-        "protein_g": 6.2,
-        "carbohydrates_g": 4.9,
-        "fat_g": 2.8
-      }
+      "calories": 65.0,
+      "protein_g": 6.2,
+      "carbohydrates_g": 4.9,
+      "fat_g": 2.8
     },
     "nutrition_source": "source_book"
   },
@@ -2874,15 +2394,7 @@
       "calories": 712.6,
       "protein_g": 51.2,
       "carbohydrates_g": 54.2,
-      "fat_g": 31.2,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 712.6,
-        "protein_g": 51.2,
-        "carbohydrates_g": 54.2,
-        "fat_g": 31.2
-      }
+      "fat_g": 31.2
     },
     "nutrition_source": "source_book"
   },
@@ -2916,18 +2428,10 @@
       "Serve them warm."
     ],
     "nutrition": {
-      "calories": 1117.6,
-      "protein_g": 49.4,
-      "carbohydrates_g": 40.0,
-      "fat_g": 79.8,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 558.8,
-        "protein_g": 24.7,
-        "carbohydrates_g": 20.0,
-        "fat_g": 39.9
-      }
+      "calories": 558.8,
+      "protein_g": 24.7,
+      "carbohydrates_g": 20.0,
+      "fat_g": 39.9
     },
     "nutrition_source": "source_book"
   },
@@ -2967,18 +2471,10 @@
       "Serve your skillet warm."
     ],
     "nutrition": {
-      "calories": 715.2,
-      "protein_g": 24.0,
-      "carbohydrates_g": 88.4,
-      "fat_g": 33.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 178.8,
-        "protein_g": 6.0,
-        "carbohydrates_g": 22.1,
-        "fat_g": 8.3
-      }
+      "calories": 178.8,
+      "protein_g": 6.0,
+      "carbohydrates_g": 22.1,
+      "fat_g": 8.3
     },
     "nutrition_source": "source_book"
   },
@@ -3011,18 +2507,10 @@
       "Serve your octopus bites with your favorite sauce."
     ],
     "nutrition": {
-      "calories": 530.0,
-      "protein_g": 30.0,
-      "carbohydrates_g": 80.0,
-      "fat_g": 5.0,
-      "basis": "whole_recipe",
-      "servings": 50.0,
-      "per_serving": {
-        "calories": 10.6,
-        "protein_g": 0.6,
-        "carbohydrates_g": 1.6,
-        "fat_g": 0.1
-      }
+      "calories": 10.6,
+      "protein_g": 0.6,
+      "carbohydrates_g": 1.6,
+      "fat_g": 0.1
     },
     "nutrition_source": "source_book"
   },
@@ -3070,18 +2558,10 @@
       "Pour over it the hot broth then top it with the salmon fillets."
     ],
     "nutrition": {
-      "calories": 2598.0,
-      "protein_g": 219.0,
-      "carbohydrates_g": 378.0,
-      "fat_g": 33.6,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 433.0,
-        "protein_g": 36.5,
-        "carbohydrates_g": 63.0,
-        "fat_g": 5.6
-      }
+      "calories": 433.0,
+      "protein_g": 36.5,
+      "carbohydrates_g": 63.0,
+      "fat_g": 5.6
     },
     "nutrition_source": "source_book"
   },
@@ -3116,18 +2596,10 @@
       "Serve your stir fried rice warm."
     ],
     "nutrition": {
-      "calories": 1426.0,
-      "protein_g": 42.0,
-      "carbohydrates_g": 242.4,
-      "fat_g": 28.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 356.5,
-        "protein_g": 10.5,
-        "carbohydrates_g": 60.6,
-        "fat_g": 7.2
-      }
+      "calories": 356.5,
+      "protein_g": 10.5,
+      "carbohydrates_g": 60.6,
+      "fat_g": 7.2
     },
     "nutrition_source": "source_book"
   },
@@ -3159,15 +2631,7 @@
       "calories": 622.3,
       "protein_g": 17.5,
       "carbohydrates_g": 66.4,
-      "fat_g": 33.7,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 622.3,
-        "protein_g": 17.5,
-        "carbohydrates_g": 66.4,
-        "fat_g": 33.7
-      }
+      "fat_g": 33.7
     },
     "nutrition_source": "source_book"
   },
@@ -3200,15 +2664,7 @@
       "calories": 617.4,
       "protein_g": 2.5,
       "carbohydrates_g": 16.4,
-      "fat_g": 61.9,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 617.4,
-        "protein_g": 2.5,
-        "carbohydrates_g": 16.4,
-        "fat_g": 61.9
-      }
+      "fat_g": 61.9
     },
     "nutrition_source": "source_book"
   },
@@ -3237,18 +2693,10 @@
       "Place the salad in the fridge for 60 min then serve it."
     ],
     "nutrition": {
-      "calories": 4183.2,
-      "protein_g": 72.6,
-      "carbohydrates_g": 336.0,
-      "fat_g": 300.6,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 697.2,
-        "protein_g": 12.1,
-        "carbohydrates_g": 56.0,
-        "fat_g": 50.1
-      }
+      "calories": 697.2,
+      "protein_g": 12.1,
+      "carbohydrates_g": 56.0,
+      "fat_g": 50.1
     },
     "nutrition_source": "source_book"
   },
@@ -3299,18 +2747,10 @@
       "Serve it warm with some rice."
     ],
     "nutrition": {
-      "calories": 1682.0,
-      "protein_g": 127.6,
-      "carbohydrates_g": 132.4,
-      "fat_g": 71.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 420.5,
-        "protein_g": 31.9,
-        "carbohydrates_g": 33.1,
-        "fat_g": 17.9
-      }
+      "calories": 420.5,
+      "protein_g": 31.9,
+      "carbohydrates_g": 33.1,
+      "fat_g": 17.9
     },
     "nutrition_source": "source_book"
   },
@@ -3338,18 +2778,10 @@
       "Adjust the seasoning of your stir fry then serve it warm."
     ],
     "nutrition": {
-      "calories": 2225.4,
-      "protein_g": 38.4,
-      "carbohydrates_g": 169.2,
-      "fat_g": 163.2,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 370.9,
-        "protein_g": 6.4,
-        "carbohydrates_g": 28.2,
-        "fat_g": 27.2
-      }
+      "calories": 370.9,
+      "protein_g": 6.4,
+      "carbohydrates_g": 28.2,
+      "fat_g": 27.2
     },
     "nutrition_source": "source_book"
   },
@@ -3376,18 +2808,10 @@
       "Serve your stew warm."
     ],
     "nutrition": {
-      "calories": 2169.0,
-      "protein_g": 220.8,
-      "carbohydrates_g": 201.6,
-      "fat_g": 41.4,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 361.5,
-        "protein_g": 36.8,
-        "carbohydrates_g": 33.6,
-        "fat_g": 6.9
-      }
+      "calories": 361.5,
+      "protein_g": 36.8,
+      "carbohydrates_g": 33.6,
+      "fat_g": 6.9
     },
     "nutrition_source": "source_book"
   },
@@ -3430,18 +2854,10 @@
       "Top it with the sweet chicken and serve it warm."
     ],
     "nutrition": {
-      "calories": 1574.4,
-      "protein_g": 83.8,
-      "carbohydrates_g": 179.4,
-      "fat_g": 60.0,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 787.2,
-        "protein_g": 41.9,
-        "carbohydrates_g": 89.7,
-        "fat_g": 30.0
-      }
+      "calories": 787.2,
+      "protein_g": 41.9,
+      "carbohydrates_g": 89.7,
+      "fat_g": 30.0
     },
     "nutrition_source": "source_book"
   },
@@ -3485,18 +2901,10 @@
       "Drizzle the sauce all over the burgers then serve them warm."
     ],
     "nutrition": {
-      "calories": 1617.6,
-      "protein_g": 108.4,
-      "carbohydrates_g": 107.2,
-      "fat_g": 80.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 404.4,
-        "protein_g": 27.1,
-        "carbohydrates_g": 26.8,
-        "fat_g": 20.2
-      }
+      "calories": 404.4,
+      "protein_g": 27.1,
+      "carbohydrates_g": 26.8,
+      "fat_g": 20.2
     },
     "nutrition_source": "source_book"
   },
@@ -3527,18 +2935,10 @@
       "Serve your soup warm with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 1139.6,
-      "protein_g": 83.6,
-      "carbohydrates_g": 77.2,
-      "fat_g": 53.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 284.9,
-        "protein_g": 20.9,
-        "carbohydrates_g": 19.3,
-        "fat_g": 13.3
-      }
+      "calories": 284.9,
+      "protein_g": 20.9,
+      "carbohydrates_g": 19.3,
+      "fat_g": 13.3
     },
     "nutrition_source": "source_book"
   },
@@ -3618,18 +3018,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 2302.8,
-      "protein_g": 118.8,
-      "carbohydrates_g": 165.6,
-      "fat_g": 131.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 575.7,
-        "protein_g": 29.7,
-        "carbohydrates_g": 41.4,
-        "fat_g": 32.8
-      }
+      "calories": 575.7,
+      "protein_g": 29.7,
+      "carbohydrates_g": 41.4,
+      "fat_g": 32.8
     },
     "nutrition_source": "source_book"
   },
@@ -3660,18 +3052,10 @@
       "Serve your noodles warm."
     ],
     "nutrition": {
-      "calories": 755.8,
-      "protein_g": 12.6,
-      "carbohydrates_g": 78.2,
-      "fat_g": 45.2,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 377.9,
-        "protein_g": 6.3,
-        "carbohydrates_g": 39.1,
-        "fat_g": 22.6
-      }
+      "calories": 377.9,
+      "protein_g": 6.3,
+      "carbohydrates_g": 39.1,
+      "fat_g": 22.6
     },
     "nutrition_source": "source_book"
   },
@@ -3701,18 +3085,10 @@
       "Serve your salad and"
     ],
     "nutrition": {
-      "calories": 851.4,
-      "protein_g": 20.8,
-      "carbohydrates_g": 92.4,
-      "fat_g": 47.6,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 425.7,
-        "protein_g": 10.4,
-        "carbohydrates_g": 46.2,
-        "fat_g": 23.8
-      }
+      "calories": 425.7,
+      "protein_g": 10.4,
+      "carbohydrates_g": 46.2,
+      "fat_g": 23.8
     },
     "nutrition_source": "source_book"
   },
@@ -3761,18 +3137,10 @@
       "Serve them warm."
     ],
     "nutrition": {
-      "calories": 7098.4,
-      "protein_g": 353.6,
-      "carbohydrates_g": 563.2,
-      "fat_g": 369.6,
-      "basis": "whole_recipe",
-      "servings": 8.0,
-      "per_serving": {
-        "calories": 887.3,
-        "protein_g": 44.2,
-        "carbohydrates_g": 70.4,
-        "fat_g": 46.2
-      }
+      "calories": 887.3,
+      "protein_g": 44.2,
+      "carbohydrates_g": 70.4,
+      "fat_g": 46.2
     },
     "nutrition_source": "source_book"
   },
@@ -3834,18 +3202,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 2446.8,
-      "protein_g": 80.8,
-      "carbohydrates_g": 205.6,
-      "fat_g": 147.6,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 611.7,
-        "protein_g": 20.2,
-        "carbohydrates_g": 51.4,
-        "fat_g": 36.9
-      }
+      "calories": 611.7,
+      "protein_g": 20.2,
+      "carbohydrates_g": 51.4,
+      "fat_g": 36.9
     },
     "nutrition_source": "source_book"
   },
@@ -3878,18 +3238,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 1169.6,
-      "protein_g": 39.6,
-      "carbohydrates_g": 201.2,
-      "fat_g": 36.0,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 292.4,
-        "protein_g": 9.9,
-        "carbohydrates_g": 50.3,
-        "fat_g": 9.0
-      }
+      "calories": 292.4,
+      "protein_g": 9.9,
+      "carbohydrates_g": 50.3,
+      "fat_g": 9.0
     },
     "nutrition_source": "source_book"
   },
@@ -3914,18 +3266,10 @@
       "Serve your soup hot."
     ],
     "nutrition": {
-      "calories": 606.0,
-      "protein_g": 19.4,
-      "carbohydrates_g": 91.4,
-      "fat_g": 18.2,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 303.0,
-        "protein_g": 9.7,
-        "carbohydrates_g": 45.7,
-        "fat_g": 9.1
-      }
+      "calories": 303.0,
+      "protein_g": 9.7,
+      "carbohydrates_g": 45.7,
+      "fat_g": 9.1
     },
     "nutrition_source": "source_book"
   },
@@ -3968,18 +3312,10 @@
       "Serve your omelet with your favorite toppings."
     ],
     "nutrition": {
-      "calories": 2768.4,
-      "protein_g": 91.2,
-      "carbohydrates_g": 269.2,
-      "fat_g": 144.0,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 692.1,
-        "protein_g": 22.8,
-        "carbohydrates_g": 67.3,
-        "fat_g": 36.0
-      }
+      "calories": 692.1,
+      "protein_g": 22.8,
+      "carbohydrates_g": 67.3,
+      "fat_g": 36.0
     },
     "nutrition_source": "source_book"
   },
@@ -4008,18 +3344,10 @@
       "Serve them warm."
     ],
     "nutrition": {
-      "calories": 1487.4,
-      "protein_g": 74.4,
-      "carbohydrates_g": 129.6,
-      "fat_g": 73.2,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 247.9,
-        "protein_g": 12.4,
-        "carbohydrates_g": 21.6,
-        "fat_g": 12.2
-      }
+      "calories": 247.9,
+      "protein_g": 12.4,
+      "carbohydrates_g": 21.6,
+      "fat_g": 12.2
     },
     "nutrition_source": "source_book"
   },
@@ -4051,18 +3379,10 @@
       "Serve it warm."
     ],
     "nutrition": {
-      "calories": 588.8,
-      "protein_g": 10.0,
-      "carbohydrates_g": 93.2,
-      "fat_g": 20.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 147.2,
-        "protein_g": 2.5,
-        "carbohydrates_g": 23.3,
-        "fat_g": 5.1
-      }
+      "calories": 147.2,
+      "protein_g": 2.5,
+      "carbohydrates_g": 23.3,
+      "fat_g": 5.1
     },
     "nutrition_source": "source_book"
   },
@@ -4099,15 +3419,7 @@
       "calories": 83.1,
       "protein_g": 6.9,
       "carbohydrates_g": 1.4,
-      "fat_g": 5.3,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 83.1,
-        "protein_g": 6.9,
-        "carbohydrates_g": 1.4,
-        "fat_g": 5.3
-      }
+      "fat_g": 5.3
     },
     "nutrition_source": "source_book"
   },
@@ -4140,18 +3452,10 @@
       "Serve your chicken skillet warm."
     ],
     "nutrition": {
-      "calories": 513.6,
-      "protein_g": 38.4,
-      "carbohydrates_g": 24.4,
-      "fat_g": 28.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 128.4,
-        "protein_g": 9.6,
-        "carbohydrates_g": 6.1,
-        "fat_g": 7.2
-      }
+      "calories": 128.4,
+      "protein_g": 9.6,
+      "carbohydrates_g": 6.1,
+      "fat_g": 7.2
     },
     "nutrition_source": "source_book"
   },
@@ -4183,18 +3487,10 @@
       "Serve your casserole warm."
     ],
     "nutrition": {
-      "calories": 2009.2,
-      "protein_g": 85.6,
-      "carbohydrates_g": 220.0,
-      "fat_g": 96.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 502.3,
-        "protein_g": 21.4,
-        "carbohydrates_g": 55.0,
-        "fat_g": 24.1
-      }
+      "calories": 502.3,
+      "protein_g": 21.4,
+      "carbohydrates_g": 55.0,
+      "fat_g": 24.1
     },
     "nutrition_source": "source_book"
   },
@@ -4221,18 +3517,10 @@
       "Serve your eggplant salad."
     ],
     "nutrition": {
-      "calories": 1473.2,
-      "protein_g": 50.8,
-      "carbohydrates_g": 256.0,
-      "fat_g": 49.2,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 368.3,
-        "protein_g": 12.7,
-        "carbohydrates_g": 64.0,
-        "fat_g": 12.3
-      }
+      "calories": 368.3,
+      "protein_g": 12.7,
+      "carbohydrates_g": 64.0,
+      "fat_g": 12.3
     },
     "nutrition_source": "source_book"
   },
@@ -4268,18 +3556,10 @@
       "Serve your salad with the green onions on top."
     ],
     "nutrition": {
-      "calories": 3431.0,
-      "protein_g": 40.0,
-      "carbohydrates_g": 198.0,
-      "fat_g": 285.0,
-      "basis": "whole_recipe",
-      "servings": 10.0,
-      "per_serving": {
-        "calories": 343.1,
-        "protein_g": 4.0,
-        "carbohydrates_g": 19.8,
-        "fat_g": 28.5
-      }
+      "calories": 343.1,
+      "protein_g": 4.0,
+      "carbohydrates_g": 19.8,
+      "fat_g": 28.5
     },
     "nutrition_source": "source_book"
   },
@@ -4311,18 +3591,10 @@
       "Serve it."
     ],
     "nutrition": {
-      "calories": 439.6,
-      "protein_g": 19.6,
-      "carbohydrates_g": 69.2,
-      "fat_g": 14.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 109.9,
-        "protein_g": 4.9,
-        "carbohydrates_g": 17.3,
-        "fat_g": 3.6
-      }
+      "calories": 109.9,
+      "protein_g": 4.9,
+      "carbohydrates_g": 17.3,
+      "fat_g": 3.6
     },
     "nutrition_source": "source_book"
   },
@@ -4359,18 +3631,10 @@
       "Serve your sweet ramen skillet warm."
     ],
     "nutrition": {
-      "calories": 2005.8,
-      "protein_g": 119.4,
-      "carbohydrates_g": 228.0,
-      "fat_g": 69.6,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 334.3,
-        "protein_g": 19.9,
-        "carbohydrates_g": 38.0,
-        "fat_g": 11.6
-      }
+      "calories": 334.3,
+      "protein_g": 19.9,
+      "carbohydrates_g": 38.0,
+      "fat_g": 11.6
     },
     "nutrition_source": "source_book"
   },
@@ -4409,18 +3673,10 @@
       "Serve your stew warm."
     ],
     "nutrition": {
-      "calories": 1080.0,
-      "protein_g": 44.0,
-      "carbohydrates_g": 175.6,
-      "fat_g": 19.8,
-      "basis": "whole_recipe",
-      "servings": 2.0,
-      "per_serving": {
-        "calories": 540.0,
-        "protein_g": 22.0,
-        "carbohydrates_g": 87.8,
-        "fat_g": 9.9
-      }
+      "calories": 540.0,
+      "protein_g": 22.0,
+      "carbohydrates_g": 87.8,
+      "fat_g": 9.9
     },
     "nutrition_source": "source_book"
   },
@@ -4455,18 +3711,10 @@
       "Turn the heat down and sit the miso into the soup with the sesame oil."
     ],
     "nutrition": {
-      "calories": 1399.0,
-      "protein_g": 62.0,
-      "carbohydrates_g": 163.5,
-      "fat_g": 60.0,
-      "basis": "whole_recipe",
-      "servings": 5.0,
-      "per_serving": {
-        "calories": 279.8,
-        "protein_g": 12.4,
-        "carbohydrates_g": 32.7,
-        "fat_g": 12.0
-      }
+      "calories": 279.8,
+      "protein_g": 12.4,
+      "carbohydrates_g": 32.7,
+      "fat_g": 12.0
     },
     "nutrition_source": "source_book"
   },
@@ -4502,15 +3750,7 @@
       "calories": 540.8,
       "protein_g": 23.2,
       "carbohydrates_g": 45.9,
-      "fat_g": 29.1,
-      "basis": "whole_recipe",
-      "servings": 1.0,
-      "per_serving": {
-        "calories": 540.8,
-        "protein_g": 23.2,
-        "carbohydrates_g": 45.9,
-        "fat_g": 29.1
-      }
+      "fat_g": 29.1
     },
     "nutrition_source": "source_book"
   },
@@ -4538,18 +3778,10 @@
       "Serve your chicken meatballs soup warm."
     ],
     "nutrition": {
-      "calories": 842.8,
-      "protein_g": 112.0,
-      "carbohydrates_g": 25.2,
-      "fat_g": 22.8,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 210.7,
-        "protein_g": 28.0,
-        "carbohydrates_g": 6.3,
-        "fat_g": 5.7
-      }
+      "calories": 210.7,
+      "protein_g": 28.0,
+      "carbohydrates_g": 6.3,
+      "fat_g": 5.7
     },
     "nutrition_source": "source_book"
   },
@@ -4591,18 +3823,10 @@
       "Serve your noodles skillet warm with some hot sauce."
     ],
     "nutrition": {
-      "calories": 2271.0,
-      "protein_g": 143.4,
-      "carbohydrates_g": 219.0,
-      "fat_g": 96.0,
-      "basis": "whole_recipe",
-      "servings": 6.0,
-      "per_serving": {
-        "calories": 378.5,
-        "protein_g": 23.9,
-        "carbohydrates_g": 36.5,
-        "fat_g": 16.0
-      }
+      "calories": 378.5,
+      "protein_g": 23.9,
+      "carbohydrates_g": 36.5,
+      "fat_g": 16.0
     },
     "nutrition_source": "source_book"
   },
@@ -4627,18 +3851,10 @@
       "Enjoy the salad at room temp."
     ],
     "nutrition": {
-      "calories": 220.0,
-      "protein_g": 3.2,
-      "carbohydrates_g": 42.0,
-      "fat_g": 6.4,
-      "basis": "whole_recipe",
-      "servings": 4.0,
-      "per_serving": {
-        "calories": 55.0,
-        "protein_g": 0.8,
-        "carbohydrates_g": 10.5,
-        "fat_g": 1.6
-      }
+      "calories": 55.0,
+      "protein_g": 0.8,
+      "carbohydrates_g": 10.5,
+      "fat_g": 1.6
     },
     "nutrition_source": "source_book"
   }

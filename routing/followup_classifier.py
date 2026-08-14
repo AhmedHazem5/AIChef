@@ -9,6 +9,45 @@ def is_similar_recipe_followup(
     blocked_recipe: dict,
 ) -> bool:
 
+    # ========================================================
+    # Fast deterministic handling for simple confirmations.
+    #
+    # This avoids an unnecessary LLM call for common replies
+    # such as "yes", "sure", or "okay".
+    # ========================================================
+
+    normalized = (
+        user_message
+        .lower()
+        .strip()
+        .replace(".", "")
+        .replace("!", "")
+        .replace("?", "")
+    )
+
+    affirmative_replies = {
+        "yes",
+        "yes please",
+        "yeah",
+        "yep",
+        "sure",
+        "okay",
+        "ok",
+        "please",
+        "go ahead",
+        "sounds good",
+    }
+
+    if normalized in affirmative_replies:
+
+        print(
+            "\nFollow-up classifier label: "
+            "SIMILAR_RECIPE "
+            "(deterministic)"
+        )
+
+        return True
+
     title = blocked_recipe.get(
         "title",
         "the previous recipe",
@@ -30,8 +69,8 @@ The user asked for this recipe:
 Cuisine:
 "{cuisine}"
 
-ChefAI refused that recipe because it conflicted with the user's
-saved allergies.
+ChefAI refused that recipe or request because it conflicted with the
+user's saved allergies or dietary preferences.
 
 ChefAI then asked:
 

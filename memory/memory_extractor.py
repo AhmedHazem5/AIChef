@@ -75,6 +75,50 @@ Output:
   "dietary_preferences": [],
   "goals": []
 }
+
+Dietary preferences should use these normalized values when applicable:
+
+- halal
+- vegetarian
+- vegan
+
+Examples:
+
+User:
+"I eat halal."
+
+Output:
+{
+  "likes": [],
+  "dislikes": [],
+  "allergies": [],
+  "dietary_preferences": ["halal"],
+  "goals": []
+}
+
+User:
+"I'm vegetarian."
+
+Output:
+{
+  "likes": [],
+  "dislikes": [],
+  "allergies": [],
+  "dietary_preferences": ["vegetarian"],
+  "goals": []
+}
+
+User:
+"Remember that I'm vegan."
+
+Output:
+{
+  "likes": [],
+  "dislikes": [],
+  "allergies": [],
+  "dietary_preferences": ["vegan"],
+  "goals": []
+}
 """
 
 

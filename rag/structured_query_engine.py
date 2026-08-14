@@ -28,6 +28,10 @@ from rag.allergen_filter import (
     normalize_user_allergies,
 )
 
+from rag.dietary_filter import (
+    find_dietary_conflicts,
+)
+
 from rag.query_rewriter import (
     rewrite_query,
 )
@@ -103,7 +107,7 @@ def load_recipe_records():
 
     json_files = sorted(
         STRUCTURED_RECIPE_DIRECTORY.glob(
-            "*_recipes.json"
+            "*_recipes_enriched.json"
         )
     )
 
@@ -188,6 +192,32 @@ class NoSafeRecipeError(Exception):
 
 
 class SpecificRecipeAllergyError(Exception):
+
+    def __init__(
+        self,
+        recipe: dict,
+        conflicts: set[str],
+    ):
+
+        self.recipe = recipe
+
+        self.title = recipe.get(
+            "title",
+            "This recipe",
+        )
+
+        self.recipe_id = recipe.get(
+            "id"
+        )
+
+        self.conflicts = conflicts
+
+        super().__init__(
+            self.title
+        )
+
+
+class SpecificRecipeDietaryError(Exception):
 
     def __init__(
         self,
@@ -422,6 +452,7 @@ def get_recipe_conflicts(
 def retrieve_structured_recipe(
     query: str,
     allergies: list[str] | None = None,
+    dietary_preferences: list[str] | None = None,
     excluded_recipe_ids: set[str] | None = None,
     allow_specific_match: bool = True,
     search_query_override: str | None = None,
@@ -429,6 +460,18 @@ def retrieve_structured_recipe(
 
     if allergies is None:
         allergies = []
+
+    if dietary_preferences is None:
+        dietary_preferences = []
+
+    dietary_preferences = [
+        preference.lower().strip()
+        for preference in dietary_preferences
+        if (
+            isinstance(preference, str)
+            and preference.strip()
+        )
+    ]
 
     if excluded_recipe_ids is None:
         excluded_recipe_ids = set()
@@ -501,6 +544,53 @@ def retrieve_structured_recipe(
                         recipe=specific_recipe,
                         conflicts=conflicts,
                     )
+                )
+
+            dietary_text_parts = (
+                list(
+                    specific_recipe.get(
+                        "ingredients",
+                        [],
+                    )
+                )
+                + list(
+                    specific_recipe.get(
+                        "steps",
+                        [],
+                    )
+                )
+                + [
+                    specific_recipe.get(
+                        "title",
+                        "",
+                    ),
+                    specific_recipe.get(
+                        "category",
+                        "",
+                    ),
+                ]
+            )
+
+            dietary_conflicts = (
+                find_dietary_conflicts(
+                    dietary_text_parts,
+                    dietary_preferences,
+                )
+            )
+
+            if dietary_conflicts:
+
+                print(
+                    f"BLOCKED SPECIFIC RECIPE: "
+                    f"{title} "
+                    f"[{cuisine}] "
+                    f"because of dietary preferences "
+                    f"{sorted(dietary_conflicts)}"
+                )
+
+                raise SpecificRecipeDietaryError(
+                    recipe=specific_recipe,
+                    conflicts=dietary_conflicts,
                 )
 
             print(
@@ -576,6 +666,118 @@ def retrieve_structured_recipe(
         )
     )
 
+    max_calories = constraints.get(
+        "max_calories"
+    )
+
+    min_calories = constraints.get(
+        "min_calories"
+    )
+
+    min_protein_g = constraints.get(
+        "min_protein_g"
+    )
+
+    max_protein_g = constraints.get(
+        "max_protein_g"
+    )
+
+    max_carbohydrates_g = constraints.get(
+        "max_carbohydrates_g"
+    )
+
+    max_fat_g = constraints.get(
+        "max_fat_g"
+    )
+
+    nutrition_preference = constraints.get(
+        "nutrition_preference"
+    )
+
+    # ========================================================
+    # Early explicit dietary conflict check
+    #
+    # Example:
+    # saved preference = halal
+    # request category = Pork
+    #
+    # Reject immediately instead of retrieving many pork
+    # recipes just to block every one of them.
+    # ========================================================
+
+    explicit_dietary_terms = []
+
+    if required_category:
+        explicit_dietary_terms.append(
+            required_category
+        )
+
+    explicit_dietary_terms.extend(
+        required_ingredients
+    )
+
+    explicit_dietary_conflicts = (
+        find_dietary_conflicts(
+            explicit_dietary_terms,
+            dietary_preferences,
+        )
+    )
+
+    if explicit_dietary_conflicts:
+
+        preferences_text = ", ".join(
+            sorted(
+                explicit_dietary_conflicts
+            )
+        )
+
+        requested_text = " ".join(
+            explicit_dietary_terms
+        ).strip()
+
+        if not requested_text:
+            requested_text = "That request"
+
+        # Build a lightweight synthetic blocked request.
+        #
+        # This lets recipe_node save it as pending context so
+        # a follow-up such as "yes" can trigger a safe,
+        # semantically similar alternative search.
+        blocked_request = {
+            "id":
+                None,
+
+            "title":
+                (
+                    f"{requested_text} recipe"
+                    if not requested_text.lower().endswith(
+                        "recipe"
+                    )
+                    else requested_text
+                ),
+
+            "cuisine":
+                required_cuisine
+                or "",
+
+            "category":
+                required_category
+                or "",
+
+            "ingredients":
+                list(
+                    required_ingredients
+                ),
+
+            "steps":
+                [],
+        }
+
+        raise SpecificRecipeDietaryError(
+            recipe=blocked_request,
+            conflicts=explicit_dietary_conflicts,
+        )
+
     print(
         f"\nStructured RAG search query: "
         f"{search_query}"
@@ -617,6 +819,19 @@ def retrieve_structured_recipe(
 
         print(
             "No saved allergies."
+        )
+
+    if dietary_preferences:
+
+        print(
+            "Saved dietary preferences:",
+            sorted(dietary_preferences),
+        )
+
+    else:
+
+        print(
+            "No saved dietary preferences."
         )
 
     # ========================================================
@@ -784,6 +999,152 @@ def retrieve_structured_recipe(
                     continue
 
         # ====================================================
+        # Nutrition filtering
+        # ====================================================
+
+        nutrition = recipe.get(
+            "nutrition",
+            {},
+        )
+
+        calories = nutrition.get(
+            "calories"
+        )
+
+        protein_g = nutrition.get(
+            "protein_g"
+        )
+
+        carbohydrates_g = nutrition.get(
+            "carbohydrates_g"
+        )
+
+        fat_g = nutrition.get(
+            "fat_g"
+        )
+
+        # ----------------------------------------------------
+        # Maximum calories
+        # ----------------------------------------------------
+
+        if (
+            max_calories is not None
+            and (
+                calories is None
+                or calories > max_calories
+            )
+        ):
+
+            print(
+                f"SKIPPED MAX CALORIES: "
+                f"{title} "
+                f"({calories} kcal)"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # Minimum calories
+        # ----------------------------------------------------
+
+        if (
+            min_calories is not None
+            and (
+                calories is None
+                or calories < min_calories
+            )
+        ):
+
+            print(
+                f"SKIPPED MIN CALORIES: "
+                f"{title} "
+                f"({calories} kcal)"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # Minimum protein
+        # ----------------------------------------------------
+
+        if (
+            min_protein_g is not None
+            and (
+                protein_g is None
+                or protein_g < min_protein_g
+            )
+        ):
+
+            print(
+                f"SKIPPED MIN PROTEIN: "
+                f"{title} "
+                f"({protein_g} g)"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # Maximum protein
+        # ----------------------------------------------------
+
+        if (
+            max_protein_g is not None
+            and (
+                protein_g is None
+                or protein_g > max_protein_g
+            )
+        ):
+
+            print(
+                f"SKIPPED MAX PROTEIN: "
+                f"{title} "
+                f"({protein_g} g)"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # Maximum carbohydrates
+        # ----------------------------------------------------
+
+        if (
+            max_carbohydrates_g is not None
+            and (
+                carbohydrates_g is None
+                or carbohydrates_g
+                > max_carbohydrates_g
+            )
+        ):
+
+            print(
+                f"SKIPPED MAX CARBS: "
+                f"{title} "
+                f"({carbohydrates_g} g)"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # Maximum fat
+        # ----------------------------------------------------
+
+        if (
+            max_fat_g is not None
+            and (
+                fat_g is None
+                or fat_g > max_fat_g
+            )
+        ):
+
+            print(
+                f"SKIPPED MAX FAT: "
+                f"{title} "
+                f"({fat_g} g)"
+            )
+
+            continue
+
+        # ====================================================
         # Allergy filtering
         # ====================================================
 
@@ -805,6 +1166,57 @@ def retrieve_structured_recipe(
             continue
 
         # ====================================================
+        # Dietary preference filtering
+        #
+        # For vague/general searches, incompatible recipes are
+        # silently removed from the candidate pool.
+        # ====================================================
+
+        dietary_text_parts = (
+            list(
+                recipe.get(
+                    "ingredients",
+                    [],
+                )
+            )
+            + list(
+                recipe.get(
+                    "steps",
+                    [],
+                )
+            )
+            + [
+                recipe.get(
+                    "title",
+                    "",
+                ),
+                recipe.get(
+                    "category",
+                    "",
+                ),
+            ]
+        )
+
+        dietary_conflicts = (
+            find_dietary_conflicts(
+                dietary_text_parts,
+                dietary_preferences,
+            )
+        )
+
+        if dietary_conflicts:
+
+            print(
+                f"BLOCKED DIETARY: "
+                f"{title} "
+                f"[{cuisine}] "
+                f"because of "
+                f"{sorted(dietary_conflicts)}"
+            )
+
+            continue
+
+        # ====================================================
         # Safe candidate
         # ====================================================
 
@@ -818,23 +1230,189 @@ def retrieve_structured_recipe(
             recipe
         )
 
+        # For normal searches, keep the existing behavior:
+        # collect the first 5 strong valid semantic matches.
+        #
+        # For relative nutrition requests such as
+        # "high protein" or "low fat", keep scanning the
+        # retrieved pool so we can rank a larger set properly.
         if (
-            len(safe_candidates)
+            nutrition_preference is None
+            and len(safe_candidates)
             >= MAX_SAFE_CANDIDATES
         ):
             break
 
     # ========================================================
-    # Randomly choose among the best valid safe candidates
+    # Select recipe
+    #
+    # Normal search:
+    #   random choice among the first 5 valid semantic matches.
+    #
+    # Relative nutrition preference:
+    #   rank all valid retrieved candidates by the requested
+    #   nutrition field and select the best one.
     # ========================================================
 
     if safe_candidates:
 
-        selected_recipe = (
-            random.choice(
-                safe_candidates
+        if nutrition_preference:
+
+            def nutrition_value(
+                recipe: dict,
+                field: str,
+            ):
+
+                nutrition = recipe.get(
+                    "nutrition",
+                    {},
+                )
+
+                value = nutrition.get(
+                    field
+                )
+
+                if isinstance(
+                    value,
+                    (int, float),
+                ):
+                    return float(value)
+
+                return None
+
+
+            preference_config = {
+                "high_protein": {
+                    "field":
+                        "protein_g",
+
+                    "reverse":
+                        True,
+
+                    "label":
+                        "protein",
+                },
+
+                "low_calorie": {
+                    "field":
+                        "calories",
+
+                    "reverse":
+                        False,
+
+                    "label":
+                        "calories",
+                },
+
+                "low_fat": {
+                    "field":
+                        "fat_g",
+
+                    "reverse":
+                        False,
+
+                    "label":
+                        "fat",
+                },
+
+                "low_carb": {
+                    "field":
+                        "carbohydrates_g",
+
+                    "reverse":
+                        False,
+
+                    "label":
+                        "carbohydrates",
+                },
+            }
+
+            config = preference_config.get(
+                nutrition_preference
             )
-        )
+
+            ranked_candidates = []
+
+            if config:
+
+                field = config[
+                    "field"
+                ]
+
+                reverse = config[
+                    "reverse"
+                ]
+
+                for candidate in safe_candidates:
+
+                    value = nutrition_value(
+                        candidate,
+                        field,
+                    )
+
+                    if value is None:
+                        continue
+
+                    ranked_candidates.append(
+                        (
+                            value,
+                            candidate,
+                        )
+                    )
+
+                ranked_candidates.sort(
+                    key=lambda item: item[0],
+                    reverse=reverse,
+                )
+
+            if ranked_candidates:
+
+                selected_value, selected_recipe = (
+                    ranked_candidates[0]
+                )
+
+                print(
+                    "\nNutrition preference ranking:"
+                )
+
+                print(
+                    f"  Preference: "
+                    f"{nutrition_preference}"
+                )
+
+                print(
+                    f"  Candidates ranked: "
+                    f"{len(ranked_candidates)}"
+                )
+
+                print(
+                    f"  Best "
+                    f"{config['label']}: "
+                    f"{selected_value}"
+                )
+
+            else:
+
+                print(
+                    "\nWARNING: No candidates had "
+                    "usable nutrition values for "
+                    f"{nutrition_preference}. "
+                    "Falling back to normal selection."
+                )
+
+                selected_recipe = (
+                    random.choice(
+                        safe_candidates
+                    )
+                )
+
+        else:
+
+            selected_recipe = (
+                random.choice(
+                    safe_candidates
+                )
+            )
 
         title = selected_recipe.get(
             "title",
@@ -942,11 +1520,15 @@ def retrieve_structured_recipe(
     # No safe general recipe found
     # ========================================================
 
-    if user_allergens:
+    if (
+        user_allergens
+        or dietary_preferences
+    ):
 
         raise NoSafeRecipeError(
             "I couldn't find a recipe "
-            "that passed your allergy filters."
+            "that passed your saved allergy "
+            "and dietary preference filters."
         )
 
     return None

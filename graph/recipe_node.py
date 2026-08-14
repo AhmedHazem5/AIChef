@@ -19,9 +19,14 @@ from rag.allergen_filter import (
     normalize_user_allergies,
 )
 
+from rag.dietary_filter import (
+    find_dietary_conflicts,
+)
+
 from rag.structured_query_engine import (
     NoSafeRecipeError,
     SpecificRecipeAllergyError,
+    SpecificRecipeDietaryError,
     UnsupportedAllergyError,
     retrieve_structured_recipe,
     structured_database_is_empty,
@@ -35,12 +40,178 @@ from routing.followup_classifier import (
 MAX_RECIPE_ATTEMPTS = 4
 
 
+def build_safe_alternative_query(
+    pending_recipe: dict,
+    dietary_preferences: list[str],
+) -> str:
+    """
+    Build a safer alternative search query that preserves the
+    general meal style without repeating a blocked ingredient.
+
+    Example:
+        saved preference: halal
+        blocked category: Pork
+
+        -> "savory main dish with chicken beef lamb or tofu"
+    """
+
+    title = (
+        pending_recipe.get(
+            "title",
+            "",
+        )
+        or ""
+    )
+
+    cuisine = (
+        pending_recipe.get(
+            "cuisine",
+            "",
+        )
+        or ""
+    )
+
+    category = (
+        pending_recipe.get(
+            "category",
+            "",
+        )
+        or ""
+    )
+
+    ingredients = (
+        pending_recipe.get(
+            "ingredients",
+            [],
+        )
+        or []
+    )
+
+    preferences = {
+        item.lower().strip()
+        for item in dietary_preferences
+        if isinstance(item, str)
+    }
+
+    category_lower = category.lower()
+
+    # --------------------------------------------------------
+    # Halal alternatives
+    # --------------------------------------------------------
+
+    if (
+        "halal" in preferences
+        and category_lower == "pork"
+    ):
+
+        parts = []
+
+        if cuisine:
+            parts.append(
+                cuisine
+            )
+
+        parts.append(
+            "savory main dish with "
+            "chicken beef lamb or tofu"
+        )
+
+        return " ".join(
+            parts
+        )
+
+    # --------------------------------------------------------
+    # Vegetarian alternatives
+    # --------------------------------------------------------
+
+    if "vegetarian" in preferences:
+
+        parts = []
+
+        if cuisine:
+            parts.append(
+                cuisine
+            )
+
+        parts.append(
+            "vegetarian main dish with "
+            "tofu vegetables mushrooms or noodles"
+        )
+
+        return " ".join(
+            parts
+        )
+
+    # --------------------------------------------------------
+    # Vegan alternatives
+    # --------------------------------------------------------
+
+    if "vegan" in preferences:
+
+        parts = []
+
+        if cuisine:
+            parts.append(
+                cuisine
+            )
+
+        parts.append(
+            "vegan main dish with tofu vegetables "
+            "mushrooms rice or noodles"
+        )
+
+        return " ".join(
+            parts
+        )
+
+    # --------------------------------------------------------
+    # Generic safe alternative
+    # --------------------------------------------------------
+
+    meaningful_parts = []
+
+    if cuisine:
+        meaningful_parts.append(
+            cuisine
+        )
+
+    if category:
+        meaningful_parts.append(
+            category
+        )
+
+    meaningful_parts.extend(
+        str(item)
+        for item in ingredients[:3]
+        if str(item).strip()
+    )
+
+    if meaningful_parts:
+
+        return (
+            "safe alternative recipe similar to "
+            + " ".join(
+                meaningful_parts
+            )
+        )
+
+    return (
+        "safe alternative recipe similar to "
+        + title
+    )
+
+
 def recipe_node(state):
 
     memory = load_memory()
 
     allergies = memory.get(
         "allergies",
+        [],
+    )
+
+    dietary_preferences = memory.get(
+        "dietary_preferences",
         [],
     )
 
@@ -109,11 +280,17 @@ def recipe_node(state):
                 "",
             )
 
-            # Use the actual previous dish instead of
-            # placeholder text from query_rewriter.
+            # Build a dietary-safe alternative query.
+            #
+            # Important:
+            # If a halal user asked for pork, do NOT search
+            # primarily for "pork recipe" again. Search for a
+            # comparable safe main dish instead.
             alternative_search_query = (
-                f"{cuisine} recipe similar to "
-                f"{title}"
+                build_safe_alternative_query(
+                    pending_recipe,
+                    dietary_preferences,
+                )
             )
 
             print(
@@ -163,6 +340,8 @@ def recipe_node(state):
             result = retrieve_structured_recipe(
                 query=user_message,
                 allergies=allergies,
+                dietary_preferences=
+                    dietary_preferences,
                 excluded_recipe_ids=
                     excluded_recipe_ids,
 
@@ -197,6 +376,30 @@ def recipe_node(state):
                     "allergy, so I won't recommend "
                     "that recipe. Would you like "
                     "me to suggest a similar safe "
+                    "recipe instead?"
+                ),
+                "memory": memory,
+            }
+
+        except SpecificRecipeDietaryError as error:
+
+            set_pending_recipe(
+                error.recipe
+            )
+
+            preferences = ", ".join(
+                sorted(
+                    error.conflicts
+                )
+            )
+
+            return {
+                "answer": (
+                    f"{error.title} does not match "
+                    f"your saved {preferences} "
+                    "dietary preference, so I won't "
+                    "recommend that recipe. "
+                    "Would you like a similar safe "
                     "recipe instead?"
                 ),
                 "memory": memory,
@@ -341,6 +544,58 @@ def recipe_node(state):
             continue
 
         # ====================================================
+        # Final dietary preference validation
+        #
+        # This is a second safety check after retrieval.
+        # ====================================================
+
+        dietary_text_parts = (
+            list(ingredients)
+            + list(steps)
+            + [
+                title,
+                recipe.get(
+                    "category",
+                    "",
+                ),
+            ]
+        )
+
+        dietary_conflicts = (
+            find_dietary_conflicts(
+                dietary_text_parts,
+                dietary_preferences,
+            )
+        )
+
+        if dietary_conflicts:
+
+            dietary_text = ", ".join(
+                sorted(
+                    dietary_conflicts
+                )
+            )
+
+            if specific_request:
+
+                set_pending_recipe(
+                    recipe
+                )
+
+                return {
+                    "answer": (
+                        f"{title} does not match "
+                        f"your saved {dietary_text} "
+                        "dietary preference. "
+                        "Would you like a similar "
+                        "safe recipe instead?"
+                    ),
+                    "memory": memory,
+                }
+
+            continue
+
+        # ====================================================
         # Safe recipe found
         # ====================================================
 
@@ -354,6 +609,8 @@ def recipe_node(state):
             title=title,
             ingredients=ingredients,
             steps=steps,
+            servings=servings,
+            nutrition=nutrition,
         )
 
         print(

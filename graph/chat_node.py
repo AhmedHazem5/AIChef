@@ -4,6 +4,139 @@ from memory.memory_manager import load_memory
 from memory.cooking_session import get_current_recipe
 
 
+def answer_nutrition_question(
+    user_message: str,
+    current_recipe: dict,
+):
+
+    if not current_recipe:
+        return None
+
+    message = (
+        user_message
+        .lower()
+        .strip()
+    )
+
+    nutrition = current_recipe.get(
+        "nutrition",
+        {},
+    )
+
+    if not nutrition:
+        return None
+
+    calories = nutrition.get(
+        "calories"
+    )
+
+    protein = nutrition.get(
+        "protein_g"
+    )
+
+    carbs = nutrition.get(
+        "carbohydrates_g"
+    )
+
+    fat = nutrition.get(
+        "fat_g"
+    )
+
+    if (
+        "calorie" in message
+        or "calories" in message
+    ):
+
+        if calories is None:
+            return (
+                "I don't have calorie information "
+                "for this recipe."
+            )
+
+        return (
+            f"This recipe has approximately "
+            f"{calories} calories in total."
+        )
+
+    if "protein" in message:
+
+        if protein is None:
+            return (
+                "I don't have protein information "
+                "for this recipe."
+            )
+
+        return (
+            f"This recipe has approximately "
+            f"{protein} grams of protein in total."
+        )
+
+    if (
+        "carb" in message
+        or "carbohydrate" in message
+    ):
+
+        if carbs is None:
+            return (
+                "I don't have carbohydrate information "
+                "for this recipe."
+            )
+
+        return (
+            f"This recipe has approximately "
+            f"{carbs} grams of carbohydrates in total."
+        )
+
+    if "fat" in message:
+
+        if fat is None:
+            return (
+                "I don't have fat information "
+                "for this recipe."
+            )
+
+        return (
+            f"This recipe has approximately "
+            f"{fat} grams of fat in total."
+        )
+
+    if (
+        "nutrition" in message
+        or "macros" in message
+    ):
+
+        parts = []
+
+        if calories is not None:
+            parts.append(
+                f"{calories} calories"
+            )
+
+        if protein is not None:
+            parts.append(
+                f"{protein} grams of protein"
+            )
+
+        if carbs is not None:
+            parts.append(
+                f"{carbs} grams of carbohydrates"
+            )
+
+        if fat is not None:
+            parts.append(
+                f"{fat} grams of fat"
+            )
+
+        if parts:
+
+            return (
+                "For the whole recipe: "
+                + ", ".join(parts)
+                + "."
+            )
+
+    return None
+
 def chat_node(state):
 
     memory = load_memory()
@@ -11,6 +144,22 @@ def chat_node(state):
     memory_context = build_memory_context(memory)
 
     current_recipe = get_current_recipe()
+    nutrition_answer = (
+        answer_nutrition_question(
+            state["user_message"],
+            current_recipe,
+        )
+    )
+
+    if nutrition_answer:
+
+        return {
+            "answer":
+                nutrition_answer,
+
+            "memory":
+                memory,
+        }
 
     recipe_context = ""
 

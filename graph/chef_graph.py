@@ -9,6 +9,7 @@ from graph.chat_node import chat_node
 
 from memory.memory_manager import load_memory
 from memory.cooking_session import has_active_recipe
+from memory.recommendation_context import get_pending_recipe
 
 from routing.intent_classifier import classify_with_qwen
 
@@ -95,6 +96,16 @@ RECIPE_QUESTION_PHRASES = {
     "do not have",
     "skip",
     "omit",
+    "how many calories",
+    "how many carbs",
+    "how many carbohydrates",
+    "how many grams of protein",
+    "how much protein",
+    "how much fat",
+    "how much nutrition",
+    "what are the macros",
+    "what is the nutrition",
+    "nutrition information",
 }
 
 
@@ -176,7 +187,43 @@ def classify_request(state: ChefState):
     )
 
     # --------------------------------------------------------
-    # 1. Cooking commands
+    # 1. Simple affirmative follow-up to a blocked request
+    #
+    # Keep this deterministic so we do NOT call the full
+    # follow-up classifier twice.
+    #
+    # recipe_node will run is_similar_recipe_followup() once
+    # and handle richer replies such as:
+    # "recommend something similar".
+    # --------------------------------------------------------
+
+    pending_recipe = get_pending_recipe()
+
+    affirmative_replies = {
+        "yes",
+        "yes please",
+        "yeah",
+        "yeah sure",
+        "yep",
+        "sure",
+        "okay",
+        "ok",
+        "please",
+        "go ahead",
+        "sounds good",
+    }
+
+    if (
+        pending_recipe
+        and text in affirmative_replies
+    ):
+
+        return {
+            "intent": "RECIPE_SEARCH"
+        }
+
+    # --------------------------------------------------------
+    # 2. Cooking commands
     # --------------------------------------------------------
 
     if (
@@ -188,7 +235,7 @@ def classify_request(state: ChefState):
         }
 
     # --------------------------------------------------------
-    # 2. Questions about active recipe
+    # 3. Questions about active recipe
     # --------------------------------------------------------
 
     if (
@@ -200,7 +247,7 @@ def classify_request(state: ChefState):
         }
 
     # --------------------------------------------------------
-    # 3. Everything else goes to Qwen
+    # 4. Everything else goes to Qwen
     # --------------------------------------------------------
 
     intent = classify_with_qwen(

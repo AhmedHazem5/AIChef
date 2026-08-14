@@ -1,0 +1,20 @@
+{
+    "likes": [
+        "spicy food"
+    ],
+    "dislikes": [
+        "mushrooms",
+        "hazelnuts",
+        "olives"
+    ],
+    "allergies": [
+        "peanuts",
+        "milk"
+    ],
+    "dietary_preferences": [
+        "vegan"
+    ],
+    "goals": [],
+    "favorite_recipes": [],
+    "recent_recipes": []
+}
