@@ -28,11 +28,15 @@ temp/
 **/chroma_db/
 **/structured_chroma_db/
 
-# Ollama / model caches if any are stored inside project
+# Ollama / model caches
 *.onnx
 *.onnx.json
 *.bin
 *.gguf
+
+# IMPORTANT:
+# Add an exception here if ChefAI needs a custom ONNX model
+# !audio/models/Hey_Chef.onnx
 
 # Whisper/model caches
 models/
@@ -41,14 +45,26 @@ models/
 # Large original cookbook PDFs
 data/recipes/**/*.pdf
 
+# Large raw USDA data
+data/nutrition/raw/
+
 # Logs
 *.log
 logs/
+
+# Nutrition/debug output
+nutrition_run*.txt
 
 # Python tooling caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
+# Python build/package artifacts
+build/
+dist/
+*.egg-info/
 
-data/nutrition/raw/
+# Coverage
+.coverage
+htmlcov/
