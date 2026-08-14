@@ -68,3 +68,7 @@ dist/
 # Coverage
 .coverage
 htmlcov/
+
+# Keep the Piper voice required by ChefAI
+!voices/en_US-lessac-medium.onnx
+!voices/en_US-lessac-medium.onnx.json
