@@ -1,8 +1,8 @@
 import json
 import ollama
+import time
 
-
-MODEL_NAME = "qwen3:4b-instruct"
+MODEL_NAME = "qwen3:0.6b"
 
 
 MEMORY_EXTRACTION_PROMPT = """
@@ -123,6 +123,7 @@ Output:
 
 
 def extract_memory(user_message: str) -> dict:
+    start = time.perf_counter()
     response = ollama.chat(
         model=MODEL_NAME,
         messages=[
@@ -139,6 +140,15 @@ def extract_memory(user_message: str) -> dict:
         options={
             "temperature": 0,
         },
+        think=False,
+        keep_alive="30m",
+    )
+
+    elapsed = time.perf_counter() - start
+
+    print(
+        f"[TIMING] memory extractor: "
+        f"{elapsed:.2f} seconds"
     )
 
     content = response["message"]["content"]

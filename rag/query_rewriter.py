@@ -1,6 +1,8 @@
 import ollama
 
-MODEL_NAME = "qwen3:4b-instruct"
+import time
+
+MODEL_NAME = "qwen3:0.6b"
 
 
 def rewrite_query(user_query: str) -> str:
@@ -23,7 +25,7 @@ Rules:
 User request:
 {user_query}
 """
-
+    start = time.perf_counter()
     response = ollama.chat(
         model=MODEL_NAME,
         messages=[
@@ -35,6 +37,16 @@ User request:
         options={
             "temperature": 0,
         },
+        think=False,
+        keep_alive="30m",
+    )
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+    print(
+        f"[TIMING] query rewriter: "
+        f"{elapsed:.2f} seconds"
     )
 
     return response["message"]["content"].strip()

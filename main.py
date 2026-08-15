@@ -26,6 +26,7 @@ END_SESSION_PHRASES = {
     "end session",
     "stop conversation",
     "that's it for now",
+    "thanks bye",
 }
 
 
@@ -121,9 +122,20 @@ def main() -> None:
                 # --------------------------------
                 # LANGGRAPH
                 # --------------------------------
+                thinking_start = time.perf_counter()
                 result = run_chef_graph(
                     user_message=user_message,
                     conversation_history=conversation_history,
+                )
+
+                thinking_time = (
+                    time.perf_counter()
+                    - thinking_start
+                )
+
+                print(
+                    f"\n[TIMING] ChefAI reasoning: "
+                    f"{thinking_time:.2f} seconds"
                 )
 
                 answer = result["answer"]
@@ -169,7 +181,19 @@ def main() -> None:
             # --------------------------------
             # SPEAK RESPONSE
             # --------------------------------
+            tts_start = time.perf_counter()
+
             tts.speak(answer)
+
+            tts_time = (
+                time.perf_counter()
+                - tts_start
+            )
+
+            print(
+                f"[TIMING] TTS + playback: "
+                f"{tts_time:.2f} seconds"
+            )
 
             # Avoid detecting ChefAI's own voice
             time.sleep(0.5)

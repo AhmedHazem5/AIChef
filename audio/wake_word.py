@@ -8,20 +8,44 @@ import numpy as np
 import sounddevice as sd
 import soundfile as sf
 
-from audio.speech_to_text import transcribe_audio
+from audio.speech_to_text import (
+    transcribe_audio,
+)
 
 
-SAMPLE_RATE = 16000
+# ============================================================
+# Raspberry Pi microphone configuration
+# ============================================================
+
+MIC_DEVICE_INDEX = 0
+
+SAMPLE_RATE = 48_000
 CHANNELS = 1
 
-# How long silence must last before we consider the utterance finished
+BLOCK_DURATION = 0.1
+BLOCK_SIZE = int(
+    SAMPLE_RATE * BLOCK_DURATION
+)
+
+
+# ============================================================
+# Speech / silence settings
+# ============================================================
+
 SILENCE_DURATION = 1.0
 
-# Minimum RMS volume to consider something speech/noise worth recording
-SILENCE_THRESHOLD = 0.008
-
-# Maximum length of one attempted utterance
 MAX_UTTERANCE_DURATION = 5.0
+
+AMBIENT_CALIBRATION_SECONDS = 1.0
+
+SPEECH_THRESHOLD_MULTIPLIER = 1.6
+
+MIN_SPEECH_THRESHOLD = 0.01
+
+
+# ============================================================
+# Wake phrase variants
+# ============================================================
 
 WAKE_WORD_VARIANTS = [
     "hey chef",
@@ -29,162 +53,369 @@ WAKE_WORD_VARIANTS = [
 ]
 
 
-def normalize_text(text):
+def normalize_text(
+    text: str,
+) -> str:
+
     text = text.lower()
-    text = re.sub(r"[^\w\s]", "", text)
+
+    text = re.sub(
+        r"[^\w\s]",
+        "",
+        text,
+    )
+
     return text.strip()
 
 
-def contains_wake_word(text):
-    normalized = normalize_text(text)
+def contains_wake_word(
+    text: str,
+) -> bool:
+
+    normalized = normalize_text(
+        text
+    )
 
     for variant in WAKE_WORD_VARIANTS:
+
         if variant in normalized:
             return True
 
     return False
 
 
-def wait_for_wake_word():
-    print("Waiting for wake word...")
+# ============================================================
+# Ambient noise calibration
+# ============================================================
 
-    audio_queue = queue.Queue()
+def calibrate_noise(
+    stream,
+) -> float:
+
+    print(
+        "Calibrating wake-word microphone..."
+    )
+
+    calibration_blocks = int(
+        AMBIENT_CALIBRATION_SECONDS
+        / BLOCK_DURATION
+    )
+
+    noise_levels = []
+
+    for _ in range(
+        calibration_blocks
+    ):
+
+        audio_block, overflowed = (
+            stream.read(
+                BLOCK_SIZE
+            )
+        )
+
+        if overflowed:
+
+            print(
+                "Warning: microphone "
+                "audio overflow."
+            )
+
+        volume = float(
+            np.sqrt(
+                np.mean(
+                    np.square(
+                        audio_block
+                    )
+                )
+            )
+        )
+
+        noise_levels.append(
+            volume
+        )
+
+    ambient_noise = float(
+        np.median(
+            noise_levels
+        )
+    )
+
+    speech_threshold = max(
+        MIN_SPEECH_THRESHOLD,
+        ambient_noise
+        * SPEECH_THRESHOLD_MULTIPLIER,
+    )
+
+    print(
+        f"Wake-word ambient noise: "
+        f"{ambient_noise:.4f}"
+    )
+
+    print(
+        f"Wake-word speech threshold: "
+        f"{speech_threshold:.4f}"
+    )
+
+    return speech_threshold
+
+
+# ============================================================
+# Wake-word listener
+# ============================================================
+
+def wait_for_wake_word():
+
+    print(
+        "Waiting for wake word..."
+    )
 
     speech_started = False
+
     frames = []
 
     silence_start = None
+
     utterance_start = None
 
-    block_duration = 0.1
-    block_size = int(SAMPLE_RATE * block_duration)
-
-    def audio_callback(indata, frames_count, time_info, status):
-        if status:
-            print("Audio status:", status)
-
-        audio_queue.put(indata.copy())
-
     with sd.InputStream(
+        device=MIC_DEVICE_INDEX,
         samplerate=SAMPLE_RATE,
         channels=CHANNELS,
         dtype="float32",
-        blocksize=block_size,
-        callback=audio_callback
-    ):
+        blocksize=BLOCK_SIZE,
+    ) as stream:
+
+        speech_threshold = (
+            calibrate_noise(
+                stream
+            )
+        )
+
+        print(
+            f"Using wake-word microphone "
+            f"device {MIC_DEVICE_INDEX} "
+            f"at {SAMPLE_RATE} Hz."
+        )
 
         while True:
 
-            try:
-                audio_block = audio_queue.get(timeout=0.1)
-            except queue.Empty:
-                continue
+            audio_block, overflowed = (
+                stream.read(
+                    BLOCK_SIZE
+                )
+            )
 
-            # RMS volume
-            volume = np.sqrt(np.mean(audio_block ** 2))
+            if overflowed:
 
-            # -------------------------
-            # Speech has NOT started
-            # -------------------------
+                print(
+                    "Warning: microphone "
+                    "audio overflow."
+                )
+
+            volume = float(
+                np.sqrt(
+                    np.mean(
+                        np.square(
+                            audio_block
+                        )
+                    )
+                )
+            )
+
+            # =================================================
+            # Waiting for speech
+            # =================================================
+
             if not speech_started:
 
-                if volume > SILENCE_THRESHOLD:
+                if (
+                    volume
+                    > speech_threshold
+                ):
+
                     speech_started = True
 
-                    frames = [audio_block.copy()]
+                    frames = [
+                        audio_block.copy()
+                    ]
 
                     silence_start = None
-                    utterance_start = time.time()
+
+                    utterance_start = (
+                        time.monotonic()
+                    )
 
                 continue
 
-            # -------------------------
-            # Speech HAS started
-            # -------------------------
+            # =================================================
+            # Recording active utterance
+            # =================================================
 
-            frames.append(audio_block.copy())
+            frames.append(
+                audio_block.copy()
+            )
 
-            if volume > SILENCE_THRESHOLD:
+            if (
+                volume
+                > speech_threshold
+            ):
+
                 silence_start = None
 
             else:
+
                 if silence_start is None:
-                    silence_start = time.time()
 
-                elif time.time() - silence_start >= SILENCE_DURATION:
+                    silence_start = (
+                        time.monotonic()
+                    )
 
-                    text = process_utterance(frames)
+                elif (
+                    time.monotonic()
+                    - silence_start
+                    >= SILENCE_DURATION
+                ):
 
-                    # Reset immediately
+                    text = (
+                        process_utterance(
+                            frames
+                        )
+                    )
+
                     speech_started = False
+
                     frames = []
+
                     silence_start = None
+
                     utterance_start = None
 
-                    if text and contains_wake_word(text):
-                        print("Wake word detected!")
+                    if (
+                        text
+                        and contains_wake_word(
+                            text
+                        )
+                    ):
+
+                        print(
+                            "Wake word detected!"
+                        )
+
                         return
 
-                    print("Waiting for wake word...")
+                    print(
+                        "Waiting for wake word..."
+                    )
 
-            # Safety timeout
+            # =================================================
+            # Maximum utterance duration
+            # =================================================
+
             if (
-                utterance_start is not None
-                and time.time() - utterance_start >= MAX_UTTERANCE_DURATION
+                utterance_start
+                is not None
+                and (
+                    time.monotonic()
+                    - utterance_start
+                    >= MAX_UTTERANCE_DURATION
+                )
             ):
 
-                text = process_utterance(frames)
+                text = (
+                    process_utterance(
+                        frames
+                    )
+                )
 
                 speech_started = False
+
                 frames = []
+
                 silence_start = None
+
                 utterance_start = None
 
-                if text and contains_wake_word(text):
-                    print("Wake word detected!")
+                if (
+                    text
+                    and contains_wake_word(
+                        text
+                    )
+                ):
+
+                    print(
+                        "Wake word detected!"
+                    )
+
                     return
 
-                print("Waiting for wake word...")
+                print(
+                    "Waiting for wake word..."
+                )
 
 
-def process_utterance(frames):
+# ============================================================
+# Process one possible wake-word utterance
+# ============================================================
+
+def process_utterance(
+    frames,
+):
 
     if not frames:
         return ""
 
-    audio = np.concatenate(frames, axis=0)
-
-    # Ignore very quiet recordings
-    volume = np.sqrt(np.mean(audio ** 2))
-
-    if volume < SILENCE_THRESHOLD:
-        return ""
+    audio = np.concatenate(
+        frames,
+        axis=0,
+    )
 
     temp_filename = None
 
     try:
+
         with tempfile.NamedTemporaryFile(
             suffix=".wav",
-            delete=False
+            delete=False,
         ) as temp_file:
-            temp_filename = temp_file.name
+
+            temp_filename = (
+                temp_file.name
+            )
 
         sf.write(
             temp_filename,
             audio,
-            SAMPLE_RATE
+            SAMPLE_RATE,
         )
 
-        text = transcribe_audio(temp_filename)
+        text = transcribe_audio(
+            temp_filename
+        )
 
         if text:
-            print("Heard:", text)
 
-        return text
+            print(
+                "Heard:",
+                text,
+            )
+
+        return text or ""
 
     finally:
-        if temp_filename and os.path.exists(temp_filename):
+
+        if (
+            temp_filename
+            and os.path.exists(
+                temp_filename
+            )
+        ):
+
             try:
-                os.remove(temp_filename)
+
+                os.remove(
+                    temp_filename
+                )
+
             except PermissionError:
+
                 pass

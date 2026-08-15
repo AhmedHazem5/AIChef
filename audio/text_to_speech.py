@@ -158,7 +158,12 @@ class TextToSpeech:
         elif system == "Linux":
             # This will be used later on the Raspberry Pi.
             subprocess.run(
-                ["aplay", str(audio_path)],
+                [
+            	 "aplay",
+           	     "-D",
+                 "plughw:CARD=Device,DEV=0",
+           	 str(audio_path),
+                ],
                 check=True,
             )
 

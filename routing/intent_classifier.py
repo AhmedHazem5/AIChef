@@ -1,7 +1,7 @@
 import ollama
+import time
 
-
-MODEL_NAME = "qwen3:4b-instruct"
+MODEL_NAME = "qwen3:0.6b"
 
 
 INTENT_PROMPT = """
@@ -142,6 +142,8 @@ VALID_INTENTS = {
 
 
 def classify_with_qwen(user_message: str) -> str:
+
+    start = time.perf_counter()
     response = ollama.chat(
         model=MODEL_NAME,
         messages=[
@@ -157,6 +159,18 @@ def classify_with_qwen(user_message: str) -> str:
         options={
             "temperature": 0,
         },
+        think=False,
+        keep_alive="30m",
+    )
+
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+
+    print(
+        f"[TIMING] intent classifier: "
+        f"{elapsed:.2f} seconds"
     )
 
     if not response or "message" not in response:

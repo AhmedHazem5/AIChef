@@ -11,9 +11,7 @@
         "peanuts",
         "milk"
     ],
-    "dietary_preferences": [
-        "vegan"
-    ],
+    "dietary_preferences": [],
     "goals": [],
     "favorite_recipes": [],
     "recent_recipes": []

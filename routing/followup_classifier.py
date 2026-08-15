@@ -1,7 +1,7 @@
 import ollama
+import time
 
-
-MODEL_NAME = "qwen3:4b-instruct"
+MODEL_NAME = "qwen3:0.6b"
 
 
 def is_similar_recipe_followup(
@@ -185,7 +185,7 @@ Do not explain.
 Do not add punctuation.
 Do not output anything except one of the three labels.
 """
-
+    start = time.perf_counter()
     response = ollama.chat(
         model=MODEL_NAME,
         messages=[
@@ -198,6 +198,18 @@ Do not output anything except one of the three labels.
             "temperature": 0,
             "num_ctx": 2048,
         },
+        think=False,
+        keep_alive="30m",
+    )
+
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+
+    print(
+        f"[TIMING] follow-up classifier: "
+        f"{elapsed:.2f} seconds"
     )
 
     label = (

@@ -1,9 +1,10 @@
 import json
 import re
+import time
 
 import ollama
 
-MODEL_NAME = "qwen3:4b-instruct"
+MODEL_NAME = "qwen3:0.6b"
 
 
 ALLOWED_CUISINES = {
@@ -422,7 +423,7 @@ Do not infer ingredient constraints from the title.
 Return ONLY the JSON.
 Do not explain.
 """
-
+    start = time.perf_counter()
     response = ollama.chat(
         model=MODEL_NAME,
         messages=[
@@ -433,8 +434,22 @@ Do not explain.
         ],
         options={
             "temperature": 0,
-            "num_ctx": 2048,
+            "num_ctx": 4096,
+            "num_predict": 256,
         },
+        think=False,
+        keep_alive="30m",
+        format="json",
+    )
+
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+
+    print(
+        f"[TIMING] recipe constraints: "
+        f"{elapsed:.2f} seconds"
     )
 
     raw = (

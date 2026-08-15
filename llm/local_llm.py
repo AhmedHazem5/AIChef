@@ -1,5 +1,5 @@
 import ollama
-
+import time
 
 MODEL_NAME = "qwen3:4b-instruct"
 
@@ -69,6 +69,8 @@ def ask_chef(
     follow-up conversation, etc.
     """
 
+    start = time.perf_counter()
+
     response = ollama.chat(
         model=MODEL_NAME,
         messages=build_messages(
@@ -78,6 +80,17 @@ def ask_chef(
         options={
             "temperature": 0.3,
         },
+        keep_alive="30m",
+    )
+
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+
+    print(
+        f"[TIMING] local_llm ollama.chat: "
+        f"{elapsed:.2f} seconds"
     )
 
     return response["message"]["content"].strip()
@@ -122,7 +135,7 @@ User Question
 
 {question}
 """
-
+    start = time.perf_counter()
     response = ollama.chat(
         model=MODEL_NAME,
         messages=build_messages(
@@ -132,6 +145,18 @@ User Question
         options={
             "temperature": 0,
         },
+        think=False,
+        keep_alive="30m",
+    )
+
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+
+    print(
+        f"[TIMING] local_llm ollama.chat: "
+        f"{elapsed:.2f} seconds"
     )
 
     return response["message"]["content"].strip()
@@ -214,6 +239,7 @@ User Request and Memory
 
 {user_message}
 """
+    start = time.perf_counter()
 
     response = ollama.chat(
         model=MODEL_NAME,
@@ -226,6 +252,18 @@ User Request and Memory
             "num_ctx": 8192,
         },
         format="json",
+        think=False,
+        keep_alive="30m",
+    )
+
+    elapsed = (
+        time.perf_counter()
+        - start
+    )
+
+    print(
+        f"[TIMING] local_llm ollama.chat: "
+        f"{elapsed:.2f} seconds"
     )
 
     raw_response = (
