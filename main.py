@@ -5,9 +5,9 @@ from audio.recorder import record_until_silence
 from audio.speech_to_text import transcribe_audio
 from audio.text_to_speech import TextToSpeech
 from audio.wake_word import wait_for_wake_word
-
+from memory.cooking_session import get_current_recipe
 from graph.chef_graph import run_chef_graph
-
+from ui.display_manager import DisplayManager
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 TEMP_DIRECTORY = PROJECT_ROOT / "temp"
@@ -55,6 +55,47 @@ def listen_for_user(filename: str) -> str:
     return transcribe_audio(audio_path).strip()
 
 
+def update_recipe_display(display: DisplayManager) -> bool:
+    """
+    Show the current cooking step on the TFT.
+
+    Returns True if an active recipe was displayed.
+    """
+
+    recipe = get_current_recipe()
+
+    if recipe is None:
+        return False
+
+    steps = recipe.get("steps", [])
+
+    if not steps:
+        return False
+
+    current_step = recipe.get(
+        "current_step",
+        0,
+    )
+
+    if (
+        current_step < 0
+        or current_step >= len(steps)
+    ):
+        return False
+
+    display.show_cooking_step(
+        recipe_title=recipe.get(
+            "title",
+            "Recipe",
+        ),
+        step_number=current_step + 1,
+        total_steps=len(steps),
+        step_text=steps[current_step],
+    )
+
+    return True
+
+
 def main() -> None:
     print("ChefAI starting...")
 
@@ -66,12 +107,16 @@ def main() -> None:
     # Load Piper once
     tts = TextToSpeech()
 
+    display = DisplayManager()
+
     while True:
 
         # --------------------------------
         # WAKE WORD MODE
         # --------------------------------
         wait_for_wake_word()
+
+        display.show_idle()
 
         print("Yes?")
         tts.speak("How can I help you?")
@@ -81,6 +126,8 @@ def main() -> None:
 
         # Short-term conversation memory
         conversation_history: list[dict[str, str]] = []
+
+        display.show_listening()
 
         # --------------------------------
         # FIRST QUESTION
@@ -117,6 +164,8 @@ def main() -> None:
 
             print("Thinking...")
 
+            display.show_thinking()
+
             try:
 
                 # --------------------------------
@@ -140,6 +189,8 @@ def main() -> None:
 
                 answer = result["answer"]
                 intent = result["intent"]
+
+                update_recipe_display(display)
 
             except Exception as error:
 
@@ -206,6 +257,8 @@ def main() -> None:
                 "\nListening for your response..."
             )
 
+            display.show_listening()
+
             user_message = listen_for_user(
                 filename="follow_up.wav"
             )
@@ -219,6 +272,8 @@ def main() -> None:
                 )
 
                 break
+
+        display.show_idle()
 
         print(
             "\nReturning to wake-word mode...\n"

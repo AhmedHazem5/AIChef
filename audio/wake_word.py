@@ -17,7 +17,7 @@ from audio.speech_to_text import (
 # Raspberry Pi microphone configuration
 # ============================================================
 
-MIC_DEVICE_INDEX = 0
+MIC_DEVICE_INDEX = 1
 
 SAMPLE_RATE = 48_000
 CHANNELS = 1
@@ -180,7 +180,7 @@ def wait_for_wake_word():
     with sd.InputStream(
         device=MIC_DEVICE_INDEX,
         samplerate=SAMPLE_RATE,
-        channels=CHANNELS,
+        channels=1,
         dtype="float32",
         blocksize=BLOCK_SIZE,
     ) as stream:
