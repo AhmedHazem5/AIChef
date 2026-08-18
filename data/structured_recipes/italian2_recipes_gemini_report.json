@@ -1,0 +1,11 @@
+{
+  "source_file": "Italian2.pdf",
+  "collection": "Italian 2",
+  "model": "gemini-3.5-flash-lite",
+  "manifest_recipe_count": 122,
+  "batch_count": 11,
+  "completed_batch_count": 11,
+  "extracted_recipe_count": 122,
+  "failed_batch_count": 0,
+  "failures": []
+}

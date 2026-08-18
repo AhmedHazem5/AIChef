@@ -1,0 +1,531 @@
+{
+  "source_file": "healthy_foods.pdf",
+  "collection": "Healthy Foods",
+  "recipes": [
+    {
+      "title": "cocoa-spiced beef tenderloin with pineapple salsa",
+      "start_page": 19,
+      "end_page": 19,
+      "cuisine": "Latin American",
+      "country": ""
+    },
+    {
+      "title": "greek-style flank steak with tangy yogurt sauce",
+      "start_page": 20,
+      "end_page": 20,
+      "cuisine": "Greek",
+      "country": "Greece"
+    },
+    {
+      "title": "stir-fried orange beef",
+      "start_page": 21,
+      "end_page": 21,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "mediterranean kabobs",
+      "start_page": 23,
+      "end_page": 23,
+      "cuisine": "Mediterranean",
+      "country": ""
+    },
+    {
+      "title": "beef steak with carrots and mint",
+      "start_page": 24,
+      "end_page": 24,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "broiled sirloin with spicy mustard and apple chutney",
+      "start_page": 25,
+      "end_page": 25,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "beef steak with light tomato mushroom sauce",
+      "start_page": 26,
+      "end_page": 27,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "japanese-style beef and noodle soup",
+      "start_page": 28,
+      "end_page": 29,
+      "cuisine": "Japanese",
+      "country": "Japan"
+    },
+    {
+      "title": "quick beef casserole",
+      "start_page": 30,
+      "end_page": 30,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "moroccan chicken stew with couscous",
+      "start_page": 32,
+      "end_page": 33,
+      "cuisine": "Moroccan",
+      "country": "Morocco"
+    },
+    {
+      "title": "thai-style chicken curry",
+      "start_page": 34,
+      "end_page": 35,
+      "cuisine": "Thai",
+      "country": "Thailand"
+    },
+    {
+      "title": "sweet-and-sour chicken",
+      "start_page": 36,
+      "end_page": 36,
+      "cuisine": "Chinese",
+      "country": "China"
+    },
+    {
+      "title": "chicken quesadillas with red and green salsa",
+      "start_page": 37,
+      "end_page": 37,
+      "cuisine": "Mexican",
+      "country": "Mexico"
+    },
+    {
+      "title": "chicken and mushroom fricassee",
+      "start_page": 39,
+      "end_page": 39,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "chicken and celery stir-fry",
+      "start_page": 40,
+      "end_page": 40,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "oven-crusted chicken breast",
+      "start_page": 41,
+      "end_page": 41,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "chicken picadillo",
+      "start_page": 42,
+      "end_page": 42,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "chicken ratatouille",
+      "start_page": 43,
+      "end_page": 43,
+      "cuisine": "French",
+      "country": "France"
+    },
+    {
+      "title": "asian-style chicken wraps",
+      "start_page": 44,
+      "end_page": 45,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "cornbread-crusted turkey",
+      "start_page": 46,
+      "end_page": 47,
+      "cuisine": "American",
+      "country": "United States"
+    },
+    {
+      "title": "turkey club burger",
+      "start_page": 49,
+      "end_page": 49,
+      "cuisine": "American",
+      "country": "United States"
+    },
+    {
+      "title": "turkey mole",
+      "start_page": 50,
+      "end_page": 51,
+      "cuisine": "Latin American",
+      "country": ""
+    },
+    {
+      "title": "20-minute chicken creole",
+      "start_page": 52,
+      "end_page": 52,
+      "cuisine": "Creole",
+      "country": "United States"
+    },
+    {
+      "title": "grilled tuna with chickpea and spinach salad",
+      "start_page": 55,
+      "end_page": 55,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "baja-style salmon tacos",
+      "start_page": 56,
+      "end_page": 56,
+      "cuisine": "Mexican",
+      "country": "Mexico"
+    },
+    {
+      "title": "spanish-style shrimp stew",
+      "start_page": 57,
+      "end_page": 57,
+      "cuisine": "Spanish",
+      "country": "Spain"
+    },
+    {
+      "title": "braised cod with leeks",
+      "start_page": 59,
+      "end_page": 59,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "baked red snapper with zesty tomato sauce",
+      "start_page": 61,
+      "end_page": 61,
+      "cuisine": "Mediterranean",
+      "country": ""
+    },
+    {
+      "title": "teriyaki-glazed salmon with stir-fried vegetables",
+      "start_page": 62,
+      "end_page": 62,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "red snapper provencal",
+      "start_page": 63,
+      "end_page": 63,
+      "cuisine": "Mediterranean",
+      "country": ""
+    },
+    {
+      "title": "asian-style steamed salmon",
+      "start_page": 65,
+      "end_page": 65,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "baked salmon dijon",
+      "start_page": 66,
+      "end_page": 66,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "fish veronique",
+      "start_page": 67,
+      "end_page": 67,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "pork mignons with french applesauce",
+      "start_page": 71,
+      "end_page": 71,
+      "cuisine": "French",
+      "country": "France"
+    },
+    {
+      "title": "pork chops in warm cherry sauce",
+      "start_page": 72,
+      "end_page": 72,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "baked pork chops",
+      "start_page": 73,
+      "end_page": 73,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "grilled pork tenderloin with asian sauce",
+      "start_page": 75,
+      "end_page": 75,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "cold fusilli pasta with summer vegetables",
+      "start_page": 79,
+      "end_page": 79,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "mushroom penne",
+      "start_page": 80,
+      "end_page": 80,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "rotini with spicy red pepper and almond sauce",
+      "start_page": 81,
+      "end_page": 81,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "pasta caprese",
+      "start_page": 83,
+      "end_page": 83,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "linguini with clam sauce",
+      "start_page": 84,
+      "end_page": 84,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "heavenly chicken with angel hair pasta",
+      "start_page": 85,
+      "end_page": 85,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "whole-wheat bow tie pasta with puttanesca sauce",
+      "start_page": 87,
+      "end_page": 87,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "turkey bolognese with shell pasta",
+      "start_page": 88,
+      "end_page": 89,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "lemon and garlic pasta with pan-seared scallops",
+      "start_page": 90,
+      "end_page": 91,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "classic macaroni and cheese",
+      "start_page": 92,
+      "end_page": 92,
+      "cuisine": "American",
+      "country": "United States"
+    },
+    {
+      "title": "sweet and sour seashells",
+      "start_page": 93,
+      "end_page": 93,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "tuscan beans with tomatoes and oregano",
+      "start_page": 97,
+      "end_page": 97,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "caribbean casserole",
+      "start_page": 98,
+      "end_page": 98,
+      "cuisine": "Caribbean",
+      "country": ""
+    },
+    {
+      "title": "red beans and rice",
+      "start_page": 99,
+      "end_page": 99,
+      "cuisine": "Cajun",
+      "country": "United States"
+    },
+    {
+      "title": "corn and black bean burritos",
+      "start_page": 101,
+      "end_page": 101,
+      "cuisine": "Mexican",
+      "country": "Mexico"
+    },
+    {
+      "title": "lentils with brown rice and kale",
+      "start_page": 102,
+      "end_page": 103,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "broccoli with asian tofu",
+      "start_page": 104,
+      "end_page": 105,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "three-bean chili with chunky tomatoes",
+      "start_page": 106,
+      "end_page": 106,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "caribbean pink beans",
+      "start_page": 107,
+      "end_page": 107,
+      "cuisine": "Caribbean",
+      "country": ""
+    },
+    {
+      "title": "edamame stew",
+      "start_page": 109,
+      "end_page": 109,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "tofu stir-fry with spicy sauce",
+      "start_page": 110,
+      "end_page": 111,
+      "cuisine": "Asian",
+      "country": ""
+    },
+    {
+      "title": "asparagus with lemon sauce",
+      "start_page": 117,
+      "end_page": 117,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "cauliflower with whole-wheat breadcrumbs",
+      "start_page": 118,
+      "end_page": 118,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "grilled romaine lettuce with caesar dressing",
+      "start_page": 119,
+      "end_page": 119,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "baby spinach with golden raisins and pine nuts",
+      "start_page": 121,
+      "end_page": 121,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "roasted beets with orange sauce",
+      "start_page": 123,
+      "end_page": 123,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "autumn salad",
+      "start_page": 124,
+      "end_page": 124,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "limas and spinach",
+      "start_page": 125,
+      "end_page": 125,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "cinnamon-glazed baby carrots",
+      "start_page": 127,
+      "end_page": 127,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "creamy squash soup with shredded apples",
+      "start_page": 128,
+      "end_page": 128,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "couscous with carrots, walnuts, and raisins",
+      "start_page": 131,
+      "end_page": 131,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "quinoa with paprika and cumin",
+      "start_page": 132,
+      "end_page": 132,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "good-for-you cornbread",
+      "start_page": 133,
+      "end_page": 133,
+      "cuisine": "American",
+      "country": "United States"
+    },
+    {
+      "title": "savory brown rice",
+      "start_page": 135,
+      "end_page": 135,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "kasha with bell pepper confetti",
+      "start_page": 136,
+      "end_page": 136,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "parmesan rice and pasta pilaf",
+      "start_page": 137,
+      "end_page": 137,
+      "cuisine": "",
+      "country": ""
+    },
+    {
+      "title": "pesto baked polenta",
+      "start_page": 139,
+      "end_page": 139,
+      "cuisine": "Native American",
+      "country": ""
+    },
+    {
+      "title": "sunshine rice",
+      "start_page": 140,
+      "end_page": 140,
+      "cuisine": "",
+      "country": ""
+    }
+  ]
+}

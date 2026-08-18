@@ -1,0 +1,158 @@
+[
+  {
+    "id": "italian_0001",
+    "title": "BROTH OR SOUP STOCK (Brodo)",
+    "cuisine": "Italian",
+    "category": "Soup",
+    "source_file": "italian3.pdf",
+    "servings": "",
+    "ingredients": [
+      "meat",
+      "bones",
+      "celery",
+      "carrots",
+      "parsley",
+      "sugar",
+      "beef",
+      "salt",
+      "cold water"
+    ],
+    "steps": [
+      "Put the meat and some pieces of bones into cold water, and allow to boil slowly.",
+      "Add soup greens such as celery, carrots, and parsley to the meat.",
+      "To give a brown color to the broth, sugar (first browned at the fire, then diluted in cold water) may be added.",
+      "For a substantial broth for invalids: Cut beef into thin slices and place in a large saucepan with salt.",
+      "Pour cold water over the beef slices so that they are entirely covered.",
+      "Cover the saucepan so that it is hermetically closed, and place a receptacle containing water on the cover, which must be constantly renewed.",
+      "Keep on a low fire for six hours, then on a strong fire for ten minutes.",
+      "Strain the liquid through cheesecloth."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "italian_0002",
+    "title": "SOUP OF \"CAPPELLETTI\"",
+    "cuisine": "Italian",
+    "category": "Soup",
+    "source_file": "italian3.pdf",
+    "servings": "",
+    "ingredients": [
+      "Eggs",
+      "Flour (about 1 cup per egg)",
+      "Salt",
+      "Water (optional)",
+      "Cooked meat (chicken, pork or veal)",
+      "Grated cheese",
+      "Grated lemon peel",
+      "Nutmeg",
+      "Allspice",
+      "Curds or cottage cheese",
+      "Chicken or beef broth"
+    ],
+    "steps": [
+      "Prepare the paste by placing flour on a bread board (allowing about a cup of flour to an egg), making a hollow in the middle, and breaking in the egg (using any extra whites on hand). Add salt, and knead thoroughly, adding more flour if necessary (or water to substitute for part of the eggs), until you have a dough you can roll out.",
+      "Roll the paste out as thin as an eighth of an inch.",
+      "Prepare the filling beforehand by grinding cooked meat (chicken, pork or veal) very fine, mixing it with an equal amount of curds or cottage cheese, and seasoning with grated cheese, grated lemon peel, nutmeg, allspice, and salt.",
+      "Cut rounds measuring about three inches in diameter from the sheet of paste.",
+      "Place a spoonful of filling in the middle of each circle.",
+      "Fold the paste over and moisten the edge with a finger dipped in water to make it stay securely closed.",
+      "Cook the cappelletti in chicken or beef broth until the paste is tender, and serve with this broth as a soup."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "italian_0003",
+    "title": "BREAD SOUP (Panata)",
+    "cuisine": "Italian",
+    "category": "Soup",
+    "source_file": "italian3.pdf",
+    "servings": "",
+    "ingredients": [
+      "Stale bread (bread crumbs and grated bread)",
+      "Eggs",
+      "Grated cheese",
+      "Nutmeg",
+      "Salt",
+      "Broth, previously prepared",
+      "Leftover vegetables (optional)"
+    ],
+    "steps": [
+      "Mix together the bread crumbs, grated bread, eggs, grated cheese, nutmeg (in a very small quantity), and salt.",
+      "Put the mixture into previously prepared broth, which must be warm at the moment of immersion, but not at the boiling point.",
+      "Place on a low fire and stir gently.",
+      "Any leftover vegetable may be added."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "italian_0004",
+    "title": "GNOCCHI",
+    "cuisine": "Italian",
+    "category": "Soup",
+    "source_file": "italian3.pdf",
+    "servings": "",
+    "ingredients": [
+      "boiled or roast breast of chicken or turkey",
+      "boiled potatoes",
+      "grated cheese (Parmesan or Swiss)",
+      "2 or more yolks of eggs",
+      "salt",
+      "nutmeg",
+      "flour"
+    ],
+    "steps": [
+      "Prepare boiled potatoes, using a mealy kind. Mash the potatoes and mix them with finely ground chicken or turkey breast, grated cheese (Parmesan or Swiss), two or more egg yolks, salt, and a small quantity of nutmeg.",
+      "Pour the mixture onto a bread board with a sufficient quantity of flour to make a paste.",
+      "Roll the paste into little sticks as thick as a small finger, then cut the sticks into pieces about half an inch long.",
+      "Put the pieces into boiling water and cook for five or six minutes."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "italian_0005",
+    "title": "VEGETABLE SOUP (Zuppa Santè)",
+    "cuisine": "Italian",
+    "category": "Soup",
+    "source_file": "italian3.pdf",
+    "servings": "",
+    "ingredients": [
+      "3 or 4 kinds of vegetables (such as carrots, celery, cabbage, turnips, onions, potatoes, spinach, lettuce leaves or greens of any variety)",
+      "Cooking oil or butter substitute",
+      "Broth",
+      "Stale bread",
+      "Oil for frying"
+    ],
+    "steps": [
+      "Select three or four kinds of vegetables, shred or chop coarsely cabbage or greens, and slice or cut in cubes the root vegetables.",
+      "Put them over the fire with a small quantity of cooking oil or butter substitute, and let them fry until they have absorbed the fat.",
+      "Add broth and cook until the vegetables are very tender.",
+      "Fry croutons of stale bread in oil and serve them in the soup."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  }
+]

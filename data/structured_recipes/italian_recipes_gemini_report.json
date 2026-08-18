@@ -1,0 +1,30 @@
+{
+  "source_file": "italian3.pdf",
+  "cuisine": "Italian",
+  "manifest_recipe_count": 223,
+  "batch_count": 19,
+  "completed_batch_count": 18,
+  "extracted_recipe_count": 211,
+  "failures": [
+    {
+      "batch_id": "batch_0005",
+      "start_page": 45,
+      "end_page": 53,
+      "recipes": [
+        "SQUAB TIMBALE (Timballo di piccioni)",
+        "SALMI OF GAME (Uccelli in salmi)",
+        "STEWED HARE (Stufato di lepre)",
+        "STEWED RABBIT (Coniglio in umido)",
+        "GREEN SAUCE (Salsa verde)",
+        "WHITE SAUCE (Salsa bianca)",
+        "YELLOW SAUCE (Salsa gialla)",
+        "SAUCE FOR BROILED FISH (Salsa per pesce in gratella)",
+        "CAPER SAUCE (Salsa con capperi)",
+        "GENOVESE SAUCE (Salsa genovese)",
+        "BALSAMELLA SAUCE (Salsa balsamella)",
+        "CURLED OMELET (Frittata in riccioli)"
+      ],
+      "error": "Error code: 400 - {'error': {'message': 'Request blocked due to copyright/recitation content. Please modify your input and retry.', 'code': 'The generated content was filtered because it may contain material that resembles existing copyrighted works. Try rephrasing the prompt. If you think this was an error, [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting).'}}"
+    }
+  ]
+}

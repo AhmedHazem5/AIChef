@@ -1,0 +1,10 @@
+{
+  "source_file": "healthy_foods_recipes_gemini.json",
+  "recipe_count": 75,
+  "source_nutrition_count": 75,
+  "recipes_needing_gemini": 0,
+  "gemini_calls": 0,
+  "gemini_batch_size": 8,
+  "recipes_still_unresolved": 0,
+  "unresolved_recipes": []
+}

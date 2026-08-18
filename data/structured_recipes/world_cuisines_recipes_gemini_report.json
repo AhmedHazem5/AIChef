@@ -1,0 +1,11 @@
+{
+  "source_file": "world_cuisines.pdf",
+  "collection": "World Cuisines",
+  "model": "gemini-3.5-flash-lite",
+  "manifest_recipe_count": 57,
+  "batch_count": 5,
+  "completed_batch_count": 5,
+  "extracted_recipe_count": 57,
+  "failed_batch_count": 0,
+  "failures": []
+}

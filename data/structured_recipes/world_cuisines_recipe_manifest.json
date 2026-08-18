@@ -1,0 +1,405 @@
+{
+  "source_file": "world_cuisines.pdf",
+  "collection": "World Cuisines",
+  "recipes": [
+    {
+      "title": "Apricot Chicken Tagine",
+      "start_page": 11,
+      "end_page": 11,
+      "cuisine": "South African",
+      "country": "South Africa"
+    },
+    {
+      "title": "Roasted Eggplant Spread",
+      "start_page": 12,
+      "end_page": 12,
+      "cuisine": "Egyptian",
+      "country": "Egypt"
+    },
+    {
+      "title": "Baklava-Inspired Baked Oatmeal",
+      "start_page": 13,
+      "end_page": 13,
+      "cuisine": "Egyptian",
+      "country": "Egypt"
+    },
+    {
+      "title": "Curried Chicken Salad",
+      "start_page": 14,
+      "end_page": 14,
+      "cuisine": "Moroccan",
+      "country": "Morocco"
+    },
+    {
+      "title": "Kofta (Turkey Kebabs)",
+      "start_page": 15,
+      "end_page": 15,
+      "cuisine": "Egyptian",
+      "country": "Egypt"
+    },
+    {
+      "title": "Microwave White Bean and Egg Shakshuka",
+      "start_page": 16,
+      "end_page": 16,
+      "cuisine": "Tunisian",
+      "country": "Tunisia"
+    },
+    {
+      "title": "Black Rice Porridge",
+      "start_page": 18,
+      "end_page": 18,
+      "cuisine": "Indonesian",
+      "country": "Indonesia"
+    },
+    {
+      "title": "Chicken Chow Mein",
+      "start_page": 19,
+      "end_page": 19,
+      "cuisine": "Chinese",
+      "country": "China"
+    },
+    {
+      "title": "Garlic Edamame",
+      "start_page": 20,
+      "end_page": 20,
+      "cuisine": "Japanese",
+      "country": "Japan"
+    },
+    {
+      "title": "Hot-and-Sour Soup",
+      "start_page": 21,
+      "end_page": 21,
+      "cuisine": "Filipino",
+      "country": "Philippines"
+    },
+    {
+      "title": "Kimchi",
+      "start_page": 22,
+      "end_page": 22,
+      "cuisine": "Korean",
+      "country": "Korea"
+    },
+    {
+      "title": "Vegetable Pad Thai",
+      "start_page": 23,
+      "end_page": 23,
+      "cuisine": "Thai",
+      "country": "Thailand"
+    },
+    {
+      "title": "Coconut Red Lentil Dahl",
+      "start_page": 25,
+      "end_page": 25,
+      "cuisine": "Indian",
+      "country": "India"
+    },
+    {
+      "title": "Crispy Chickpea Falafel",
+      "start_page": 26,
+      "end_page": 26,
+      "cuisine": "Turkish",
+      "country": "Turkey"
+    },
+    {
+      "title": "Jeweled Brown Rice",
+      "start_page": 27,
+      "end_page": 27,
+      "cuisine": "Iranian",
+      "country": "Iran"
+    },
+    {
+      "title": "Sweet Potato-Lentil Samosas",
+      "start_page": 28,
+      "end_page": 28,
+      "cuisine": "Pakistani",
+      "country": "Pakistan"
+    },
+    {
+      "title": "Oven-Roasted Chickpeas",
+      "start_page": 29,
+      "end_page": 29,
+      "cuisine": "Indian",
+      "country": "India"
+    },
+    {
+      "title": "Mango-Vanilla Lassi",
+      "start_page": 30,
+      "end_page": 30,
+      "cuisine": "Indian",
+      "country": "India"
+    },
+    {
+      "title": "Black Bean Baleadas",
+      "start_page": 32,
+      "end_page": 32,
+      "cuisine": "Honduran",
+      "country": "Honduras"
+    },
+    {
+      "title": "Chipotle Black Bean-Vegetable Soup",
+      "start_page": 33,
+      "end_page": 33,
+      "cuisine": "Costa Rican",
+      "country": "Costa Rica"
+    },
+    {
+      "title": "Spiced Hot Cacao",
+      "start_page": 34,
+      "end_page": 34,
+      "cuisine": "Guatemalan",
+      "country": "Guatemala"
+    },
+    {
+      "title": "Jerk Spice Rub",
+      "start_page": 35,
+      "end_page": 35,
+      "cuisine": "Jamaican",
+      "country": "Jamaica"
+    },
+    {
+      "title": "Turkey Tacos Picadillo",
+      "start_page": 36,
+      "end_page": 36,
+      "cuisine": "Honduran",
+      "country": "Honduras"
+    },
+    {
+      "title": "Virgin Piña Colada",
+      "start_page": 37,
+      "end_page": 37,
+      "cuisine": "Puerto Rican",
+      "country": "United States (Puerto Rico)"
+    },
+    {
+      "title": "Calabacitas con Elote",
+      "start_page": 39,
+      "end_page": 39,
+      "cuisine": "Mexican",
+      "country": "Mexico"
+    },
+    {
+      "title": "Eggs Benedict",
+      "start_page": 40,
+      "end_page": 40,
+      "cuisine": "American",
+      "country": "United States (New York)"
+    },
+    {
+      "title": "Basic Guacamole",
+      "start_page": 41,
+      "end_page": 41,
+      "cuisine": "Mexican",
+      "country": "Mexico"
+    },
+    {
+      "title": "Haupia (Coconut Pudding) with Mango",
+      "start_page": 42,
+      "end_page": 42,
+      "cuisine": "Hawaiian",
+      "country": "United States (Hawaii)"
+    },
+    {
+      "title": "Turkey Sausage Jambalaya",
+      "start_page": 43,
+      "end_page": 43,
+      "cuisine": "American",
+      "country": "United States (Louisiana)"
+    },
+    {
+      "title": "Maple-Glazed Roasted Salmon",
+      "start_page": 44,
+      "end_page": 44,
+      "cuisine": "Canadian",
+      "country": "Canada"
+    },
+    {
+      "title": "Yellow Split Pea Soup",
+      "start_page": 45,
+      "end_page": 45,
+      "cuisine": "Canadian",
+      "country": "Canada"
+    },
+    {
+      "title": "Baked Arepas",
+      "start_page": 47,
+      "end_page": 47,
+      "cuisine": "Venezuelan",
+      "country": "Venezuela"
+    },
+    {
+      "title": "Plantain Tostones with Mojo Sauce",
+      "start_page": 48,
+      "end_page": 48,
+      "cuisine": "Colombian",
+      "country": "Columbia"
+    },
+    {
+      "title": "Roasted Pork Tenderloin with Chimichurri",
+      "start_page": 49,
+      "end_page": 49,
+      "cuisine": "Argentine",
+      "country": "Argentina"
+    },
+    {
+      "title": "Baked Heart of Palm Empanadas",
+      "start_page": 50,
+      "end_page": 50,
+      "cuisine": "Brazilian",
+      "country": "Brazil"
+    },
+    {
+      "title": "White Fish with Cucumber-Caper Sauce",
+      "start_page": 52,
+      "end_page": 52,
+      "cuisine": "Australian",
+      "country": "Australia"
+    },
+    {
+      "title": "Lemon Curd Pavlova",
+      "start_page": 53,
+      "end_page": 53,
+      "cuisine": "New Zealand",
+      "country": "New Zealand"
+    },
+    {
+      "title": "Creamy Pumpkin Soup",
+      "start_page": 54,
+      "end_page": 54,
+      "cuisine": "Australian",
+      "country": "Australia"
+    },
+    {
+      "title": "Savory Meat Pie",
+      "start_page": 55,
+      "end_page": 55,
+      "cuisine": "Australian",
+      "country": "Tasmania"
+    },
+    {
+      "title": "Roasted Beet Borscht",
+      "start_page": 57,
+      "end_page": 57,
+      "cuisine": "Russian",
+      "country": "Russia"
+    },
+    {
+      "title": "Marinated Cucumber Salad",
+      "start_page": 58,
+      "end_page": 58,
+      "cuisine": "Danish",
+      "country": "Denmark"
+    },
+    {
+      "title": "Slow Cooker Poached Eggs and Salmon",
+      "start_page": 59,
+      "end_page": 59,
+      "cuisine": "Swedish",
+      "country": "Sweden"
+    },
+    {
+      "title": "Sweet Potato Latkes (Potato Fritters)",
+      "start_page": 60,
+      "end_page": 60,
+      "cuisine": "Ukrainian",
+      "country": "Ukraine"
+    },
+    {
+      "title": "Piernik-Spiced Zucchini Bread",
+      "start_page": 61,
+      "end_page": 61,
+      "cuisine": "Polish",
+      "country": "Poland"
+    },
+    {
+      "title": "Unstuffed Cabbage Rolls",
+      "start_page": 62,
+      "end_page": 62,
+      "cuisine": "Hungarian",
+      "country": "Hungary"
+    },
+    {
+      "title": "Sweet-and-Tangy Braised Red Cabbage",
+      "start_page": 64,
+      "end_page": 64,
+      "cuisine": "Austrian",
+      "country": "Austria"
+    },
+    {
+      "title": "Classic Crepes",
+      "start_page": 65,
+      "end_page": 65,
+      "cuisine": "Belgian",
+      "country": "Belgium"
+    },
+    {
+      "title": "Skillet Shepherd's Pie (Cottage Pie)",
+      "start_page": 66,
+      "end_page": 66,
+      "cuisine": "Irish",
+      "country": "Ireland"
+    },
+    {
+      "title": "Honey-Glazed Baked Pears",
+      "start_page": 67,
+      "end_page": 67,
+      "cuisine": "Swiss",
+      "country": "Switzerland"
+    },
+    {
+      "title": "Lemon Baked Fish and Chips",
+      "start_page": 68,
+      "end_page": 68,
+      "cuisine": "British",
+      "country": "United Kingdom"
+    },
+    {
+      "title": "Spätzle (German Dumplings)",
+      "start_page": 69,
+      "end_page": 69,
+      "cuisine": "German",
+      "country": "Germany"
+    },
+    {
+      "title": "Chicken Couscous Paella",
+      "start_page": 71,
+      "end_page": 71,
+      "cuisine": "Spanish",
+      "country": "Spain"
+    },
+    {
+      "title": "Baked Eggplant Parmesan",
+      "start_page": 72,
+      "end_page": 72,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lamb-Vegetable Kabobs with Tzatziki",
+      "start_page": 73,
+      "end_page": 73,
+      "cuisine": "Greek",
+      "country": "Greece"
+    },
+    {
+      "title": "Vegetable-Loaded Potato Salad",
+      "start_page": 74,
+      "end_page": 74,
+      "cuisine": "Portuguese",
+      "country": "Portugal"
+    },
+    {
+      "title": "Summer Vegetable Ratatouille",
+      "start_page": 75,
+      "end_page": 75,
+      "cuisine": "French",
+      "country": "France"
+    },
+    {
+      "title": "Plant-Based Tiramisu",
+      "start_page": 76,
+      "end_page": 76,
+      "cuisine": "Italian",
+      "country": "Italy"
+    }
+  ]
+}
