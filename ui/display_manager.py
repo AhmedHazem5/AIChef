@@ -32,7 +32,7 @@ class DisplayManager:
         self.height = self.display.height
 
         self.font = ImageFont.load_default()
-
+        self._restore_callback = None
         self.show_idle()
 
     def _new_image(self):
@@ -41,6 +41,19 @@ class DisplayManager:
             (self.width, self.height),
             "black",
         )
+
+    def restore_previous_screen(
+        self,
+    ):
+        if self._restore_callback is not None:
+            callback = self._restore_callback
+            callback()
+
+    def _remember_screen(
+        self,
+        callback,
+    ):
+        self._restore_callback = callback
 
     def _draw_centered(
         self,
@@ -76,6 +89,10 @@ class DisplayManager:
         )
 
     def show_idle(self):
+
+        self._remember_screen(
+            lambda: self.show_idle()
+        )
         image = Image.new(
             "RGB",
             (self.width, self.height),
@@ -100,6 +117,10 @@ class DisplayManager:
 
 
     def show_listening(self):
+
+        self._remember_screen(
+            lambda: self.show_listening()
+        )
         image = Image.new(
             "RGB",
             (self.width, self.height),
@@ -118,6 +139,10 @@ class DisplayManager:
 
 
     def show_thinking(self):
+
+        self._remember_screen(
+            lambda: self.show_thinking()
+        )
         image = Image.new(
             "RGB",
             (self.width, self.height),
@@ -141,6 +166,16 @@ class DisplayManager:
         total_steps: int,
         step_text: str,
     ):
+
+        self._remember_screen(
+            lambda: self.show_cooking_step(
+                recipe_title=recipe_title,
+                step_number=step_number,
+                total_steps=total_steps,
+                step_text=step_text,
+            )
+        )
+
         image = Image.new(
             "RGB",
             (self.width, self.height),
@@ -241,3 +276,218 @@ class DisplayManager:
             y += 16
 
         self._show(image)
+
+
+
+
+    def show_timer(
+        self,
+        remaining_seconds: int,
+    ):
+        image = Image.new(
+            "RGB",
+            (self.width, self.height),
+            "orange",
+        )
+
+        draw = ImageDraw.Draw(
+            image
+        )
+
+        self._draw_centered(
+            draw,
+            "TIMER",
+            25,
+        )
+
+        # Show minutes:seconds for longer timers
+        minutes = (
+            remaining_seconds
+            // 60
+        )
+
+        seconds = (
+            remaining_seconds
+            % 60
+        )
+
+        if minutes > 0:
+
+            time_text = (
+                f"{minutes}:"
+                f"{seconds:02d}"
+            )
+
+        else:
+
+            time_text = (
+                str(
+                    remaining_seconds
+                )
+            )
+
+        self._draw_centered(
+            draw,
+            time_text,
+            70,
+        )
+
+        self._show(
+            image
+        )
+
+
+    def show_timer_done(
+        self,
+    ):
+        image = Image.new(
+            "RGB",
+            (self.width, self.height),
+            "red",
+        )
+
+        draw = ImageDraw.Draw(
+            image
+        )
+
+        self._draw_centered(
+            draw,
+            "TIMER DONE",
+            45,
+        )
+
+        self._draw_centered(
+            draw,
+            "Check your food!",
+            85,
+        )
+
+        self._show(
+            image
+        )
+
+
+    def show_weight_progress(
+        self,
+        current_grams: float,
+        target_grams: float,
+    ):
+        image = Image.new(
+            "RGB",
+            (self.width, self.height),
+            "black",
+        )
+
+        draw = ImageDraw.Draw(
+            image
+        )
+
+        self._draw_centered(
+            draw,
+            "WEIGHING",
+            15,
+        )
+
+        self._draw_centered(
+            draw,
+            "Target",
+            45,
+        )
+
+        if target_grams >= 1000:
+
+            target_text = (
+                f"{target_grams / 1000:.2f}"
+                .rstrip("0")
+                .rstrip(".")
+                + " kg"
+            )
+
+        else:
+
+            target_text = (
+                f"{target_grams:.0f} g"
+            )
+
+        self._draw_centered(
+            draw,
+            target_text,
+            65,
+        )
+
+        self._draw_centered(
+            draw,
+            "Current",
+            95,
+        )
+
+        if current_grams >= 1000:
+
+            current_text = (
+                f"{current_grams / 1000:.2f}"
+                .rstrip("0")
+                .rstrip(".")
+                + " kg"
+            )
+
+        else:
+
+            current_text = (
+                f"{current_grams:.0f} g"
+            )
+
+        self._draw_centered(
+            draw,
+            current_text,
+            115,
+        )
+
+        self._show(
+            image
+        )
+
+
+    def show_weight_done(
+        self,
+        final_grams: float,
+    ):
+        image = Image.new(
+            "RGB",
+            (self.width, self.height),
+            "green",
+        )
+
+        draw = ImageDraw.Draw(
+            image
+        )
+
+        self._draw_centered(
+            draw,
+            "TARGET REACHED",
+            45,
+        )
+
+        if final_grams >= 1000:
+
+            final_text = (
+                f"{final_grams / 1000:.2f}"
+                .rstrip("0")
+                .rstrip(".")
+                + " kg"
+            )
+
+        else:
+
+            final_text = (
+                f"{final_grams:.0f} g"
+            )
+
+        self._draw_centered(
+            draw,
+            final_text,
+            85,
+        )
+
+        self._show(
+            image
+        )
