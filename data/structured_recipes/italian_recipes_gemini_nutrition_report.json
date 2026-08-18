@@ -1,0 +1,153 @@
+{
+  "source_file": "italian_recipes_gemini.json",
+  "recipe_count": 211,
+  "source_nutrition_count": 0,
+  "recipes_needing_gemini": 211,
+  "gemini_calls": 26,
+  "gemini_batch_size": 8,
+  "recipes_still_unresolved": 13,
+  "unresolved_recipes": [
+    {
+      "id": "italian_0031",
+      "title": "ARTICHOKES WITH BUTTER (Carciofi al burro)",
+      "ingredients": [
+        "salt water"
+      ]
+    },
+    {
+      "id": "italian_0039",
+      "title": "STEWED VEAL (Stracotto di vitella)",
+      "ingredients": [
+        "salt and pepper"
+      ]
+    },
+    {
+      "id": "italian_0040",
+      "title": "CHICKEN BONED AND STUFFED (Pollo dissossato ripieno)",
+      "ingredients": [
+        "salt and pepper"
+      ]
+    },
+    {
+      "id": "italian_0084",
+      "title": "ARTICHOKES IN MOLD (Sformato di carciofi)",
+      "ingredients": [
+        "Salt water"
+      ]
+    },
+    {
+      "id": "italian_0089",
+      "title": "STEWED EGG-PLANTS (Melanzane in umido)",
+      "ingredients": [
+        "Egg-plants",
+        "Butter",
+        "Tomato sauce (No. 12)"
+      ]
+    },
+    {
+      "id": "italian_0090",
+      "title": "EGG-PLANTS IN THE OVEN (Melanzane al forno)",
+      "ingredients": [
+        "5 or 6 egg-plants",
+        "Flour",
+        "Frying oil",
+        "Grated cheese",
+        "Tomato sauce (No. 12)",
+        "1 tablespoonful of tomato sauce",
+        "1 teaspoonful of grated cheese",
+        "2 tablespoonfuls of bread crumbs"
+      ]
+    },
+    {
+      "id": "italian_0091",
+      "title": "DRESSING OF CELERY (Sedano per contorno)",
+      "ingredients": [
+        "Celery",
+        "Butter",
+        "Brown stock (No. 13)",
+        "Grated cheese",
+        "Ham",
+        "Middle sized onion",
+        "Cloves",
+        "Soup stock or hot water with bouillon cubes",
+        "Flour",
+        "Paste for frying (No. 58) or beaten egg and bread crumbs",
+        "Fat or oil for frying"
+      ]
+    },
+    {
+      "id": "italian_0092",
+      "title": "ARTICHOKES WITH SAUCE (Carciofi in salsa)",
+      "ingredients": [
+        "Artichokes",
+        "Butter",
+        "Broth",
+        "Chopped parsley",
+        "Fine grated cheese",
+        "Lemon juice",
+        "Yolks of egg"
+      ]
+    },
+    {
+      "id": "italian_0093",
+      "title": "STUFFED ARTICHOKES (Carciofi ripieni)",
+      "ingredients": [
+        "Small interior leaves of the artichokes",
+        "1/8 lb. of ham (more lean than fat)",
+        "One fourth of a small onion",
+        "A taste of garlic",
+        "Leaves of celery or parsley",
+        "A pinch of dry mushrooms, softened in water",
+        "A crumb of bread",
+        "Oil"
+      ]
+    },
+    {
+      "id": "italian_0094",
+      "title": "ARTICHOKES STUFFED WITH MEAT (Carciofi ripieni di carne)",
+      "ingredients": [
+        "2 slices of ham (more fat than lean)",
+        "Interior part of the artichokes",
+        "1/4 of a small onion",
+        "Some leaves of parsley",
+        "1 pinch of softened dried mushrooms",
+        "1 small crumb of bread rolled and sifted",
+        "1 pinch of grated cheese",
+        "Oil"
+      ]
+    },
+    {
+      "id": "italian_0095",
+      "title": "PEAS WITH ONION SAUCE (Piselli alla francese)",
+      "ingredients": [
+        "Fresh peas",
+        "Stems of parsley",
+        "Butter",
+        "2 whole hearts of lettuce",
+        "Flour",
+        "Broth",
+        "2 yolks of eggs"
+      ]
+    },
+    {
+      "id": "italian_0096",
+      "title": "PEAS WITH HAM (Piselli col prosciutto)",
+      "ingredients": [
+        "Peas",
+        "1 or 2 young onions",
+        "Oil",
+        "1 thick slice of ham cut into small cubes",
+        "Very little salt",
+        "Broth",
+        "A little butter"
+      ]
+    },
+    {
+      "id": "italian_0179",
+      "title": "BISCUIT (Biscotto)",
+      "ingredients": [
+        "Potato meal, two ounces"
+      ]
+    }
+  ]
+}

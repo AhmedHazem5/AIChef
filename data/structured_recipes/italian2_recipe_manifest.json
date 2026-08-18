@@ -1,0 +1,860 @@
+{
+  "source_file": "Italian2.pdf",
+  "collection": "Italian 2",
+  "recipes": [
+    {
+      "title": "Beef Soup Stock (Brodo di Carne)",
+      "start_page": 11,
+      "end_page": 12,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Chicken Broth (Brodo di Capone)",
+      "start_page": 12,
+      "end_page": 12,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice Soup (Minestra di Riso)",
+      "start_page": 12,
+      "end_page": 12,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Stracciatella Soup (Minestra di Stracciatella)",
+      "start_page": 12,
+      "end_page": 12,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Vegetable Chowder (Minestrone alla Milanese)",
+      "start_page": 13,
+      "end_page": 13,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Fish Broth (Brodo di Pesce)",
+      "start_page": 13,
+      "end_page": 13,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Codfish Soup (Zuppa di Merluzzo)",
+      "start_page": 13,
+      "end_page": 14,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lentil Soup (Brodo di Lenticchie)",
+      "start_page": 14,
+      "end_page": 14,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Vegetable Soup (Zuppa alla Primaverile)",
+      "start_page": 14,
+      "end_page": 15,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lettuce Soup (Zuppa di Lattuga)",
+      "start_page": 15,
+      "end_page": 15,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Pumpkin Soup (Zuppa di Zucca)",
+      "start_page": 15,
+      "end_page": 16,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Potato Soup (Zuppa alla Provinciale)",
+      "start_page": 16,
+      "end_page": 16,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Macaroni with Tomato Sauce (Maccheroni al Sugo)",
+      "start_page": 17,
+      "end_page": 18,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Macaroni with Meat and Sauce (Maccheroni al sugo di Carne)",
+      "start_page": 18,
+      "end_page": 18,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Macaroni with Butter and Cheese (Maccheroni al Burro)",
+      "start_page": 18,
+      "end_page": 18,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Sicilian Macaroni with Eggplant",
+      "start_page": 19,
+      "end_page": 19,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Vermicelli with Olive-oil and Anchovies",
+      "start_page": 19,
+      "end_page": 19,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Vermicelli with Olive-oil, Olives, Capers, and Anchovies",
+      "start_page": 19,
+      "end_page": 19,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Vermicelli with Fish",
+      "start_page": 20,
+      "end_page": 20,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Spaghetti with Tunny-fish",
+      "start_page": 20,
+      "end_page": 21,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Timbale of Vermicelli with Tomatoes (Neapolitan Receipt)",
+      "start_page": 21,
+      "end_page": 21,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Macaroni \"alla San Giovannello\"",
+      "start_page": 21,
+      "end_page": 22,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Ribbon Macaroni (Pasta fatta in Casa. Fettuccini)",
+      "start_page": 22,
+      "end_page": 22,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Ravioli with Meat",
+      "start_page": 22,
+      "end_page": 23,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Ravioli with Brains",
+      "start_page": 23,
+      "end_page": 23,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Ravioli of Curds and Spinach",
+      "start_page": 23,
+      "end_page": 23,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Sweet Ravioli (Ravioli Dolce)",
+      "start_page": 23,
+      "end_page": 24,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Timbale of Macaroni",
+      "start_page": 24,
+      "end_page": 25,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice Timbale",
+      "start_page": 25,
+      "end_page": 25,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Timbale of Ribbon Macaroni",
+      "start_page": 25,
+      "end_page": 25,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice with Peas",
+      "start_page": 26,
+      "end_page": 26,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice \"alla Romana\" (Risotto alla Romana)",
+      "start_page": 27,
+      "end_page": 27,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Risotto \"alla Nostrale\"",
+      "start_page": 27,
+      "end_page": 28,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice with Butter and Cheese (Riso in Bianco)",
+      "start_page": 28,
+      "end_page": 28,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice with Tomatoes",
+      "start_page": 28,
+      "end_page": 29,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice with Tomatoes \"all' Indiana\"",
+      "start_page": 29,
+      "end_page": 29,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Risotto with Ham",
+      "start_page": 29,
+      "end_page": 29,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Rice with Mushrooms",
+      "start_page": 30,
+      "end_page": 30,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta (Indian Meal)",
+      "start_page": 30,
+      "end_page": 30,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta Fritters",
+      "start_page": 30,
+      "end_page": 31,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta \"alla Toscana\"",
+      "start_page": 31,
+      "end_page": 31,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta with Chopped Sausages",
+      "start_page": 32,
+      "end_page": 32,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Chicken with Polenta",
+      "start_page": 32,
+      "end_page": 33,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta Pasticciata",
+      "start_page": 33,
+      "end_page": 34,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta Cake (Migliaccio di Farina Gialla)",
+      "start_page": 34,
+      "end_page": 35,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Gnocchi of Farina (Gnocchi di Semolina)",
+      "start_page": 35,
+      "end_page": 35,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Gnocchi of Potato",
+      "start_page": 35,
+      "end_page": 36,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Gnocchi of Milk—a Dessert",
+      "start_page": 36,
+      "end_page": 36,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Roux for Sauces",
+      "start_page": 37,
+      "end_page": 37,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Agro Dolce Sauce",
+      "start_page": 37,
+      "end_page": 37,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Béchamel Sauce No. 1",
+      "start_page": 37,
+      "end_page": 37,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Béchamel Sauce No. 2",
+      "start_page": 38,
+      "end_page": 38,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomato Sauce No. 1",
+      "start_page": 38,
+      "end_page": 38,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomato Sauce No. 2",
+      "start_page": 38,
+      "end_page": 38,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomato Sauce No. 3",
+      "start_page": 38,
+      "end_page": 39,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Butter Sauce",
+      "start_page": 39,
+      "end_page": 39,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lombarda Sauce",
+      "start_page": 39,
+      "end_page": 39,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "\"Alla Panna\" Sauce",
+      "start_page": 39,
+      "end_page": 39,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Meat Sauce",
+      "start_page": 39,
+      "end_page": 40,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Economical Sauce",
+      "start_page": 40,
+      "end_page": 41,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Hot Piquante Sauce",
+      "start_page": 41,
+      "end_page": 41,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Piquante Sauce with Egg",
+      "start_page": 41,
+      "end_page": 42,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs with Peas",
+      "start_page": 43,
+      "end_page": 43,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Milanese\"",
+      "start_page": 43,
+      "end_page": 43,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Sciarmante\"",
+      "start_page": 43,
+      "end_page": 44,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs with Piquante Sauce",
+      "start_page": 44,
+      "end_page": 44,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Monachile\"",
+      "start_page": 44,
+      "end_page": 44,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Fiorentina\"",
+      "start_page": 44,
+      "end_page": 45,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lightning Omelette",
+      "start_page": 45,
+      "end_page": 45,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Piacentina\"",
+      "start_page": 45,
+      "end_page": 45,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Benedettina\"",
+      "start_page": 46,
+      "end_page": 46,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Eggs \"alla Romana\"",
+      "start_page": 46,
+      "end_page": 46,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Codfish \"alla Giardiniera\"",
+      "start_page": 47,
+      "end_page": 47,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Codfish with Egg Sauce",
+      "start_page": 47,
+      "end_page": 47,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Codfish \"alla Marinaia\"",
+      "start_page": 47,
+      "end_page": 48,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Fresh Codfish \"al Vino Bianco\"",
+      "start_page": 48,
+      "end_page": 48,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Codfish with Green Peppers",
+      "start_page": 48,
+      "end_page": 49,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Onions \"alla Parmegiana\"",
+      "start_page": 50,
+      "end_page": 50,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Onions \"alla Veneziana\"",
+      "start_page": 50,
+      "end_page": 50,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lima Beans with Ham",
+      "start_page": 51,
+      "end_page": 51,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Fried Squash, Parsnips, Celery, and Mushrooms",
+      "start_page": 51,
+      "end_page": 51,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Pumpkin \"alla Parmegiana\"",
+      "start_page": 51,
+      "end_page": 52,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Fried Pumpkin",
+      "start_page": 52,
+      "end_page": 52,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Spinach \"alla Romana\"",
+      "start_page": 52,
+      "end_page": 52,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Spinach Soufflé",
+      "start_page": 52,
+      "end_page": 53,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Spinach \"in Riccioli\"",
+      "start_page": 53,
+      "end_page": 53,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Spinach in a Mold with Mushrooms",
+      "start_page": 53,
+      "end_page": 54,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Flan of Vegetables",
+      "start_page": 54,
+      "end_page": 54,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Lettuce in the Oven",
+      "start_page": 54,
+      "end_page": 55,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Cucumbers \"alla Toscana\"",
+      "start_page": 55,
+      "end_page": 55,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Cauliflower \"in Stufato\"",
+      "start_page": 55,
+      "end_page": 55,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Celery Fried",
+      "start_page": 56,
+      "end_page": 56,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Celery with Tomato Sauce",
+      "start_page": 56,
+      "end_page": 56,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomatoes \"alla Piemontese\"",
+      "start_page": 56,
+      "end_page": 56,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomatoes \"alla Spagnuola\"",
+      "start_page": 56,
+      "end_page": 56,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomatoes with Eggs",
+      "start_page": 57,
+      "end_page": 57,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Tomato Pudding",
+      "start_page": 57,
+      "end_page": 57,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "String-beans \"in Fricassea\"",
+      "start_page": 57,
+      "end_page": 58,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "String-beans with Tomatoes",
+      "start_page": 58,
+      "end_page": 58,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Fried Bread with Raisins",
+      "start_page": 58,
+      "end_page": 58,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Golden Bread",
+      "start_page": 59,
+      "end_page": 60,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Sweetbreads",
+      "start_page": 60,
+      "end_page": 60,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Fried Brains",
+      "start_page": 60,
+      "end_page": 60,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Calf's Liver Fried",
+      "start_page": 61,
+      "end_page": 61,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polenta Croquettes",
+      "start_page": 61,
+      "end_page": 61,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Egg Croquettes",
+      "start_page": 61,
+      "end_page": 62,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Little Filets \"alla Napolitana\"",
+      "start_page": 62,
+      "end_page": 62,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Involtini of Beef \"alla Siciliana\"",
+      "start_page": 62,
+      "end_page": 63,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Polpettone \"alla Napolitana\"",
+      "start_page": 63,
+      "end_page": 64,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Bocconcini",
+      "start_page": 64,
+      "end_page": 64,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Meat with Ribbon Macaroni",
+      "start_page": 64,
+      "end_page": 65,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Salad \"del Prevosto\"",
+      "start_page": 66,
+      "end_page": 66,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "The Cardinal's Salad",
+      "start_page": 66,
+      "end_page": 66,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Endive Salad",
+      "start_page": 66,
+      "end_page": 67,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Italian Salad",
+      "start_page": 67,
+      "end_page": 67,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "\"Alla Pollastra\" Salad",
+      "start_page": 67,
+      "end_page": 67,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "\"Alla Macedoine\" Salad",
+      "start_page": 67,
+      "end_page": 67,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Chestnut Fritters",
+      "start_page": 68,
+      "end_page": 68,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Chestnuts \"alla Lucifero\"",
+      "start_page": 68,
+      "end_page": 69,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Peaches with Wine",
+      "start_page": 69,
+      "end_page": 69,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Hot Wine",
+      "start_page": 69,
+      "end_page": 69,
+      "cuisine": "Italian",
+      "country": "Italy"
+    },
+    {
+      "title": "Milk of Almond Ice",
+      "start_page": 69,
+      "end_page": 70,
+      "cuisine": "Italian",
+      "country": "Italy"
+    }
+  ]
+}

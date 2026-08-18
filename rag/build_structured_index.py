@@ -34,6 +34,26 @@ STRUCTURED_RECIPE_DIRECTORY = (
     / "structured_recipes"
 )
 
+FINAL_RECIPE_FILES = [
+    STRUCTURED_RECIPE_DIRECTORY
+    / "chinese_recipes_enriched.json",
+
+    STRUCTURED_RECIPE_DIRECTORY
+    / "japanese_recipes_enriched.json",
+
+    STRUCTURED_RECIPE_DIRECTORY
+    / "italian_recipes_gemini_nutrition_final.json",
+
+    STRUCTURED_RECIPE_DIRECTORY
+    / "italian2_recipes_gemini_nutrition_enriched.json",
+
+    STRUCTURED_RECIPE_DIRECTORY
+    / "healthy_foods_recipes_gemini_nutrition_enriched.json",
+
+    STRUCTURED_RECIPE_DIRECTORY
+    / "world_cuisines_recipes_gemini_nutrition_enriched.json",
+]
+
 CHROMA_DB_PATH = (
     PROJECT_ROOT
     / "rag"
@@ -86,18 +106,24 @@ def load_structured_recipes():
             f"{STRUCTURED_RECIPE_DIRECTORY}"
         )
 
-    json_files = sorted(
-        STRUCTURED_RECIPE_DIRECTORY.glob(
-            "*_recipes.json"
-        )
-    )
+    json_files = FINAL_RECIPE_FILES
 
-    if not json_files:
+    missing_files = [
+        path
+        for path in json_files
+        if not path.exists()
+    ]
+
+    if missing_files:
+
+        missing_text = "\n".join(
+            f"  - {path}"
+            for path in missing_files
+        )
 
         raise FileNotFoundError(
-            "No structured recipe JSON files "
-            "were found in: "
-            f"{STRUCTURED_RECIPE_DIRECTORY}"
+            "Final recipe file(s) missing:\n"
+            f"{missing_text}"
         )
 
     all_recipes = []
@@ -204,6 +230,11 @@ def recipe_to_node(
         "Unknown",
     )
 
+    country = recipe.get(
+        "country",
+        "",
+    )
+
     category = recipe.get(
         "category",
         "",
@@ -280,6 +311,12 @@ def recipe_to_node(
         f"Cuisine: {cuisine}",
     ]
 
+    if country:
+
+        text_parts.append(
+            f"Country: {country}"
+        )
+
     if category:
 
         text_parts.append(
@@ -326,6 +363,9 @@ def recipe_to_node(
 
         "cuisine":
             cuisine,
+
+        "country":
+            country,    
 
         "category":
             category,

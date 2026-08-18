@@ -1,0 +1,10 @@
+{
+  "source_file": "world_cuisines_recipes_gemini.json",
+  "recipe_count": 57,
+  "source_nutrition_count": 12,
+  "recipes_needing_gemini": 45,
+  "gemini_calls": 6,
+  "gemini_batch_size": 8,
+  "recipes_still_unresolved": 0,
+  "unresolved_recipes": []
+}

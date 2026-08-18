@@ -1,0 +1,172 @@
+{
+  "ingredient_line::meat": {
+    "ingredient": "meat",
+    "calories": 250.0,
+    "protein_g": 35.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 12.0,
+    "estimated_amount": "150g stewing beef",
+    "confidence": "low",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::cold water": {
+    "ingredient": "cold water",
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 0.0,
+    "estimated_amount": "not applicable",
+    "confidence": "high",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::pieces of bones": {
+    "ingredient": "pieces of bones",
+    "calories": 45.0,
+    "protein_g": 6.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 2.5,
+    "estimated_amount": "500 grams of mixed soup bones with some adhering tissue",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::soup greens (celery, carrots, and parsley)": {
+    "ingredient": "soup greens (celery, carrots, and parsley)",
+    "calories": 45.0,
+    "protein_g": 2.0,
+    "carbohydrates_g": 10.0,
+    "fat_g": 0.3,
+    "estimated_amount": "1 cup chopped mixed celery, carrots, and parsley",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::sugar (optional, for brown color)": {
+    "ingredient": "sugar (optional, for brown color)",
+    "calories": 16.0,
+    "protein_g": 0.0,
+    "carbohydrates_g": 4.2,
+    "fat_g": 0.0,
+    "estimated_amount": "1 teaspoon",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::beef (for substantial broth for invalids)": {
+    "ingredient": "beef (for substantial broth for invalids)",
+    "calories": 250.0,
+    "protein_g": 34.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 12.0,
+    "estimated_amount": "150g lean beef stew meat",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::eggs": {
+    "ingredient": "eggs",
+    "calories": 215.0,
+    "protein_g": 14.0,
+    "carbohydrates_g": 1.2,
+    "fat_g": 16.0,
+    "estimated_amount": "2 large eggs",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::flour": {
+    "ingredient": "flour",
+    "calories": 1455.0,
+    "protein_g": 38.5,
+    "carbohydrates_g": 305.0,
+    "fat_g": 4.5,
+    "estimated_amount": "2 cups all-purpose flour (standard amount for pasta dough using eggs)",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::water (optional, substituted for part of the eggs)": {
+    "ingredient": "water (optional, substituted for part of the eggs)",
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 0.0,
+    "estimated_amount": "0 g",
+    "confidence": "high",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::extra egg whites (optional)": {
+    "ingredient": "extra egg whites (optional)",
+    "calories": 34.0,
+    "protein_g": 7.2,
+    "carbohydrates_g": 0.2,
+    "fat_g": 0.1,
+    "estimated_amount": "1 large egg white",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::cooked meat (chicken, pork or veal)": {
+    "ingredient": "cooked meat (chicken, pork or veal)",
+    "calories": 165.0,
+    "protein_g": 31.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 3.6,
+    "estimated_amount": "100 g cooked chicken breast, typical filling amount for a standard batch of pasta",
+    "confidence": "low",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::grated cheese": {
+    "ingredient": "grated cheese",
+    "calories": 110.0,
+    "protein_g": 9.0,
+    "carbohydrates_g": 0.5,
+    "fat_g": 8.0,
+    "estimated_amount": "1 oz (28g) grated Parmesan cheese for filling",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::grated lemon peel": {
+    "ingredient": "grated lemon peel",
+    "calories": 3.0,
+    "protein_g": 0.1,
+    "carbohydrates_g": 0.9,
+    "fat_g": 0.0,
+    "estimated_amount": "1 teaspoon",
+    "confidence": "high",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::nutmeg": {
+    "ingredient": "nutmeg",
+    "calories": 12.0,
+    "protein_g": 0.1,
+    "carbohydrates_g": 1.0,
+    "fat_g": 0.8,
+    "estimated_amount": "1/4 teaspoon",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::allspice": {
+    "ingredient": "allspice",
+    "calories": 6.0,
+    "protein_g": 0.2,
+    "carbohydrates_g": 1.2,
+    "fat_g": 0.2,
+    "estimated_amount": "1/2 teaspoon ground allspice",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::curds or cottage cheese": {
+    "ingredient": "curds or cottage cheese",
+    "calories": 100.0,
+    "protein_g": 12.0,
+    "carbohydrates_g": 3.0,
+    "fat_g": 4.0,
+    "estimated_amount": "1/2 cup",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  },
+  "ingredient_line::chicken or beef broth": {
+    "ingredient": "chicken or beef broth",
+    "calories": 40.0,
+    "protein_g": 6.0,
+    "carbohydrates_g": 2.0,
+    "fat_g": 1.0,
+    "estimated_amount": "4 cups (1 quart / ~960 ml)",
+    "confidence": "medium",
+    "source": "gemini_estimate"
+  }
+}

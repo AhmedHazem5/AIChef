@@ -9,7 +9,7 @@ from nutrition.weight_converter import (
 from nutrition.nutrition_database import (
     find_complete_nutrition_fallback,
 )
-
+from functools import lru_cache
 # ============================================================
 # Frying oil estimation
 # ============================================================
@@ -72,7 +72,7 @@ def get_consumed_grams(
 # ============================================================
 # Calculate nutrition for one ingredient
 # ============================================================
-
+@lru_cache(maxsize=4096)
 def calculate_ingredient_nutrition(
     ingredient: str,
 ):

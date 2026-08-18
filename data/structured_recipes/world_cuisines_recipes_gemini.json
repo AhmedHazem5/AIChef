@@ -1,0 +1,2372 @@
+[
+  {
+    "id": "world_cuisines_0001",
+    "title": "Apricot Chicken Tagine",
+    "cuisine": "South African",
+    "country": "South Africa",
+    "category": "Chicken",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      11
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "½ cup light (reduced-fat) sour cream",
+      "1 tablespoon chopped fresh parsley",
+      "½ teaspoon hot sauce or hot chili oil",
+      "½ teaspoon salt",
+      "½ teaspoon ground black pepper",
+      "4 (3- to 4-ounce) boneless skinless chicken thighs (thigh fillets; about 1 pound)",
+      "2 tablespoons olive oil",
+      "1 large sweet onion, thinly sliced (about 3 cups)",
+      "2 cloves garlic, minced (about 1 teaspoon)",
+      "½ teaspoon ground allspice",
+      "1 (15-ounce) can low-sodium garbanzo beans (chickpeas), drained and rinsed",
+      "1 (14.5-ounce) can no-added-salt diced tomatoes",
+      "¾ cup dried apricots, sliced or chopped",
+      "1 cinnamon stick (or 1 teaspoon ground cinnamon, added to step 7)"
+    ],
+    "steps": [
+      "In a small bowl, whisk together the sour cream, parsley, and hot sauce or chili oil. Set in the refrigerator to chill.",
+      "In a separate small bowl, stir together the salt and pepper.",
+      "Pat the chicken dry with paper towels, then sprinkle evenly with the salt-pepper mixture.",
+      "Heat a tagine, a Dutch oven, or a large stockpot over medium-high heat.",
+      "Add the oil and heat until shimmering.",
+      "Place the chicken in the pan and cook until golden-brown but not cooked through, about 3-5 minutes on each side. Transfer the chicken to a plate and set aside.",
+      "Reduce the heat to medium, then add the onion and cook until softened, about 5-7 minutes. Add the garlic and allspice. Cook until fragrant, about 1-2 minutes.",
+      "Add the beans, tomatoes with their juice, apricots, and cinnamon. Bring to a simmer over medium-high heat, then reduce the heat to maintain a gentle simmer.",
+      "Return the browned chicken to the pan and cover with a lid, Cook until the chicken is cooked through (internal temperature of 175°F), about 33-35 minutes.",
+      "Serve warm, with a heaping tablespoon of the sour cream mixture on top of each portion."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0002",
+    "title": "Roasted Eggplant Spread",
+    "cuisine": "Egyptian",
+    "country": "Egypt",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      12
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 medium eggplant, peeled and cut into 1- to 2-inch chunks (about 12 ounces or 4 cups)",
+      "1 medium onion, chopped (about 1 cup)",
+      "1 tablespoon olive oil",
+      "¼ teaspoon garlic powder",
+      "¼ teaspoon salt",
+      "¼ teaspoon ground black pepper",
+      "1 tablespoon tomato paste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F.",
+      "In a medium mixing bowl, toss together the eggplant, onion, oil, garlic powder, salt, and black pepper.",
+      "Transfer the mixture to a baking sheet and spread into a single layer.",
+      "Roast in preheated oven until caramelized and tender, about 25-30 minutes.",
+      "Remove from oven and set aside to cool slightly, about 10 minutes.",
+      "Transfer the roasted vegetable mixture to a food processor or high-powered blender and add the tomato paste.",
+      "Pulse to chop up and mix in the tomato paste. The spread will remain chunky.",
+      "Serve right away, or store in the refrigerator for later. Reheat in the microwave or let sit at room temperature for 20-30 minutes when ready to serve."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0003",
+    "title": "Baklava-Inspired Baked Oatmeal",
+    "cuisine": "Egyptian",
+    "country": "Egypt",
+    "category": "Bakery",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      13
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "Nonstick cooking spray",
+      "3 cups uncooked old-fashioned (rolled) oats",
+      "½ cup honey",
+      "3 eggs",
+      "1 teaspoon baking powder",
+      "½ teaspoon salt",
+      "½ teaspoon ground cinnamon",
+      "1½ cups lowfat (1%) milk",
+      "⅓ cup chopped shelled pistachios",
+      "⅓ cup chopped toasted walnuts",
+      "1 medium orange, zested (about 2 tablespoons)",
+      "1 medium lemon, zested (about 1 tablespoon)"
+    ],
+    "steps": [
+      "Preheat the oven to 350°F.",
+      "Spray an 8x8-inch baking dish or a 12-cup muffin tin with nonstick cooking spray. Set aside.",
+      "In a large mixing bowl, stir together the oats, honey, eggs, baking powder, salt, and cinnamon.",
+      "Add the milk, pistachios, walnuts, orange zest, and lemon zest. Stir to combine.",
+      "Pour the mixture into the prepared baking dish or divide between the muffin tin cups.",
+      "Bake until fully set, about 30-35 minutes in an 8x8-inch baking dish or 25-30 minutes in a 12-cup muffin tin. The center should be firm when tapped and not indent.",
+      "Let cool for 5 minutes before slicing or removing from the muffin tin, then serve warm or at room temperature."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0004",
+    "title": "Curried Chicken Salad",
+    "cuisine": "Moroccan",
+    "country": "Morocco",
+    "category": "Chicken",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      14
+    ],
+    "servings": "8 servings",
+    "ingredients": [
+      "1½ pounds (24 ounces) boneless skinless chicken breast",
+      "½ teaspoon salt",
+      "⅓ cup olive oil mayonnaise",
+      "½ cup nonfat plain Greek yogurt",
+      "¼ cup finely diced onion",
+      "1 tablespoon lime juice (about ½ lime)",
+      "4 teaspoons curry powder",
+      "1 teaspoon honey",
+      "½ teaspoon grated fresh ginger",
+      "¼ teaspoon ground black pepper",
+      "1 cup diced fresh or frozen mango, thawed if frozen (about 1 large mango)",
+      "¾ cup halved red grapes",
+      "8 cups of arugula (or salad greens of choice)"
+    ],
+    "steps": [
+      "Fill a large sauté pan about halfway with water. Bring to a boil over high heat, then reduce the heat to maintain a gentle simmer.",
+      "Add the chicken and salt, then cover with a lid. Cook until the chicken is cooked through (internal temperature of 165°F), about 10-12 minutes. Transfer the chicken to a plate and let cool slightly.",
+      "When cool enough to handle, cut the chicken into ¼- to ½-inch pieces and place in the refrigerator to chill, about 25-30 minutes (or about 10-15 minutes in the freezer).",
+      "Meanwhile, add the mayonnaise, Greek yogurt, onion, lime juice, curry powder, honey, ginger, and black pepper to a large bowl. Whisk to combine.",
+      "Add the mango, grapes, and chicken. Toss to combine and coat with the dressing.",
+      "Serve right away, or chill before serving. When ready to serve, scoop each portion over 1 cup of the arugula."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0005",
+    "title": "Kofta (Turkey Kebabs)",
+    "cuisine": "Egyptian",
+    "country": "Egypt",
+    "category": "Meat",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      15
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "Warm water",
+      "½ medium onion (or 1 small onion)",
+      "½ teaspoon salt",
+      "½ teaspoon ground black pepper",
+      "½ teaspoon ground turmeric",
+      "½ teaspoon lemon juice or apple cider vinegar",
+      "1 pinch baking soda",
+      "1 pound (16 ounces) lean ground turkey (90% lean or higher)"
+    ],
+    "steps": [
+      "Fill a 9x13-inch baking dish about halfway with warm water. Place four wooden skewers in the water and set aside.",
+      "Peel the onion, then grate it using a box grater. Press with paper towels to remove the excess juice.",
+      "Add the onion, salt, black pepper, turmeric, lemon juice or vinegar, baking soda, and ground turkey to a medium mixing bowl. Knead the mixture until it is dough-like in texture, about 5 minutes, then divide into four portions.",
+      "Fill a small bowl or liquid measuring cup about halfway with water. Dampen your clean hands with the water, shaking off any excess, then take each portion of the turkey mixture and roll it into a sausage-like shape, about 4-5 inches long.",
+      "Push a skewer lengthwise into each portion of the turkey mixture. Squeeze the mixture gently, spreading it evenly to be about 7-8 inches long and ⅔-inch-thick. Using your thumb and pointer finger, make indentations about 1 inch apart down the length of each kebab.",
+      "Cook the kebabs on an outdoor (gas/charcoal) or indoor (electric) grill over medium-high heat until cooked through (internal temperature of 165°F), about 4-5 minutes on each side. Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0006",
+    "title": "Microwave White Bean and Egg Shakshuka",
+    "cuisine": "Tunisian",
+    "country": "Tunisia",
+    "category": "Egg",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      16
+    ],
+    "servings": "1 serving",
+    "ingredients": [
+      "Nonstick cooking spray",
+      "¼ cup no-salt-added tomato sauce",
+      "¼ cup no-salt-added white beans (e.g. cannellini, great northern), drained and rinsed",
+      "¼ teaspoon dried thyme",
+      "¼ teaspoon sweet or smoked paprika",
+      "¼ teaspoon onion powder",
+      "1 pinch garlic powder",
+      "1 pinch salt",
+      "1 pinch ground black pepper",
+      "2 eggs"
+    ],
+    "steps": [
+      "Coat the inside of a microwave-safe bowl with nonstick cooking spray.",
+      "Add the tomato sauce, beans, thyme, paprika, onion powder, garlic powder, salt, and black pepper. Stir to combine.",
+      "Make a well in the center of the sauce, and crack the eggs into it.",
+      "Microwave on high power (default setting) for 1 minute.",
+      "Continue cooking in 1-minute bursts at 50% power until the egg yolks and whites are set. Depending on your microwave, this will take about 1-3 minutes in total.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0007",
+    "title": "Black Rice Porridge",
+    "cuisine": "Indonesian",
+    "country": "Indonesia",
+    "category": "Rice",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      18
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "½ cup uncooked black rice",
+      "1 (13.5-ounce) can light coconut milk, shaken",
+      "3 tablespoons honey",
+      "¼ teaspoon vanilla extract",
+      "⅛ teaspoon salt",
+      "8 tablespoons (½ cup) fresh or frozen fruit, chopped or sliced if needed (optional; e.g. mango, strawberries, blackberries, pineapple)",
+      "4 tablespoons (¼ cup) toasted coconut flakes (optional)"
+    ],
+    "steps": [
+      "Add the rice and coconut milk to a medium saucepan. Stir to combine.",
+      "Bring to a boil over high heat, reduce the heat to maintain a gentle simmer.",
+      "Cover with a lid and cook until the liquid has been mostly absorbed and the rice is tender, about 35-45 minutes, without opening the lid or moving the pan.",
+      "Add the honey, vanilla, and salt. Stir to combine.",
+      "Serve warm, topped with the 2 tablespoons of the fruit (if using) and 1 tablespoon of the coconut (if using)."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0008",
+    "title": "Chicken Chow Mein",
+    "cuisine": "Chinese",
+    "country": "China",
+    "category": "Noodles",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      19
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "½ pound (8 ounces) boneless skinless chicken breast, cut into bite-sized strips",
+      "½ medium onion, thinly sliced (about 1 cup)",
+      "2 stalks celery, thinly sliced on the bias (diagonal; about ½ cup)",
+      "3 white button or cremini mushrooms, thinly sliced (about ½ cup)",
+      "2 cups chopped or shredded Napa cabbage",
+      "1 cup (8 ounces) low-sodium chicken broth",
+      "1 (8-ounce) can bamboo shoots, drained and rinsed",
+      "1 (8-ounce) can sliced water chestnuts, drained and rinsed",
+      "1 tablespoon cornstarch",
+      "1 tablespoon water",
+      "½ teaspoon sugar",
+      "¼ teaspoon ground black pepper",
+      "½ cup crunchy chow mein noodles, divided"
+    ],
+    "steps": [
+      "Heat a medium skillet or sauté pan over medium heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the chicken and cook, stirring often, until cooked through (internal temperature of 165°F), about 6-8 minutes. Remove the chicken from the pan and set aside.",
+      "Set the pan back over medium heat. Add the onion, celery, and mushrooms. Cook until softened, about 6-8 minutes.",
+      "Add the cabbage, broth, bamboo shoots, and water chestnuts. Stir to combine.",
+      "Bring to a simmer over high heat, then reduce the heat to maintain a simmer.",
+      "Cook until the cabbage is tender, about 5-7 minutes.",
+      "In a small bowl, whisk together the cornstarch and water with a fork to make a slurry.",
+      "Add the slurry, sugar, and black pepper to the vegetable mixture. Stir to combine.",
+      "Cook until a slightly thickened sauce forms, about 3-5 minutes.",
+      "Return the cooked chicken to the pan and stir to combine.",
+      "Serve warm, topping each serving with ¼ cup of the chow mein noodles."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0009",
+    "title": "Garlic Edamame",
+    "cuisine": "Japanese",
+    "country": "Japan",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      20
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "1 (16-ounce) bag unshelled frozen edamame (in the pod)",
+      "6 cloves garlic, minced (about 1 tablespoon)",
+      "2 tablespoons unsalted butter",
+      "1 tablespoon lite (reduced-sodium) soy sauce",
+      "⅛-¼ teaspoon crushed red pepper flakes, to taste",
+      "1 teaspoon sugar"
+    ],
+    "steps": [
+      "Add the edamame to a medium microwave-safe bowl and cook on high power (default setting) for 5 minutes.",
+      "Meanwhile, stir together the soy sauce, red pepper flakes and sugar in a small bowl. Set aside.",
+      "Add the butter to a large skillet or sauté pan and place over medium-high heat.",
+      "Once the butter starts to brown, add garlic and cooked edamame. Cook, stirring often, until any liquid is evaporated, about 4-5 minutes.",
+      "Add the soy sauce mixture and continue to cook, stirring constantly, until the liquid is mostly evaporated and a sticky dark sauce starts to form.",
+      "Serve warm, removing the beans from the shell before eating (see Recipe Notes)."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0010",
+    "title": "Hot-and-Sour Soup",
+    "cuisine": "Filipino",
+    "country": "Philippines",
+    "category": "Soup",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      21
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "4 cups (32 ounces) low-sodium chicken or vegetable broth",
+      "½ cup thinly sliced mushrooms",
+      "2-3 tablespoons unseasoned rice vinegar, to taste",
+      "2-3 tablespoons lite (reduced-sodium) soy sauce, to taste",
+      "1 clove garlic, minced (about ½ teaspoon)",
+      "½ teaspoon ground dried ginger",
+      "¼-1 teaspoon hot sauce or hot chili oil, to taste",
+      "1 egg",
+      "½ cup cubed firm tofu (about 4 ounces)",
+      "2 scallions (green onions), thinly sliced",
+      "¼ cup fresh or frozen corn",
+      "½ teaspoon toasted sesame oil"
+    ],
+    "steps": [
+      "Add the broth to a medium saucepan and bring to a boil over high heat, then reduce the heat to maintain a simmer.",
+      "Add the mushrooms, vinegar, soy sauce, garlic, ginger, and hot sauce or chili oil. Stir to combine, then return to a simmer.",
+      "Crack the egg into a small bowl, then gently beat with a fork to combine the whites and yolk.",
+      "Stirring the liquid in a circular motion, slowly drizzle the egg into the pot in a thin stream.",
+      "Add the tofu, scallions, corn, and sesame oil. Stir to combine, then simmer until heated through.",
+      "Adjust seasonings as desired; vinegar for more sour flavor, soy sauce for more salty flavor, or hot sauce or chili oil for more heat.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0011",
+    "title": "Kimchi",
+    "cuisine": "Korean",
+    "country": "Korea",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      22
+    ],
+    "servings": "12 servings",
+    "ingredients": [
+      "1 medium head Napa cabbage (about 2 pounds)",
+      "¼ cup iodine-free salt (Kosher salt or sea salt)",
+      "Cold unchlorinated water (spring, distilled, or filtered water; 1-2 gallons)",
+      "1-5 tablespoons hot pepper spice or paste (gochugaru, gochujang, sriracha), to taste (optional)",
+      "1 tablespoon grated fresh garlic (about 6 cloves)",
+      "1-2 teaspoons toasted sesame seeds (optional)",
+      "1 teaspoon grated fresh ginger",
+      "1 teaspoon sugar",
+      "2 tablespoons seafood-flavored ingredient (fish sauce, oyster sauce, shrimp paste, anchovy paste, kelp powder, or crumbled seaweed)",
+      "½ pound Korean radish (daikon) or carrots, cut into matchsticks",
+      "4 scallions (green onions), rinsed and cut into 4- to 6-inch sticks"
+    ],
+    "steps": [
+      "Cut the head of Napa cabbage lengthwise into quarters and remove the core, then cut crosswise into 2-inch strips.",
+      "Place the cabbage and salt in large bowl. Using clean hands, massage the salt into the cabbage until it starts to soften. Add unchlorinated water to cover the cabbage and let rest for 1-2 hours.",
+      "Meanwhile, in a small bowl, create a seasoning mixture by stirring together the hot pepper spice or paste (if using), garlic, sesame seeds (if using), ginger, sugar, and selected seafood-flavored ingredient. Set aside.",
+      "Rinse the cabbage with unchlorinated water and let air dry.",
+      "Drain, rinse, and dry the bowl. Add the cabbage, radish or carrot, scallions, and seasoning mixture. Using clean hands (gloves recommended), gently massage the seasoning mixture into the vegetables until they are coated.",
+      "Pack the vegetable mixture into a 1-quart glass jar, pressing down until the liquid rises to cover the vegetables. Leave at least 1-inch of space on top. Seal the jar with the lid.",
+      "Leave the jar at room temperature for 1-5 days to ferment, checking once a day to taste and press the vegetables back down into the liquid.",
+      "When the vegetables taste ripe enough for your liking, move the jar to the refrigerator. It can be eaten right away, but the flavor is best after 1-2 weeks."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0012",
+    "title": "Vegetable Pad Thai",
+    "cuisine": "Thai",
+    "country": "Thailand",
+    "category": "Noodles",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      23
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "½ tablespoon sugar",
+      "½ tablespoon orange or tamarind marmalade",
+      "½ tablespoon fish sauce or soy sauce",
+      "½ tablespoon lime juice (about ¼ lime)",
+      "1 medium onion, thinly sliced (about 2 cups)",
+      "2 cloves garlic, minced (about 1 teaspoon)",
+      "¼ teaspoon grated fresh ginger",
+      "2 cups chopped Bok choy",
+      "1 medium carrot, shredded (about ½ cup)",
+      "2 eggs",
+      "4 ounces uncooked rice noodles",
+      "4 tablespoons (¼ cup) peanut oil or coconut oil, divided",
+      "4 tablespoons (¼ cup) chopped peanuts, divided",
+      "1 scallion (green onion), thinly sliced (about 2 tablespoons), divided",
+      "2 tablespoons chiffonade-cut fresh basil, divided"
+    ],
+    "steps": [
+      "In a small bowl whisk together the sugar, marmalade, fish sauce or soy sauce, and lime juice. Set near the stovetop.",
+      "Add the onion, garlic and ginger to a small bowl. Add the prepped Bok choy and carrot to a medium bowl. Place both bowls near the stovetop.",
+      "Crack the eggs into a separate small bowl and gently beat with a fork to combine. Set near the stovetop.",
+      "Prepare the noodles as directed on the package, then transfer to a separate medium bowl set near the stovetop.",
+      "Heat a large wok or sauté pan over medium-high heat. Add 1 tablespoon of the oil and the eggs. Cook while stirring until scrambled, about 1 minute, then transfer to the bowl with the noodles along with the sauce mixture. Set aside.",
+      "Add the remaining 3 tablespoons of oil to the pan, along with the onion mixture. Cook while stirring for 2 minutes.",
+      "Add the Bok choy and carrot. Cook, stirring, for 2 minutes.",
+      "Add the noodle mixture. Cook while stirring for 2 minutes.",
+      "Serve warm, topped with 1 tablespoon of the peanuts, about ½ tablespoon of the scallion, and ½ tablespoon of the basil."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0013",
+    "title": "Coconut Red Lentil Dahl",
+    "cuisine": "Indian",
+    "country": "India",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      25
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 teaspoon olive oil",
+      "1 medium onion, diced (about 1 cup)",
+      "2 cloves garlic, minced (about 1 teaspoon)",
+      "½ tablespoon grated fresh ginger",
+      "½ tablespoon curry powder",
+      "½ teaspoon ground turmeric",
+      "¼ teaspoon ground coriander",
+      "¼ teaspoon ground black pepper",
+      "¼ teaspoon salt",
+      "1 pinch crushed red pepper flakes",
+      "1 cup dry red lentils, picked through and rinsed",
+      "1 cup light coconut milk",
+      "1½ cups (12 ounces) low-sodium vegetable broth"
+    ],
+    "steps": [
+      "Heat a large skillet or sauté pan over medium heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the onion and cook, stirring often, until softened, about 5-7 minutes.",
+      "Add the garlic, ginger, curry powder, turmeric, coriander, black pepper, salt, and red pepper flakes (if using). Cook and stir until fragrant, about 2-3 minutes.",
+      "Add the lentils, coconut milk, and broth. Stir to combine.",
+      "Bring to a boil over high heat, then reduce the heat to maintain a gentle simmer.",
+      "Cook uncovered until the lentils are soft and the liquid has thickened, about 25-30 minutes.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0014",
+    "title": "Crispy Chickpea Falafel",
+    "cuisine": "Turkish",
+    "country": "Turkey",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      26
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 (15-ounce) can low-sodium garbanzo beans (chickpeas), drained and rinsed, patted dry",
+      "½ cup chopped onion (about ½ medium onion)",
+      "⅓ cup chopped fresh parsley or cilantro",
+      "2 tablespoons tahini",
+      "2 cloves garlic, minced (about 1 teaspoon)",
+      "1 teaspoon ground cumin",
+      "¼ teaspoon salt",
+      "¼ teaspoon ground black pepper",
+      "¼ teaspoon ground turmeric",
+      "1 pinch ground coriander",
+      "1 pinch ground cardamom",
+      "3 tablespoons all-purpose flour",
+      "2 tablespoons canola, peanut, or grapeseed oil",
+      "1 lemon, cut into wedges"
+    ],
+    "steps": [
+      "Add the beans, onion, parsley or cilantro, tahini, garlic, cumin, salt, black pepper, turmeric, coriander, cardamom, and flour to a food processor. Pulse until the mixture is coarse and mealy. Be careful not to puree.",
+      "Using a 2-tablespoon disher (cookie scoop), divide the mixture into 12 portions. Form each portion into a patty, about 2 inches wide, squeezing the mixture together tightly.",
+      "Place the patties on a plate lined with parchment paper, then chill in the refrigerator until firm, about 15-30 minutes.",
+      "Heat a large skillet over medium heat.",
+      "Add the oil and heat until shimmering.",
+      "Working in batches, add the patties and cook until crispy and golden-brown, about 5 minutes on each side, then transfer to a paper towel-lined plate.",
+      "Serve warm, squeezing on lemon juice to taste. Consider serving with a dipping sauce such as tzatziki, in a pita with vegetables, over a cooked grain, or over a salad."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0015",
+    "title": "Jeweled Brown Rice",
+    "cuisine": "Iranian",
+    "country": "Iran",
+    "category": "Rice",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      27
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "Water (about 12 cups)",
+      "2 cups uncooked brown Basmati rice",
+      "1 teaspoon salt",
+      "⅓ cup sliced almonds",
+      "⅓ cup shelled and chopped pistachios",
+      "3 tablespoons extra virgin olive oil, divided",
+      "1 large onion, diced (about 2 cups)",
+      "1 teaspoon ground cinnamon",
+      "1 teaspoon cardamom",
+      "1 teaspoon ground allspice",
+      "1 teaspoon ground black pepper",
+      "1 teaspoon ground cumin",
+      "⅓ cup chopped dried apricots",
+      "⅓ cup golden raisins, chopped if large",
+      "⅓ cup dried cherries or cranberries, chopped if large"
+    ],
+    "steps": [
+      "Fill a large stockpot or Dutch oven halfway with water and bring to a boil. Add the rice and salt. Cook until tender, about 14-16 minutes, then drain and cover. Set aside.",
+      "While the rice cooks, heat a medium skillet or sauté pan over medium heat.",
+      "Add the almonds and pistachios. Cook until toasted, about 4-6 minutes, stirring often. Transfer to a small bowl and set aside. Return the pan to the stovetop over medium heat.",
+      "Add 1 tablespoon of the oil and heat until shimmering.",
+      "Add the onion and cook until softened, about 5-7 minutes.",
+      "Add the cinnamon, cardamom, allspice, black pepper, and cumin. Cook while stirring until fragrant, about 2 minutes, then add the apricots, raisins, and cherries or cranberries. Transfer to a medium bowl and set aside.",
+      "When the rice is done cooking, place the pot back over medium heat. Add the remaining 2 tablespoons of oil.",
+      "Spread half of the rice over the bottom of the pot. Top with the onion-dried fruit mixture, then the remaining rice.",
+      "Cook uncovered to brown the rice, about 5 minutes, stirring occasionally. Top with the toasted nuts, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0016",
+    "title": "Sweet Potato-Lentil Samosas",
+    "cuisine": "Pakistani",
+    "country": "Pakistan",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      28
+    ],
+    "servings": "8 servings",
+    "ingredients": [
+      "¼ cup dry lentils, picked through and rinsed",
+      "Water",
+      "½ cup diced sweet potato (about 3 ounces, or half of a medium sweet potato)",
+      "¼ cup diced onion (about ¼ medium onion)",
+      "½ teaspoon curry powder",
+      "¼ teaspoon ground cardamom",
+      "¼ teaspoon ground ginger",
+      "¼ teaspoon ground cumin",
+      "¼ teaspoon salt",
+      "1 pinch cayenne pepper (optional)",
+      "5 dried apricots, finely chopped",
+      "2 tablespoons lite coconut milk",
+      "24 wonton wrappers (about half of a 14-ounce package)",
+      "Nonstick cooking spray"
+    ],
+    "steps": [
+      "Fill a small saucepan about halfway full with water. Add the lentils and bring to a boil over high heat, then reduce the heat to maintain a simmer. Cover with a lid and cook until tender, about 15-20 minutes, then drain and set aside.",
+      "While the lentils are cooking, preheat the oven to 400°F.",
+      "Add the sweet potato, onion, curry powder, cardamom, ginger, cumin, salt, and cayenne (if using) to a microwave-safe bowl. Stir to coat, then cover with plastic wrap.",
+      "Poke the plastic wrap three times with a fork, then microwave on high power (default setting) for 5 minutes.",
+      "Remove the plastic wrap and add the apricots, coconut milk, and cooked lentils. Mash with the fork into a paste.",
+      "Divide the mixture between the wonton wrappers, about 1 tablespoon in the center of each.",
+      "Dip a clean finger in water and run it along the edges of one wrapper, then fold over diagonally and press edges together to seal. Repeat with the remaining wrappers.",
+      "Place the filled wrappers on a parchment paper-lined baking sheet and spray with cooking spray. Bake until golden brown, about 10-15 minutes, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0017",
+    "title": "Oven-Roasted Chickpeas",
+    "cuisine": "Indian",
+    "country": "India",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      29
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 (15-ounce) can low-sodium garbanzo beans (chickpeas)",
+      "2 tablespoons olive oil",
+      "1 teaspoon curry powder",
+      "1 teaspoon garam masala or ground turmeric",
+      "½ teaspoon salt",
+      "¼ teaspoon garlic powder",
+      "⅛ teaspoon ground white or black pepper"
+    ],
+    "steps": [
+      "Preheat the oven to 425°F. Line a baking sheet with parchment paper and set aside.",
+      "Drain and rinse the beans, then dry well with a paper towel. Remove any loose skins that come off on their own. Transfer the beans to the prepared baking sheet.",
+      "Drizzle the beans with the oil, then shake the pan or stir to coat.",
+      "In a small bowl, stir together the curry powder, garam masala or turmeric, salt, garlic powder, and ground white or black pepper. Sprinkle the mixture over the beans, then shake or stir to coat.",
+      "Bake for 15 minutes. Remove from oven, shake the pan or stir, then continue baking for 15 minutes. Remove and set aside to cool.",
+      "Serve at room temperature."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0018",
+    "title": "Mango-Vanilla Lassi",
+    "cuisine": "Indian",
+    "country": "India",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      30
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "½ cup (4 ounces) reduced fat (2%) milk",
+      "1 cup chopped fresh or frozen ripe mango",
+      "1 cup plain nonfat Greek yogurt",
+      "1 tablespoon honey",
+      "1 teaspoon vanilla extract or vanilla bean paste",
+      "½ cup ice cubes",
+      "2 pinches ground cardamom, divided (optional)"
+    ],
+    "steps": [
+      "Add the milk, mango, yogurt, honey, vanilla, and ice to the pitcher of a blender. Blend until completely smooth, about 2-3 minutes.",
+      "Divide between two drinking glasses, then sprinkle each with 1 pinch of the cardamom (if using).",
+      "Serve cold."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0019",
+    "title": "Black Bean Baleadas",
+    "cuisine": "Honduran",
+    "country": "Honduras",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      32
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "½ cup (4 ounces) low-sodium vegetable broth",
+      "½ teaspoon onion powder",
+      "½ teaspoon garlic powder",
+      "½ teaspoon ground cumin",
+      "½ teaspoon ground coriander",
+      "½ teaspoon salt",
+      "⅛ teaspoon ground black pepper",
+      "1 (15-ounce) can no-salt-added black beans, drained and rinsed",
+      "½ tablespoon lime juice (about ¼ lime)",
+      "4 (8-inch) whole-wheat tortillas",
+      "2 avocados, pitted and peeled, sliced",
+      "8 tablespoons (½ cup) crumbled queso fresco, divided",
+      "4 tablespoons (¼ cup) light sour cream, divided"
+    ],
+    "steps": [
+      "Add the broth, onion powder, garlic powder, cumin, coriander, salt, and black pepper to a medium saucepan.",
+      "Place over medium-high heat and bring to a simmer.",
+      "Add the beans and stir to combine.",
+      "Bring the mixture back up to a simmer, then cook until warmed through and fragrant, about 5-7 minutes.",
+      "Use a potato masher, slotted spoon, or fork to mash the beans to the desired consistency. Add water or more broth to thin if desired.",
+      "Add the lime juice and stir to combine.",
+      "Divide the bean mixture between the tortillas, adding a quarter (~¼ cup) of the mixture to each tortilla.",
+      "Top each tortilla with a quarter of the avocado slices, 2 tablespoons of the queso fresco, and 1 tablespoon of the sour cream.",
+      "Fold the tortillas in half, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0020",
+    "title": "Chipotle Black Bean-Vegetable Soup",
+    "cuisine": "Costa Rican",
+    "country": "Costa Rica",
+    "category": "Soup",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      33
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "2 tablespoons olive oil",
+      "1 medium onion, diced (about 1 cup)",
+      "2 medium carrots, diced (about 1 cup)",
+      "2 celery stalks, diced (about ½ cup)",
+      "½ medium bell pepper, diced (about ½ cup)",
+      "1 medium tomato, diced (about 1 cup)",
+      "2 garlic cloves, minced (about 1 teaspoon)",
+      "¼-½ teaspoon chipotle chile pepper, to taste",
+      "½ teaspoon ground cumin",
+      "½ teaspoon ground coriander",
+      "¼ teaspoon dried thyme",
+      "⅛ teaspoon ground nutmeg",
+      "⅛ teaspoon ground allspice",
+      "1 pinch ground cloves",
+      "1 (15-ounce) can no-salt-added black beans",
+      "1 cup (8 ounces) low-sodium vegetable broth",
+      "4 tablespoons (¼ cup) light sour cream, divided",
+      "4 tablespoons (¼ cup) chopped fresh cilantro, divided"
+    ],
+    "steps": [
+      "Heat a medium to large saucepan over medium-high heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the onion and cook, stirring often, until softened, about 3-5 minutes.",
+      "Add the carrots, celery, and bell pepper. Reduce the heat to low and cover with a lid. Cook for 10 minutes.",
+      "Add the tomato, garlic, chipotle chile pepper, cumin, coriander, thyme, nutmeg, allspice, and cloves. Cook and stir until fragrant, about 2-3 minutes.",
+      "Add the beans and broth. Stir to combine.",
+      "Cover with the lid and cook until the flavors have blended, about 30-40 minutes.",
+      "Serve warm, topped with 1 tablespoon of the sour cream and 1 tablespoon of the cilantro."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0021",
+    "title": "Spiced Hot Cacao",
+    "cuisine": "Guatemalan",
+    "country": "Guatemala",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      34
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "2 cups (16 ounces) reduced fat (2%) milk",
+      "2 tablespoons unsweetened cocoa powder",
+      "1-2 tablespoons sweetener (e.g. honey, maple syrup, sugar), to taste",
+      "½ teaspoon vanilla extract",
+      "1-2 pinches hot pepper spice (e.g. chili powder, chipotle chile pepper, cayenne), to taste",
+      "1 pinch salt"
+    ],
+    "steps": [
+      "Add the milk, cocoa powder, selected sweetener, vanilla, selected hot pepper spice, and salt to a small saucepan. Whisk to combine.",
+      "Bring to a simmer over medium heat.",
+      "Cook, whisking often, until the flavors have blended, about 5 minutes.",
+      "Taste and adjust with more sweetener and/or hot pepper spice, if desired.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0022",
+    "title": "Jerk Spice Rub",
+    "cuisine": "Jamaican",
+    "country": "Jamaica",
+    "category": "Sauce",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      35
+    ],
+    "servings": "8 servings",
+    "ingredients": [
+      "1 tablespoon packed brown sugar",
+      "½ tablespoon ground black pepper",
+      "½ tablespoon ground allspice",
+      "¾ teaspoon garlic powder",
+      "¾ teaspoon onion powder",
+      "¾ teaspoon dried thyme",
+      "¾ teaspoon dry mustard",
+      "½ teaspoon salt",
+      "¼ teaspoon cayenne",
+      "¼ teaspoon ground dried ginger"
+    ],
+    "steps": [
+      "Mix the brown sugar with all the spices together in a small bowl.",
+      "Use right away, or transfer to a small airtight container and store at room temperature for up to 1 year."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0023",
+    "title": "Turkey Tacos Picadillo",
+    "cuisine": "Honduran",
+    "country": "Honduras",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      36
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "½ cup golden raisins, chopped if large",
+      "Water",
+      "1 pound (16 ounces) lean ground turkey (90% lean or higher)",
+      "1 medium onion, diced (about 1 cup)",
+      "1 medium apple, diced (about 1 cup)",
+      "½ teaspoon ground cinnamon",
+      "¼ teaspoon ground cumin",
+      "⅛ teaspoon ground cloves",
+      "10 whole pimento-stuffed green olives",
+      "8 (5-inch) corn tortillas, warmed",
+      "2 cups shredded cabbage, divided",
+      "1 cup diced tomato (about 1 medium tomato), divided",
+      "8 tablespoons (½ cup) shredded cheese, divided"
+    ],
+    "steps": [
+      "Add the raisins to a small bowl and add water to cover. Set aside to soak for 10-15 minutes, then drain.",
+      "While the raisins soak, heat a large skillet or sauté pan over medium heat.",
+      "Add the turkey and cook until no longer pink, about 6-8 minutes, breaking it into crumbles as it cooks.",
+      "Add the onion, apple, cinnamon, cumin, cloves, olives, and soaked raisins. Stir to combine, then reduce the heat to low.",
+      "Cover the pan with a lid and cook for 20 minutes.",
+      "Divided the turkey mixture between the tortillas, about ½ cup in the center of each. Top each with ¼ cup of the cabbage, 2 tablespoons of the tomatoes, and 1 tablespoon of the cheese.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0024",
+    "title": "Virgin Piña Colada",
+    "cuisine": "Puerto Rican",
+    "country": "United States (Puerto Rico)",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      37
+    ],
+    "servings": "1 serving",
+    "ingredients": [
+      "½ cup lite coconut milk",
+      "1 cup chopped fresh or frozen ripe pineapple (about ¼ whole pineapple)",
+      "1-3 teaspoons sweetener (e.g. honey, agave, sugar), to taste (optional)",
+      "½ cup ice cubes"
+    ],
+    "steps": [
+      "Add the coconut milk, pineapple, and selected sweetener (if using) to the pitcher of a blender.",
+      "Blend until completely smooth, about 2-3 minutes.",
+      "Add the ice blend until smooth, about 1-2 minutes.",
+      "Pour the mixture into a drinking glass.",
+      "Serve cold, garnished with a pineapple wedge if desired."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0025",
+    "title": "Calabacitas con Elote",
+    "cuisine": "Mexican",
+    "country": "Mexico",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      39
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "2 medium tomatoes, cut into 1-inch pieces (about 2 cups)",
+      "½ medium onion, diced (about ½ cup)",
+      "1 jalapeño, seeded and minced",
+      "¼ teaspoon salt",
+      "2 medium zucchini, trimmed, halved lengthwise and cut into 1-inch chunks (about 4 cups)",
+      "1 cup frozen corn",
+      "2 tablespoons chopped fresh cilantro",
+      "½ lime, juiced (about 1 tablespoon)"
+    ],
+    "steps": [
+      "Heat a large skillet or sauté pan over medium-high heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the tomatoes, onion, jalapeño, and salt.",
+      "Cook, stirring often, until the tomatoes release their juice and the onion is softened, about 5-7 minutes.",
+      "Add the zucchini and corn.",
+      "Increase the heat to high and cook, stirring occasionally, until the zucchini is just starting to soften and the corn is thawed, about 6-8 minutes.",
+      "Add the cilantro and lime juice. Stir to combine.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0026",
+    "title": "Eggs Benedict",
+    "cuisine": "American",
+    "country": "United States (New York)",
+    "category": "Egg",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      40
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "1 tablespoon white vinegar",
+      "2 large eggs",
+      "1 whole-wheat English muffin, halved",
+      "2 slices Canadian bacon",
+      "1 tablespoon plain nonfat Greek yogurt (for Hollandaise Sauce)",
+      "1 teaspoon unsalted butter, melted (for Hollandaise Sauce)",
+      "1 egg yolk (for Hollandaise Sauce)",
+      "½ tablespoon lemon juice (for Hollandaise Sauce)",
+      "½ tablespoon half and half (for Hollandaise Sauce)",
+      "1 pinch salt (for Hollandaise Sauce)",
+      "1 pinch ground black pepper (for Hollandaise Sauce)"
+    ],
+    "steps": [
+      "Fill a medium saucepan with about three inches of water. Bring the water to a boil, then reduce the heat to maintain a simmer. Add the vinegar to the water.",
+      "Crack one egg into a small cup and lower the egg into the simmering water, gently pouring it out of the cup. Repeat with the second egg.",
+      "Cook the eggs in the water for 3-5 minutes, depending on how soft you want your egg yolk. Remove the cooked eggs gently, one at a time, with a slotted spoon. Set aside.",
+      "In a small microwave-safe bowl, add all ingredients for the hollandaise sauce. Microwave on high power (default setting) until smooth and frothy, about 60 seconds, stopping to whisk every 15 seconds.",
+      "Toast the English muffin.",
+      "Place the Canadian bacon on a small microwave-safe plate and heat on high power (default setting) for 30 seconds.",
+      "Top each English muffin half with 1 slice of the bacon, 1 of the eggs, and half the sauce. Serve right away."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0027",
+    "title": "Basic Guacamole",
+    "cuisine": "Mexican",
+    "country": "Mexico",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      41
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "2 large avocados (or 3 medium avocados)",
+      "2 tablespoons minced or grated onion",
+      "1 clove garlic, minced (about ½ teaspoon)",
+      "1 tablespoon lime juice (about ½ lime)",
+      "¼ teaspoon salt",
+      "Optional add-ins: 1 cup finely chopped ripe mango, ½ cup diced bell pepper, ½ cup diced tomato, ¼ cup minced fresh cilantro or parsley, 1 seeded and minced jalapeño pepper, 1 teaspoon lime zest"
+    ],
+    "steps": [
+      "Cut the avocados in half, lengthwise around the pit, cutting on a cutting board and away from the body.",
+      "Remove the pit from the avocados by pressing gently on the avocado skin that is directly behind the pit.",
+      "Using a spoon, scoop the flesh out of the skin and into a medium mixing bowl. Use a fork or potato masher to mash the avocado into a smooth, slightly lumpy consistency.",
+      "Add the onion, lime juice, salt, and selected add-in(s) (if using). Stir to combine.",
+      "Serve right away or store for later use."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0028",
+    "title": "Haupia (Coconut Pudding) with Mango",
+    "cuisine": "Hawaiian",
+    "country": "United States (Hawaii)",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      42
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 cup fresh or frozen mango, diced (about 1 large mango)",
+      "1 lime, zested",
+      "1 teaspoon honey",
+      "½ cup water",
+      "6 tablespoons (¼ cup plus 2 tablespoons) cornstarch",
+      "¼ cup sugar",
+      "1 (13.5-ounce) can lite coconut milk (not coconut milk from a carton)",
+      "2 tablespoons unsweetened shredded coconut, toasted, divided"
+    ],
+    "steps": [
+      "In small mixing bowl, stir together the mango, lime zest, and honey. Cover and place in the refrigerator.",
+      "In a separate small bowl, use a fork to whisk together the water, cornstarch, and sugar. Set aside.",
+      "Add the coconut milk to a medium saucepan. Place over medium heat and bring to a simmer.",
+      "Add the cornstarch mixture and whisk to combine. Continue to cook, whisking often, until thick enough to coat the back of a spoon, about 7-10 minutes.",
+      "Remove from the heat. Divide between four serving bowls, or pour into an 8x8-inch glass baking dish.",
+      "Cover and chill in refrigerator until firm, about 2 hours, then cut into four squares if using the baking dish.",
+      "Serve cold, topped with ¼ cup of the mango mixture and ½ tablespoon of toasted coconut."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0029",
+    "title": "Turkey Sausage Jambalaya",
+    "cuisine": "American",
+    "country": "United States (Louisiana)",
+    "category": "Pork",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      43
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "1 teaspoon olive oil",
+      "8 ounces turkey Andouille sausage, sliced",
+      "1 (12-ounce) bag frozen peppers and onions",
+      "2 teaspoons garlic powder",
+      "2 teaspoons onion powder",
+      "¾ teaspoon dried thyme",
+      "½ teaspoon dried oregano",
+      "½ teaspoon smoked paprika",
+      "½ teaspoon chipotle chile pepper",
+      "¼ teaspoon crushed red pepper flakes",
+      "3 cups (24 ounces) low-sodium chicken broth",
+      "1 (10-ounce) can no-salt-added diced tomatoes with green chiles",
+      "2 cups uncooked quick-cooking brown rice",
+      "¼-½ teaspoon ground black pepper, to taste"
+    ],
+    "steps": [
+      "Heat a large saucepan or stockpot over medium-high heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the sausage and cook, stirring occasionally, until browned, about 7-10 minutes.",
+      "Add the pepper and onions, garlic powder, onion powder, thyme, oregano, paprika, chipotle chile pepper, and red pepper flakes. Cook and stir until fragrant and the vegetables are softened, about 2-3 minutes.",
+      "Add the broth and tomatoes with chiles. Stir to combine.",
+      "Bring to a boil over high heat, then add the rice and stir to combine. Reduce the heat to maintain a gentle simmer.",
+      "Cover the pot with a lid and cook for 10 minutes.",
+      "Remove from the heat and let sit, covered, for 5 minutes.",
+      "Remove the lid, fluff with a fork, and add the black pepper.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0030",
+    "title": "Maple-Glazed Roasted Salmon",
+    "cuisine": "Canadian",
+    "country": "Canada",
+    "category": "Fish",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      44
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "¼ cup maple syrup",
+      "1 tablespoon lite (reduced sodium) soy sauce",
+      "1 tablespoon balsamic vinegar",
+      "3 cloves garlic, minced (about 1½ teaspoons)",
+      "½ teaspoon ground black pepper",
+      "4 (4- to 6-ounce) salmon fillets (about 1 pound)"
+    ],
+    "steps": [
+      "Add the maple syrup, soy sauce, balsamic vinegar, garlic, and black pepper to a gallon-size plastic ziptop bag. Seal tightly, then massage the bag to combine.",
+      "Add the salmon and seal the bag. Move the bag around to coat the salmon.",
+      "Open the bag a small amount and then seal again, squeezing out as much air as possible.",
+      "Set the bag in a bowl and refrigerate for 20-30 minutes. During the last 10 minutes, preheat the oven to 400°F.",
+      "Transfer the salmon and maple mixture to a 9x13-inch baking dish, spreading the salmon into an even layer.",
+      "Bake uncovered until cooked through (internal temperature of 145°F, flakes easily with a fork), about 18-22 minutes.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0031",
+    "title": "Yellow Split Pea Soup",
+    "cuisine": "Canadian",
+    "country": "Canada",
+    "category": "Soup",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      45
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 tablespoon unsalted butter",
+      "1 medium carrot, peeled if desired, diced (about ½ cup)",
+      "½ medium onion, diced (about ½ cup)",
+      "1 stalk celery, diced (about ¼ cup)",
+      "1 cup uncooked yellow split peas, rinsed",
+      "1 teaspoon dried thyme",
+      "4 cups (32 ounces) low-sodium chicken or vegetable broth",
+      "8 ounces diced ham or Canadian bacon",
+      "1 bay leaf",
+      "¼-½ teaspoon ground black pepper, to taste"
+    ],
+    "steps": [
+      "Add the butter to a large saucepan or stockpot and place over medium heat. Heat until melted.",
+      "Add the carrots, onion, and celery. Cook, stirring often, until softened, about 8-10 minutes.",
+      "Add the split peas and thyme. Cook and stir until fragrant, about 1-2 minutes.",
+      "Add the broth, ham or bacon, and bay leaf. Bring to a boil over high heat, then reduce the heat to maintain a gentle simmer.",
+      "Cover with a lid and cook, stirring occasionally, until the peas are soft and the soup is thickened, about 1½-2 hours.",
+      "Remove and discard bay leaf. Puree the soup using an immersion (handheld) blender to the desired consistency.",
+      "Add the black pepper, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0032",
+    "title": "Baked Arepas",
+    "cuisine": "Venezuelan",
+    "country": "Venezuela",
+    "category": "Bakery",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      47
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 cup arepa flour (pre-cooked cornmeal; can substitute masa harina or finely-ground cornmeal)",
+      "¼ teaspoon salt",
+      "¼ teaspoon baking powder",
+      "½ cup water",
+      "Nonstick cooking spray",
+      "Optional add-ins: Black beans, guacamole, cheese, cooked eggs"
+    ],
+    "steps": [
+      "Preheat the oven to 350°F and line baking sheet with parchment paper. Set aside.",
+      "In a medium mixing bowl, whisk together the flour, salt, and baking powder. Set aside.",
+      "Add the water to a microwave-safe liquid measuring cup. Microwave until hot, about 1 minute.",
+      "Slowly add hot water to the flour mixture, gently mixing to combine. Knead the mixture together to form a dough.",
+      "Let the dough rest for 5 minutes.",
+      "Divide the dough into four equal portions. Roll each portion into a ball, using the palms of clean hands, then flatten the ball into a disc about ½-inch-thick.",
+      "Place the dough discs on the prepared baking sheet. Spray with lightly with nonstick cooking spray.",
+      "Bake until golden-brown, about 20-30 minutes, flipping over halfway through the cooking time.",
+      "Let cool slightly, then cut in half horizontally, leaving one side attached (butterfly cut). Fill with add-ins, as desired.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0033",
+    "title": "Plantain Tostones with Mojo Sauce",
+    "cuisine": "Colombian",
+    "country": "Columbia",
+    "category": "Appetizer",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      48
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "3 ripe plantains, peeled and sliced 1-inch-thick",
+      "½ teaspoon olive oil",
+      "1 pinch salt",
+      "1 pinch ground black pepper",
+      "3 garlic cloves, peeled (for Mojo Sauce)",
+      "⅓ cup chopped fresh cilantro or parsley (for Mojo Sauce)",
+      "2 scallions (green onions), sliced (for Mojo Sauce)",
+      "3 tablespoons olive oil, divided (for Mojo Sauce)",
+      "⅛ teaspoon ground cumin (for Mojo Sauce)",
+      "⅛ teaspoon dried oregano (for Mojo Sauce)",
+      "1 pinch salt (for Mojo Sauce)",
+      "1 pinch ground black pepper (for Mojo Sauce)",
+      "1 lime, zested and juiced (for Mojo Sauce)"
+    ],
+    "steps": [
+      "Preheat the oven to 400°F. Line a baking sheet with parchment paper and set aside.",
+      "Make the mojo sauce by adding the garlic, cilantro or parsley, scallions, and 2 tablespoons of the oil to a food processor. Pulse to roughly chop and combine.",
+      "Add the remaining 1 tablespoon of oil, along with the cumin, oregano, salt, black pepper, 1 tablespoon of the lime juice, and ½ teaspoon of the lime zest. Pulse to combine, being careful not to puree, then set aside.",
+      "Add the plantains, oil, salt, and pepper to the prepared baking sheet. Toss to coat the plantains.",
+      "Spread the plantain slices about 3 inches apart, then gently smash each slice using a flat-bottomed item such as a bowl or drinking glass.",
+      "Bake for 10 minutes, then flip over and continue baking until golden-brown, about 5 minutes.",
+      "Serve warm, with the mojo sauce as a dip."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0034",
+    "title": "Roasted Pork Tenderloin with Chimichurri",
+    "cuisine": "Argentine",
+    "country": "Argentina",
+    "category": "Pork",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      49
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 (1-pound) boneless pork tenderloin",
+      "4 cloves garlic, peeled (for Chimichurri Sauce)",
+      "½ bunch parsley, long stems removed (for Chimichurri Sauce)",
+      "1 tablespoon lime juice or vinegar (e.g. apple cider vinegar, red wine vinegar) (for Chimichurri Sauce)",
+      "¼ cup olive oil (for Chimichurri Sauce)",
+      "¼ teaspoon salt (for Chimichurri Sauce)",
+      "¼ teaspoon ground black pepper (for Chimichurri Sauce)"
+    ],
+    "steps": [
+      "Add the ingredients for the chimichurri sauce to a blender or food processor. Blend until smooth, about 2-3 minutes.",
+      "Transfer half of the sauce to a gallon-size ziptop plastic bag and the other half to a small bowl. Set the bowl aside.",
+      "Add the pork tenderloin to the bag with the sauce. Move the bag around to coat the pork with the sauce, then seal the bag, squeezing out as much air as possible.",
+      "Place the bag in a bowl and refrigerate for 20 minutes. During the last 10 minutes, preheat the oven to 400°F. Line a baking sheet with parchment paper and set aside.",
+      "Place the pork on the baking sheet and bake until cooked through (internal temperature of 145°F), about 30 minutes.",
+      "Let rest for 10 minutes, then cut into four portions and serve warm with the reserved chimichurri sauce."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0035",
+    "title": "Baked Heart of Palm Empanadas",
+    "cuisine": "Brazilian",
+    "country": "Brazil",
+    "category": "Bakery",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      50
+    ],
+    "servings": "5 servings",
+    "ingredients": [
+      "1½ cups all-purpose or white whole-wheat flour",
+      "½ teaspoon salt",
+      "½ cup plain nonfat Greek yogurt",
+      "1½ tablespoons unsalted butter, melted and cooled",
+      "Water, as needed (about 1-2 tablespoons)",
+      "1 tablespoon unsalted butter (for Filling)",
+      "½ tablespoon olive oil (for Filling)",
+      "1 medium onion, finely diced (about 1 cup) (for Filling)",
+      "½ tablespoon sugar (for Filling)",
+      "½ cup canned hearts of palm, drained and chopped (for Filling)",
+      "½ tablespoon all-purpose or white whole-wheat flour (for Filling)",
+      "½ cup lowfat (1%) milk (for Filling)",
+      "6 black olives, drained and chopped (for Filling)",
+      "¼ cup crumbled feta cheese (for Filling)",
+      "2 pieces cooked bacon, chopped (optional; about ¼ cup) (for Filling)"
+    ],
+    "steps": [
+      "In a large mixing bowl, stir together the flour and salt.",
+      "Add the yogurt and melted butter. Stir to combine.",
+      "Add water, 1 tablespoon at a time, until a dough is formed.",
+      "Knead briefly until the dough is smooth. Wrap the dough in plastic wrap, then refrigerate for 30 minutes.",
+      "Meanwhile, preheat the oven to 350°F and place a skillet or sauté pan over medium heat to make the filling.",
+      "Add the butter and oil to the pan. Heat until the butter is melted and the oil is shimmering.",
+      "Add the onion and sugar. Cook until softened and golden-brown, about 8-10 minutes, stirring often.",
+      "Add the hearts of palm and flour. Cook while stirring for 2-3 minutes.",
+      "Add the milk, whisking to combine. Bring to a gentle simmer and cook while stirring until thickened, about 4-6 minutes.",
+      "Remove from heat. Add the olives, feta cheese, and bacon (if using). Stir to combine then set aside.",
+      "Remove the dough from the refrigerator, then roll out flat to ¼-inch thickness. Cut ten circles out of the dough with the top of a drinking glass (about 3-4 inches wide).",
+      "Divide the filling between the dough circles, placing about 1-2 tablespoons in the middle of each. Fold each circle in half over the filling, then pinch the edges to seal.",
+      "Bake until golden-brown, about 25-30 minutes, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0036",
+    "title": "White Fish with Cucumber-Caper Sauce",
+    "cuisine": "Australian",
+    "country": "Australia",
+    "category": "Fish",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      52
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "Nonstick cooking spray",
+      "2 (4- to 6-ounce) white fish fillets (e.g. cod, mackerel, grouper, tilapia, bass, mahi mahi)",
+      "1 lemon, zested and juiced, divided",
+      "¼ teaspoon dried oregano",
+      "1 pinch paprika",
+      "2 pinches (about ⅛ teaspoon) salt, divided",
+      "1 teaspoon olive oil",
+      "½ cup diced cucumber (about ½ medium cucumber)",
+      "2 tablespoons chopped fresh parsley",
+      "1 tablespoon capers, drained"
+    ],
+    "steps": [
+      "Preheat the oven to 400°F.",
+      "Spray the inside of an 8x8-inch baking dish with cooking spray.",
+      "Place the fish in the dish, spacing them apart.",
+      "Sprinkle with half the lemon juice (about 2 tablespoons), along with the oregano, paprika, and 1 pinch of the salt.",
+      "Bake until the fish is cooked through (internal temperature of 145°F, flakes easily with a fork) about 9-11 minutes.",
+      "Meanwhile, in a medium mixing bowl, whisk together the oil, lemon zest, remaining half of lemon juice (about 2 tablespoons), and remaining 1 pinch of salt. Add the cucumber, parsley, and capers, then toss to combine.",
+      "Transfer the each cooked fish fillet to and individual serving plate, then divide the cucumber-caper mixture between the two plate, adding on top of the fish. Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0037",
+    "title": "Honey-Glazed Baked Pears",
+    "cuisine": "Swiss",
+    "country": "Switzerland",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      67
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "Nonstick cooking spray",
+      "2 firm ripe medium pears, peeled, halved and cored (e.g. Anjou, Bosc)",
+      "1 sprig fresh thyme, stem removed (about ½ teaspoon leaves)",
+      "1 pinch salt",
+      "2 tablespoons unsalted butter, cut into four pieces, divided",
+      "2 tablespoons honey, divided",
+      "4 tablespoons (¼ cup) chilled heavy cream or whipped cream, divided"
+    ],
+    "steps": [
+      "Preheat the oven to 400°F.",
+      "Spray the inside of an 8x8-inch baking dish with nonstick cooking spray. Place the pears cut-side-up in the baking dish",
+      "Sprinkle the pears with the salt and thyme leaves.",
+      "Top each pear half with one of the butter pieces then drizzle each with ½ tablespoon of the honey.",
+      "Bake the pears until they are tender and caramelized, about 50-60 minutes, turning them over with tongs every 10-15 minutes.",
+      "Serve warm, topped with 1 tablespoon of the chilled heavy cream or whipped cream."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0038",
+    "title": "Lemon Baked Fish and Chips",
+    "cuisine": "British",
+    "country": "United Kingdom",
+    "category": "Fish",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      68
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "1 large (10- to 12-ounce) Russet potato, cut lengthwise into ¼-inch-thick planks, then cut lengthwise into ¼-inch-thick fries",
+      "2½ tablespoons olive oil, divided",
+      "¼ teaspoon salt, divided",
+      "¼ teaspoon ground black pepper, divided",
+      "¼ cup all-purpose or white whole-wheat flour",
+      "½ teaspoon ground coriander",
+      "½ teaspoon paprika",
+      "½ teaspoon ground cumin",
+      "2 tablespoons lemon juice (about ½ lemon)",
+      "½ tablespoon unsalted butter, melted",
+      "2 (4- to 6-ounce) white fish fillets (e.g. cod, haddock), pat dry with paper towels"
+    ],
+    "steps": [
+      "Preheat oven to 400°F.",
+      "Place the potato fries on a baking sheet. Toss with ½ tablespoon of the oil, then sprinkle with ⅛ teaspoon of the salt and ⅛ teaspoon of the black pepper. Spread into a single layer, then bake until crispy, about 10-15 minutes.",
+      "Meanwhile, in a medium mixing bowl, whisk together the flour, coriander, paprika, cumin, remaining ⅛ teaspoon of salt, and remaining ⅛ teaspoon of black pepper. Set aside.",
+      "In a separate medium mixing bowl, whisk together the lemon juice, butter, and 1 tablespoon of the oil.",
+      "Working one fillet at a time, dip the fish in the lemon mixture to coat, then in the flour mixture to cover both sides. Place on a clean plate near the stovetop.",
+      "Heat a nonstick skillet over medium heat. Add the remaining 1 tablespoon of oil and heat until shimmering.",
+      "Add the fish and cook until crisp, about 3 minutes per side, then transfer to the baking sheet with the potatoes.",
+      "Drizzle any leftover lemon mixture over the fish, then bake until cooked through (internal temperature of 145°F, flakes easily with a fork), about 8-10 minutes. Serve right away."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0039",
+    "title": "Spätzle (German Dumplings)",
+    "cuisine": "German",
+    "country": "Germany",
+    "category": "Noodles",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      69
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "½ cup reduced-fat (2%) milk",
+      "2 eggs",
+      "¾ cups regular or white whole-wheat flour",
+      "¾ cup all-purpose flour",
+      "¾ teaspoon ground nutmeg",
+      "¾ teaspoon salt, divided",
+      "⅛ teaspoon ground white or black pepper",
+      "Water",
+      "1 tablespoon unsalted butter",
+      "1 medium onion, diced (about 1 cup)",
+      "½ cup shredded Swiss or Swiss blend cheese (e.g. Swiss-Gruyere)",
+      "1 tablespoon minced fresh parsley"
+    ],
+    "steps": [
+      "In a small mixing bowl, whisk together the milk and eggs.",
+      "In a large mixing bowl, whisk together the whole-wheat flour, all-purpose flour, nutmeg, ¼ teaspoon of the salt, and white or black pepper. Add the milk mixture and stir to create a batter.",
+      "Cover the bowl with plastic wrap and let sit on the counter for 20 minutes, or in the refrigerator for up to 4 hours.",
+      "Fill a large stockpot about halfway with water and add the remaining ½ teaspoon of salt. Bring to a boil over high heat.",
+      "Meanwhile, melt the butter in a large skillet or sauté pan over medium-high heat. Add the onion, and cook until softened and browned, about 7-10 minutes.",
+      "Add the batter to the trough of a spätzle maker (or use a cheese grater; see Recipe Notes). When the onion is done cooking, push the batter through the holes and into the boiling water, making pieces ½-2 inches long.",
+      "When the pieces float to the top of the water, about 1-2 minutes, use a slotted spoon or strainer to transfer them to the pan with the onion.",
+      "Add the cheese and stir until melted, then remove from the heat and add the parsley. Stir to combine.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0040",
+    "title": "Chicken Couscous Paella",
+    "cuisine": "Spanish",
+    "country": "Spain",
+    "category": "Chicken",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      71
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "Nonstick cooking spray",
+      "½ medium onion, diced (about ½ cup)",
+      "½ cup diced celery (about 2 stalks)",
+      "½ cup diced bell pepper (about ½ medium bell pepper)",
+      "½ cup frozen peas",
+      "3 cloves garlic, minced (about 1½ teaspoons)",
+      "½ teaspoon dried thyme",
+      "½ teaspoon fennel seed or dried dill",
+      "½ teaspoon ground black pepper",
+      "½ teaspoon paprika",
+      "¼ teaspoon ground turmeric",
+      "2 large tomatoes, diced (about 3 cups)",
+      "¾ cup (6 ounces) chicken broth",
+      "½ cup uncooked whole-wheat couscous",
+      "½ pound cooked chicken breast, cubed (about 1¼ cups)"
+    ],
+    "steps": [
+      "Heat a large skillet or sauté pan over medium-low heat.",
+      "Coat the pan with nonstick cooking spray.",
+      "Add the onion, celery, and bell pepper. Cook until softened, about 5-7 minutes.",
+      "Add the peas, garlic, thyme, fennel seed or dill, black pepper, paprika, and turmeric.",
+      "Cook, stirring frequently, until fragrant.",
+      "Stir in the tomatoes and broth.",
+      "Bring to a simmer over medium-high heat.",
+      "Add the couscous and stir to combine.",
+      "Cover the pan with a lid and remove from heat. Let stand until the couscous is tender, about 5 minutes.",
+      "Stir in the chicken and let sit until heated through, about 2-3 minutes.",
+      "Fluff with a fork, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0041",
+    "title": "Baked Eggplant Parmesan",
+    "cuisine": "Italian",
+    "country": "Italy",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      72
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "1 medium eggplant (about 1 pound), trimmed and cut lengthwise into four planks about ¾-inch in thickness, cut middle planks in half crosswise and chop outer planks into cubes, divided",
+      "¼ cup regular or white whole-wheat flour",
+      "1 egg, lightly beaten",
+      "½ cup panko or whole-wheat breadcrumbs",
+      "½ cup grated parmesan cheese, divided",
+      "½ teaspoon ground black pepper, divided",
+      "Nonstick cooking spray",
+      "1 tablespoon olive oil",
+      "1 pinch salt",
+      "4 garlic cloves, minced (about 2 teaspoons)",
+      "1 pinch-¼ teaspoon red pepper flakes, to taste",
+      "1 (14.5-ounce) can no-salt-added diced tomatoes",
+      "¼ cup shredded Italian blend cheese",
+      "4 tablespoons (¼ cup) chopped fresh basil, divided"
+    ],
+    "steps": [
+      "Preheat oven to 450°F.",
+      "Add the flour to a shallow dish. Add the egg to a second dish. Add the breadcrumbs, ¼ cup of parmesan, and ¼ teaspoon of black pepper to a third dish.",
+      "Coat the halved eggplant planks lightly with the flour, then the egg, and then the breadcrumb mixture. Transfer the breaded eggplant planks to a wire cooling rack set inside a rimmed baking sheet and let sit for 5 minutes.",
+      "Spray the breaded eggplant lightly on both sides with nonstick spray and bake until tender and golden-brown, about 20-22 minutes, flipping them over after 10 minutes.",
+      "Meanwhile, heat a large skillet or sauté pan over medium-high heat. Add the oil and heat until shimmering.",
+      "Add the eggplant cubes and salt. Cook, stirring often, until lightly-browned, about 3-4 minutes.",
+      "Add the garlic, red pepper, and the remaining ¼ teaspoon of black pepper. Cook until fragrant, about 30 seconds, then add the diced tomatoes with their juice.",
+      "Bring to a simmer and cook until the eggplant is tender and the sauce thickens, about 5-7 minutes. Set aside.",
+      "Combine the remaining ¼ cup parmesan and the Italian cheese in a small mixing bowl, then sprinkle onto the baked eggplant. Continue baking until melted, about 2-3 minutes.",
+      "Divide the baked eggplant planks between two plates, then top each with half the sauce and 2 tablespoons of the basil. Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0042",
+    "title": "Lamb-Vegetable Kabobs with Tzatziki",
+    "cuisine": "Greek",
+    "country": "Greece",
+    "category": "Lamb",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      73
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "1 cup plain nonfat Greek yogurt",
+      "¼ cup peeled and finely chopped cucumber",
+      "½ tablespoon chopped fresh mint",
+      "1 lemon, juiced, divided (about 4 tablespoons)",
+      "½ cup (4 ounces) reduced-sodium beef broth",
+      "¼ cup red wine vinegar",
+      "1½ tablespoons olive oil",
+      "3-6 cloves garlic, minced (about 1 tablespoon)",
+      "1 tablespoon minced fresh rosemary (or 1 teaspoon dried)",
+      "1 pinch salt",
+      "1 pinch ground black pepper",
+      "1 pound lamb, cut into 1- to 2-inch cubes",
+      "1 medium zucchini, cut into 1-inch-thick slices",
+      "1 medium bell pepper, cut into 1- to 2-inch cubes",
+      "½ medium onion, cut into 1- to 2-inch cubes"
+    ],
+    "steps": [
+      "In a small bowl, stir together the Greek yogurt, cucumber, mint, and 1 teaspoon of the lemon juice. Set aside.",
+      "In a separate small mixing bowl, whisk together the broth, vinegar, oil, garlic, rosemary, salt, black pepper, and the remaining lemon juice to make a marinade.",
+      "Transfer the marinade mixture to a large plastic ziptop bag. Set the bag inside the bowl that held the marinade.",
+      "Add the cubed lamb to the marinade and toss to coat.",
+      "Seal the bag, squeezing out the excess air, and refrigerate in the bowl for at least 20 minutes, up to overnight.",
+      "Gather 12 skewers. If using wooden or bamboo skewers, soak them in warm water for at least 15 minutes to prevent the ends from burning and turning black.",
+      "While the skewers are soaking, heat up the grill to medium heat or the broiler to high heat. If the broiler is in the oven, set an oven rack to the middle position.",
+      "While the broiler or grill is heating, thread the marinated lamb cubes, zucchini, bell pepper, and onion onto the skewers.",
+      "Cook on the grill or under the broiler (on the middle rack if in the oven) for 15-20 minutes, turning every 4-5 minutes, until cooked through (internal temperature of 145°F).",
+      "Drizzle with yogurt mixture, then serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0043",
+    "title": "Vegetable-Loaded Potato Salad",
+    "cuisine": "Portuguese",
+    "country": "Portugal",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      74
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "Water",
+      "1 teaspoon plus 1 pinch salt, divided",
+      "2 medium (5- to 7-ounce) red or Yukon gold potatoes, cut into to ½-inch chunks",
+      "2 medium carrots, peeled, sliced ½-inch-thick",
+      "½ medium onion, sliced ½-inch-thick",
+      "2 eggs, in shell",
+      "1 cup chopped green beans, frozen or fresh",
+      "3 tablespoons red wine vinegar",
+      "2 tablespoons olive oil",
+      "1 teaspoon Dijon mustard",
+      "¼ teaspoon paprika",
+      "1 pinch ground white or black pepper",
+      "2 tablespoons chopped fresh parsley",
+      "1 clove garlic, minced (about ½ teaspoon)",
+      "1 tablespoon capers, drained"
+    ],
+    "steps": [
+      "Fill a large saucepan or stockpot about two-thirds full with water. Add the potatoes, carrots, onion, and 1 teaspoon of the salt. (Potatoes absorb ~7-10% of salt from cooking water. The sodium per serving is adjusted to reflect this.)",
+      "Bring to a boil, then cook until the vegetables are just tender, about 10-15 minutes.",
+      "Add the eggs, still in shell, and green beans. Remove the pot from the heat, cover with a lid, and let sit for 12 minutes.",
+      "Meanwhile, in a small bowl, whisk together the vinegar, oil, mustard, paprika, remaining 1 pinch of salt, and the white or black pepper. Add the parsley, garlic, and capers. Set aside.",
+      "Remove the eggs from the pot, run under cold water or place in a bowl of ice water. Peel and cut lengthwise into quarters.",
+      "Drain the vegetables into a strainer or colander, then transfer to a large mixing bowl. Add the vinegar-oil mixture and eggs, then gently toss to combine.",
+      "Serve warm, or chill in the refrigerator before serving. Store in the refrigerator for up to 5 days."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0044",
+    "title": "Summer Vegetable Ratatouille",
+    "cuisine": "French",
+    "country": "France",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      75
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "3 large tomatoes (or 6 medium Roma tomatoes)",
+      "1 medium bell pepper, cut into bite-sized pieces (about 1½ cups)",
+      "1 medium eggplant, peeled and cut into bite-sized pieces (about 3 cups)",
+      "1 medium zucchini, cut into bite-sized pieces (about 2 cups)",
+      "1 medium yellow squash, cut into bite-sized pieces (about 2 cups)",
+      "1 medium onion, cut into bite-sized pieces (about 1½ cups)",
+      "2 tablespoons olive oil, divided",
+      "¼ teaspoon salt",
+      "2 cloves garlic, minced",
+      "¼ teaspoon dried oregano",
+      "¼ teaspoon ground black pepper",
+      "⅛-¼ teaspoon crushed red pepper flakes, to taste",
+      "2 tablespoons chopped fresh basil"
+    ],
+    "steps": [
+      "Preheat oven to 425°F.",
+      "Using a box grater, grate the tomatoes over a medium mixing bowl. Pour off excess juice, as desired. Set aside.",
+      "Place the bell pepper, eggplant, zucchini, squash, and onion on a baking sheet. Add 1½ tablespoons of the oil and the salt. Toss to combine, then spread into a single layer.",
+      "Roast in the oven until well-browned and fork tender, about 20-25 minutes, tossing halfway through the cooking time.",
+      "While the vegetables are roasting, heat a large saucepan or stockpot over medium heat.",
+      "Add the remaining ½ tablespoon of oil and heat until shimmering.",
+      "Add the garlic and cook until fragrant, about 30-60 seconds.",
+      "Add the grated tomatoes, oregano, black pepper, and crushed red pepper.",
+      "Bring to a simmer over medium-high heat, then reduce the heat to maintain a low simmer. Cook, stirring occasionally, for 5 minutes.",
+      "Add the roasted vegetables. Continue cooking for 7-10 minutes.",
+      "Remove from the heat and stir in the basil.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0045",
+    "title": "Plant-Based Tiramisu",
+    "cuisine": "Italian",
+    "country": "Italy",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      76
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "4 tablespoons (¼ cup) brewed and cooled espresso, divided",
+      "1 tablespoon semisweet chocolate chips",
+      "½ (12- to 12.3-ounce) package silken tofu (about ⅔ cup)",
+      "2 tablespoons powdered sugar",
+      "½ teaspoon lemon juice",
+      "1 pinch salt",
+      "12 ladyfinger cookies (about half of a 7-ounce package)",
+      "2 tablespoons unsweetened cocoa powder",
+      "2 tablespoons shaved chocolate (optional)"
+    ],
+    "steps": [
+      "Add 2 tablespoons of the espresso and the chocolate chips to a small microwave-safe bowl. Microwave on high power (default setting) for 30 seconds. Stir to combine. Continue microwaving if needed to melt the chocolate, 15 seconds at a time, stirring at the end of each cook time.",
+      "Add the tofu, powdered sugar, lemon juice, salt, and the espresso-chocolate mixture to a blender or food processor. Blend until completely smooth, about 2-3 minutes, stopping to scrape down the sides as needed.",
+      "Layer 6 of the ladyfinger cookies along the bottom of an 8.5x4.5-inch loaf pan. Pour the remaining 2 tablespoons of espresso evenly over the cookies.",
+      "Transfer about half of the tofu mixture into the pan, spreading it into an even layer. Layer with the remaining 6 cookies, then the remaining half of the tofu mixture.",
+      "Cover with plastic wrap and refrigerate for at least 30 minutes, up to 24 hours.",
+      "Dust with the cocoa powder and sprinkle with the shaved chocolate (if using).",
+      "Cut into 6 slices, then serve cold."
+    ],
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null
+    }
+  },
+  {
+    "id": "world_cuisines_0046",
+    "title": "Lemon Curd Pavlova",
+    "cuisine": "New Zealand",
+    "country": "New Zealand",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      53
+    ],
+    "servings": "8 servings",
+    "ingredients": [
+      "1 cup powdered sugar, divided",
+      "4 eggs, plus more if needed",
+      "⅛ teaspoon cream of tartar",
+      "1 tablespoon cornstarch",
+      "1 teaspoon vanilla extract",
+      "1 cup whipped cream (store-bought or homemade)",
+      "½ cup lemon curd (store-bought or homemade; can substitute another fruit curd)",
+      "Optional toppings: Fresh fruit, chopped if needed (e.g. pomegranate seeds, raspberries, blueberries, strawberries), mint leaves (optional)"
+    ],
+    "steps": [
+      "Preheat the oven to 325°F. Line a baking sheet with parchment paper and sprinkle with 2 tablespoons of the powdered sugar, then set aside.",
+      "Carefully crack one of the eggs and separate the white from the yolk into a small bowl. If any yolk gets into the white, discard and start with a new egg. If the white is free of yolk, transfer it to a large mixing bowl. Repeat until you have 4 egg whites in the bowl. Save the yolks for another use.",
+      "Add the cream of tartar. Using an electric mixer (or whisking by hand, if needed) beat until stiff peaks form.",
+      "In a separate bowl whisk together cornstarch and ¾ cup of the powdered sugar. Add to the whipped egg whites, gently folding to combine.",
+      "Transfer the mixture to the prepared baking sheet and spread into an even layer. Bake on the middle rack until set and lightly golden-brown, about 12-15 minutes.",
+      "Meanwhile, place a second sheet of parchment paper on the counter and sprinkle with the remaining 2 tablespoons of powdered sugar.",
+      "Quickly and carefully, flip the baked egg white mixture (meringue) onto the second sheet of parchment paper. Let cool, then carefully peel away the paper it was baked on.",
+      "Spread the lemon curd over the meringue, then spread the whipped cream on top. Carefully roll into a log, starting from one of the narrow end, then cut into 8 slices.",
+      "Serve right away or chill before serving. Top as desired."
+    ],
+    "nutrition": {
+      "calories": 150.0,
+      "protein_g": 3.0,
+      "carbohydrates_g": 21.0,
+      "fat_g": 7.5,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0047",
+    "title": "Creamy Pumpkin Soup",
+    "cuisine": "Australian",
+    "country": "Australia",
+    "category": "Soup",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      54
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "1 leek, green top removed, white part thinly sliced",
+      "1 clove garlic, minced (about ½ teaspoon)",
+      "¼ teaspoon ground nutmeg",
+      "2 cups (16 ounces) low-sodium vegetable broth",
+      "1 medium tart apple (e.g. Granny Smith), peeled and chopped (about ¾ cup)",
+      "1 (15-ounce) can pumpkin puree",
+      "¼ cup half and half"
+    ],
+    "steps": [
+      "Heat large saucepan or stockpot over medium heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the leek and cook, stirring often, for 5 minutes.",
+      "Add the garlic and nutmeg. Cook until fragrant, about 1-2 minutes.",
+      "Remove from the heat and set aside to cool slightly, about 3-5 minutes, then transfer the mixture to the pitcher of a blender. Set the pot back on the stovetop, off heat.",
+      "Add the broth, apple, and pumpkin to the blender. Blend until completely smooth, about 1-2 minutes.",
+      "Transfer the mixture to the pot and place over medium-low heat. Cook, stirring occasionally, to allow soup to heat through and the flavors to blend, about 10-15 minutes.",
+      "Add the half and half and stir to combine.",
+      "Serve warm, or chill in the refrigerator and serve cold if desired."
+    ],
+    "nutrition": {
+      "calories": 255.0,
+      "protein_g": 4.0,
+      "carbohydrates_g": 38.5,
+      "fat_g": 11.5,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0048",
+    "title": "Savory Meat Pie",
+    "cuisine": "Australian",
+    "country": "Tasmania",
+    "category": "Beef",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      55
+    ],
+    "servings": "8 servings",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "½ medium onion, finely diced (about ½ cup)",
+      "¼ teaspoon salt",
+      "1 clove garlic, minced (about ½ teaspoon)",
+      "½ teaspoon dried thyme",
+      "1 pound (16 ounces) lean ground beef (90% lean or higher)",
+      "3 tablespoons all-purpose or white whole-wheat flour",
+      "¼ cup no-salt-added tomato sauce",
+      "1 cup (8 ounces) reduced-sodium beef broth",
+      "1 teaspoon Worcestershire sauce",
+      "1 (14- to 15-ounce) box premade pie crusts (two 9-inch crusts), brought to room temperature as directed on the package"
+    ],
+    "steps": [
+      "Heat a large skillet or sauté pan over medium heat. Add the oil and heat until shimmering.",
+      "Add the onion and salt. Cook, stirring often, for 5 minutes, then add the garlic and thyme. Continue cooking and stirring until fragrant, about 1-2 minutes.",
+      "Add the beef and cook until no longer pink, about 6-8 minutes, breaking it into crumbles as it cooks.",
+      "Add the flour and stir until no longer dry, about 1 minute, then add the tomato sauce, broth, and Worcestershire sauce. Stir to combine.",
+      "Bring to a boil, then reduce the heat to maintain a simmer.",
+      "Cook until the liquid resembles gravy, about 4-6 minutes, then remove from the heat and set aside to cool.",
+      "Meanwhile, preheat oven to 425°F. Line a pie pan with one of the pie crusts and set aside.",
+      "Pour the cooled beef mixture into pie pan, then place the second pie crust on top. Pinch the edges to the bottom crust to seal, then cut several slits in the top for venting.",
+      "Bake until golden-brown, about 30-40 minutes, then let cool slightly. Cut into eight slices and serve warm."
+    ],
+    "nutrition": {
+      "calories": 325.0,
+      "protein_g": 18.5,
+      "carbohydrates_g": 19.5,
+      "fat_g": 19.0,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0049",
+    "title": "Roasted Beet Borscht",
+    "cuisine": "Russian",
+    "country": "Russia",
+    "category": "Soup",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      57
+    ],
+    "servings": "8 servings",
+    "ingredients": [
+      "1 pound beets (about 3 medium beets), cut into 1-inch chunks",
+      "½ teaspoon salt, divided",
+      "½ teaspoon ground black pepper, divided",
+      "3 tablespoons olive oil, divided",
+      "2 large carrots, chopped (about 2 cups)",
+      "1 medium onion, chopped (about 1 cup)",
+      "2 cloves garlic, minced (about 1 teaspoon)",
+      "½ teaspoon dried thyme",
+      "6 cups (48 ounces) low-sodium vegetable broth",
+      "2 tablespoons red wine vinegar",
+      "1 tablespoon sugar or honey",
+      "2 tablespoons chopped fresh dill (about ½ ounce)",
+      "½ cup plain nonfat Greek yogurt",
+      "1 medium tart-flavored apple (e.g. Granny Smith), cored and finely chopped (about 1 cup)"
+    ],
+    "steps": [
+      "Preheat the oven to 400°F.",
+      "On a baking sheet, toss the beets with 2 tablespoons of the oil, ¼ teaspoon of the salt, and ¼ teaspoon of the black pepper. Roast until tender, about 30-40 minutes.",
+      "Meanwhile, heat a large pot over medium heat. Add the remaining 1 tablespoon of oil and heat until shimmering.",
+      "Add the carrots, onion, the remaining ¼ teaspoon salt, and the remaining ¼ teaspoon black pepper. Cook, stirring occasionally, until beginning to soften, about 10 minutes.",
+      "Add the garlic and thyme. Cook until fragrant, ~1 minute.",
+      "Add the broth and bring to a boil over high heat, then reduce the heat to maintain a simmer.",
+      "Cook until the carrots are tender, about 15-20 minutes.",
+      "Transfer the beets to a blender, along with the carrots, onion, and enough broth to fill the blender about halfway.",
+      "Remove the plastic piece from the center of the blender lid and place a towel over the hole. Blend until smooth, about 2-3 minutes.",
+      "Return the pureed mixture to the pot and stir in the vinegar and sugar or honey. Reheat over the stovetop if needed.",
+      "In a small mixing bowl, stir together the yogurt and dill.",
+      "Serve warm or chill before serving, topping each serving with 1 tablespoon of the yogurt-dill mixture and 2 tablespoons of the chopped apple."
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein_g": 6.0,
+      "carbohydrates_g": 21.5,
+      "fat_g": 7.5,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0050",
+    "title": "Marinated Cucumber Salad",
+    "cuisine": "Danish",
+    "country": "Denmark",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      58
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 English cucumber, halved lengthwise and sliced ¼-inch-thick (about 2 cups; can substitute 2 regular cucumbers, peeled and seeded)",
+      "1 lemon, juiced and zested, divided",
+      "1½ teaspoons salt",
+      "1 tablespoon finely chopped fresh dill (or 1 teaspoon dried)",
+      "1 tablespoon finely chopped fresh parsley (or 1 teaspoon dried)",
+      "Optional garnish: Edible flowers (e.g. chive flowers, turnip flowers, forget-me-nots, cabbage flowers)"
+    ],
+    "steps": [
+      "Add the cucumber, half of the lemon juice (about 2 tablespoons), and salt to a medium mixing bowl. Toss to combine, then set aside for 30 minutes to release excess liquid.",
+      "Drain and discard the released liquid, then pat the cucumber slices dry with paper towels.",
+      "Add the remaining half of the lemon juice along with the lemon zest, dill, and parsley. Toss to combine.",
+      "Serve right away, or chill before serving if desired. Garnish with the edible flowers (if using) just before serving."
+    ],
+    "nutrition": {
+      "calories": 25.0,
+      "protein_g": 1.0,
+      "carbohydrates_g": 3.0,
+      "fat_g": 0.0,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0051",
+    "title": "Slow Cooker Poached Eggs and Salmon",
+    "cuisine": "Swedish",
+    "country": "Sweden",
+    "category": "Seafood",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      59
+    ],
+    "servings": "2 servings",
+    "ingredients": [
+      "Water",
+      "Nonstick cooking spray",
+      "2 eggs",
+      "2 tablespoons chopped fresh chives, divided",
+      "2 (4-ounce) salmon fillets",
+      "4 cups fresh spinach (about 4 ounces, or 1 cup frozen spinach)",
+      "1 tablespoon unsalted butter, melted, divided",
+      "2 teaspoons lemon juice, divided",
+      "2 pinches (about ⅛ teaspoon) salt, divided",
+      "2 pinches (about ⅛ teaspoon) ground black pepper, divided"
+    ],
+    "steps": [
+      "Fill a medium saucepan about halfway full with water and bring to a boil.",
+      "Meanwhile, coat the inside of two oven-safe ramekins or other small dishes with nonstick cooking spray. Crack an egg into each dish and top each with 1 tablespoon of the chives.",
+      "Set the egg dishes in the bottom of a slow cooker, then add the salmon fillets on either side.",
+      "Pour the boiling water into the slow cooker until it comes about halfway up the sides of the egg dishes – be careful not to get any water in the egg cups.",
+      "Cover the slow cooker with the lid and cook on high for 1 hour. Check for doneness. If needed, cook for an additional 10-15 minutes.",
+      "Use oven mitts to carefully remove the egg dishes. Then, lift the salmon out with a slotted spatula or spoon. Set aside.",
+      "Add the spinach to the slow cooker and stir into the water until wilted, about 3-4 minutes. Drain or lift out of the slow cooker with tongs and divide between two plates.",
+      "Add ½ tablespoon of the melted butter to each portion of spinach. Toss to combine. Top each portion with one of the salmon fillets.",
+      "Use a butter knife to loosen the eggs from the dishes and place each on top of the salmon.",
+      "Sprinkle each plate with 1 teaspoon of the lemon juice, 1 pinch of the salt, and 1 pinch of the black pepper. Serve warm."
+    ],
+    "nutrition": {
+      "calories": 280.0,
+      "protein_g": 29.5,
+      "carbohydrates_g": 3.0,
+      "fat_g": 17.5,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0052",
+    "title": "Sweet Potato Latkes (Potato Fritters)",
+    "cuisine": "Ukrainian",
+    "country": "Ukraine",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      60
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 large sweet potato or 2 medium sweet potatoes, peeled (about 12-14 ounces total)",
+      "½ medium onion, peeled",
+      "2 eggs",
+      "2 tablespoons all-purpose flour or Matzah meal",
+      "¼ teaspoon salt",
+      "¼ teaspoon ground black pepper",
+      "1 pinch ground nutmeg",
+      "1 pinch ground cinnamon",
+      "1 pinch curry powder",
+      "1 pinch chipotle chile pepper",
+      "2-4 tablespoons canola oil, as needed",
+      "Optional toppings: Applesauce, Greek yogurt"
+    ],
+    "steps": [
+      "Grate the sweet potato(es) and onion using a cheese grater or pulsing in a food processor until shredded.",
+      "Place the grated sweet potato and onion in a strainer or colander. Let sit to drain any excess liquid, about 3-5 minutes, then pat dry with paper towels.",
+      "Transfer the sweet potato to a medium mixing bowl, along with the eggs, flour, salt, black pepper, nutmeg, cinnamon, curry powder, and chipotle. Stir until well-combined.",
+      "Heat a medium to large skillet over medium heat. Add 2 tablespoons of the oil and heat until shimmering.",
+      "Working ¼ cup at a time, add the potato mixture to the pan and flatten it into a disc. Cook until golden-brown, about 4-5 minutes on each side. Transfer to a plate lined with paper towels or low oven (150-170°F), then repeat with any remaining potato mixture, adding oil to the pan if needed.",
+      "Serve warm, topped as desired."
+    ],
+    "nutrition": {
+      "calories": 165.0,
+      "protein_g": 5.0,
+      "carbohydrates_g": 17.0,
+      "fat_g": 9.0,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0053",
+    "title": "Piernik-Spiced Zucchini Bread",
+    "cuisine": "Polish",
+    "country": "Poland",
+    "category": "Bakery",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      61
+    ],
+    "servings": "12 servings",
+    "ingredients": [
+      "Nonstick cooking spray",
+      "2 cups regular or white whole-wheat flour",
+      "2 teaspoons baking powder",
+      "1 teaspoon baking soda",
+      "2 teaspoons ground cinnamon",
+      "½ teaspoon ground cloves",
+      "½ teaspoon ground allspice",
+      "½ teaspoon salt",
+      "¾ cup honey",
+      "½ cup unsweetened applesauce",
+      "1 egg",
+      "1 teaspoon vanilla extract",
+      "2 cups grated zucchini (about 1 medium zucchini)"
+    ],
+    "steps": [
+      "Preheat the oven to 350°F. Spray the inside of an 8.5x4.5-inch loaf pan or a 12-cup muffin pan with nonstick cooking spray. Set aside.",
+      "In a medium mixing bowl, whisk together the flour, baking powder, baking soda, cinnamon, cloves, allspice, and salt.",
+      "In a separate large mixing bowl, whisk together the honey, applesauce, egg, and vanilla. Add the zucchini and stir to combine.",
+      "Add the flour mixture to the zucchini mixture and gently stir until just combined with no dry flour.",
+      "Pour the mixture into the prepared loaf pan, or divide between the muffin tin cups.",
+      "Bake until a toothpick in the middle comes out clean, about 45-55 minutes for a loaf pan or 20-24 minutes for muffins.",
+      "Place on a cooling rack and let cool. Cut into 12 slices if using a loaf pan, or loosen and remove from the muffin tin. Serve room temperature, or reheat in the microwave."
+    ],
+    "nutrition": {
+      "calories": 155.0,
+      "protein_g": 3.0,
+      "carbohydrates_g": 36.0,
+      "fat_g": 1.0,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0054",
+    "title": "Unstuffed Cabbage Rolls",
+    "cuisine": "Hungarian",
+    "country": "Hungary",
+    "category": "Beef",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      62
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "1 pound lean ground beef (90% lean or higher)",
+      "1 large onion, diced (about 2 cups)",
+      "6 cloves garlic, minced (about 1 tablespoon)",
+      "2 (14.5-ounce) cans no-salt-added diced tomatoes",
+      "2 (8-ounce) cans no-salt-added tomato sauce",
+      "½ cup water",
+      "1 cup uncooked brown rice",
+      "½ medium (2-pound) head cabbage, shredded (about 4 cups)",
+      "½ teaspoon ground black pepper"
+    ],
+    "steps": [
+      "Heat a large skillet or sauté pan over medium-high heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the ground beef, onion, and garlic.",
+      "Cook until the onion is softened and the beef is no longer pink, about 6-8 minutes, stirring often and breaking the beef into crumbles as it cooks.",
+      "Add the diced tomatoes with their juice, tomato sauce, water, rice, cabbage, and black pepper. Stir to combine.",
+      "Bring to a simmer over high heat, then reduce the heat to maintain a simmer.",
+      "Cover the pan with a lid and cook until the rice and cabbage are tender, about 25-30 minutes.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": 555.0,
+      "protein_g": 39.0,
+      "carbohydrates_g": 55.0,
+      "fat_g": 19.0,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0055",
+    "title": "Sweet-and-Tangy Braised Red Cabbage",
+    "cuisine": "Austrian",
+    "country": "Austria",
+    "category": "Vegetable",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      64
+    ],
+    "servings": "6 servings",
+    "ingredients": [
+      "1 tablespoon olive oil",
+      "½ medium onion, sliced thin (about 1 cup)",
+      "½ medium (2-pound) head red cabbage, shredded (about 4 cups, or two 8-ounce bags shredded red cabbage)",
+      "1 cup (8 ounces) apple cider or apple juice",
+      "1 cup apple cider vinegar",
+      "½ teaspoon salt",
+      "1 pinch caraway seeds (optional)",
+      "1 pinch ground cloves (optional)",
+      "Water, as needed"
+    ],
+    "steps": [
+      "Heat a large saucepan or stockpot over medium-high heat.",
+      "Add the oil and heat until shimmering.",
+      "Add the onion and cook, stirring often, until it begins to soften, about 3-5 minutes.",
+      "Add the cabbage, apple cider or apple juice, vinegar, salt, caraway seeds (if using), and cloves (if using).",
+      "Bring to a boil over high heat, then reduce the heat to maintain a simmer.",
+      "Cover with a lid and cook until the cabbage is tender, about 25-30 minutes, adding water as needed if the liquid evaporates during cooking.",
+      "Serve warm, or chill before serving if desired."
+    ],
+    "nutrition": {
+      "calories": 65.0,
+      "protein_g": 0.5,
+      "carbohydrates_g": 9.0,
+      "fat_g": 2.5,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0056",
+    "title": "Classic Crepes",
+    "cuisine": "Belgian",
+    "country": "Belgium",
+    "category": "Dessert",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      65
+    ],
+    "servings": "4 servings",
+    "ingredients": [
+      "½ cup lowfat (1%) milk",
+      "½ cup water",
+      "1 cup all-purpose or white whole-wheat flour",
+      "2 eggs",
+      "¼ teaspoon salt",
+      "2 tablespoons unsalted butter, melted and cooled"
+    ],
+    "steps": [
+      "Measure the milk and water into a liquid measuring cup (1 cup total). Set aside.",
+      "In a large mixing bowl, whisk together the flour, eggs, and salt. Gradually add the milk mixture, whisking to combine.",
+      "Add the butter, whisking to create a very smooth, thin batter with small air bubbles, about 2-4 minutes.",
+      "Spray a crepe pan or 8- to 9-inch nonstick skillet lightly with nonstick cooking spray and heat over medium-high heat.",
+      "When the pan is hot, add ¼ cup of the batter. Working quickly, tilt the pan with a swirling circular motion so it coats the entire bottom of the pan in a thin and even layer.",
+      "Cook until the bottom is light-brown, about 2 minutes, then gently loosen and flip with a thin spatula. Continue cooking until the second side is no longer wet, about 1 minute.",
+      "Fill as desired, then roll or fold. Serve warm, adding toppings as desired."
+    ],
+    "nutrition": {
+      "calories": 210.0,
+      "protein_g": 7.0,
+      "carbohydrates_g": 25.0,
+      "fat_g": 9.0,
+      "basis": "per_serving"
+    }
+  },
+  {
+    "id": "world_cuisines_0057",
+    "title": "Skillet Shepherd’s Pie (Cottage Pie)",
+    "cuisine": "Irish",
+    "country": "Ireland",
+    "category": "Beef",
+    "source_file": "world_cuisines.pdf",
+    "source_collection": "World Cuisines",
+    "source_pages": [
+      66
+    ],
+    "servings": "3 servings",
+    "ingredients": [
+      "½ pound yellow or red potatoes (about 2 medium potatoes or 4 small potatoes), cut into 1- to 2-inch chunks",
+      "½ teaspoon salt, divided",
+      "¼-½ teaspoon ground black pepper, to taste",
+      "¼-⅓ cup lowfat (1%) milk, based on desired consistency",
+      "1 tablespoon olive oil",
+      "½ cup diced onion (about ½ medium onion)",
+      "1 cup frozen mixed vegetables",
+      "½ pound (8 ounces) lean ground turkey (90% lean or higher)",
+      "1 tablespoon all-purpose flour",
+      "1 tablespoon Worcestershire sauce",
+      "1 garlic clove, minced (about ½ teaspoon)",
+      "¼ teaspoon dried thyme",
+      "⅔ cup (6 ounces) reduced-sodium beef broth"
+    ],
+    "steps": [
+      "Add the potatoes and ¼ teaspoon of the salt to a medium saucepan. Add enough water to cover the potatoes. Bring to a boil, then cook until tender, about 15 minutes.",
+      "Drain the water and return the potatoes to the pot. Add the remaining ¼ teaspoon of salt, black pepper, and ¼ cup of the milk. Mash with a potato masher, adding more milk as needed to adjust the consistency. Set aside.",
+      "Heat a broiler-safe medium skillet or sauté pan over medium heat. Add the oil and heat until shimmering.",
+      "Add the onion and cook for 5 minutes, then add the frozen vegetables and cook for another 5 minutes.",
+      "Add the ground turkey and cook until no longer pink, about 5-7 minutes, breaking it into crumbles as it cooks.",
+      "Add the flour, Worcestershire sauce, garlic, and thyme. Stir to combine and cook until fragrant, about 1-2 minutes.",
+      "Add the broth and stir to combine. Cook, stirring occasionally, until slightly thickened, about 3-4 minutes.",
+      "Add the mashed potatoes on the top and spread to cover.",
+      "Broil on high until golden-brown, about 4-5 minutes, then serve warm."
+    ],
+    "nutrition": {
+      "calories": 270.0,
+      "protein_g": 20.0,
+      "carbohydrates_g": 24.5,
+      "fat_g": 10.5,
+      "basis": "per_serving"
+    }
+  }
+]

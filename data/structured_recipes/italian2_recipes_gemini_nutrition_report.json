@@ -1,0 +1,10 @@
+{
+  "source_file": "italian2_recipes_gemini.json",
+  "recipe_count": 122,
+  "source_nutrition_count": 0,
+  "recipes_needing_gemini": 120,
+  "gemini_calls": 15,
+  "gemini_batch_size": 8,
+  "recipes_still_unresolved": 0,
+  "unresolved_recipes": []
+}

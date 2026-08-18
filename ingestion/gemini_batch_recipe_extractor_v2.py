@@ -100,6 +100,25 @@ def normalize_title(
         title
     ).lower()
 
+    # Normalize apostrophes.
+    title = title.replace(
+        "’",
+        "'",
+    )
+
+    title = title.replace(
+        "‘",
+        "'",
+    )
+
+    # Ignore punctuation differences when matching
+    # Gemini output against the manifest.
+    title = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        title,
+    )
+
     title = re.sub(
         r"\s+",
         " ",
@@ -107,7 +126,6 @@ def normalize_title(
     )
 
     return title.strip()
-
 
 def clean_json_text(
     raw: str,
@@ -325,6 +343,9 @@ def clean_recipe(
     metadata.
 
     Gemini Pass 2 extracts the actual recipe contents.
+
+    Nutrition is preserved ONLY if Gemini extracted it
+    explicitly from the cookbook. Missing values remain None.
     """
 
     title = str(
@@ -360,6 +381,10 @@ def clean_recipe(
         "steps",
         []
     )
+
+    # --------------------------------------------------------
+    # Validate title / ingredients / steps
+    # --------------------------------------------------------
 
     if not title:
         raise ValueError(
@@ -404,7 +429,10 @@ def clean_recipe(
             f"{title}: no steps."
         )
 
-    # Pass 1 is authoritative for origin metadata.
+    # --------------------------------------------------------
+    # Pass 1 is authoritative for origin metadata
+    # --------------------------------------------------------
+
     cuisine = str(
         manifest_entry.get(
             "cuisine",
@@ -437,6 +465,59 @@ def clean_recipe(
             end_page + 1,
         )
     )
+
+    # --------------------------------------------------------
+    # Nutrition
+    #
+    # Gemini should only populate this when the cookbook
+    # explicitly contains nutrition values.
+    # --------------------------------------------------------
+
+    nutrition = recipe.get(
+        "nutrition",
+        {}
+    )
+
+    if not isinstance(
+        nutrition,
+        dict,
+    ):
+        nutrition = {}
+
+    calories = nutrition.get(
+        "calories"
+    )
+
+    protein_g = nutrition.get(
+        "protein_g"
+    )
+
+    carbohydrates_g = nutrition.get(
+        "carbohydrates_g"
+    )
+
+    fat_g = nutrition.get(
+        "fat_g"
+    )
+
+    basis = nutrition.get(
+        "basis"
+    )
+
+    # Normalize basis if Gemini returns an unexpected value.
+    valid_bases = {
+        "per_serving",
+        "whole_recipe",
+        "unspecified",
+        None,
+    }
+
+    if basis not in valid_bases:
+        basis = "unspecified"
+
+    # --------------------------------------------------------
+    # Final ChefAI recipe structure
+    # --------------------------------------------------------
 
     return {
         "title":
@@ -471,19 +552,21 @@ def clean_recipe(
 
         "nutrition": {
             "calories":
-                None,
+                calories,
 
             "protein_g":
-                None,
+                protein_g,
 
             "carbohydrates_g":
-                None,
+                carbohydrates_g,
 
             "fat_g":
-                None,
+                fat_g,
+
+            "basis":
+                basis,
         },
     }
-
 
 # ============================================================
 # Gemini batch extraction
@@ -549,7 +632,7 @@ Treat the manifest's:
 
 as authoritative metadata.
 
-You must return one structured recipe for every manifest entry.
+Return one structured recipe for every manifest entry.
 
 ============================================================
 CRITICAL RULES
@@ -600,11 +683,44 @@ the recipe and place them in the ingredients list.
 
 11. Do NOT import cooking instructions from neighboring recipes.
 
-12. Preserve factual quantities and units accurately.
+============================================================
+REWRITING / COPYRIGHT RULES
+============================================================
 
-13. Preserve cooking temperatures and cooking times accurately.
+- Do NOT copy cookbook sentences verbatim.
 
-14. Remove unrelated material such as:
+- Rewrite every cooking instruction concisely in your own words.
+
+- Preserve the factual meaning of the recipe.
+
+- Preserve ingredient names accurately.
+
+- Preserve quantities accurately.
+
+- Preserve units accurately.
+
+- Preserve cooking temperatures accurately.
+
+- Preserve cooking times accurately.
+
+- Ingredient entries should be concise structured facts,
+  not copied descriptive prose.
+
+- Remove decorative, historical, narrative, or stylistic prose.
+
+- The goal is a structured recipe representation,
+  NOT a transcription of the cookbook.
+
+- Never reproduce long passages from the source.
+
+- If a cooking instruction can be expressed more briefly
+  without losing important cooking information, do so.
+
+============================================================
+OTHER EXTRACTION RULES
+============================================================
+
+12. Remove unrelated material such as:
 
 - history
 - commentary
@@ -614,7 +730,7 @@ the recipe and place them in the ingredients list.
 - chapter prose
 - unrelated recipe text
 
-15. Category should describe the actual dish.
+13. Category should describe the actual dish.
 
 Examples include:
 
@@ -636,30 +752,54 @@ Appetizer
 
 Do not label sauces as Dessert.
 
-16. Preserve servings only if the cookbook states them.
+14. Preserve servings only if the cookbook states them.
 
 Otherwise return:
 
 "servings": ""
 
-17. The manifest may contain recipes from DIFFERENT countries
+15. The manifest may contain recipes from DIFFERENT countries
 and cuisines in the same batch.
 
 Do NOT assign one cuisine or country to the entire batch.
 
-18. For every returned recipe, copy its cuisine and country from
+16. For every returned recipe, copy its cuisine and country from
 its corresponding manifest entry.
 
-19. source_pages must refer to ORIGINAL PDF page numbers, not
+17. source_pages must refer to ORIGINAL PDF page numbers, not
 the temporary sliced-PDF page numbers.
 
-20. If a recipe references another recipe, sauce or preparation,
+18. If a recipe references another recipe, sauce or preparation,
 preserve the reference.
 
 Do not copy the referenced recipe into this recipe.
 
-21. Do not reproduce long surrounding cookbook prose that is not
-required to prepare the recipe.
+============================================================
+NUTRITION RULES
+============================================================
+
+- If nutrition values are explicitly printed for this recipe,
+  extract them accurately.
+
+- Do NOT calculate nutrition.
+
+- Do NOT estimate nutrition.
+
+- Do NOT infer nutrition from ingredients.
+
+- If a value is not explicitly printed, return null.
+
+- If nutrition is explicitly stated per serving, use:
+  "basis": "per_serving"
+
+- If nutrition is explicitly for the entire recipe, use:
+  "basis": "whole_recipe"
+
+- If nutrition is printed but the basis is unclear, use:
+  "basis": "unspecified"
+
+- If no nutrition is printed at all, use:
+  "basis": null
 
 ============================================================
 OUTPUT FORMAT
@@ -682,8 +822,15 @@ Use exactly:
         "ingredient"
       ],
       "steps": [
-        "step"
-      ]
+        "short paraphrased cooking instruction"
+      ],
+      "nutrition": {{
+        "calories": null,
+        "protein_g": null,
+        "carbohydrates_g": null,
+        "fat_g": null,
+        "basis": null
+      }}
     }}
   ]
 }}
@@ -695,6 +842,7 @@ Do not include markdown.
 Do not include commentary outside the JSON.
 """
 
+    
     pdf_data = base64.b64encode(
         pdf_slice_path.read_bytes()
     ).decode(
@@ -1127,6 +1275,17 @@ def run_extraction(
                 cleaned_batch.append(
                     cleaned_recipe
                 )
+
+            checkpoint["failures"] = [
+                failure
+                for failure in checkpoint.get(
+                    "failures",
+                    []
+                )
+                if failure.get(
+                    "batch_id"
+                ) != batch_id
+            ]
 
             checkpoint[
                 "recipes"
