@@ -1,0 +1,8 @@
+{
+  "source_file": "italian3.pdf",
+  "cuisine": "Italian",
+  "requested": 5,
+  "successful": 5,
+  "failed": 0,
+  "failures": []
+}

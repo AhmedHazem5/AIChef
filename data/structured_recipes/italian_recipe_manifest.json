@@ -1,0 +1,1121 @@
+{
+  "source_file": "italian3.pdf",
+  "cuisine": "Italian",
+  "recipes": [
+    {
+      "title": "BROTH OR SOUP STOCK (Brodo)",
+      "start_page": 10,
+      "end_page": 11
+    },
+    {
+      "title": "SOUP OF \"CAPPELLETTI\"",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "title": "BREAD SOUP (Panata)",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "title": "GNOCCHI",
+      "start_page": 12,
+      "end_page": 13
+    },
+    {
+      "title": "VEGETABLE SOUP (Zuppa Santè)",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "title": "QUEEN'S SOUP (Zuppa Regina)",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "title": "BEAN SOUP (Zuppa di fagiuoli)",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "title": "LENTIL SOUP (Zuppa di lenticchie)",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "title": "VEGETABLE CHOWDER (Minestrone alla Milanese)",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "title": "RAVIOLI",
+      "start_page": 16,
+      "end_page": 17
+    },
+    {
+      "title": "PAVESE SOUP (Zuppa alla Pavese)",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "title": "TOMATO SAUCE (Salsa di Pomidoro)",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "title": "BROWN STOCK (Sugo di Carne)",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "title": "ANCHOVY SAUCE (Salsa d'Acciughe)",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "title": "SPAGHETTI OR MACARONI WITH BUTTER AND CHEESE (Pasta al burro e formaggio)",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "title": "MACARONI WITH SAUCE (Maccheroni al sugo)",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "title": "MACARONI WITH ANCHOVY SAUCE (Maccheroni con salsa d'acciughe)",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "title": "MACARONI A LA CORINNA (Maccheroni alla Corinna)",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "title": "MACARONI \"AU GRATIN\" (Maccheroni al gratin)",
+      "start_page": 24,
+      "end_page": 25
+    },
+    {
+      "title": "MACARONI NAPOLITAINE (Maccheroni alla Napoletana)",
+      "start_page": 25,
+      "end_page": 26
+    },
+    {
+      "title": "MACARONI FRIED WITH OIL (Maccheroni all'olio)",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "title": "RISOTTO MILANAISE (Risotto alla Milanese)",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "title": "RISOTTO WITH CHICKEN GIBLETS (Risotto alla Milanese II)",
+      "start_page": 27,
+      "end_page": 28
+    },
+    {
+      "title": "RISOTTO WITH PEAS (Risotto con piselli)",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "title": "RISOTTO WITH LOBSTER (Risotto coi gamberi)",
+      "start_page": 28,
+      "end_page": 29
+    },
+    {
+      "title": "RICE WITH SAFFRON (Riso alla Milanese con Zafferano)",
+      "start_page": 29,
+      "end_page": 30
+    },
+    {
+      "title": "RICE CAKES (Frittelle di riso)",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "title": "FRIED ARTICHOKE (Carciofi fritti)",
+      "start_page": 30,
+      "end_page": 31
+    },
+    {
+      "title": "STEAMED ARTICHOKES (Carciofi a vapore)",
+      "start_page": 31,
+      "end_page": 32
+    },
+    {
+      "title": "STEWED ARTICHOKES (Carciofi in stufato)",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "title": "ARTICHOKES WITH BUTTER (Carciofi al burro)",
+      "start_page": 32,
+      "end_page": 33
+    },
+    {
+      "title": "FRIED SQUASH (Zucchine fritte)",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "title": "LAMB OMELET (Agnello in frittata)",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "title": "FRIED CHICKEN (Pollo fritto)",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "title": "CHICKEN ALLA CACCIATORA (Pollo alla cacciatora)",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "title": "CORN MEAL WITH SAUSAGES (Polenta con salsicce)",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "title": "POLENTA PIE (Polenta Pasticciata)",
+      "start_page": 36,
+      "end_page": 37
+    },
+    {
+      "title": "STUFFED ROLLS (Pagnottelle ripiene)",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "title": "STEWED VEAL (Stracotto di vitella)",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "title": "CHICKEN BONED AND STUFFED (Pollo dissossato ripieno)",
+      "start_page": 38,
+      "end_page": 40
+    },
+    {
+      "title": "CHICKEN WITH TOMATOES (Pollo alla contadina)",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "title": "CHICKEN WITH SHERRY (Pollo al marsala)",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "title": "CHICKEN WITH SAUSAGES (Pollo colle salsicce)",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "title": "CHICKEN WITH EGG SAUCE (Pollo in salsa d'uova)",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "title": "CHICKEN BREASTS SAUTÈS (Petti di pollo alla sautè)",
+      "start_page": 42,
+      "end_page": 43
+    },
+    {
+      "title": "WILD DUCK (Anitra selvatica)",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "title": "STEWED SQUABS (Piccioni in umido)",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "title": "RAGOUT OF SQUABS (Manicaretto di piccione)",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "title": "SQUAB TIMBALE (Timballo di piccioni)",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "title": "SALMI OF GAME (Uccelli in salmi)",
+      "start_page": 46,
+      "end_page": 47
+    },
+    {
+      "title": "STEWED HARE (Stufato di lepre)",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "title": "STEWED RABBIT (Coniglio in umido)",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "title": "GREEN SAUCE (Salsa verde)",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "title": "WHITE SAUCE (Salsa bianca)",
+      "start_page": 48,
+      "end_page": 49
+    },
+    {
+      "title": "YELLOW SAUCE (Salsa gialla)",
+      "start_page": 49,
+      "end_page": 50
+    },
+    {
+      "title": "SAUCE FOR BROILED FISH (Salsa per pesce in gratella)",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "title": "CAPER SAUCE (Salsa con capperi)",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "title": "GENOVESE SAUCE (Salsa genovese)",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "title": "BALSAMELLA SAUCE (Salsa balsamella)",
+      "start_page": 51,
+      "end_page": 52
+    },
+    {
+      "title": "CURLED OMELET (Frittata in riccioli)",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "title": "VEAL KIDNEY OMELET (Frittata di rognone di vitella)",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "title": "PUFF PASTE (Pasta sfoglia)",
+      "start_page": 53,
+      "end_page": 55
+    },
+    {
+      "title": "PASTE FOR FRYING (Pastella per fritto)",
+      "start_page": 55,
+      "end_page": 56
+    },
+    {
+      "title": "CHICKEN STUFFING (Ripieno di pollo)",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "title": "MEAT STUFFING FOR VOL-AU-VENT (Ripieno di carne per pasticcini di pasta sfoglia)",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "title": "PORK LIVER FRIED (Fegato di maiale fritto)",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "title": "FRIED CROQUETTES, BOLOGNA STYLE (Fritto composto alla Bolognese)",
+      "start_page": 58,
+      "end_page": 59
+    },
+    {
+      "title": "ROMAN FRY I (Fritto alla Romana I)",
+      "start_page": 59,
+      "end_page": 60
+    },
+    {
+      "title": "ROMAN FRY II",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "title": "RICE PANCAKE (Frittelle di riso)",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "title": "KIDNEY SAUTE' (Rognoni saltati)",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "title": "LEG OF MUTTON IN CASSEROLE (Cosciotto di castrato in cazzaruola)",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "title": "STEWED CUTLETS (Scaloppine alla Livornese)",
+      "start_page": 62,
+      "end_page": 63
+    },
+    {
+      "title": "CUTLETS OF CHOPPED MEAT (Scaloppine di carne battuta)",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "title": "VEAL CUTLETS STEWED (Scaloppine alla Genovese)",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "title": "STUFFED CUTLET (Braciuoline ripiene)",
+      "start_page": 64,
+      "end_page": 65
+    },
+    {
+      "title": "MEAT OMELETTE (Polpettone)",
+      "start_page": 65,
+      "end_page": 66
+    },
+    {
+      "title": "LAMB WITH PEAS (Agnello ai piselli)",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "title": "SHOULDER OF LAMB (Spalla d'agnello)",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "title": "BREAST OF VEAL STEWED (Stufatino di petto di vitella)",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "title": "VEAL WITH GRAVY (Vitella in guazzetto)",
+      "start_page": 67,
+      "end_page": 68
+    },
+    {
+      "title": "TRIPE WITH GRAVY",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "title": "VEAL LIVER IN GRAVY (Fegato di vitella al sugo)",
+      "start_page": 68,
+      "end_page": 69
+    },
+    {
+      "title": "MUTTON CUTLETS AND FILET OF VEAL (Braciuole di castrato e filetto di vitella)",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "title": "TENDERLOIN WITH MARSALA (Filetto al marsala)",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "title": "MEAT GENOVESE (Carne alla Genovese)",
+      "start_page": 70,
+      "end_page": 71
+    },
+    {
+      "title": "RICE PUDDING WITH GIBLETS (Sfornato di riso con rigoglie)",
+      "start_page": 71,
+      "end_page": 72
+    },
+    {
+      "title": "PUDDING GENOESE (Budino alla genovese)",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "title": "LIVER LOAF (Pane di fegato)",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "title": "VEAL WITH TUNNY (Vitello tonnato)",
+      "start_page": 73,
+      "end_page": 74
+    },
+    {
+      "title": "STUFFED ITALIAN SQUASH (Zucchini ripieni)",
+      "start_page": 74,
+      "end_page": 75
+    },
+    {
+      "title": "STRING BEANS AND SQUASHES SAUTE' (Fagiolini e zucchini sautè)",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "title": "STRING BEANS WITH EGG SAUCE (Fagiuolini in salsa d'uovo)",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "title": "STRING BEANS IN MOLD (Sformato di fagiolini)",
+      "start_page": 76,
+      "end_page": 77
+    },
+    {
+      "title": "CAULIFLOWER IN MOLD (Sformato di cavolfiore)",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "title": "ARTICHOKES IN MOLD (Sformato di carciofi)",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "title": "FRIED MUSHROOMS (Funghi fritti)",
+      "start_page": 78,
+      "end_page": 79
+    },
+    {
+      "title": "STEWED MUSHROOMS (Funghi in umido)",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "title": "DRIED MUSHROOMS (Funghi secchi)",
+      "start_page": 79,
+      "end_page": 80
+    },
+    {
+      "title": "FRIED EGG-PLANTS (Melanzane fritte)",
+      "start_page": 80,
+      "end_page": 81
+    },
+    {
+      "title": "STEWED EGG-PLANTS (Melanzane in umido)",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "title": "EGG-PLANTS IN THE OVEN (Melanzane al forno)",
+      "start_page": 81,
+      "end_page": 82
+    },
+    {
+      "title": "DRESSING OF CELERY (Sedano per contorno)",
+      "start_page": 82,
+      "end_page": 83
+    },
+    {
+      "title": "ARTICHOKES WITH SAUCE (Carciofi in salsa)",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "title": "STUFFED ARTICHOKES (Carciofi ripieni)",
+      "start_page": 83,
+      "end_page": 84
+    },
+    {
+      "title": "ARTICHOKES STUFFED WITH MEAT (Carciofi ripieni di carne)",
+      "start_page": 84,
+      "end_page": 85
+    },
+    {
+      "title": "PEAS WITH ONION SAUCE (Piselli alla francese)",
+      "start_page": 85,
+      "end_page": 86
+    },
+    {
+      "title": "PEAS WITH HAM (Piselli col prosciutto)",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "title": "PEAS WITH CORNED BEEF (Piselli con la carne secca)",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "title": "STUFFED TOMATOES (Pomodori ripieni)",
+      "start_page": 87,
+      "end_page": 88
+    },
+    {
+      "title": "CAULIFLOWER WITH BALSAMELLA (Cavolfiore colla balsamella)",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "title": "STUFFED CABBAGE (Cavolo ripieno)",
+      "start_page": 88,
+      "end_page": 89
+    },
+    {
+      "title": "SIDE-DISH OF SPINACH (Spinaci per contorno)",
+      "start_page": 89,
+      "end_page": 90
+    },
+    {
+      "title": "ASPARAGUS (Sparagi)",
+      "start_page": 90,
+      "end_page": 91
+    },
+    {
+      "title": "FISH WITH BREAD CRUMBS (Pesce col pane grattato)",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "title": "STEWED FISH CUTLETS (Pesce a taglio in umido)",
+      "start_page": 91,
+      "end_page": 92
+    },
+    {
+      "title": "WHITING WITH ANCHOVY SAUCE (Merluzzo alla Palermitana)",
+      "start_page": 92,
+      "end_page": 93
+    },
+    {
+      "title": "STEWED EEL (Anguille in umido)",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "title": "EELS WITH PEAS (Anguille coi piselli)",
+      "start_page": 93,
+      "end_page": 94
+    },
+    {
+      "title": "MUSSELS WITH EGG SAUCE (Arselle in salsa d'uovo)",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "title": "MUSSELS WITH TOMATO SAUCE (Arselle alla livornese)",
+      "start_page": 94,
+      "end_page": 95
+    },
+    {
+      "title": "CODFISH I (Baccalà I)",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "title": "CODFISH II",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "title": "FRIED CODFISH (Baccalà fritto)",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "title": "CODFISH CROQUETTES (Cotolette di baccalà)",
+      "start_page": 96,
+      "end_page": 97
+    },
+    {
+      "title": "FRIED DOG-FISH (Palombo fritto)",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "title": "STEWED DOG-FISH (Palombo in umido)",
+      "start_page": 97,
+      "end_page": 98
+    },
+    {
+      "title": "ROAST-BEEF (Arrosto)",
+      "start_page": 98,
+      "end_page": 99
+    },
+    {
+      "title": "ROAST VEAL (Arrosto di vitella)",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "title": "POT ROAST (Arrosto morto)",
+      "start_page": 99,
+      "end_page": 100
+    },
+    {
+      "title": "POT ROAST WITH GARLIC AND ROSEMARY (Arrosto morto coll'odore dell'aglio e del ramerino)",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "title": "BIRDS (Arrosto di uccelli)",
+      "start_page": 100,
+      "end_page": 101
+    },
+    {
+      "title": "ROAST OF LAMB (Arrosto d'agnello)",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "title": "LEG OF MUTTON (Cosciotto di castrato arrosto)",
+      "start_page": 101,
+      "end_page": 102
+    },
+    {
+      "title": "ROAST OF HARE (Arrosto di lepre)",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "title": "POT ROAST LARDED (Arrosto morto lardellato)",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "title": "PIGEON SURPRISE (Piccione a sorpresa)",
+      "start_page": 103,
+      "end_page": 104
+    },
+    {
+      "title": "STUFFED BEEF CUTLET (Braciuola di manzo ripiena)",
+      "start_page": 104,
+      "end_page": 105
+    },
+    {
+      "title": "STUFFED CHICKEN (Pollo ripieno)",
+      "start_page": 105,
+      "end_page": 106
+    },
+    {
+      "title": "CHICKEN WITH SAUCE PIQUANTE (Pollo al diavolo)",
+      "start_page": 106,
+      "end_page": 107
+    },
+    {
+      "title": "CHICKEN WITH HAM (Pollo in porchetta)",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "title": "CHICKEN SAUTE' (Pollo saltato)",
+      "start_page": 107,
+      "end_page": 108
+    },
+    {
+      "title": "AFRICAN HEN (Gallina di Faraone)",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "title": "TAME DUCK ROASTED (Anatra domestica arrosto)",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "title": "TURKEY (Tacchino)",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "title": "LOIN OF PORK ROASTED (Lombo di maiale arrosto)",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "title": "LEG OF LAMB (Agnello all'Orientale)",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "title": "BROILED PIGEON (Piccione in gratella)",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "title": "STEAK IN THE SAUCEPAN (Bistecca nel tegame)",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "title": "VEAL KIDNEY WITH ANCHOVY (Rognone alle acciughe)",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "title": "VEAL KIDNEY SLICED (Rognone di vitello affettato)",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "title": "BROILED MUTTON KIDNEY (Rognone di montone alla graticola)",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "title": "MUTTON KIDNEY FRIED (Granelli di montone fritti)",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "title": "BEEF TONGUE BOILED (Lingua di bue lessa)",
+      "start_page": 113,
+      "end_page": 114
+    },
+    {
+      "title": "BEEF TONGUE WITH OLIVES (Lingua di bue alle olive)",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "title": "STEWED BEEF TONGUE (Lingua di bue in stufato)",
+      "start_page": 114,
+      "end_page": 115
+    },
+    {
+      "title": "VEAL SWEETBREADS (Animelle di vitello)",
+      "start_page": 115,
+      "end_page": 116
+    },
+    {
+      "title": "TENDERLOIN WITH SPICES (Filetto alla piemontese)",
+      "start_page": 116,
+      "end_page": 117
+    },
+    {
+      "title": "STUFFED ONIONS (Cipolle ripiene)",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "title": "STEWED ONIONS (Cipolle in stufato)",
+      "start_page": 117,
+      "end_page": 118
+    },
+    {
+      "title": "VEAL LIVER (Fegato di vitella alla veneziana)",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "title": "FRIED LIVER (Fegato al tegame)",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "title": "POLENTA WITH SAUSAGES (Polenta colle salsicce)",
+      "start_page": 118,
+      "end_page": 119
+    },
+    {
+      "title": "SAUSAGES WITH ONIONS (Salsicce alla cipollata)",
+      "start_page": 119,
+      "end_page": 120
+    },
+    {
+      "title": "CELERY WITH BUTTER (Sedano al burro)",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "title": "CELERY AU JUS (Sedano al sugo)",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "title": "SAUCE FOR CELERY AU JUS (Salsa per sedani al sugo)",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "title": "FRIED CELERY (Sedani fritti)",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "title": "PUREE OF CELERY (Macco di sedani)",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "title": "STEW (Stufato)",
+      "start_page": 122,
+      "end_page": 123
+    },
+    {
+      "title": "SOUTHERN STEW (Stufato Meridionale)",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "title": "STEW MILANAISE (Stufato alla milanese)",
+      "start_page": 123,
+      "end_page": 124
+    },
+    {
+      "title": "FRENCH STEW (Stufato alla francese)",
+      "start_page": 124,
+      "end_page": 125
+    },
+    {
+      "title": "TROUT ALPINE (Trota all'alpigiana)",
+      "start_page": 125,
+      "end_page": 125
+    },
+    {
+      "title": "TROUT LOMBARD (Trota fritta)",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "title": "FRIED TROUT (Trota fritta)",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "title": "TROUT WITH ANCHOVIES (Trota alle acciughe)",
+      "start_page": 126,
+      "end_page": 127
+    },
+    {
+      "title": "EGGS WITH ONION SAUCE (Uova trippate)",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "title": "EGGS WITH HAM (Uova al prosciutto)",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "title": "EGGS WITH TOMATO SAUCE (Uova al pomidoro)",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "title": "SCRAMBLED EGGS (Uova strapazzate)",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "title": "PUDDING OF HAZELNUTS (Budino di nocciuole)",
+      "start_page": 129,
+      "end_page": 129
+    },
+    {
+      "title": "CRISP BISCUITS (Biscotti croccanti)",
+      "start_page": 129,
+      "end_page": 130
+    },
+    {
+      "title": "SOFT BISCUITS (Biscotti teneri)",
+      "start_page": 130,
+      "end_page": 131
+    },
+    {
+      "title": "BISCUITS SULTAN (Biscotto alla sultana)",
+      "start_page": 131,
+      "end_page": 132
+    },
+    {
+      "title": "MARGHERITA CAKE (Pasta Margherita)",
+      "start_page": 132,
+      "end_page": 133
+    },
+    {
+      "title": "MANTUA TART (Torta Mantovana)",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "title": "CURLY TART (Torta ricciolina)",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "title": "ALMOND CAKE (Bocca di dama)",
+      "start_page": 134,
+      "end_page": 135
+    },
+    {
+      "title": "CORN MEAL CAKES (Pasta di farina gialla)",
+      "start_page": 135,
+      "end_page": 136
+    },
+    {
+      "title": "BISCUIT (Biscotto)",
+      "start_page": 136,
+      "end_page": 137
+    },
+    {
+      "title": "CAKE MADELEINE (Pasta Maddalena)",
+      "start_page": 137,
+      "end_page": 138
+    },
+    {
+      "title": "ALMOND CRISP-TART (Croccante)",
+      "start_page": 138,
+      "end_page": 138
+    },
+    {
+      "title": "WAFER BISCUITS (Cialdoni)",
+      "start_page": 139,
+      "end_page": 139
+    },
+    {
+      "title": "QUINCE CAKE (Cotognata)",
+      "start_page": 140,
+      "end_page": 140
+    },
+    {
+      "title": "PORTUGUESE CAKE (Focaccia alla Portoghese)",
+      "start_page": 141,
+      "end_page": 141
+    },
+    {
+      "title": "MACAROONS I (Amaretti I)",
+      "start_page": 141,
+      "end_page": 142
+    },
+    {
+      "title": "MACAROONS II",
+      "start_page": 142,
+      "end_page": 143
+    },
+    {
+      "title": "FARINA CAKES (Pasticcini di semolino)",
+      "start_page": 143,
+      "end_page": 143
+    },
+    {
+      "title": "RICE TART (Torta di riso)",
+      "start_page": 144,
+      "end_page": 144
+    },
+    {
+      "title": "FARINA TART (Torta di semolino)",
+      "start_page": 144,
+      "end_page": 145
+    },
+    {
+      "title": "PUDDING OF RICE MEAL (Budino di farina di riso)",
+      "start_page": 145,
+      "end_page": 146
+    },
+    {
+      "title": "BREAD PUDDING (Budino di pane)",
+      "start_page": 146,
+      "end_page": 146
+    },
+    {
+      "title": "POTATO PUDDING (Budino di patate)",
+      "start_page": 146,
+      "end_page": 147
+    },
+    {
+      "title": "LEMON PUDDING (Budino di limone)",
+      "start_page": 147,
+      "end_page": 148
+    },
+    {
+      "title": "PUDDING OF ROASTED ALMONDS (Budino di mandorle tostate)",
+      "start_page": 148,
+      "end_page": 148
+    },
+    {
+      "title": "CRISP CAKE IN DOUBLE BOILER (Croccante a bagno maria)",
+      "start_page": 149,
+      "end_page": 149
+    },
+    {
+      "title": "STUFFED PEACHES (Pesche ripiene)",
+      "start_page": 149,
+      "end_page": 150
+    },
+    {
+      "title": "MILK GNOCCHI (Gnocchi di latte)",
+      "start_page": 150,
+      "end_page": 151
+    },
+    {
+      "title": "SABAYON (Zabaione)",
+      "start_page": 151,
+      "end_page": 151
+    },
+    {
+      "title": "RED CURRANT OR GOOSEBERRY SYRUP (Sciroppo di ribes)",
+      "start_page": 151,
+      "end_page": 152
+    },
+    {
+      "title": "RASPBERRY SYRUP (Sciroppo di lampone)",
+      "start_page": 153,
+      "end_page": 153
+    },
+    {
+      "title": "LEMON SYRUP (Sciroppo di limone)",
+      "start_page": 153,
+      "end_page": 153
+    },
+    {
+      "title": "HARD BLACK-BERRY SYRUP (Sciroppo di amarena)",
+      "start_page": 154,
+      "end_page": 154
+    },
+    {
+      "title": "ORGEAT (Orzata)",
+      "start_page": 155,
+      "end_page": 155
+    },
+    {
+      "title": "APRICOT MARMALADE (Conserva di albicocche)",
+      "start_page": 156,
+      "end_page": 156
+    },
+    {
+      "title": "PRESERVE OF QUINCE (Conserva di cotogne soda)",
+      "start_page": 156,
+      "end_page": 157
+    },
+    {
+      "title": "BISCUIT (Pezzo in gelo)",
+      "start_page": 158,
+      "end_page": 158
+    },
+    {
+      "title": "LEMON ICE (Gelato di limone)",
+      "start_page": 158,
+      "end_page": 158
+    },
+    {
+      "title": "STRAWBERRY ICE (Gelato di fragola)",
+      "start_page": 159,
+      "end_page": 159
+    },
+    {
+      "title": "ORANGE ICE (Gelato di aranci)",
+      "start_page": 159,
+      "end_page": 159
+    },
+    {
+      "title": "PISTACHE ICE CREAM (Gelato di pistacchi)",
+      "start_page": 160,
+      "end_page": 160
+    },
+    {
+      "title": "TUTTI FRUTTI",
+      "start_page": 160,
+      "end_page": 161
+    }
+  ]
+}

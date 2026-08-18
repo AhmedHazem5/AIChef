@@ -1,0 +1,2362 @@
+{
+  "source_file": "italian3.pdf",
+  "cuisine": "Italian",
+  "model": "qwen3:4b-instruct",
+  "window_pages": 6,
+  "overlap_pages": 1,
+  "total_pdf_pages": 169,
+  "raw_candidates": 242,
+  "valid_before_deduplication": 214,
+  "final_recipe_count": 193,
+  "duplicates_removed": [
+    {
+      "kept_title": "VEGETABLE CHOWDER (Minestrone alia Milanese)",
+      "removed_title": "VEGETABLE CHOWDER (Minestrone alia Milanese)",
+      "similarity": 0.6262,
+      "kept_pages": [
+        16
+      ],
+      "removed_pages": [
+        16
+      ]
+    },
+    {
+      "kept_title": "RAVIOLI",
+      "removed_title": "RAVIOLI",
+      "similarity": 0.5256,
+      "kept_pages": [
+        16,
+        17
+      ],
+      "removed_pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "kept_title": "ANCHOVY SAUCE (Salsa d'Acciughe)",
+      "removed_title": "ANCHOVY SAUCE (Salsa d'Acciughe)",
+      "similarity": 0.6285,
+      "kept_pages": [
+        21
+      ],
+      "removed_pages": [
+        21
+      ]
+    },
+    {
+      "kept_title": "MACARONI FRIED WITH OIL (Maccheroni all'olio)",
+      "removed_title": "MACARONI FRIED WITH OIL (Maccheroni all'olio)",
+      "similarity": 0.97,
+      "kept_pages": [
+        26
+      ],
+      "removed_pages": [
+        26
+      ]
+    },
+    {
+      "kept_title": "POLENTA PIE (Polenta Pasticciata)",
+      "removed_title": "POLENTA PIE (Polenta Pasticciata)",
+      "similarity": 0.7268,
+      "kept_pages": [
+        36,
+        37,
+        38
+      ],
+      "removed_pages": [
+        36
+      ]
+    },
+    {
+      "kept_title": "GENOVESE SAUCE (Salsa genovese)",
+      "removed_title": "GENOVESE SAUCE (Salsa genovese)",
+      "similarity": 0.8667,
+      "kept_pages": [
+        51
+      ],
+      "removed_pages": [
+        51
+      ]
+    },
+    {
+      "kept_title": "CHICKEN STUFFING (Ripieno di polio)",
+      "removed_title": "CHICKEN STUFFING (Ripieno di polio)",
+      "similarity": 0.8538,
+      "kept_pages": [
+        56,
+        57
+      ],
+      "removed_pages": [
+        56
+      ]
+    },
+    {
+      "kept_title": "ROMAN FRY (Fritto alla Romana) I",
+      "removed_title": "ROMAN FRY (Fritto alla Romana) II",
+      "similarity": 0.5315,
+      "kept_pages": [
+        59,
+        60
+      ],
+      "removed_pages": [
+        60
+      ]
+    },
+    {
+      "kept_title": "KIDNEY SAUTE* (Rognoni saltati)",
+      "removed_title": "KIDNEY SAUTE* (Rognoni saltati)",
+      "similarity": 0.5789,
+      "kept_pages": [
+        61
+      ],
+      "removed_pages": [
+        61
+      ]
+    },
+    {
+      "kept_title": "LAMB WITH PEAS (Agnello ai piselli)",
+      "removed_title": "LAMB WITH PEAS (Agnello ai piselli)",
+      "similarity": 0.8682,
+      "kept_pages": [
+        66
+      ],
+      "removed_pages": [
+        66
+      ]
+    },
+    {
+      "kept_title": "SHOULDER OF LAMB (Spalla d'agnello)",
+      "removed_title": "SHOULDER OF LAMB (Spalla d'agnello)",
+      "similarity": 0.7694,
+      "kept_pages": [
+        66
+      ],
+      "removed_pages": [
+        66
+      ]
+    },
+    {
+      "kept_title": "PEAS WITH HAM (Piselli col prosciutto)",
+      "removed_title": "PEAS WITH HAM (Piselli col prosciutto)",
+      "similarity": 0.9872,
+      "kept_pages": [
+        86
+      ],
+      "removed_pages": [
+        86
+      ]
+    },
+    {
+      "kept_title": "FISH WITH BREAD CRUMBS (Pesce col pane grattato)",
+      "removed_title": "FISH WITH BREAD CRUMBS (Pesce col pane grattato)",
+      "similarity": 0.7793,
+      "kept_pages": [
+        91
+      ],
+      "removed_pages": [
+        91
+      ]
+    },
+    {
+      "kept_title": "FRIED CODFISH (Baccala fritto)",
+      "removed_title": "FRIED CODFISH (Baccala fritto)",
+      "similarity": 0.9982,
+      "kept_pages": [
+        96,
+        97
+      ],
+      "removed_pages": [
+        96,
+        97
+      ]
+    },
+    {
+      "kept_title": "ROAST OF LAMB (Arrosto d'agnello)",
+      "removed_title": "ROAST OF LAMB (Arrosto d'agnello)",
+      "similarity": 0.7558,
+      "kept_pages": [
+        101
+      ],
+      "removed_pages": [
+        101
+      ]
+    },
+    {
+      "kept_title": "LEG OF MUTTON (Cosciotto di castrato arrosto)",
+      "removed_title": "LEG OF MUTTON (Cosciotto di castrato arrosto)",
+      "similarity": 0.6834,
+      "kept_pages": [
+        101,
+        102
+      ],
+      "removed_pages": [
+        101
+      ]
+    },
+    {
+      "kept_title": "SWEETBREADS WITH WHITE SAUCE",
+      "removed_title": "Sweetbreads with white sauce",
+      "similarity": 0.8078,
+      "kept_pages": [
+        116
+      ],
+      "removed_pages": [
+        116
+      ]
+    },
+    {
+      "kept_title": "SWEETBREADS IN FRICASSEE",
+      "removed_title": "Sweetbreads in fricassee",
+      "similarity": 0.835,
+      "kept_pages": [
+        116
+      ],
+      "removed_pages": [
+        116
+      ]
+    },
+    {
+      "kept_title": "SWEETBREADS FRIED",
+      "removed_title": "Sweetbreads fried",
+      "similarity": 0.8154,
+      "kept_pages": [
+        116
+      ],
+      "removed_pages": [
+        116
+      ]
+    },
+    {
+      "kept_title": "CELERY AU JUS",
+      "removed_title": "CELERY AU JUS",
+      "similarity": 0.7797,
+      "kept_pages": [
+        121
+      ],
+      "removed_pages": [
+        121
+      ]
+    },
+    {
+      "kept_title": "SAUCE FOR CELERY AU JUS",
+      "removed_title": "SAUCE FOR CELERY AU JUS",
+      "similarity": 0.7625,
+      "kept_pages": [
+        121
+      ],
+      "removed_pages": [
+        121
+      ]
+    }
+  ],
+  "rejected_recipes": [
+    {
+      "recipe": {
+        "title": "SOUP OF \"CAPPELLETTI\"",
+        "cuisine": "Italian",
+        "category": "Soup",
+        "servings": "",
+        "ingredients": [
+          "The best and most tender paste is made simply of eggs, flour and salt, water may be substituted for part of the eggs, for economy, or when a less rich paste is needed.",
+          "Allow about a cup of flour to an egg.",
+          "Put the flour on a bread board, make a hollow in the middle and break in the egg.",
+          "Use any extra whites that are on hand.",
+          "Knead it thoroughly, adding more flour if necessary, until you have a paste you can roll out.",
+          "Roll it as thin as an eighth of an inch.",
+          "Cut from this sheet of paste rounds measuring about three inches in diameter.",
+          "In the middle of each circle place a spoonful of filling that must be made beforehand, composed of cooked meat (chicken, pork or veal) ground very fine and seasoned with grated cheese, grated lemon peel"
+        ],
+        "steps": [
+          "First a thin sheet of paste is made according to the following directions: The best and most tender paste is made simply of eggs, flour and salt, water may be substituted for part of the eggs, for economy, or when a less rich paste is needed. Allow about a cup of flour to an egg. Put the flour on a bread board, make a hollow in the middle and break in the egg. Use any extra whites that are on hand. Knead it thoroughly, adding more flour if necessary, until you have a paste you can roll out. Roll it as thin as an eighth of an inch. A long rolling pin is necessary, but any stick, well scrubbed and sand papered, will serve in lieu of the long Italian rolling pin. Cut from this sheet of paste rounds measuring about three inches in diameter.",
+          "In the middle of each circle place a spoonful of filling that must be made beforehand, composed of cooked meat (chicken, pork or veal) ground very fine and seasoned with grated cheese, grated lemon peel"
+        ],
+        "source_pages": [
+          11
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "PAVESE SOUP (Zuppa alia Pavese)",
+        "cuisine": "Italian",
+        "category": "Soup",
+        "servings": "",
+        "ingredients": [
+          "Cut as many thin slices of bread as are needed in order that each person may have at least two of them.",
+          "These slices are then to be toasted and browned with butter.",
+          "Poach two eggs for each person, one on each slice of bread and place the slices on a large and deep dish (not in a soup tureen).",
+          "Pour hot broth in the plate, taking care not to break the eggs, season with Parmesan or Swiss cheese, and serve."
+        ],
+        "steps": [],
+        "source_pages": [
+          17
+        ],
+        "complete": true
+      },
+      "problems": [
+        "No cooking steps."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "BROWN STOCK (Sugo di Came)",
+        "cuisine": "Italian",
+        "category": "Soup",
+        "servings": "",
+        "ingredients": [
+          "Cover the bottom of a saucepan with thin slices of beef taken from a juicy cut and small pieces of salt pork.",
+          "Place over a large onion, one carrot, and a stalk of celery, all chopped in small pieces.",
+          "Add some butter and cover the whole with any trimmings from steaks or roasts and any bit of left over cooked meat.",
+          "Season with salt and cloves.",
+          "Put over the fire without stirring.",
+          "When you smell the onions getting very brown, turn the meat and when everything is quite brown add a cup of water, renewing the latter three times.",
+          "Finally add a certain quantity of boiling water or, better still, of broth, and let it boil gently five or six hours.",
+          "Strain, cool and skim off the fat which will form a cake on top of the liquid."
+        ],
+        "steps": [],
+        "source_pages": [
+          20
+        ],
+        "complete": true
+      },
+      "problems": [
+        "No cooking steps."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "STEAMED ARTICHOKE (Carcion a vapore)",
+        "cuisine": "Italian",
+        "category": "Vegetable",
+        "servings": "",
+        "ingredients": [],
+        "steps": [
+          "Artichokes have been only recently imported to the United States, principally by Italian farmers, and they are just beginning to find their way into the American kitchen.",
+          "The artichokes may be eaten raw or cooked. It is a healthy and palatable vegetable, easily digested when cooked. It is nutritious and adapted for convalescents. It may be prepared in a thousand ways, and here follow some of the simplest and most tasteful.",
+          "To prepare the steamed artichokes they must be cut out the hard part of the leaves and of the stalk, cut them in two, then cut these halves into section or slices so as to have eight or ten for each artichoke, according to size.",
+          "As you cut them, throw them into cold water and when they are well washed, dry them, but not thoroughly, putting them at once into the flour so that the latter remains attached to it.",
+          "Beat the white of an egg, but not to a froth, then mix the yolk with the white and salt the whole.",
+          "Shake out the artichokes to take away the superfluous flour and then put them in the egg, leaving them for a while so that the egg may be attached to them.",
+          "Throw the pieces one by one into the pan where there is boiling fat, butter or olive oil, and when they are well browned, take them away and serve with lemon."
+        ],
+        "source_pages": [
+          31
+        ],
+        "complete": false
+      },
+      "problems": [
+        "No ingredients.",
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "BALSAMELLA SAUCE (Salsa balsamella)",
+        "cuisine": "Italian",
+        "category": "",
+        "servings": "",
+        "ingredients": [],
+        "steps": [
+          "This sauce resembles the famous French Bechamel Sauce, but it is simpler in its composition."
+        ],
+        "source_pages": [
+          51
+        ],
+        "complete": false
+      },
+      "problems": [
+        "No ingredients.",
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "RICE PUDDING WITH GIBLETS (Sfornato di riso con rigoglie)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "a good brown stock (see No. 13)",
+          "thin slices of ham",
+          "mushrooms",
+          "rice",
+          "grated cheese",
+          "two beaten eggs"
+        ],
+        "steps": [
+          "Make a good brown stock (see No. 13) and use the same for the rice as well as for the giblets.",
+          "To these add some thin slices of ham and brown them first in butter, seasoned moderately with salt and pepper, completing the cooking with brown stock.",
+          "A taste of mushrooms will be found useful.",
+          "Brown the rice equally in butter, then complete the cooking with hot water.",
+          "Drain and put the brown stock, adding grated cheese and two beaten eggs, when the rice has cooled a little.",
+          "Take a smooth mold, round or oval, grease it evenly with butter, cover the bottom with buttered paper and place in it the rice to harden it in the oven.",
+          "When taken from the mold pour over"
+        ],
+        "source_pages": [
+          71
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "RICE PUDDING WITH GIBLETS (Sfornato di riso con rigoglie)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "Make a good brown stock (see No. 13)",
+          "use the same for the rice as well as for the giblets",
+          "add some thin slices of ham and brown them first in butter, seasoned moderately with salt and pepper, completing the cooking with brown stock",
+          "A taste of mushrooms will be found useful",
+          "Brown the rice equally in butter, then complete the cooking with hot water",
+          "Drain and put the brown stock, adding grated cheese and two beaten eggs, when the rice has cooled a little",
+          "Take a smooth mold, round or oval, grease it evenly with butter, cover the bottom with buttered paper and place in it the rice to harden it in the oven",
+          "When taken from the mold pour over 66"
+        ],
+        "steps": [
+          "Make a good brown stock (see No. 13) and use the same for the rice as well as for the giblets.",
+          "To these add some thin slices of ham and brown them first in butter, seasoned moderately with salt and pepper, completing the cooking with brown stock. A taste of mushrooms will be found useful.",
+          "Brown the rice equally in butter, then complete the cooking with hot water.",
+          "Drain and put the brown stock, adding grated cheese and two beaten eggs, when the rice has cooled a little.",
+          "Take a smooth mold, round or oval, grease it evenly with butter, cover the bottom with buttered paper and place in it the rice to harden it in the oven.",
+          "When taken from the mold pour over 66"
+        ],
+        "source_pages": [
+          71
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "PUDDING GENOESE (Budino alia genovese)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "Chop together a slice of veal, some chicken breast and two slices of ham and then grind or better pound them, with a small piece of butter, a tablespoonful of grated cheese and a crumb of bread soaked with milk.",
+          "Rub through a sieve and add three tablespoonfuls of Balsamella (see No. 54) which you will make thick enough for this dish, three eggs and just a taste of nutmeg, mixing everything well.",
+          "Take a smooth mold, grease it evenly with butter and put on the bottom a sheet of paper, cut according to the shape of the bottom and equally greased with butter.",
+          "Pour over the above ingredients and cook in a vessel immersed in boiling water (double boiler).",
+          "When taken from the mold, remove the paper and in its place put a gravy formed with chopped chicken giblets cooked in brown stock.",
+          "Serve hot."
+        ],
+        "steps": [
+          "Chop together a slice of veal, some chicken breast and two slices of ham and then grind or better pound them, with a small piece of butter, a tablespoonful of grated cheese and a crumb of bread soaked with milk.",
+          "Rub through a sieve and add three tablespoonfuls of Balsamella (see No. 54) which you will make thick enough for this dish, three eggs and just a taste of nutmeg, mixing everything well.",
+          "Take a smooth mold, grease it evenly with butter and put on the bottom a sheet of paper, cut according to the shape of the bottom and equally greased with butter.",
+          "Pour over the above ingredients and cook in a vessel immersed in boiling water (double boiler).",
+          "When taken from the mold, remove the paper and in its place put a gravy formed with chopped chicken giblets cooked in brown stock.",
+          "Serve hot."
+        ],
+        "source_pages": [
+          72
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "LIVER LOAF (Pane di fegato)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "Cut about one pound of veal liver in thin slices and four chicken livers in two parts and put all this in a saucepan with rosemary and a piece of butter.",
+          "When this is melted put in another piece and season with salt and pepper. After four or five minutes at a live fire, remove the liver (dry) and grind it together with the rosemary.",
+          "In the gravy that remains in the saucepan put a big crumb of bread, cut into small pieces and make a paste that will also be ground with the liver.",
+          "Then rub everything through a sieve, add one whole egg and two yolks and a pinch of grated cheese, diluting with brown stock or water.",
+          "Finally put in a smooth mold with a sheet of paper in the bottom, all evenly greased with butter and cook in a double boiler.",
+          "Remove from the mold when cool and serve cold, with gelatine."
+        ],
+        "steps": [
+          "Cut about one pound of veal liver in thin slices and four chicken livers in two parts and put all this in a saucepan with rosemary and a piece of butter.",
+          "When this is melted put in another piece and season with salt and pepper. After four or five minutes at a live fire, remove the liver (dry) and grind it together with the rosemary.",
+          "In the gravy that remains in the saucepan put a big crumb of bread, cut into small pieces and make a paste that will also be ground with the liver.",
+          "Then rub everything through a sieve, add one whole egg and two yolks and a pinch of grated cheese, diluting with brown stock or water.",
+          "Finally put in a smooth mold with a sheet of paper in the bottom, all evenly greased with butter and cook in a double boiler.",
+          "Remove from the mold when cool and serve cold, with gelatine."
+        ],
+        "source_pages": [
+          73
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "VEAL WITH TUNNY (Vitello tonnato)",
+        "cuisine": "Italian",
+        "category": "Meat",
+        "servings": "",
+        "ingredients": [
+          "Take two pounds of meat without bones, remove the fat and tendons, then lard it with two anchovies.",
+          "These must be washed and boned and cut lengthwise, after opening them, making in all eight pieces.",
+          "Tie the piece of meat not very tight and boil it for an hour and a half in enough water to cover it completely.",
+          "Previously put into the water one quarter of an onion larded with clover, one leaf of laurel, celery, carrot and parsley.",
+          "Salt the water generously and don't put the veal in until it is boiling.",
+          "When the veal is cooked, untie, dry it and keep it for two or three days in the following sauce in quantity sufficient to cover it.",
+          "Grind 1/4 pound tunny fish preserved in olive oil and two anchovies, crush them well with the blade of a knife and rub through a sieve adding good olive oil in abundance little by little, and squeeze in one whole lemon, so that the sauce should remain liquid.",
+          "Finally mix in some capers soaked in vinegar.",
+          "Serve the veal cold, in thin slices, with the sauce.",
+          "The stock of the veal can be rubbed through a sieve and used for risotto."
+        ],
+        "steps": [
+          "Take two pounds of meat without bones, remove the fat and tendons, then lard it with two anchovies. These must be washed and boned and cut lengthwise, after opening them, making in all eight pieces.",
+          "Tie the piece of meat not very tight and boil it for an hour and a half in enough water to cover it completely.",
+          "Previously put into the water one quarter of an onion larded with clover, one leaf of laurel, celery, carrot and parsley.",
+          "Salt the water generously and don't put the veal in until it is boiling.",
+          "When the veal is cooked, untie, dry it and keep it for two or three days in the following sauce in quantity sufficient to cover it.",
+          "Grind 1/4 pound tunny fish preserved in olive oil and two anchovies, crush them well with the blade of a knife and rub through a sieve adding good olive oil in abundance little by little, and squeeze in one whole lemon, so that the sauce should remain liquid.",
+          "Finally mix in some capers soaked in vinegar.",
+          "Serve the veal cold, in thin slices, with the sauce.",
+          "The stock of the veal can be rubbed through a sieve and used for risotto."
+        ],
+        "source_pages": [
+          73
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "STUFFED ITALIAN SQUASH (Zucchini ripieni)",
+        "cuisine": "Italian",
+        "category": "Vegetable",
+        "servings": "",
+        "ingredients": [
+          "For a description of the Zucchini see No. 32.",
+          "To make the stuffed zucchini first cut them lengthwise in two halves and remove the interior pulp, leaving space enough for the filling."
+        ],
+        "steps": [
+          "To make the stuffed zucchini first cut them lengthwise in two halves and remove the interior pulp, leaving space enough for the filling."
+        ],
+        "source_pages": [
+          74
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "STRING BEANS AND SQUASHES SAUTE' (Fagiolini e zucchini saute)",
+        "cuisine": "Italian",
+        "category": "Vegetable",
+        "servings": "",
+        "ingredients": [
+          "Brown in butter some string beans, that have been previously half cooked in water and some raw squashes cut in cubes.",
+          "Put the squashes in only when the butter is beginning to brown.",
+          "Season moderately with salt and butter and add some brown stock or good tomato sauce."
+        ],
+        "steps": [
+          "Brown in butter some string beans, that have been previously half cooked in water and some raw squashes cut in cubes.",
+          "Put the squashes in only when the butter is beginning to brown.",
+          "Season moderately with salt and butter and add some brown stock or good tomato sauce."
+        ],
+        "source_pages": [
+          75
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "STRING BEANS WITH EGG SAUCE (Fagiuolini in salsa d'uovo)",
+        "cuisine": "Italian",
+        "category": "Vegetable",
+        "servings": "",
+        "ingredients": [
+          "Take less than a pound of string beans, cutting off the two points and removing all the strings, and then cook them partially in water moderately salted.",
+          "Take them from the kettle, drain, and brown with butter, salt and pepper.",
+          "Beat one yolk with a teaspoonful of flour and the juice of half a small lemon, dilute with half a cup of cold broth from which the fat has been removed and put this liquid on the fire in a small saucepan stirring continually.",
+          "When the liquid has become, through the cooking, like a cream, pour it on the string beans that you will keep on the fire a little longer, with the sauce.",
+          "The string beans so prepared can be served with boiled beef."
+        ],
+        "steps": [
+          "Take less than a pound of string beans, cutting off the two points and removing all the strings, and then cook them partially in water moderately salted.",
+          "Take them from the kettle, drain, and brown with butter, salt and pepper.",
+          "Beat one yolk with a teaspoonful of flour and the juice of half a small lemon, dilute with half a cup of cold broth from which the fat has been removed and put this liquid on the fire in a small saucepan stirring continually.",
+          "When the liquid has become, through the cooking, like a cream, pour it on the string beans that you will keep on the fire a little longer, with the sauce.",
+          "The string beans so prepared can be served with boiled beef."
+        ],
+        "source_pages": [
+          76
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "STRING BEANS IN MOLD (Sformato di fagiolini)",
+        "cuisine": "Italian",
+        "category": "Vegetable",
+        "servings": "",
+        "ingredients": [
+          "Take one pound of string beans, seeing that they are quite tender. Cut off the ends and remove the strings. Throw them into boiling water with a pinch of salt and when they are half cooked take them away and put them in cold water.",
+          "If you have brown stock complete the cooking with this and with butter, otherwise brown a piece of"
+        ],
+        "steps": [
+          "Take one pound of string beans, seeing that they are quite tender. Cut off the ends and remove the strings. Throw them into boiling water with a pinch of salt and when they are half cooked take them away and put them in cold water.",
+          "If you have brown stock complete the cooking with this and with butter, otherwise brown a piece of"
+        ],
+        "source_pages": [
+          76
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "STEWED FISH CUTLETS (Pesce a taglio in umido)",
+        "cuisine": "Italian",
+        "category": "Fish",
+        "servings": "A pound may be sufficient for four or five persons.",
+        "ingredients": [
+          "The fish that can be used for this dish are the tunny, the umber or grayling, the sword fish and any piece of fish of large size and good savor.",
+          "A pound may be sufficient for four or five persons."
+        ],
+        "steps": [],
+        "source_pages": [
+          91
+        ],
+        "complete": false
+      },
+      "problems": [
+        "No cooking steps.",
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "CODFISH CROQUETTES (Cotolette di baccala)",
+        "cuisine": "Italian",
+        "category": "Fish",
+        "servings": "if the quantity is one pound or a little more",
+        "ingredients": [
+          "Boil as explained above and, if the quantity is one pound or a little more put together two"
+        ],
+        "steps": [
+          "Boil as explained above",
+          "If the quantity is one pound or a little more, put together two"
+        ],
+        "source_pages": [
+          96
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "CHICKEN WITH SAUCE PIQUANTE (Pollo al diavolo)",
+        "cuisine": "Italian",
+        "category": "Meat",
+        "servings": "",
+        "ingredients": [
+          "a young chicken",
+          "four tablespoonsfuls of butter",
+          "two tablespoonsfuls of flour",
+          "two cupfuls of brown stock",
+          "a dash of Cayenne",
+          "four tablespoonsfuls of vinegar"
+        ],
+        "steps": [
+          "Take a young chicken, remove the neck and the legs, open it all in front and flatten it open as much as possible.",
+          "Wash and wipe dry with a towel, then put it on the grill and when it begins to brown turn it.",
+          "Grease it with melted butter or with oil, using a brush, and season with salt and pepper. The later may be Cayenne pepper for those who like it.",
+          "Keep turning and greasing until it is all cooked.",
+          "To prepare the sauce piquante that many like with chicken broiled in this way, put four tablespoonfuls of butter in a saucepan and when it begins to brown add two tablespoonfuls of flour and stir until it is well browned, but do not let it burn.",
+          "Draw to a cooler place on the range and slowly add two cupfuls of brown stock, stirring constantly, add salt and a dash of Cayenne and let simmer for ten minutes.",
+          "In another saucepan boil four tablespoonfuls of vinegar one table-"
+        ],
+        "source_pages": [
+          106
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "BEEF TONGUE BOILED",
+        "cuisine": "Italian",
+        "category": "",
+        "servings": "",
+        "ingredients": [
+          "beef tongue"
+        ],
+        "steps": [
+          "The tongue is boiled like the beef. When half cooked remove the skin, which is not nice to see, although it is served with a puree of peas, or spinach or potatoes or beans, etc. But it can be served simply with sprigs of parsley."
+        ],
+        "source_pages": [
+          114
+        ],
+        "complete": true
+      },
+      "problems": [
+        "Recipe contains only one ingredient and one step; manual review required."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "VEAL SWEETBREADS",
+        "cuisine": "Italian",
+        "category": "",
+        "servings": "",
+        "ingredients": [
+          "veal sweetbreads"
+        ],
+        "steps": [
+          "Keep in fresh water for an hour. Then place them in a skimmer (ladle with holes) and dip in boiling water or broth.",
+          "After a brief boiling remove and cool in cold water. Then remove the veins and gullet, taking care not to tear them.",
+          "The sweetbreads are prepared in various ways and here we give some of the best known :"
+        ],
+        "source_pages": [
+          115
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "TENDERLOIN WITH SPICES",
+        "cuisine": "Italian",
+        "category": "",
+        "servings": "",
+        "ingredients": [
+          "meat",
+          "nutmeg",
+          "cinnamon",
+          "salt",
+          "pepper",
+          "aromatic herbs: sage, parsley, rosemary, onion, carrot and celery, all chopped fine"
+        ],
+        "steps": [
+          "Clean and trim the meat, removing all the little skins.",
+          "Then sprinkle with nutmeg, cinnamon, salt, and pepper, and place in an earthen vase covered, together with a bunch of aromatic herbs, sage, parsley, rosemary, onion, carrot and celery, all chopped fine.",
+          "After a few hours melt and..."
+        ],
+        "source_pages": [
+          116
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "FRIED CELERY",
+        "cuisine": "Italian",
+        "category": "Vegetable",
+        "servings": "",
+        "ingredients": [
+          "Clean the left-over celery removing as best you can the sauce in which they were served, dip in frying paste (flour and egg) fry and serve with lemon."
+        ],
+        "steps": [
+          "Clean the left-over celery removing as best you can the sauce in which they were served, dip in frying paste (flour and egg) fry and serve with lemon."
+        ],
+        "source_pages": [
+          122
+        ],
+        "complete": true
+      },
+      "problems": [
+        "Recipe contains only one ingredient and one step; manual review required."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "SOUTHERN STEW",
+        "cuisine": "Italian",
+        "category": "Meat",
+        "servings": "",
+        "ingredients": [
+          "Put the piece of meat in a saucepan of such a size that it remains completely filled, moisten with two cups of water and two of white wine, season with salt and pepper and cook for five hours on a low fire."
+        ],
+        "steps": [
+          "Put the piece of meat in a saucepan of such a size that it remains completely filled, moisten with two cups of water and two of white wine, season with salt and pepper and cook for five hours on a low fire."
+        ],
+        "source_pages": [
+          123
+        ],
+        "complete": true
+      },
+      "problems": [
+        "Recipe contains only one ingredient and one step; manual review required."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "TROUT WITH ANCHOVIES",
+        "cuisine": "Italian",
+        "category": "Fish",
+        "servings": "",
+        "ingredients": [
+          "Scale, clean wash and wipe the trouts.",
+          "Cut the sides and place to pickle with salt, pepper berries, garlic, parsley and onions chopped fine; with mushrooms chopped fine with thyme, bay-leaf and mint, all seasoned with good olive oil.",
+          "Rub the pickled pieces at the sieve and place it and the"
+        ],
+        "steps": [
+          "Scale, clean wash and wipe the trouts.",
+          "Cut the sides and place to pickle with salt, pepper berries, garlic, parsley and onions chopped fine; with mushrooms chopped fine with thyme, bay-leaf and mint, all seasoned with good olive oil.",
+          "Rub the pickled pieces at the sieve and place it and the"
+        ],
+        "source_pages": [
+          126
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "EGGS WITH ONION SAUCE (Uova trippate)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "Prepare some hard boiled eggs, shell and cut into disks one third of an inch thick.",
+          "Melt in a saucepan a piece of butter in which brown half an onion cut into thin slices, to be removed from the butter when browned.",
+          "Then add to the butter two teaspoonfuls of flour, mix but don't allow to brown, thin with a cup of hot broth, add salt and pepper and let simmer for ten minutes.",
+          "Put the sliced eggs in the sauce to warm them, stir a little, but carefully to avoid breaking them, and do not boil again.",
+          "Just before serving add to the sauce a teaspoonful of cream and stir carefully."
+        ],
+        "steps": [],
+        "source_pages": [
+          127
+        ],
+        "complete": true
+      },
+      "problems": [
+        "No cooking steps."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "EGGS WITH TOMATO SAUCE (Uova al pomidoro)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "Prepare some hard boiled eggs, cut them through the middle lengthwise, place in good or order upon a plate and pour some good tomato sauce, taking care not to cover the upper part of the eggs, which must emerge from the sauce.",
+          "Instead of the tomato, the eggs may be arranged with a balsamella sauce (No. 54)."
+        ],
+        "steps": [],
+        "source_pages": [
+          128
+        ],
+        "complete": true
+      },
+      "problems": [
+        "No cooking steps."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "PUDDING OF HAZELNUTS (Budino di nocciuole)",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "eight or ten persons",
+        "ingredients": [
+          "Shell half a pound of hazelnuts in warm water and dry them well at the sun or on the fire, then grind them very fine, together with sugar, of a weight somewhat less than the nuts.",
+          "Put one quart of milk on the fire, and when it begins to boil, put two third Ib. lady fingers or macaroons crumbed and let it boil for five minutes, adding a small piece of butter.",
+          "Rub everything through a sieve and put back on the fire with the nuts to dissolve the sugar.",
+          "Let it cool and add six eggs, first the yolks, then the white beaten, pour in a mold greased with butter and sprinkled with bread crumbs ground fine.",
+          "The mold must not be all full. Bake in the oven and serve cold."
+        ],
+        "steps": [],
+        "source_pages": [
+          129
+        ],
+        "complete": true
+      },
+      "problems": [
+        "No cooking steps."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "BISCUITS SULTAN (Biscotto alia sultana)",
+        "cuisine": "Italian",
+        "category": "Bakery",
+        "servings": "",
+        "ingredients": [
+          "Granulated sugar, six ounces.",
+          "Flour, four ounces.",
+          "Potato meal, two ounces.",
+          "Currants, three ounces.",
+          "Candied fruits, one ounce.",
+          "Five eggs.",
+          "A taste of lemon peel.",
+          "Two tablespoonfuls of brandy."
+        ],
+        "steps": [],
+        "source_pages": [
+          131
+        ],
+        "complete": true
+      },
+      "problems": [
+        "No cooking steps."
+      ]
+    },
+    {
+      "recipe": {
+        "title": "PRESERVE OF QUINCE",
+        "cuisine": "Italian",
+        "category": "Dessert",
+        "servings": "",
+        "ingredients": [
+          "quinces, peeled and with the core removed",
+          "granulated sugar"
+        ],
+        "steps": [
+          "Put the quinces on the fire without water and while they boil, stir with a ladle to reduce them to pulp.",
+          "When they have boiled for about half an hour, rub them through a sieve to separate the pulp of the fruit from the skins that are to be thrown away, then put them back on the fire with granulated sugar in the proportion of eight tenths, that is to say eight pounds of sugar for ten pounds of apricot pulp."
+        ],
+        "source_pages": [
+          156
+        ],
+        "complete": false
+      },
+      "problems": [
+        "LLM marked recipe incomplete."
+      ]
+    }
+  ],
+  "final_incomplete_recipe": null,
+  "recipe_page_map": [
+    {
+      "id": "italian_0001",
+      "title": "BROTH OR SOUP STOCK (Brodo)",
+      "source_pages": [
+        10
+      ]
+    },
+    {
+      "id": "italian_0002",
+      "title": "SOUP OF \"CAPPELLETTI\"",
+      "source_pages": [
+        11
+      ]
+    },
+    {
+      "id": "italian_0003",
+      "title": "BREAD SOUP (Panata)",
+      "source_pages": [
+        12
+      ]
+    },
+    {
+      "id": "italian_0004",
+      "title": "VEGETABLE SOUP (Zuppa Sante)",
+      "source_pages": [
+        13
+      ]
+    },
+    {
+      "id": "italian_0005",
+      "title": "QUEEN'S SOUP (Zuppa Regina)",
+      "source_pages": [
+        14
+      ]
+    },
+    {
+      "id": "italian_0006",
+      "title": "BEAN SOUP (Zuppa di fagiuoli)",
+      "source_pages": [
+        15
+      ]
+    },
+    {
+      "id": "italian_0007",
+      "title": "LENTIL SOUP (Zuppa di lenticchie)",
+      "source_pages": [
+        15
+      ]
+    },
+    {
+      "id": "italian_0008",
+      "title": "VEGETABLE CHOWDER (Minestrone alia Milanese)",
+      "source_pages": [
+        16
+      ]
+    },
+    {
+      "id": "italian_0009",
+      "title": "RAVIOLI",
+      "source_pages": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "italian_0010",
+      "title": "TOMATO SAUCE (Salsa di Pomidoro)",
+      "source_pages": [
+        19
+      ]
+    },
+    {
+      "id": "italian_0011",
+      "title": "ANCHOVY SAUCE (Salsa d'Acciughe)",
+      "source_pages": [
+        21
+      ]
+    },
+    {
+      "id": "italian_0012",
+      "title": "SPAGHETTI OR MACARONI WITH BUTTER AND CHEESE (Pasta al burro e formaggio)",
+      "source_pages": [
+        22
+      ]
+    },
+    {
+      "id": "italian_0013",
+      "title": "MACARONI WITH SAUCE (Maccheroni al sugo)",
+      "source_pages": [
+        23
+      ]
+    },
+    {
+      "id": "italian_0014",
+      "title": "MACARONI WITH ANCHOVY SAUCE (Maccheroni con salsa d'acciughe)",
+      "source_pages": [
+        23
+      ]
+    },
+    {
+      "id": "italian_0015",
+      "title": "MACARONI A LA CORINNA (Maccheroni alia Corinna)",
+      "source_pages": [
+        23,
+        24
+      ]
+    },
+    {
+      "id": "italian_0016",
+      "title": "MACARONI 'AU GRATIN' (Maccheroni al gratin)",
+      "source_pages": [
+        24
+      ]
+    },
+    {
+      "id": "italian_0017",
+      "title": "MACARONI NAPOLITAINE (Maccheroni alia Napoletana)",
+      "source_pages": [
+        25
+      ]
+    },
+    {
+      "id": "italian_0018",
+      "title": "MACARONI FRIED WITH OIL (Maccheroni all'olio)",
+      "source_pages": [
+        26
+      ]
+    },
+    {
+      "id": "italian_0019",
+      "title": "RISOTTO MILANAISE (Risotto alia Milanese)",
+      "source_pages": [
+        27
+      ]
+    },
+    {
+      "id": "italian_0020",
+      "title": "RISOTTO WITH CHICKEN GIBLETS (Risotto alia Milanese II)",
+      "source_pages": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "italian_0021",
+      "title": "RISOTTO WITH PEAS (Risotto con piselli)",
+      "source_pages": [
+        28
+      ]
+    },
+    {
+      "id": "italian_0022",
+      "title": "RISOTTO WITH LOBSTER (Risotto coi gamberi)",
+      "source_pages": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": "italian_0023",
+      "title": "RICE WITH SAFFRON (Riso alia Milanese con Zafferano)",
+      "source_pages": [
+        29
+      ]
+    },
+    {
+      "id": "italian_0024",
+      "title": "RICE CAKES (Frittelle di riso)",
+      "source_pages": [
+        30
+      ]
+    },
+    {
+      "id": "italian_0025",
+      "title": "FRIED ARTICHOKE (Carciofi fritti)",
+      "source_pages": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": "italian_0026",
+      "title": "STEAMED ARTICHOKES (Carcion a vapore)",
+      "source_pages": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": "italian_0027",
+      "title": "STEWED ARTICHOKES (Carciofi in stufato)",
+      "source_pages": [
+        32
+      ]
+    },
+    {
+      "id": "italian_0028",
+      "title": "ARTICHOKES WITH BUTTER (Carciofi al burro)",
+      "source_pages": [
+        32
+      ]
+    },
+    {
+      "id": "italian_0029",
+      "title": "FRIED SQUASH (Zucchine fritte)",
+      "source_pages": [
+        33
+      ]
+    },
+    {
+      "id": "italian_0030",
+      "title": "LAMB OMELET (Agnello in frittata)",
+      "source_pages": [
+        34
+      ]
+    },
+    {
+      "id": "italian_0031",
+      "title": "FRIED CHICKEN (Pollo fritto)",
+      "source_pages": [
+        34
+      ]
+    },
+    {
+      "id": "italian_0032",
+      "title": "CHICKEN ALLA CACCIATORA (Pollo alla cacciatora)",
+      "source_pages": [
+        35
+      ]
+    },
+    {
+      "id": "italian_0033",
+      "title": "CORN MEAL WITH SAUSAGES (Polenta con salsicce)",
+      "source_pages": [
+        35,
+        36
+      ]
+    },
+    {
+      "id": "italian_0034",
+      "title": "POLENTA PIE (Polenta Pasticciata)",
+      "source_pages": [
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "italian_0035",
+      "title": "STUFFED ROLLS (Pagnottelle ripiene)",
+      "source_pages": [
+        37
+      ]
+    },
+    {
+      "id": "italian_0036",
+      "title": "STEWED VEAL (Stracotto di vitella)",
+      "source_pages": [
+        38
+      ]
+    },
+    {
+      "id": "italian_0037",
+      "title": "CHICKEN WITH TOMATOES (Polio alia contadina)",
+      "source_pages": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": "italian_0038",
+      "title": "CHICKEN WITH SHERRY (Polio al marsala)",
+      "source_pages": [
+        41
+      ]
+    },
+    {
+      "id": "italian_0039",
+      "title": "CHICKEN WITH SAUSAGES (Polio colle salsicce)",
+      "source_pages": [
+        41
+      ]
+    },
+    {
+      "id": "italian_0040",
+      "title": "CHICKEN WITH SHERRY",
+      "source_pages": [
+        41
+      ]
+    },
+    {
+      "id": "italian_0041",
+      "title": "CHICKEN WITH SAUSAGES",
+      "source_pages": [
+        41
+      ]
+    },
+    {
+      "id": "italian_0042",
+      "title": "CHICKEN WITH EGG SAUCE",
+      "source_pages": [
+        42
+      ]
+    },
+    {
+      "id": "italian_0043",
+      "title": "CHICKEN BREASTS SAUTÉ",
+      "source_pages": [
+        42
+      ]
+    },
+    {
+      "id": "italian_0044",
+      "title": "STEWED SQUABS",
+      "source_pages": [
+        44
+      ]
+    },
+    {
+      "id": "italian_0045",
+      "title": "RAGOUT OF SQUABS",
+      "source_pages": [
+        44
+      ]
+    },
+    {
+      "id": "italian_0046",
+      "title": "SQUAB TIMBALE",
+      "source_pages": [
+        45
+      ]
+    },
+    {
+      "id": "italian_0047",
+      "title": "WILD DUCK",
+      "source_pages": [
+        43
+      ]
+    },
+    {
+      "id": "italian_0048",
+      "title": "SALMI OF GAME",
+      "source_pages": [
+        46
+      ]
+    },
+    {
+      "id": "italian_0049",
+      "title": "SALMI OF GAME (Uccelli in salmi)",
+      "source_pages": [
+        46
+      ]
+    },
+    {
+      "id": "italian_0050",
+      "title": "STEWED HARE (Stufato di lepre)",
+      "source_pages": [
+        47,
+        48
+      ]
+    },
+    {
+      "id": "italian_0051",
+      "title": "STEWED RABBIT (Coniglio in umido)",
+      "source_pages": [
+        47,
+        48
+      ]
+    },
+    {
+      "id": "italian_0052",
+      "title": "GREEN SAUCE (Salsa verde)",
+      "source_pages": [
+        48
+      ]
+    },
+    {
+      "id": "italian_0053",
+      "title": "WHITE SAUCE (Salsa bianca)",
+      "source_pages": [
+        48
+      ]
+    },
+    {
+      "id": "italian_0054",
+      "title": "YELLOW SAUCE (Salsa gialla)",
+      "source_pages": [
+        49
+      ]
+    },
+    {
+      "id": "italian_0055",
+      "title": "SAUCE FOR BROILED FISH (Salsa per pesce in gratella)",
+      "source_pages": [
+        50
+      ]
+    },
+    {
+      "id": "italian_0056",
+      "title": "CAPER SAUCE (Salsa con capper!)",
+      "source_pages": [
+        50,
+        51
+      ]
+    },
+    {
+      "id": "italian_0057",
+      "title": "GENOVESE SAUCE (Salsa genovese)",
+      "source_pages": [
+        51
+      ]
+    },
+    {
+      "id": "italian_0058",
+      "title": "BALSAMELLA SAUCE (Salsa balsamella)",
+      "source_pages": [
+        52
+      ]
+    },
+    {
+      "id": "italian_0059",
+      "title": "CURLED OMELET (Frittata in riccioli)",
+      "source_pages": [
+        52
+      ]
+    },
+    {
+      "id": "italian_0060",
+      "title": "VEAL KIDNEY OMELET (Frittata di rognone di vitella)",
+      "source_pages": [
+        53
+      ]
+    },
+    {
+      "id": "italian_0061",
+      "title": "PUFF PASTE (Pasta sfoglia)",
+      "source_pages": [
+        54,
+        55
+      ]
+    },
+    {
+      "id": "italian_0062",
+      "title": "PASTE FOR FRYING (Pastella per fritto)",
+      "source_pages": [
+        55,
+        56
+      ]
+    },
+    {
+      "id": "italian_0063",
+      "title": "CHICKEN STUFFING (Ripieno di polio)",
+      "source_pages": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "italian_0064",
+      "title": "MEAT STUFFING FOR VOL-AU-VENT (Ripieno di came per pasticcini di pasta sfoglia)",
+      "source_pages": [
+        57,
+        58
+      ]
+    },
+    {
+      "id": "italian_0065",
+      "title": "PORK LIVER FRIED (Fegato di maiale fritto)",
+      "source_pages": [
+        58
+      ]
+    },
+    {
+      "id": "italian_0066",
+      "title": "FRIED CROQUETTES, BOLOGNA STYLE (Fritto composto alla Bolognese)",
+      "source_pages": [
+        58,
+        59
+      ]
+    },
+    {
+      "id": "italian_0067",
+      "title": "ROMAN FRY (Fritto alla Romana) I",
+      "source_pages": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "italian_0068",
+      "title": "RICE PANCAKE (Frittelle di riso)",
+      "source_pages": [
+        60,
+        61
+      ]
+    },
+    {
+      "id": "italian_0069",
+      "title": "KIDNEY SAUTE* (Rognoni saltati)",
+      "source_pages": [
+        61
+      ]
+    },
+    {
+      "id": "italian_0070",
+      "title": "LEG OF MUTTON IN CASSEROLE (Cosciotto di castrato in cazzaruola)",
+      "source_pages": [
+        62
+      ]
+    },
+    {
+      "id": "italian_0071",
+      "title": "STEWED CUTLETS (Scaloppine alia Livornese)",
+      "source_pages": [
+        62
+      ]
+    },
+    {
+      "id": "italian_0072",
+      "title": "CUTLETS OF CHOPPED MEAT (Scaloppine di came battuta)",
+      "source_pages": [
+        63
+      ]
+    },
+    {
+      "id": "italian_0073",
+      "title": "VEAL CUTLETS STEWED (Scaloppine alia Genovese)",
+      "source_pages": [
+        64
+      ]
+    },
+    {
+      "id": "italian_0074",
+      "title": "STUFFED CUTLET (Braciuoline ripiene)",
+      "source_pages": [
+        64
+      ]
+    },
+    {
+      "id": "italian_0075",
+      "title": "MEAT OMELETTE (Polpettone)",
+      "source_pages": [
+        65
+      ]
+    },
+    {
+      "id": "italian_0076",
+      "title": "LAMB WITH PEAS (Agnello ai piselli)",
+      "source_pages": [
+        66
+      ]
+    },
+    {
+      "id": "italian_0077",
+      "title": "SHOULDER OF LAMB (Spalla d'agnello)",
+      "source_pages": [
+        66
+      ]
+    },
+    {
+      "id": "italian_0078",
+      "title": "BREAST OF VEAL STEWED (Stufatino di petto di vitella)",
+      "source_pages": [
+        67
+      ]
+    },
+    {
+      "id": "italian_0079",
+      "title": "VEAL WITH GRAVY (Vitella in guazzetto)",
+      "source_pages": [
+        67
+      ]
+    },
+    {
+      "id": "italian_0080",
+      "title": "TRIPE WITH GRAVY",
+      "source_pages": [
+        68
+      ]
+    },
+    {
+      "id": "italian_0081",
+      "title": "VEAL LIVER IN GRAVY (Fegato di vitella al sugo)",
+      "source_pages": [
+        68
+      ]
+    },
+    {
+      "id": "italian_0082",
+      "title": "MUTTON CUTLETS AND FILET OF VEAL (Braciuole di castrato e filetto di vitella)",
+      "source_pages": [
+        69
+      ]
+    },
+    {
+      "id": "italian_0083",
+      "title": "TENDERLOIN WITH MARSALA (Filetto al marsala)",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "italian_0084",
+      "title": "MEAT GENOVESE (Came alia Genovese)",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "italian_0085",
+      "title": "STRING BEANS WITH EGG SAUCE",
+      "source_pages": [
+        76
+      ]
+    },
+    {
+      "id": "italian_0086",
+      "title": "STRING BEANS IN MOLD",
+      "source_pages": [
+        76,
+        77
+      ]
+    },
+    {
+      "id": "italian_0087",
+      "title": "CAULIFLOWER IN MOLD",
+      "source_pages": [
+        77
+      ]
+    },
+    {
+      "id": "italian_0088",
+      "title": "ARTICHOKES IN MOLD",
+      "source_pages": [
+        78
+      ]
+    },
+    {
+      "id": "italian_0089",
+      "title": "FRIED MUSHROOMS",
+      "source_pages": [
+        78
+      ]
+    },
+    {
+      "id": "italian_0090",
+      "title": "STEWED MUSHROOMS",
+      "source_pages": [
+        79
+      ]
+    },
+    {
+      "id": "italian_0091",
+      "title": "DRIED MUSHROOMS",
+      "source_pages": [
+        80
+      ]
+    },
+    {
+      "id": "italian_0092",
+      "title": "FRIED EGG-PLANTS",
+      "source_pages": [
+        81
+      ]
+    },
+    {
+      "id": "italian_0093",
+      "title": "STEWED EGG-PLANTS",
+      "source_pages": [
+        81
+      ]
+    },
+    {
+      "id": "italian_0094",
+      "title": "EGG-PLANTS IN THE OVEN",
+      "source_pages": [
+        81
+      ]
+    },
+    {
+      "id": "italian_0095",
+      "title": "STEWED EGG-PLANTS (Melanzane in umido)",
+      "source_pages": [
+        81
+      ]
+    },
+    {
+      "id": "italian_0096",
+      "title": "EGG-PLANTS IN THE OVEN (Melanzane al forno)",
+      "source_pages": [
+        81,
+        82
+      ]
+    },
+    {
+      "id": "italian_0097",
+      "title": "DRESSING OF CELERY (Sedano per contorno)",
+      "source_pages": [
+        82
+      ]
+    },
+    {
+      "id": "italian_0098",
+      "title": "ARTICHOKES WITH SAUCED (Carciofi in salsa)",
+      "source_pages": [
+        83,
+        84
+      ]
+    },
+    {
+      "id": "italian_0099",
+      "title": "STUFFED ARTICHOKES (Carciofi ripieni)",
+      "source_pages": [
+        83,
+        84
+      ]
+    },
+    {
+      "id": "italian_0100",
+      "title": "ARTICHOKES STUFFED WITH MEAT (Carciofi ripieni di carne)",
+      "source_pages": [
+        84,
+        85
+      ]
+    },
+    {
+      "id": "italian_0101",
+      "title": "PEAS WITH ONION SAUCE (Piselli alia francese)",
+      "source_pages": [
+        85
+      ]
+    },
+    {
+      "id": "italian_0102",
+      "title": "PEAS WITH HAM (Piselli col prosciutto)",
+      "source_pages": [
+        86
+      ]
+    },
+    {
+      "id": "italian_0103",
+      "title": "PEAS WITH CORNED BEEF (Piselli con la came secca)",
+      "source_pages": [
+        87
+      ]
+    },
+    {
+      "id": "italian_0104",
+      "title": "STUFFED TOMATOES (Pomodori ripieni)",
+      "source_pages": [
+        87
+      ]
+    },
+    {
+      "id": "italian_0105",
+      "title": "CAULIFLOWER WITH BALSAMELLA (Cavolnore colla balsamella)",
+      "source_pages": [
+        88
+      ]
+    },
+    {
+      "id": "italian_0106",
+      "title": "STUFFED CABBAGE (Cavolo ripieno)",
+      "source_pages": [
+        88
+      ]
+    },
+    {
+      "id": "italian_0107",
+      "title": "SIDE-DISH OF SPINACH (Spinaci per contorno)",
+      "source_pages": [
+        89
+      ]
+    },
+    {
+      "id": "italian_0108",
+      "title": "ASPARAGUS (Sparagi)",
+      "source_pages": [
+        90
+      ]
+    },
+    {
+      "id": "italian_0109",
+      "title": "FISH WITH BREAD CRUMBS (Pesce col pane grattato)",
+      "source_pages": [
+        91
+      ]
+    },
+    {
+      "id": "italian_0110",
+      "title": "STEWED FISH CUTLETS (Pesce a taglio in umido)",
+      "source_pages": [
+        92
+      ]
+    },
+    {
+      "id": "italian_0111",
+      "title": "WHITING WITH ANCHOVY SAUCE (Merluzzo alla Palermitana)",
+      "source_pages": [
+        92
+      ]
+    },
+    {
+      "id": "italian_0112",
+      "title": "STEWED EEL (Anguille in umido)",
+      "source_pages": [
+        93
+      ]
+    },
+    {
+      "id": "italian_0113",
+      "title": "FISH WITH PEAS (Anguille coi piselli)",
+      "source_pages": [
+        93
+      ]
+    },
+    {
+      "id": "italian_0114",
+      "title": "MUSSELS WITH EGG SAUCE (Arselle in salsa d'uovo)",
+      "source_pages": [
+        94
+      ]
+    },
+    {
+      "id": "italian_0115",
+      "title": "MUSSELS WITH TOMATO SAUCE (Arselle alia livornese)",
+      "source_pages": [
+        94
+      ]
+    },
+    {
+      "id": "italian_0116",
+      "title": "CODFISH (Baccala)",
+      "source_pages": [
+        95
+      ]
+    },
+    {
+      "id": "italian_0117",
+      "title": "FRIED CODFISH (Baccala fritto)",
+      "source_pages": [
+        96,
+        97
+      ]
+    },
+    {
+      "id": "italian_0118",
+      "title": "CODFISH CROQUETTES (Cotolette di baccala)",
+      "source_pages": [
+        97
+      ]
+    },
+    {
+      "id": "italian_0119",
+      "title": "FRIED DOG-FISH (Palombo fritto)",
+      "source_pages": [
+        97
+      ]
+    },
+    {
+      "id": "italian_0120",
+      "title": "STEWED DOG-FISH (Palombo in urnido)",
+      "source_pages": [
+        97
+      ]
+    },
+    {
+      "id": "italian_0121",
+      "title": "ROAST-BEEF (Arrosto)",
+      "source_pages": [
+        98
+      ]
+    },
+    {
+      "id": "italian_0122",
+      "title": "ROAST VEAL (Arrosto di vitella)",
+      "source_pages": [
+        99
+      ]
+    },
+    {
+      "id": "italian_0123",
+      "title": "POT ROAST (Arrosto morto)",
+      "source_pages": [
+        99
+      ]
+    },
+    {
+      "id": "italian_0124",
+      "title": "POT ROAST WITH GARLIC AND ROSEMARY (Arrosto morto col Fodore dell'aglio e del ramerino)",
+      "source_pages": [
+        100
+      ]
+    },
+    {
+      "id": "italian_0125",
+      "title": "BIRDS (Arrosto di uccelli)",
+      "source_pages": [
+        100
+      ]
+    },
+    {
+      "id": "italian_0126",
+      "title": "ROAST OF LAMB (Arrosto d'agnello)",
+      "source_pages": [
+        101
+      ]
+    },
+    {
+      "id": "italian_0127",
+      "title": "LEG OF MUTTON (Cosciotto di castrato arrosto)",
+      "source_pages": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": "italian_0128",
+      "title": "ROAST OF HARE (Arrosto di lepre)",
+      "source_pages": [
+        102
+      ]
+    },
+    {
+      "id": "italian_0129",
+      "title": "POT ROAST LARDED (Arrosto morto lardellato)",
+      "source_pages": [
+        103
+      ]
+    },
+    {
+      "id": "italian_0130",
+      "title": "PIGEON SURPRISE (Piccione a sorpresa)",
+      "source_pages": [
+        103,
+        104
+      ]
+    },
+    {
+      "id": "italian_0131",
+      "title": "STUFFED BEEF CUTLET (Braciuola di manzo ripiena)",
+      "source_pages": [
+        104
+      ]
+    },
+    {
+      "id": "italian_0132",
+      "title": "STUFFED CHICKEN (Pollo ripieno)",
+      "source_pages": [
+        105
+      ]
+    },
+    {
+      "id": "italian_0133",
+      "title": "CHICKEN WITH SAUCE PIQUANTE (Pollo al diavolo)",
+      "source_pages": [
+        106,
+        107
+      ]
+    },
+    {
+      "id": "italian_0134",
+      "title": "BROILED PIGEON",
+      "source_pages": [
+        111
+      ]
+    },
+    {
+      "id": "italian_0135",
+      "title": "STEAK IN THE SAUCEPAN",
+      "source_pages": [
+        111
+      ]
+    },
+    {
+      "id": "italian_0136",
+      "title": "VEAL KIDNEY WITH ANCHOVY",
+      "source_pages": [
+        112
+      ]
+    },
+    {
+      "id": "italian_0137",
+      "title": "VEAL KIDNEY SLICED",
+      "source_pages": [
+        112
+      ]
+    },
+    {
+      "id": "italian_0138",
+      "title": "BROILED MUTTON KIDNEY",
+      "source_pages": [
+        113
+      ]
+    },
+    {
+      "id": "italian_0139",
+      "title": "MUTTON KIDNEY FRIED",
+      "source_pages": [
+        113
+      ]
+    },
+    {
+      "id": "italian_0140",
+      "title": "BEEF TONGUE WITH OLIVES",
+      "source_pages": [
+        114
+      ]
+    },
+    {
+      "id": "italian_0141",
+      "title": "STEWED BEEF TONGUE",
+      "source_pages": [
+        114,
+        115
+      ]
+    },
+    {
+      "id": "italian_0142",
+      "title": "Sweetbreads with butter",
+      "source_pages": [
+        116
+      ]
+    },
+    {
+      "id": "italian_0143",
+      "title": "SWEETBREADS WITH WHITE SAUCE",
+      "source_pages": [
+        116
+      ]
+    },
+    {
+      "id": "italian_0144",
+      "title": "SWEETBREADS IN FRICASSEE",
+      "source_pages": [
+        116
+      ]
+    },
+    {
+      "id": "italian_0145",
+      "title": "SWEETBREADS FRIED",
+      "source_pages": [
+        116
+      ]
+    },
+    {
+      "id": "italian_0146",
+      "title": "STUFFED ONIONS",
+      "source_pages": [
+        117
+      ]
+    },
+    {
+      "id": "italian_0147",
+      "title": "STEWED ONIONS",
+      "source_pages": [
+        117
+      ]
+    },
+    {
+      "id": "italian_0148",
+      "title": "VEAL LIVER",
+      "source_pages": [
+        118
+      ]
+    },
+    {
+      "id": "italian_0149",
+      "title": "FRIED LIVER",
+      "source_pages": [
+        118
+      ]
+    },
+    {
+      "id": "italian_0150",
+      "title": "POLENTA WITH SAUSAGES",
+      "source_pages": [
+        119
+      ]
+    },
+    {
+      "id": "italian_0151",
+      "title": "SAUSAGES WITH ONIONS",
+      "source_pages": [
+        119
+      ]
+    },
+    {
+      "id": "italian_0152",
+      "title": "CELERY WITH BUTTER",
+      "source_pages": [
+        120
+      ]
+    },
+    {
+      "id": "italian_0153",
+      "title": "CELERY AU JUS",
+      "source_pages": [
+        121
+      ]
+    },
+    {
+      "id": "italian_0154",
+      "title": "SAUCE FOR CELERY AU JUS",
+      "source_pages": [
+        121
+      ]
+    },
+    {
+      "id": "italian_0155",
+      "title": "PUREE OF CELERY",
+      "source_pages": [
+        122
+      ]
+    },
+    {
+      "id": "italian_0156",
+      "title": "STEW",
+      "source_pages": [
+        123
+      ]
+    },
+    {
+      "id": "italian_0157",
+      "title": "STEW MILANAISE",
+      "source_pages": [
+        123
+      ]
+    },
+    {
+      "id": "italian_0158",
+      "title": "FRENCH STEW",
+      "source_pages": [
+        124
+      ]
+    },
+    {
+      "id": "italian_0159",
+      "title": "TROUT ALPINE",
+      "source_pages": [
+        125
+      ]
+    },
+    {
+      "id": "italian_0160",
+      "title": "TROUT LOMBARD",
+      "source_pages": [
+        126
+      ]
+    },
+    {
+      "id": "italian_0161",
+      "title": "FRIED TROUT",
+      "source_pages": [
+        126
+      ]
+    },
+    {
+      "id": "italian_0162",
+      "title": "TROUT LOMBARD (Trota fritta)",
+      "source_pages": [
+        126
+      ]
+    },
+    {
+      "id": "italian_0163",
+      "title": "FRIED TROUT (Trota fritta)",
+      "source_pages": [
+        126
+      ]
+    },
+    {
+      "id": "italian_0164",
+      "title": "TROUT WITH ANCHOVIES (Trota alle acciughe)",
+      "source_pages": [
+        126,
+        127
+      ]
+    },
+    {
+      "id": "italian_0165",
+      "title": "EGGS WITH HAM (Uova al prosciutto)",
+      "source_pages": [
+        127
+      ]
+    },
+    {
+      "id": "italian_0166",
+      "title": "SCRAMBLED EGGS (Uova strapazzate)",
+      "source_pages": [
+        128
+      ]
+    },
+    {
+      "id": "italian_0167",
+      "title": "CRISP BISCUITS (Biscotti croccanti)",
+      "source_pages": [
+        129,
+        130
+      ]
+    },
+    {
+      "id": "italian_0168",
+      "title": "SOFT BISCUITS (Biscotti teneri)",
+      "source_pages": [
+        130,
+        131
+      ]
+    },
+    {
+      "id": "italian_0169",
+      "title": "Sweet Almonds Biscuits",
+      "source_pages": [
+        131
+      ]
+    },
+    {
+      "id": "italian_0170",
+      "title": "Biscotto alia sultana",
+      "source_pages": [
+        131,
+        132
+      ]
+    },
+    {
+      "id": "italian_0171",
+      "title": "Pasta Margherita",
+      "source_pages": [
+        132,
+        133
+      ]
+    },
+    {
+      "id": "italian_0172",
+      "title": "Torta Mantovana",
+      "source_pages": [
+        133
+      ]
+    },
+    {
+      "id": "italian_0173",
+      "title": "Torta ricciolina",
+      "source_pages": [
+        134
+      ]
+    },
+    {
+      "id": "italian_0174",
+      "title": "Bocca di dama",
+      "source_pages": [
+        135
+      ]
+    },
+    {
+      "id": "italian_0175",
+      "title": "Pasta di farina gialla",
+      "source_pages": [
+        135,
+        136
+      ]
+    },
+    {
+      "id": "italian_0176",
+      "title": "Biscotto",
+      "source_pages": [
+        136
+      ]
+    },
+    {
+      "id": "italian_0177",
+      "title": "BISCUIT (Biscotto)",
+      "source_pages": [
+        136
+      ]
+    },
+    {
+      "id": "italian_0178",
+      "title": "CAKE MADELEINE (Pasta Maddalena)",
+      "source_pages": [
+        137
+      ]
+    },
+    {
+      "id": "italian_0179",
+      "title": "ALMOND CRISP-TART (Croccante)",
+      "source_pages": [
+        138
+      ]
+    },
+    {
+      "id": "italian_0180",
+      "title": "WAFER BISCUITS (Cialdoni)",
+      "source_pages": [
+        139
+      ]
+    },
+    {
+      "id": "italian_0181",
+      "title": "QUINCE CAKE (Cotognata)",
+      "source_pages": [
+        140
+      ]
+    },
+    {
+      "id": "italian_0182",
+      "title": "PORTUGUESE CAKE (Focaccia alia Portoghese)",
+      "source_pages": [
+        141
+      ]
+    },
+    {
+      "id": "italian_0183",
+      "title": "MACAROONS (Amaretti)",
+      "source_pages": [
+        141
+      ]
+    },
+    {
+      "id": "italian_0184",
+      "title": "BREAD PUDDING (Budino di pane)",
+      "source_pages": [
+        146
+      ]
+    },
+    {
+      "id": "italian_0185",
+      "title": "POTATO PUDDING (Budino di patate)",
+      "source_pages": [
+        147
+      ]
+    },
+    {
+      "id": "italian_0186",
+      "title": "LEMON PUDDING (Budino di limone)",
+      "source_pages": [
+        147
+      ]
+    },
+    {
+      "id": "italian_0187",
+      "title": "PUDDING OF ROASTED ALMONDS (Budino di mandorle tostate)",
+      "source_pages": [
+        148
+      ]
+    },
+    {
+      "id": "italian_0188",
+      "title": "CRISP CAKE IN DOUBLE BOILER (Croceante a bagno maria)",
+      "source_pages": [
+        149
+      ]
+    },
+    {
+      "id": "italian_0189",
+      "title": "STUFFED PEACHES (Pesche ripiene)",
+      "source_pages": [
+        149
+      ]
+    },
+    {
+      "id": "italian_0190",
+      "title": "MILK GNOCCHI (Gnocchi di latte)",
+      "source_pages": [
+        150
+      ]
+    },
+    {
+      "id": "italian_0191",
+      "title": "SABAYON (Zabaione)",
+      "source_pages": [
+        151
+      ]
+    },
+    {
+      "id": "italian_0192",
+      "title": "APRICOT MARMALADE",
+      "source_pages": [
+        156
+      ]
+    },
+    {
+      "id": "italian_0193",
+      "title": "PRESERVE OF QUINCE",
+      "source_pages": [
+        156,
+        157
+      ]
+    }
+  ]
+}
