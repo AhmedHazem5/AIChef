@@ -148,15 +148,51 @@ class DisplayManager:
         )
         draw = ImageDraw.Draw(image)
 
-        draw.text(
-            (5, 5),
-            recipe_title[:18],
-            font=self.font,
-            fill="white",
-        )
+        # Wrap long recipe titles onto up to 2 lines.
+        title_words = recipe_title.split()
+
+        title_lines = []
+        current_title_line = ""
+
+        for word in title_words:
+            test_line = (
+                current_title_line
+                + " "
+                + word
+            ).strip()
+
+            if len(test_line) <= 18:
+                current_title_line = (
+                    test_line
+                )
+
+            else:
+                if current_title_line:
+                    title_lines.append(
+                        current_title_line
+                    )
+
+                current_title_line = word
+
+        if current_title_line:
+            title_lines.append(
+                current_title_line
+            )
+
+        title_y = 5
+
+        for line in title_lines[:2]:
+            draw.text(
+                (5, title_y),
+                line,
+                font=self.font,
+                fill="white",
+            )
+
+            title_y += 14
 
         draw.text(
-            (5, 25),
+            (5, 35),
             f"Step {step_number}/{total_steps}",
             font=self.font,
             fill="white",
@@ -192,7 +228,7 @@ class DisplayManager:
                 current_line
             )
 
-        y = 50
+        y = 55
 
         for line in lines[:6]:
             draw.text(

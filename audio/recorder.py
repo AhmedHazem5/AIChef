@@ -10,7 +10,7 @@ import soundfile as sf
 # Raspberry Pi microphone configuration
 # ============================================================
 
-MIC_DEVICE_INDEX = 1
+MIC_DEVICE_INDEX = 0
 
 SAMPLE_RATE = 48_000
 CHANNELS = 1
