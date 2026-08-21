@@ -1,7 +1,7 @@
 import ollama
 import time
 
-MODEL_NAME = "qwen3:0.6b"
+MODEL_NAME = "qwen3:4b-instruct"
 
 
 def is_similar_recipe_followup(

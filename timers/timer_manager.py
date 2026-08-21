@@ -108,9 +108,7 @@ class TimerManager:
                 break
 
             remaining_seconds = (
-                int(
-                    remaining
-                )
+                int(remaining)
                 + 1
             )
 
@@ -147,22 +145,15 @@ class TimerManager:
 
         buzzer.timer_finished_alert()
 
-    if display is not None:
+        if display is not None:
 
-        display.show_timer_done()
+            time.sleep(
+                2.0
+            )
 
-    buzzer = get_buzzer()
+            display.restore_previous_screen()
 
-    buzzer.timer_finished_alert()
-
-    if display is not None:
-
-        time.sleep(
-            2.0
-        )
-
-        display.restore_previous_screen()
-
+            
     def get_active_timers(
         self,
     ) -> list[CookingTimer]:

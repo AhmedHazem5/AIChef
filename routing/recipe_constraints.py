@@ -4,18 +4,64 @@ import time
 
 import ollama
 
-MODEL_NAME = "qwen3:0.6b"
+MODEL_NAME = "qwen3:4b-instruct"
 
 
 ALLOWED_CUISINES = {
+    "American",
+    "Argentine",
+    "Asian",
+    "Australian",
+    "Austrian",
+    "Belgian",
+    "Brazilian",
+    "British",
+    "Cajun",
+    "Canadian",
+    "Caribbean",
     "Chinese",
-    "Japanese",
+    "Colombian",
+    "Costa Rican",
+    "Creole",
+    "Danish",
+    "Egyptian",
+    "Filipino",
+    "French",
+    "German",
+    "Greek",
+    "Guatemalan",
+    "Hawaiian",
+    "Honduran",
+    "Hungarian",
     "Indian",
+    "Indonesian",
+    "Iranian",
+    "Irish",
     "Italian",
+    "Jamaican",
+    "Japanese",
+    "Korean",
+    "Latin American",
+    "Mediterranean",
     "Mexican",
+    "Moroccan",
+    "Native American",
+    "New Zealand",
+    "Pakistani",
+    "Polish",
+    "Portuguese",
+    "Puerto Rican",
+    "Russian",
+    "South African",
+    "Spanish",
+    "Swedish",
+    "Swiss",
     "Thai",
+    "Tunisian",
+    "Turkish",
+    "Ukrainian",
+    "Venezuelan",
 }
-
 
 ALLOWED_CATEGORIES = {
     "Appetizers",
@@ -48,6 +94,10 @@ def extract_recipe_constraints(
     user_message: str,
 ) -> dict:
 
+
+    allowed_cuisines_text = "\n".join(
+        sorted(ALLOWED_CUISINES)
+    )   
     prompt = f"""
 You extract explicit recipe-search constraints for ChefAI.
 
@@ -71,13 +121,7 @@ Return ONLY valid JSON with exactly these keys:
 }}
 
 Allowed cuisine values:
-
-Chinese
-Japanese
-Indian
-Italian
-Mexican
-Thai
+{allowed_cuisines_text}
 
 Allowed category values:
 
@@ -177,6 +221,22 @@ Examples:
     stated.
 
 Examples:
+
+"Egyptian recipe"
+-> cuisine = "Egyptian"
+
+"Brazilian food"
+-> cuisine = "Brazilian"
+
+"Give me a Moroccan chicken recipe"
+-> cuisine = "Moroccan"
+
+"Japanese food"
+-> cuisine = "Japanese"
+
+"Give me a Tunisian recipe under 800 calories"
+-> cuisine = "Tunisian"
+-> max_calories = 800
 
 "Chinese recipe"
 -> cuisine = "Chinese"

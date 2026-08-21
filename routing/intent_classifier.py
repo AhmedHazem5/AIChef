@@ -1,7 +1,7 @@
 import ollama
 import time
 
-MODEL_NAME = "qwen3:0.6b"
+MODEL_NAME = "qwen3:4b-instruct"
 
 
 INTENT_PROMPT = """
@@ -60,7 +60,7 @@ MEMORY_UPDATE
 - Use MEMORY_UPDATE when the statement is about the USER,
   not merely about the meal they currently want.
 - Explicit phrases such as "remember that", "from now on",
-  "I always prefer", "my goal is", "I am allergic to",
+  "I always prefer", "my goal is", "I am allergic to","Remember that"
   and persistent likes/dislikes strongly indicate MEMORY_UPDATE.
 - Do NOT classify a current recipe request as MEMORY_UPDATE
   merely because it contains words such as low calorie,
@@ -141,9 +141,64 @@ VALID_INTENTS = {
 }
 
 
-def classify_with_qwen(user_message: str) -> str:
+def classify_with_qwen(
+    user_message: str,
+) -> str:
+
+    normalized = (
+        user_message
+        .lower()
+        .strip()
+    )
+
+    # --------------------------------------------------------
+    # Fast deterministic rules
+    # --------------------------------------------------------
+
+    memory_update_triggers = (
+        "remember that",
+        "from now on",
+        "i always prefer",
+        "i always like",
+        "i always dislike",
+        "my goal is",
+        "my long-term goal is",
+        "i am allergic to",
+        "i'm allergic to",
+        "i hate ",
+        "i love ",
+        "i like ",
+        "i dislike ",
+    )
+
+    memory_query_triggers = (
+        "what do you remember",
+        "what do you know about me",
+        "what are my preferences",
+        "what are my allergies",
+        "what do i dislike",
+        "what do i like",
+        "list my preferences",
+    )
+
+    if any(
+        trigger in normalized
+        for trigger in memory_query_triggers
+    ):
+        return "MEMORY_QUERY"
+
+    if any(
+        trigger in normalized
+        for trigger in memory_update_triggers
+    ):
+        return "MEMORY_UPDATE"
+
+    # --------------------------------------------------------
+    # Qwen classification
+    # --------------------------------------------------------
 
     start = time.perf_counter()
+
     response = ollama.chat(
         model=MODEL_NAME,
         messages=[
@@ -173,11 +228,19 @@ def classify_with_qwen(user_message: str) -> str:
         f"{elapsed:.2f} seconds"
     )
 
-    if not response or "message" not in response:
+    if (
+        not response
+        or "message"
+        not in response
+    ):
         return "GENERAL_QUESTION"
 
     intent = (
-        response["message"]["content"]
+        response[
+            "message"
+        ][
+            "content"
+        ]
         .strip()
         .upper()
     )

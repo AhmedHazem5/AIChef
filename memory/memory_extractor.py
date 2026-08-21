@@ -2,7 +2,7 @@ import json
 import ollama
 import time
 
-MODEL_NAME = "qwen3:0.6b"
+MODEL_NAME = "qwen3:4b-instruct"
 
 
 MEMORY_EXTRACTION_PROMPT = """

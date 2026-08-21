@@ -16,34 +16,187 @@ SAMPLE_RATE = 48_000
 CHANNELS = 1
 
 BLOCK_DURATION = 0.1
+
 BLOCK_SIZE = int(
-    SAMPLE_RATE * BLOCK_DURATION
+    SAMPLE_RATE
+    * BLOCK_DURATION
 )
 
+
 AMBIENT_CALIBRATION_SECONDS = 1.0
+
 SPEECH_THRESHOLD_MULTIPLIER = 1.6
+
 MIN_SPEECH_THRESHOLD = 0.02
 
 SILENCE_DURATION = 1.5
 
-# Require 300 ms of continuous sound before considering
-# speech to have started.
-REQUIRED_SPEECH_BLOCKS = 3
+# Require 300 ms of continuous sound.
+REQUIRED_SPEECH_BLOCKS = 2
 
 MAX_RECORDING_DURATION = 30.0
 
+
+# ============================================================
+# Cached microphone calibration
+# ============================================================
+
+_cached_ambient_noise: (
+    float | None
+) = None
+
+_cached_speech_threshold: (
+    float | None
+) = None
+
+
+# ============================================================
+# Calibration
+# ============================================================
+
+def calibrate_microphone(
+) -> float:
+    """
+    Calibrate the microphone ONCE.
+
+    The resulting speech threshold is cached
+    and reused by every later recording.
+    """
+
+    global _cached_ambient_noise
+    global _cached_speech_threshold
+
+    # Already calibrated.
+    if (
+        _cached_speech_threshold
+        is not None
+    ):
+
+        return (
+            _cached_speech_threshold
+        )
+
+    print(
+        "\nCalibrating microphone noise..."
+    )
+
+    with sd.InputStream(
+        device=MIC_DEVICE_INDEX,
+        samplerate=SAMPLE_RATE,
+        channels=CHANNELS,
+        dtype="float32",
+        blocksize=BLOCK_SIZE,
+    ) as stream:
+
+        calibration_blocks = int(
+            AMBIENT_CALIBRATION_SECONDS
+            / BLOCK_DURATION
+        )
+
+        noise_levels = []
+
+        for _ in range(
+            calibration_blocks
+        ):
+
+            audio_block, overflowed = (
+                stream.read(
+                    BLOCK_SIZE
+                )
+            )
+
+            if overflowed:
+
+                print(
+                    "Warning: microphone "
+                    "audio overflow during "
+                    "calibration."
+                )
+
+            volume = float(
+                np.sqrt(
+                    np.mean(
+                        np.square(
+                            audio_block
+                        )
+                    )
+                )
+            )
+
+            noise_levels.append(
+                volume
+            )
+
+    ambient_noise = float(
+        np.median(
+            noise_levels
+        )
+    )
+
+    speech_threshold = max(
+        MIN_SPEECH_THRESHOLD,
+        ambient_noise
+        * SPEECH_THRESHOLD_MULTIPLIER,
+    )
+
+    _cached_ambient_noise = (
+        ambient_noise
+    )
+
+    _cached_speech_threshold = (
+        speech_threshold
+    )
+
+    print(
+        f"Ambient noise: "
+        f"{ambient_noise:.4f}"
+    )
+
+    print(
+        f"Speech threshold: "
+        f"{speech_threshold:.4f}"
+    )
+
+    print(
+        f"Using microphone device "
+        f"{MIC_DEVICE_INDEX} "
+        f"at {SAMPLE_RATE} Hz."
+    )
+
+    print(
+        "Microphone calibration complete.\n"
+    )
+
+    return speech_threshold
+
+
+# ============================================================
+# Recording
+# ============================================================
 
 def record_until_silence(
     filename: str = "temp/question.wav",
     start_timeout: float = 8.0,
 ) -> str | None:
     """
-    Wait for the user to start speaking, then record until
-    sustained silence.
+    Wait for speech and record until sustained
+    silence.
 
-    Returns the WAV filename, or None when no speech starts
-    before the timeout.
+    Microphone calibration is reused rather
+    than performed again for every recording.
     """
+
+    # ----------------------------------------
+    # Normally this was already performed
+    # during ChefAI startup.
+    #
+    # This fallback makes the function safe
+    # when used independently in tests.
+    # ----------------------------------------
+
+    speech_threshold = (
+        calibrate_microphone()
+    )
 
     output_path = Path(
         filename
@@ -83,75 +236,22 @@ def record_until_silence(
     ) = None
 
     # ========================================================
-    # Open the correct USB microphone
+    # Open microphone
     # ========================================================
 
     with sd.InputStream(
         device=MIC_DEVICE_INDEX,
         samplerate=SAMPLE_RATE,
-        channels=1,
+        channels=CHANNELS,
         dtype="float32",
         blocksize=BLOCK_SIZE,
     ) as stream:
 
-        print("Calibrating microphone noise...")
-
-        calibration_blocks = int(
-            AMBIENT_CALIBRATION_SECONDS
-            / BLOCK_DURATION
-        )
-
-        noise_levels = []
-
-        for _ in range(
-            calibration_blocks
-        ):
-
-            audio_block, _ = stream.read(
-                BLOCK_SIZE
-            )
-
-            volume = float(
-                np.sqrt(
-                    np.mean(
-                        np.square(
-                            audio_block
-                        )
-                    )
-                )
-            )
-
-            noise_levels.append(
-                volume
-            )
-
-        ambient_noise = float(
-            np.median(
-                noise_levels
-            )
-        )
-
-        speech_threshold = max(
-            MIN_SPEECH_THRESHOLD,
-            ambient_noise
-            * SPEECH_THRESHOLD_MULTIPLIER,
-        )
-
-        print(
-            f"Ambient noise: "
-            f"{ambient_noise:.4f}"
-        )
-
-        print(
-            f"Speech threshold: "
-            f"{speech_threshold:.4f}"
-        )
-
-        print(
-            f"Using microphone device "
-            f"{MIC_DEVICE_INDEX} "
-            f"at {SAMPLE_RATE} Hz."
-        )
+        # ====================================================
+        # Listen immediately.
+        #
+        # NO calibration here anymore.
+        # ====================================================
 
         while True:
 
@@ -239,7 +339,7 @@ def record_until_silence(
                 continue
 
             # ================================================
-            # Speech is already active
+            # Speech already active
             # ================================================
 
             recorded_frames.append(

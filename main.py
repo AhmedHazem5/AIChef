@@ -1,7 +1,10 @@
 from pathlib import Path
 import time
 
-from audio.recorder import record_until_silence
+from audio.recorder import (
+    calibrate_microphone,
+    record_until_silence,
+)
 from audio.speech_to_text import transcribe_audio
 from audio.text_to_speech import TextToSpeech
 from audio.wake_word import wait_for_wake_word
@@ -1209,6 +1212,19 @@ def main() -> None:
     display = (
         DisplayManager()
     )
+
+    # ----------------------------------------
+    # Calibrate microphone ONCE during startup.
+    #
+    # All later listening operations reuse
+    # this threshold immediately.
+    # ----------------------------------------
+
+    print(
+        "Preparing microphone..."
+    )
+
+    calibrate_microphone()
 
     while True:
 

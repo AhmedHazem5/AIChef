@@ -2,7 +2,7 @@ import ollama
 
 import time
 
-MODEL_NAME = "qwen3:0.6b"
+MODEL_NAME = "qwen3:4b-instruct"
 
 
 def rewrite_query(user_query: str) -> str:

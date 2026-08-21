@@ -83,13 +83,59 @@ def clean_text_for_speech(text: str) -> str:
     )
 
     # ------------------------------------------
-    # Collapse excessive whitespace.
+    # Convert display line breaks into spoken
+    # sentence boundaries.
+    #
+    # Example:
+    #
+    # Protein: 6.0 g
+    # Carbohydrates: 39.1 g
+    #
+    # becomes:
+    #
+    # Protein: 6.0 g. Carbohydrates: 39.1 g.
+    #
+    # Piper pauses naturally at the periods.
     # ------------------------------------------
 
-    text = re.sub(
-        r"\n{3,}",
-        "\n\n",
-        text,
+    lines = [
+        line.strip()
+        for line in text.splitlines()
+        if line.strip()
+    ]
+
+    spoken_lines = []
+
+    for line in lines:
+
+        # A heading ending in ":" should also
+        # have a proper pause when spoken.
+        if line.endswith(":"):
+
+            line = (
+                line[:-1]
+                + "."
+            )
+
+        # Add sentence-ending punctuation to
+        # lines that don't already have it.
+        elif not line.endswith(
+            (
+                ".",
+                "!",
+                "?",
+                ";",
+            )
+        ):
+
+            line += "."
+
+        spoken_lines.append(
+            line
+        )
+
+    text = " ".join(
+        spoken_lines
     )
 
     return text.strip()
